@@ -1,7 +1,7 @@
 {
     "uuid": "ACE618A3-D6FC-45A4-94F2-1793C40AE927",
     "title": "Default light",
-    "url": "www.brave.com",
+    "url": "www.presearch.org",
     "description": "The standard default light theme",
     "thumbnail": "https://www.google.com",
     "isDark": false,
@@ -13,7 +13,7 @@
         "home": "0xe8e8e8",
         "addressBar": "0xffffff",
         "border": "0x000000",
-        "accent": "0xfb542b",
+        "accent": "0x5cacfc",
         "tints": {
             "home": "0x434351",
             "header": "0x434351",

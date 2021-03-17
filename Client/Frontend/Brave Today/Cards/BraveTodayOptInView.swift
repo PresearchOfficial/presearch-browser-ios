@@ -100,8 +100,10 @@ class BraveTodayOptInView: UIView, FeedCardContent {
                 )
             }),
             .customSpace(24),
-            .view(turnOnBraveTodayButton),
-            .view(learnMoreButton)
+            .view(turnOnBraveTodayButton)
+            // Vsn - 17/03/2021
+//            .view(learnMoreButton)
+            // End
         )
         
         closeButton.snp.makeConstraints {

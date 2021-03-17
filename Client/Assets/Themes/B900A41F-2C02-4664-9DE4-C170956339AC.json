@@ -1,7 +1,7 @@
 {
     "uuid": "B900A41F-2C02-4664-9DE4-C170956339AC",
     "title": "Default dark",
-    "url": "www.brave.com",
+    "url": "www.presearch.org",
     "description": "The standard default dark theme",
     "thumbnail": "https://www.google.com",
     "isDark": true,
@@ -13,7 +13,7 @@
         "home": "0x1c1c1c",
         "addressBar": "0x444444",
         "border": "0xffffff",
-        "accent": "0xff631c",
+        "accent": "0x5cacfc",
         "tints": {
             "home": "0xE7E6E9",
             "header": "0xE7E6E9",

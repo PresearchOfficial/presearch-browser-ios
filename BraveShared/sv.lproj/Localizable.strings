@@ -1,11 +1,11 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "Om Brave sköldar";
+"AboutBraveShields" = "Om Presearch sköldar";
 
 /* The body of the screen explaining Brave Shields */
-"AboutBraveShieldsBody" = "Webbplatser innehåller ofta cookies och skript som försöker identifiera dig och din enhet. De vill räkna ut vem du är och följa dig på webben – spåra vad du gör på varje webbplats.\n\nBrave blockerar dessa saker så att du kan surfa utan att bli följd.";
+"AboutBraveShieldsBody" = "Webbplatser innehåller ofta cookies och skript som försöker identifiera dig och din enhet. De vill räkna ut vem du är och följa dig på webben – spåra vad du gör på varje webbplats.\n\nPresearch blockerar dessa saker så att du kan surfa utan att bli följd.";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Brave Rewards";
+"BraveRewardsAdNotificationTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "Öppna";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "Om webbplatsen visas bruten försök med sköldar nere";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Brave sköldar";
+"BraveShieldsStatusTitle" = "Presearch sköldar";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "Ner";
@@ -38,19 +38,19 @@
 "BraveShieldsStatusValueUp" = "Upp";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Dubbeltryck för att växla Brave Shields";
+"BraveShieldsToggleHint" = "Dubbeltryck för att växla Presearch Shields";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "Tryck för att göra anspråk på dina gratis tokens.";
 
 /* The title of the notification that goes out monthly to users who can claim an ads grant */
-"MonthlyAdsClaimNotificationTitle" = "Brave Rewards 💵🎁";
+"MonthlyAdsClaimNotificationTitle" = "Presearch Rewards 💵🎁";
 
 /* No comment provided by engineer. */
 "MyFirstAdBody" = "Tryck här för att läsa mer.";
 
 /* No comment provided by engineer. */
-"MyFirstAdTitle" = "Det här är din första Brave-annons";
+"MyFirstAdTitle" = "Det här är din första Presearch-annons";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */
 "No" = "Nej";
@@ -62,10 +62,10 @@
 "OBAdsOptInMessageJapan" = "Tjäna poäng och belöna skapare för bra innehåll medan du surfar.";
 
 /* Title when opting into brave Ads when region becomes available */
-"OBAdsOptInTitle" = "Brave-annonser är här!";
+"OBAdsOptInTitle" = "Presearch-annonser är här!";
 
 /* Title for ads onboarding screen */
-"OBAdsTitle" = "Brave visar din första annons om";
+"OBAdsTitle" = "Presearch visar din första annons om";
 
 /* Title for when the user completes onboarding */
 "OBCompleteTitle" = "Nu är du redo att sätta igång.";
@@ -89,10 +89,10 @@
 "OBJoinButton" = "Gå med";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentClipboardPermission" = "Tillåt Brave att kontrollera urklipp för en matchande hänvisningskod";
+"OBPrivacyConsentClipboardPermission" = "Tillåt Presearch att kontrollera urklipp för en matchande hänvisningskod";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Du kanske har laddat ner Brave till stöd för din hänvisare. För att upptäcka din hänvisare utför Brave en engångskontroll av urklipp med avseende på matchande hänvisningskod. Denna kontroll är endast begränsad till koden och inga andra personuppgifter kommer att överföras. Om du väljer bort kommer inte din hänvisare att få belöningar från Brave.";
+"OBPrivacyConsentDetail" = "Du kanske har laddat ner Presearch till stöd för din hänvisare. För att upptäcka din hänvisare utför Presearch en engångskontroll av urklipp med avseende på matchande hänvisningskod. Denna kontroll är endast begränsad till koden och inga andra personuppgifter kommer att överföras. Om du väljer bort kommer inte din hänvisare att få belöningar från Presearch.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Tillåt inte denna kontroll";
@@ -110,7 +110,7 @@
 "OBRewardsAgreementDetailLink" = "Tjänstevillkor";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "Brave Rewards stödjer kreatörer";
+"OBRewardsAgreementTitle" = "Presearch Rewards stödjer kreatörer";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetail" = "Börja stödja kreatörer med privata och anonymiserade annonser medan du surfar";
@@ -119,7 +119,7 @@
 "OBRewardsDetailInAdRegion" = "Tjäna tokens och belöna skapare för bra innehåll medan du surfar.";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "Brave Rewards";
+"OBRewardsTitle" = "Presearch Rewards";
 
 /* Save button to save current selection */
 "OBSaveButton" = "Spara";
@@ -128,13 +128,13 @@
 "OBSearchEngineDetail" = "Välj din standardsökmotor";
 
 /* Title for search engine onboarding screen */
-"OBSearchEngineTitle" = "Välkommen till Brave webbläsaren";
+"OBSearchEngineTitle" = "Välkommen till Presearch webbläsaren";
 
 /* Detail text for shields onboarding screen */
 "OBShieldsDetail" = "Blockera sekretessinträngande spårare så att du kan bläddra utan att följas på webben";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Brave sköldar";
+"OBShieldsTitle" = "Presearch sköldar";
 
 /* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "Visa";
@@ -161,10 +161,10 @@
 "ReportABrokenSite" = "Rapportera en bruten webbplats";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Låt Braves utvecklare vet att denna webbplats inte fungerar korrekt med Shields:";
+"ReportBrokenSiteBody1" = "Låt Presearchs utvecklare vet att denna webbplats inte fungerar korrekt med Shields:";
 
 /* No comment provided by engineer. */
-"ReportBrokenSiteBody2" = "Obs: Denna webbplatsadress kommer att skickas in med ditt Brave-versionsnummer och din IP-adress (som inte kommer att lagras).";
+"ReportBrokenSiteBody2" = "Obs: Denna webbplatsadress kommer att skickas in med ditt Presearch-versionsnummer och din IP-adress (som inte kommer att lagras).";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Skicka";
@@ -179,7 +179,7 @@
 "rewards.disabledBody" = "Aktivera för att stödja innehållsskapare";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Använd Brave Rewards och stöd innehållsskapare när du surfar.";
+"rewards.disabledStatusBody" = "Använd Presearch Rewards och stöd innehållsskapare när du surfar.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Du hjälper till att stödja innehållsskapare";
@@ -194,13 +194,13 @@
 "rewards.legacyWalletTransferSubtitle" = "Engångsöverföring av befintliga token";
 
 /* No comment provided by engineer. */
-"rewards.settingsFooterMessage" = "Brave Rewards-utbetalningar är tillfälligt otillgängliga på den här enheten. Överför dina befintliga plånboksmedel till en skrivbordsplånbok för att behålla dina tokens.";
+"rewards.settingsFooterMessage" = "Presearch Rewards-utbetalningar är tillfälligt otillgängliga på den här enheten. Överför dina befintliga plånboksmedel till en skrivbordsplånbok för att behålla dina tokens.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Stöd innehållsskapare och utgivare automatiskt genom att aktivera Brave Private Ads. Brave Private Ads är annonser som respekterar din sekretess och ger tillbaka till innehållsskapare.";
+"rewards.settingsToggleMessage" = "Stöd innehållsskapare och utgivare automatiskt genom att aktivera Presearch Private Ads. Presearch Private Ads är annonser som respekterar din sekretess och ger tillbaka till innehållsskapare.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "Aktivera Brave Rewards";
+"rewards.settingsToggleTitle" = "Aktivera Presearch Rewards";
 
 /* Displayed under verified publishers */
 "rewards.supportingPublisher" = "Du hjälper stödja innehållsskapare som den här.";
@@ -215,19 +215,19 @@
 "rewards.unverifiedPublisher" = "Den här kreatören har inte verifierat och kommer inte att ingå i kreatörsstödet";
 
 /* A confirmation message shown to the user after completing a wallet transfer successfully */
-"rewards.walletTransferCompleteBody" = "Din överföring har påbörjats. Alla befintliga BAT-saldon kan ta flera minuter att visas i din stationära Brave Rewards-plånbok. Kontrollera din Rewards-sammanfattning på en dator för detaljer när överföringen har slutförts.\n\nDu kan stänga det här fönstret och fortsätta använda Brave medan din överföring pågår.";
+"rewards.walletTransferCompleteBody" = "Din överföring har påbörjats. Alla befintliga BAT-saldon kan ta flera minuter att visas i din stationära Presearch Rewards-plånbok. Kontrollera din Rewards-sammanfattning på en dator för detaljer när överföringen har slutförts.\n\nDu kan stänga det här fönstret och fortsätta använda Presearch medan din överföring pågår.";
 
 /* Title shown above the confirmation message after completing a wallet transfer successfully */
 "rewards.walletTransferCompleteTitle" = "Saldoöverföringen har påbörjats";
 
 /* Message on the alert presented if wallet transfer fails */
-"rewards.walletTransferFailureAlertMessage" = "Brave Rewards-servern svarar inte. Vi kommer att åtgärda det så fort som möjligt.";
+"rewards.walletTransferFailureAlertMessage" = "Presearch Rewards-servern svarar inte. Vi kommer att åtgärda det så fort som möjligt.";
 
 /* Title on the alert presented if wallet transfer fails */
 "rewards.walletTransferFailureAlertTitle" = "Anslutningsfel";
 
 /* Describes the steps for using wallet transfer */
-"rewards.walletTransferStepsBody" = "Ditt Brave Rewards-tokensaldo kan överföras till en befintlig Brave Rewards-skrivbordsplånbok en gång.\n\n1. Öppna Brave Browser på en dator\n2. Navigera till brave://rewards\n3. Klicka på \"QR-kod\"\n4. Skanna QR-koden med din enhet";
+"rewards.walletTransferStepsBody" = "Ditt Presearch Rewards-tokensaldo kan överföras till en befintlig Presearch Rewards-skrivbordsplånbok en gång.\n\n1. Öppna Presearch Browser på en dator\n2. Navigera till Presearch://rewards\n3. Klicka på \"QR-kod\"\n4. Skanna QR-koden med din enhet";
 
 /* Title above the steps to use wallet transfer */
 "rewards.walletTransferStepsTitle" = "Skanna engångskod för överföring";
@@ -260,7 +260,7 @@
 "RewardsInternalsContributionAmount" = "Belopp att donera";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessorBraveTokens" = "Brave-tokens";
+"RewardsInternalsContributionProcessorBraveTokens" = "Presearch-tokens";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Ingen";
@@ -470,7 +470,7 @@
 "shieldEducation.benchmarkSpecialTierTitle" = "Grattis. Du är verkligen speciell.";
 
 /* Subtitle for Shield Education Encrypted Connection Warning */
-"shieldEducation.encryptedConnectionWarningSubtitle" = "Brave uppgraderar dig till en säker anslutning automatiskt om den är tillgänglig.";
+"shieldEducation.encryptedConnectionWarningSubtitle" = "Presearch uppgraderar dig till en säker anslutning automatiskt om den är tillgänglig.";
 
 /* Title for Shield Education Encrypted Connection Warning */
 "shieldEducation.encryptedConnectionWarningTitle" = "Nu är din anslutning krypterad";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Ta en titt";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Brave Shields skyddar din integritet online på alla webbplatser.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields skyddar din integritet online på alla webbplatser.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "%ld+ spårare och annonser blockerade på den här sidan.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shields skyddade precis din integritet online.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields skyddade precis din integritet online.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Spårare och annonser har blockerats på den här sidan.";
@@ -503,10 +503,10 @@
 "shieldEducation.videoAdBlockTitle" = "Annonser blockeras när du tittar på videor på den här webbplatsen.";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "Du surfar på den här webbplatsen utan Braves sekretesskydd. Fungerar den inte korrekt med sköldar uppe?";
+"ShieldsDownDisclaimer" = "Du surfar på den här webbplatsen utan Presearchs sekretesskydd. Fungerar den inte korrekt med sköldar uppe?";
 
 /* No comment provided by engineer. */
-"SiteReportedBody" = "Tack för att låter Braves utvecklare få veta att det är något fel med denna webbplats. Vi ska göra vårt bästa för att åtgärda problemet!";
+"SiteReportedBody" = "Tack för att låter Presearchs utvecklare få veta att det är något fel med denna webbplats. Vi ska göra vårt bästa för att åtgärda problemet!";
 
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "Tack!";
@@ -521,7 +521,7 @@
 "sync.bookmarksImportPopupSuccessMessage" = "Import av bokmärken lyckades";
 
 /* Text that informs a user about Brave Sync service deprecation. */
-"sync.syncV1DeprecationText" = "En ny Brave Sync är på väg och kommer att påverka dina inställningar. Gör dig redo för uppgraderingen.";
+"sync.syncV1DeprecationText" = "En ny Presearch Sync är på väg och kommer att påverka dina inställningar. Gör dig redo för uppgraderingen.";
 
 /* Bookmarks migration website page description */
 "sync.v2MigrationInterstitialPageDescription" = "Några av dina bokmärken kunde inte migreras. Du kan lägga till dem manuellt.";
@@ -533,7 +533,7 @@
 "today.allSources" = "Alla källor";
 
 /* The name of the feature */
-"today.braveToday" = "Brave Today";
+"today.braveToday" = "Presearch Today";
 
 /* No comment provided by engineer. */
 "today.contentAvailableButtonTitle" = "Nytt innehåll tillgängligt";
@@ -545,7 +545,7 @@
 "today.disableAll" = "Inaktivera alla";
 
 /* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
-"today.disabledAlertBody" = "Brave Today kommer att sluta visa innehåll från %@";
+"today.disabledAlertBody" = "Presearch Today kommer att sluta visa innehåll från %@";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "Inaktiverad";
@@ -566,7 +566,7 @@
 "today.enablePublisherContent" = "Aktivera innehåll från %@";
 
 /* No comment provided by engineer. */
-"today.errorGeneralBody" = "Brave Today har vissa problem. Försök igen.";
+"today.errorGeneralBody" = "Presearch Today har vissa problem. Försök igen.";
 
 /* No comment provided by engineer. */
 "today.errorGeneralTitle" = "Hoppsan ...";
@@ -575,16 +575,16 @@
 "today.introCardBody" = "Dina intressen matchas på din enhet så att din personliga information aldrig lämnar din webbläsare. Nytt innehåll uppdateras under dagen.";
 
 /* No comment provided by engineer. */
-"today.introCardTitle" = "Brave Today visar toppnyheter i en helt privat feed, bara för dig.";
+"today.introCardTitle" = "Presearch Today visar toppnyheter i en helt privat feed, bara för dig.";
 
 /* No comment provided by engineer. */
-"today.isEnabledToggleLabel" = "Visa Brave Today";
+"today.isEnabledToggleLabel" = "Visa Presearch Today";
 
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "Läs mer om dina data";
 
 /* 'Brave Offers' is a product name */
-"today.moreBraveOffers" = "Fler Brave-erbjudanden";
+"today.moreBraveOffers" = "Fler Presearch-erbjudanden";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Internet saknas";
@@ -635,7 +635,7 @@
 "vpn.buyButton" = "Köp";
 
 /* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "Brave brandvägg + VPN";
+"vpn.buyVPNTitle" = "Presearch brandvägg + VPN";
 
 /* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxBlockAds" = "Blockerar oönskade nätverksanaslutningar";
@@ -713,7 +713,7 @@
 "vpn.contactFormTimezone" = "iOS tidszon";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "Brave brandvägg + VPN-problem";
+"vpn.contactFormTitle" = "Presearch brandvägg + VPN-problem";
 
 /* Button text to enable Brave VPN */
 "vpn.enableButton" = "Aktivera";
@@ -734,13 +734,13 @@
 "vpn.iapDisclaimer" = "Alla prenumerationer förnyas automatiskt men kan avbrytas innan förnyelse.";
 
 /* Text explaining how the VPN works. */
-"vpn.installProfileBody" = "Den här profilen tillåter VPN att automatiskt ansluta och säkra trafik över din enhet, hela tiden. Den här VPN-anslutningen kommer krypteras och dirigeras genom Braves intelligenta brandvägg för att blockera potentiellt skadliga och invasiva anslutningar.";
+"vpn.installProfileBody" = "Den här profilen tillåter VPN att automatiskt ansluta och säkra trafik över din enhet, hela tiden. Den här VPN-anslutningen kommer krypteras och dirigeras genom Presearchs intelligenta brandvägg för att blockera potentiellt skadliga och invasiva anslutningar.";
 
 /* Text for 'install vpn profile' button */
 "vpn.installProfileButtonText" = "Installera VPN-profil";
 
 /* No comment provided by engineer. */
-"vpn.installProfileTitle" = "Brave kommer nu att installera en VPN-profil.";
+"vpn.installProfileTitle" = "Presearch kommer nu att installera en VPN-profil.";
 
 /* Popup that shows after user installs the vpn for the first time. */
 "vpn.installSuccessPopup" = "VPN är nu aktiverad";
@@ -821,10 +821,10 @@
 "vpn.settingsVPNExpired" = "Utgått";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "Till och med i bakgrunden kommer Brave att skydda dig.";
+"vpn.vpnBackgroundNotificationBody" = "Till och med i bakgrunden kommer Presearch att skydda dig.";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "Brave brandvägg + VPN är PÅ";
+"vpn.vpnBackgroundNotificationTitle" = "Presearch brandvägg + VPN är PÅ";
 
 /* Message for an alert when the VPN can't be configured. */
 "vpn.vpnConfigGenericErrorBody" = "Det uppstod ett problem med att starta VPN. Vänligen försök igen senare eller försök att återställa konfigurationen på sidan med VPN-inställningar.";
@@ -833,7 +833,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "Fel";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "Brave brandvägg + VPN kräver att en VPN-profil installeras på din enhet för att fungera.";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "Presearch brandvägg + VPN kräver att en VPN-profil installeras på din enhet för att fungera.";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "Åtkomst nekad";
@@ -845,10 +845,10 @@
 "vpn.vpnErrorPurchaseFailedTitle" = "Fel";
 
 /* Disclaimer for user purchasing the VPN plan. */
-"vpn.vpnIAPBoilerPlate" = "Prenumerationer debiteras via ditt iTunes-konto.\n\nEventuell oanvänd del av den kostnadsfria provperioden, om den erbjuds, förverkas när du köper en prenumeration.\n\nDin prenumeration förnyas automatiskt såvida den inte sägs upp minst 24 timmar före slutet av den aktuella perioden.\n\nDu kan hantera dina prenumerationer i Inställningar.\n\nGenom att använda Brave godkänner du användarvillkoren och sekretesspolicyn.";
+"vpn.vpnIAPBoilerPlate" = "Prenumerationer debiteras via ditt iTunes-konto.\n\nEventuell oanvänd del av den kostnadsfria provperioden, om den erbjuds, förverkas när du köper en prenumeration.\n\nDin prenumeration förnyas automatiskt såvida den inte sägs upp minst 24 timmar före slutet av den aktuella perioden.\n\nDu kan hantera dina prenumerationer i Inställningar.\n\nGenom att använda Presearch godkänner du användarvillkoren och sekretesspolicyn.";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "Detta kommer återställa din Brave brandvägg + VPN-konfiguration och fixa alla problem. Den här processen kan ta en minut.";
+"vpn.vpnResetAlertBody" = "Detta kommer återställa din Presearch brandvägg + VPN-konfiguration och fixa alla problem. Den här processen kan ta en minut.";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "Återställ konfiguration";

@@ -8,7 +8,7 @@ import Shared
 
 class OnboardingWebViewController: UIViewController, WKNavigationDelegate {
     
-    private let url = URL(string: "https://brave.com/terms-of-use/")
+    private let url = URL(string: "https://presearch.org/terms")
     private var helpers = [String: TabContentScript]()
     private var profile: Profile
     

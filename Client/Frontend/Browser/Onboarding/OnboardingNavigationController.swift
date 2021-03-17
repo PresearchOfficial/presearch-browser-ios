@@ -53,23 +53,30 @@ class OnboardingNavigationController: UINavigationController {
                 case .newUser(let progress):
                     // The user already made it to rewards and agreed so they should only see ads countdown
                     if progress == .rewards {
-                        return [.rewardsAgreement]
+                        // Vsn - 16/03/2021
+                        return [] //[.rewardsAgreement]
+                        // End
                     }
                     
-                    var newUserScreens: [Screens] = [.searchEnginePicker, .shieldsInfo, .rewardsAgreement]
+                    let newUserScreens: [Screens] = [.searchEnginePicker, .shieldsInfo]
                     
-                    // FIXME: Update to iOS14 clipboard api once ready (#2838)
-                    if Preferences.URP.referralCode.value == nil && UIPasteboard.general.hasStrings {
-                        newUserScreens.insert(.privacyConsent, at: 0)
-                    }
+                    // Vsn - 16/03/2021
+//                    // FIXME: Update to iOS14 clipboard api once ready (#2838)
+//                    if Preferences.URP.referralCode.value == nil && UIPasteboard.general.hasStrings {
+//                        newUserScreens.insert(.privacyConsent, at: 0)
+//                    }
+                    // End
                     
                     return newUserScreens
                 case .existingUserRewardsOff(let progress):
-                    // The user already made it to rewards and agreed so they should only see ads countdown
-                    if progress == .rewards {
-                        return []
-                    }
-                    return [.rewardsAgreement]
+                    // Vsn - 16/03/2021
+//                    // The user already made it to rewards and agreed so they should only see ads countdown
+//                    if progress == .rewards {
+//                        return []
+//                    }
+//                    return [.rewardsAgreement]
+                    // End
+                    return []
                 }
             } else {
                 switch self {

@@ -140,7 +140,7 @@
 "ScanQRCodeInvalidDataErrorMessage" = "Data tidak valid";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCodePermissionErrorMessage" = "Izinkan Brave mengakses kamera di perangkat Anda dalam 'Pengaturan' -> 'Privasi' -> 'Kamera'.";
+"ScanQRCodePermissionErrorMessage" = "Izinkan Presearch mengakses kamera di perangkat Anda dalam 'Pengaturan' -> 'Privasi' -> 'Kamera'.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCodeViewTitle" = "Pindai Kode QR";
@@ -230,7 +230,7 @@
 "UnableToAddPassErrorTitle" = "Gagal Menambahkan Pass";
 
 /* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
-"UnableToOpenURLError" = "Brave tidak dapat membuka halaman karena alamat tidak valid.";
+"UnableToOpenURLError" = "Presearch tidak dapat membuka halaman karena alamat tidak valid.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "UnableToOpenURLErrorTitle" = "Tidak dapat Buka Halaman";

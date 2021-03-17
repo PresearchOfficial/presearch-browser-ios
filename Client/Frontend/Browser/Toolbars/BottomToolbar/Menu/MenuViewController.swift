@@ -99,12 +99,17 @@ class MenuViewController: UITableViewController {
     }
     
     private enum MenuButtons: Int, CaseIterable {
-        case vpn, settings, history, bookmarks, downloads, add, share
+        // Vsn - 16/03/2021
+//        case vpn, settings, history, bookmarks, downloads, add, share
+        case settings, history, bookmarks, downloads, add, share
+        // End
         
         var title: String {
             switch self {
             // This string should not be translated.
-            case .vpn: return "Brave VPN"
+            // Vsn - 16/03/2021
+//            case .vpn: return "Brave VPN"
+            // End
             case .bookmarks: return Strings.bookmarksMenuItem
             case .history: return Strings.historyMenuItem
             case .settings: return Strings.settingsMenuItem
@@ -116,7 +121,9 @@ class MenuViewController: UITableViewController {
         
         var icon: UIImage {
             switch self {
-            case .vpn: return #imageLiteral(resourceName: "vpn_menu_icon").template
+            // Vsn - 16/03/2021
+//            case .vpn: return #imageLiteral(resourceName: "vpn_menu_icon").template
+            // End
             case .bookmarks: return #imageLiteral(resourceName: "menu_bookmarks").template
             case .history: return #imageLiteral(resourceName: "menu-history").template
             case .settings: return #imageLiteral(resourceName: "menu-settings").template
@@ -210,9 +217,11 @@ class MenuViewController: UITableViewController {
         }
         
         switch button {
-        case .vpn:
-            guard let menuCell = cell as? MenuCell else { return }
-            openVPNAction(menuCell: menuCell)
+        // Vsn - 06/03/2021
+//        case .vpn:
+//            guard let menuCell = cell as? MenuCell else { return }
+//            openVPNAction(menuCell: menuCell)
+        // End
         case .bookmarks: openBookmarks()
         case .history: openHistory()
         case .settings: openSettings()
@@ -234,24 +243,27 @@ class MenuViewController: UITableViewController {
                 return MenuCell()
             }
             
-            switch button {
-            case .vpn:
-                let menuCell =  MenuCell(withToggle: true, fullLineSeparator: true)
-                
-                switch BraveVPN.vpnState {
-                case .notPurchased, .purchased, .expired:
-                    break
-                case .installed(let enabled):
-                    menuCell.toggleButton.isOn = enabled
-                    menuCell.isLoading = BraveVPN.reconnectPending
-                }
-                
-                vpnMenuCell = menuCell
-                
-                return menuCell
-            default:
-                return MenuCell()
-            }
+            // Vsn - 16/03/2021
+            return MenuCell()
+//            switch button {
+//            case .vpn:
+//                let menuCell =  MenuCell(withToggle: true, fullLineSeparator: true)
+//
+//                switch BraveVPN.vpnState {
+//                case .notPurchased, .purchased, .expired:
+//                    break
+//                case .installed(let enabled):
+//                    menuCell.toggleButton.isOn = enabled
+//                    menuCell.isLoading = BraveVPN.reconnectPending
+//                }
+//
+//                vpnMenuCell = menuCell
+//
+//                return menuCell
+//            default:
+//                return MenuCell()
+//            }
+            // End
         }()
         
         cell.labelView.text = button.title

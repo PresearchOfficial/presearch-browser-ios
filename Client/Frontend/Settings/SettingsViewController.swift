@@ -118,7 +118,9 @@ class SettingsViewController: TableViewController {
     private var sections: [Section] {
         var list = [
             featuresSection,
-            generalSection,
+            // Vsn - 16/03/2021
+//            generalSection,
+            // End
             displaySection,
             securitySection,
             supportSection,
@@ -138,9 +140,9 @@ class SettingsViewController: TableViewController {
             }
         }()
         
-        if shouldShowVPNSection {
-            list.insert(enableBraveVPNSection, at: 0)
-        }
+//        if shouldShowVPNSection {
+//            list.insert(enableBraveVPNSection, at: 0)
+//        }
         
         if let debugSection = debugSection {
             list.append(debugSection)
@@ -179,26 +181,28 @@ class SettingsViewController: TableViewController {
                 Row(text: Strings.braveShieldsAndPrivacy, selection: { [unowned self] in
                     let controller = BraveShieldsAndPrivacySettingsController(profile: self.profile, tabManager: self.tabManager, feedDataSource: self.feedDataSource)
                     self.navigationController?.pushViewController(controller, animated: true)
-                }, image: #imageLiteral(resourceName: "settings-shields"), accessory: .disclosureIndicator)
+                }, image: #imageLiteral(resourceName: "shields-off-menu-icon"), accessory: .disclosureIndicator)
             ]
         )
         
-        if BraveRewards.isAvailable, let rewards = rewards {
-            section.rows += [
-                Row(text: Strings.braveRewardsTitle, selection: { [unowned self] in
-                    let rewardsVC = BraveRewardsSettingsViewController(rewards, legacyWallet: self.legacyWallet)
-                    rewardsVC.walletTransferLearnMoreTapped = { [weak self] in
-                        guard let self = self else { return }
-                        self.dismiss(animated: true) {
-                            self.presentingViewController?.dismiss(animated: true) {
-                                self.settingsDelegate?.settingsOpenURLInNewTab(BraveUX.braveRewardsLearnMoreURL)
-                            }
-                        }
-                    }
-                    self.navigationController?.pushViewController(rewardsVC, animated: true)
-                }, image: #imageLiteral(resourceName: "settings-brave-rewards"), accessory: .disclosureIndicator),
-            ]
-        }
+        // Vsn - 16/03/2021
+//        if BraveRewards.isAvailable, let rewards = rewards {
+//            section.rows += [
+//                Row(text: Strings.braveRewardsTitle, selection: { [unowned self] in
+//                    let rewardsVC = BraveRewardsSettingsViewController(rewards, legacyWallet: self.legacyWallet)
+//                    rewardsVC.walletTransferLearnMoreTapped = { [weak self] in
+//                        guard let self = self else { return }
+//                        self.dismiss(animated: true) {
+//                            self.presentingViewController?.dismiss(animated: true) {
+//                                self.settingsDelegate?.settingsOpenURLInNewTab(BraveUX.braveRewardsLearnMoreURL)
+//                            }
+//                        }
+//                    }
+//                    self.navigationController?.pushViewController(rewardsVC, animated: true)
+//                }, image: #imageLiteral(resourceName: "settings-brave-rewards"), accessory: .disclosureIndicator),
+//            ]
+//        }
+        // End
         
         #if !NO_BRAVE_TODAY
         section.rows.append(
@@ -209,10 +213,12 @@ class SettingsViewController: TableViewController {
         )
         #endif
          
-        vpnRow = vpnSettingsRow()
-        if let vpnRow = vpnRow {
-            section.rows.append(vpnRow)
-        }
+        // Vsn - 16/03/2021
+//        vpnRow = vpnSettingsRow()
+//        if let vpnRow = vpnRow {
+//            section.rows.append(vpnRow)
+//        }
+        // End
         
         return section
     }()
@@ -286,14 +292,16 @@ class SettingsViewController: TableViewController {
         }
         display.rows.append(row)
         
-        display.rows.append(Row(text: Strings.NTP.settingsTitle,
-            selection: { [unowned self] in
-                self.navigationController?.pushViewController(NTPTableViewController(), animated: true)
-            },
-            image: #imageLiteral(resourceName: "settings-ntp").template,
-            accessory: .disclosureIndicator,
-            cellClass: MultilineValue1Cell.self
-        ))
+        // Vsn - 16/03/2021
+//        display.rows.append(Row(text: Strings.NTP.settingsTitle,
+//            selection: { [unowned self] in
+//                self.navigationController?.pushViewController(NTPTableViewController(), animated: true)
+//            },
+//            image: #imageLiteral(resourceName: "settings-ntp").template,
+//            accessory: .disclosureIndicator,
+//            cellClass: MultilineValue1Cell.self
+//        ))
+        // End
         
         if UIDevice.current.userInterfaceIdiom == .pad {
             display.rows.append(
@@ -401,13 +409,15 @@ class SettingsViewController: TableViewController {
         return Section(
             header: .title(Strings.support),
             rows: [
-                Row(text: Strings.reportABug,
-                    selection: { [unowned self] in
-                        self.settingsDelegate?.settingsOpenURLInNewTab(BraveUX.braveCommunityURL)
-                        self.dismiss(animated: true)
-                    },
-                    image: #imageLiteral(resourceName: "settings-report-bug").template,
-                    cellClass: MultilineValue1Cell.self),
+                // Vsn - 16/03/2021
+//                Row(text: Strings.reportABug,
+//                    selection: { [unowned self] in
+//                        self.settingsDelegate?.settingsOpenURLInNewTab(BraveUX.braveCommunityURL)
+//                        self.dismiss(animated: true)
+//                    },
+//                    image: #imageLiteral(resourceName: "settings-report-bug").template,
+//                    cellClass: MultilineValue1Cell.self),
+                // End
                 Row(text: Strings.rateBrave,
                     selection: { [unowned self] in
                         // Rate Brave

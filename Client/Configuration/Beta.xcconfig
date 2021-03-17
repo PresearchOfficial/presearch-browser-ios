@@ -6,7 +6,7 @@
 
 #include "Base.xcconfig"
 
-MOZ_BUNDLE_DISPLAY_NAME = BraveBeta
+MOZ_BUNDLE_DISPLAY_NAME = PresearchBeta
 
 BRAVE_API_KEY = key
 

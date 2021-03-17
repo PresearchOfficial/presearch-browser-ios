@@ -10,11 +10,11 @@ import Foundation
 class InitialSearchEngines {
     /// Type of search engine available to the user.
     enum SearchEngineID: String {
-        case google, bing, duckduckgo, yandex, qwant, startpage, yahoo, ecosia
+        case google, bing, duckduckgo, yandex, qwant, startpage, yahoo, ecosia, presearch
         
         var excludedFromOnboarding: Bool {
             switch self {
-            case .google, .bing, .duckduckgo, .yandex, .qwant, .startpage, .ecosia:
+            case .google, .bing, .duckduckgo, .yandex, .qwant, .startpage, .ecosia, .presearch:
                 return false
             case .yahoo:
                 return true
@@ -89,13 +89,17 @@ class InitialSearchEngines {
     init(locale: Locale = .current) {
         self.locale = locale
         
+        // Vsn - 16/03/2021
         // Default order and available search engines, applies to all locales
-        engines = [.init(id: .google),
-                   .init(id: .bing),
-                   .init(id: .duckduckgo),
-                   .init(id: .qwant),
-                   .init(id: .startpage)]
-        defaultSearchEngine = .google
+//        engines = [.init(id: .google),
+//                   .init(id: .bing),
+//                   .init(id: .duckduckgo),
+//                   .init(id: .qwant),
+//                   .init(id: .startpage)]
+//        defaultSearchEngine = .google
+        // End
+        engines = [.init(id: .presearch)]
+        defaultSearchEngine = .presearch
         
         // Locale and region specific overrides can be modified here.
         // For conflicting rules priorities are as follows:
@@ -103,9 +107,12 @@ class InitialSearchEngines {
         // 2. Region specific rules, this should apply to all rules within a given region,
         //    language code should not matter.
         // 3. Language code rules, region rules can be specified there too(ex. ru_RU)
-        languageOverrides()
-        regionOverrides()
-        priorityOverrides()
+        
+        // Vsn - 16/03/2021
+//        languageOverrides()
+//        regionOverrides()
+//        priorityOverrides()
+        // End
         
         // Initial engines should always be sorted so priority and default search engines are at the top,
         // remaining search engines are left in order they were added.

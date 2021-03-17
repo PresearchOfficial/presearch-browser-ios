@@ -22,7 +22,7 @@ class NTPLearnMoreViewController: BottomSheetViewController {
     private let state: BrandedImageCalloutState
     private let rewards: BraveRewards
     
-    private let termsOfServiceUrl = "https://www.brave.com/terms_of_use"
+    private let termsOfServiceUrl = "https://presearch.org/terms"
     private let learnMoreAboutBraveRewardsUrl = "https://brave.com/brave-rewards/"
     
     init(state: BrandedImageCalloutState, rewards: BraveRewards) {

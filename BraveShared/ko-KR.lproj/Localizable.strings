@@ -1,11 +1,11 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "Brave Shields 정보";
+"AboutBraveShields" = "Presearch Shields 정보";
 
 /* The body of the screen explaining Brave Shields */
-"AboutBraveShieldsBody" = "사이트에는 방문자와 방문자의 기기를 식별하기 위한 쿠키 및 스크립트가 포함되어 있을 수 있습니다. 이러한 요소는 방문자를 식별하고 방문자가 방문하는 웹사이트를 따라다니며 모든 사이트에서의 방문자 행동 패턴을 추적합니다.\n\nBrave는 이러한 요소를 차단하므로 추적되지 않고 브라우징을 즐길 수 있습니다.";
+"AboutBraveShieldsBody" = "사이트에는 방문자와 방문자의 기기를 식별하기 위한 쿠키 및 스크립트가 포함되어 있을 수 있습니다. 이러한 요소는 방문자를 식별하고 방문자가 방문하는 웹사이트를 따라다니며 모든 사이트에서의 방문자 행동 패턴을 추적합니다.\n\nPresearch는 이러한 요소를 차단하므로 추적되지 않고 브라우징을 즐길 수 있습니다.";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Brave Rewards";
+"BraveRewardsAdNotificationTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "열기";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "사이트가 깨진 것으로 표시되면 Shields 해제 권장";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Brave Shields";
+"BraveShieldsStatusTitle" = "Presearch Shields";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "해제";
@@ -38,19 +38,19 @@
 "BraveShieldsStatusValueUp" = "사용";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "두 번 탭하여 Brave Shields 토글";
+"BraveShieldsToggleHint" = "두 번 탭하여 Presearch Shields 토글";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "무료 토큰을 받으려면 탭하세요.";
 
 /* The title of the notification that goes out monthly to users who can claim an ads grant */
-"MonthlyAdsClaimNotificationTitle" = "Brave Rewards 💵🎁";
+"MonthlyAdsClaimNotificationTitle" = "Presearch Rewards 💵🎁";
 
 /* No comment provided by engineer. */
 "MyFirstAdBody" = "자세히 알아보려면 여기를 탭하세요.";
 
 /* No comment provided by engineer. */
-"MyFirstAdTitle" = "첫 번째로 표시되는 Brave 광고";
+"MyFirstAdTitle" = "첫 번째로 표시되는 Presearch 광고";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */
 "No" = "아니요";
@@ -62,10 +62,10 @@
 "OBAdsOptInMessageJapan" = "브라우징하면서 포인트를 얻어 좋은 콘텐츠를 만들어준 제작자에게 보답하세요.";
 
 /* Title when opting into brave Ads when region becomes available */
-"OBAdsOptInTitle" = "Brave Ads 이용 가능!";
+"OBAdsOptInTitle" = "Presearch Ads 이용 가능!";
 
 /* Title for ads onboarding screen */
-"OBAdsTitle" = "첫 Brave 광고가 다음 시간 후 표시됩니다.";
+"OBAdsTitle" = "첫 Presearch 광고가 다음 시간 후 표시됩니다.";
 
 /* Title for when the user completes onboarding */
 "OBCompleteTitle" = "이제 준비를 마쳤습니다.";
@@ -89,10 +89,10 @@
 "OBJoinButton" = "가입";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentClipboardPermission" = "Brave가 내 클립보드에서 일치하는 추천 코드를 확인할 수 있도록 허용";
+"OBPrivacyConsentClipboardPermission" = "Presearch가 내 클립보드에서 일치하는 추천 코드를 확인할 수 있도록 허용";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "추천인에게 도움이 되시려고 Brave를 다운로드하신 것 같습니다. 귀하의 추천인을 확인하려는 목적으로 Brave가 귀하의 클립보드에서 일치하는 추천 코드 일회성 확인을 수행합니다. 이 확인은 코드 확인 목적으로만 사용되며 어떤 개인 데이터도 전송되지 않습니다. 거부하시면 Brave에서 제공하는 리워드를 추천인에게 보내드릴 수 없습니다.";
+"OBPrivacyConsentDetail" = "추천인에게 도움이 되시려고 Presearch를 다운로드하신 것 같습니다. 귀하의 추천인을 확인하려는 목적으로 Presearch가 귀하의 클립보드에서 일치하는 추천 코드 일회성 확인을 수행합니다. 이 확인은 코드 확인 목적으로만 사용되며 어떤 개인 데이터도 전송되지 않습니다. 거부하시면 Presearch에서 제공하는 리워드를 추천인에게 보내드릴 수 없습니다.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "확인 허용하지 않음";
@@ -110,7 +110,7 @@
 "OBRewardsAgreementDetailLink" = "서비스 약관";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "Brave Rewards, 제작자를 지원하는 방법";
+"OBRewardsAgreementTitle" = "Presearch Rewards, 제작자를 지원하는 방법";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetail" = "브라우징 시 비공개/익명 광고를 보고 콘텐츠 크리에이터 지원을 시작하세요.";
@@ -119,7 +119,7 @@
 "OBRewardsDetailInAdRegion" = "브라우징하면서 토큰을 얻어 좋은 콘텐츠를 만들어준 제작자에게 보답하세요.";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "Brave Rewards";
+"OBRewardsTitle" = "Presearch Rewards";
 
 /* Save button to save current selection */
 "OBSaveButton" = "저장";
@@ -128,13 +128,13 @@
 "OBSearchEngineDetail" = "기본 검색 엔진 선택";
 
 /* Title for search engine onboarding screen */
-"OBSearchEngineTitle" = "Brave 브라우저에 오신 것을 환영합니다.";
+"OBSearchEngineTitle" = "Presearch 브라우저에 오신 것을 환영합니다.";
 
 /* Detail text for shields onboarding screen */
 "OBShieldsDetail" = "프라이버시를 침해하는 트래커를 차단하여 웹에서 불필요한 사이트 방문 없이 브라우징 가능";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Brave 쉴드";
+"OBShieldsTitle" = "Presearch 쉴드";
 
 /* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "표시";
@@ -164,7 +164,7 @@
 "ReportBrokenSiteBody1" = "다음 사이트가 Shields에서 제대로 작동하는지 Brava 개발자가 파악할 수 있게 합니다.";
 
 /* No comment provided by engineer. */
-"ReportBrokenSiteBody2" = "참고: Brave 버전 번호와 IP 주소와 함께 사이트 주소가 제출됩니다. (저장되지는 않음)";
+"ReportBrokenSiteBody2" = "참고: Presearch 버전 번호와 IP 주소와 함께 사이트 주소가 제출됩니다. (저장되지는 않음)";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "제출";
@@ -179,7 +179,7 @@
 "rewards.disabledBody" = "콘텐츠 제작자를 지원하려면 켜세요.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Brave Rewards를 사용하면 브라우징하면서 콘텐츠 제작자를 지원할 수 있습니다.";
+"rewards.disabledStatusBody" = "Presearch Rewards를 사용하면 브라우징하면서 콘텐츠 제작자를 지원할 수 있습니다.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "콘텐츠 제작자를 지원하고 계십니다.";
@@ -194,13 +194,13 @@
 "rewards.legacyWalletTransferSubtitle" = "기존 토큰 일회성 이전";
 
 /* No comment provided by engineer. */
-"rewards.settingsFooterMessage" = "Brave Rewards 결제를 일시적으로 이 기기에서 이용할 수 없습니다. 기존 월렛 잔액을 데스크톱 월렛으로 이전하여 토큰을 안전하게 보호하세요.";
+"rewards.settingsFooterMessage" = "Presearch Rewards 결제를 일시적으로 이 기기에서 이용할 수 없습니다. 기존 월렛 잔액을 데스크톱 월렛으로 이전하여 토큰을 안전하게 보호하세요.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Brave Private Ads를 활성화하면 자동으로 콘텐츠 제작자와 게시자를 지원하게 됩니다. Brave Private Ads는 개인정보를 존중하는 광고로 콘텐츠 제작자에게 보상을 줍니다.";
+"rewards.settingsToggleMessage" = "Presearch Private Ads를 활성화하면 자동으로 콘텐츠 제작자와 게시자를 지원하게 됩니다. Presearch Private Ads는 개인정보를 존중하는 광고로 콘텐츠 제작자에게 보상을 줍니다.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "Brave Rewards 활성화";
+"rewards.settingsToggleTitle" = "Presearch Rewards 활성화";
 
 /* Displayed under verified publishers */
 "rewards.supportingPublisher" = "이 제작자와 같은 콘텐츠 제작자를 지원하고 계십니다.";
@@ -215,19 +215,19 @@
 "rewards.unverifiedPublisher" = "확인되지 않은 제작자이기 때문에 제작자 지원에 포함되지 않습니다.";
 
 /* A confirmation message shown to the user after completing a wallet transfer successfully */
-"rewards.walletTransferCompleteBody" = "이전이 시작되었습니다. 기존 BAT 잔액이 데스크톱 Brave Rewards 잔액에 표시되려면 몇 분 정도 소요될 수 있습니다. 이전이 완료되었을 때 자세한 내용을 보려면 데스크톱에서 Rewards 요약을 확인하세요.\n\n이 창을 닫고 Brave 사용을 계속해도 이전이 진행됩니다.";
+"rewards.walletTransferCompleteBody" = "이전이 시작되었습니다. 기존 BAT 잔액이 데스크톱 Presearch Rewards 잔액에 표시되려면 몇 분 정도 소요될 수 있습니다. 이전이 완료되었을 때 자세한 내용을 보려면 데스크톱에서 Rewards 요약을 확인하세요.\n\n이 창을 닫고 Presearch 사용을 계속해도 이전이 진행됩니다.";
 
 /* Title shown above the confirmation message after completing a wallet transfer successfully */
 "rewards.walletTransferCompleteTitle" = "잔액 이전 시작됨";
 
 /* Message on the alert presented if wallet transfer fails */
-"rewards.walletTransferFailureAlertMessage" = "Brave Rewards 서버가 응답하지 않습니다. 잠시 후 다시 시도하세요.";
+"rewards.walletTransferFailureAlertMessage" = "Presearch Rewards 서버가 응답하지 않습니다. 잠시 후 다시 시도하세요.";
 
 /* Title on the alert presented if wallet transfer fails */
 "rewards.walletTransferFailureAlertTitle" = "연결 오류";
 
 /* Describes the steps for using wallet transfer */
-"rewards.walletTransferStepsBody" = "Brave Rewards 토큰 잔액을 기존 Brave Rewards 데스크톱 월렛으로 단 한 번 이전할 수 있습니다.\n\n1. 데스크톱에서 Brave 브라우저를 엽니다.\n2. brave://rewards 페이지로 이동합니다.\n3. “QR Code”를 클릭합니다.\n4. 기기로 QR 코드를 스캔합니다.";
+"rewards.walletTransferStepsBody" = "Presearch Rewards 토큰 잔액을 기존 Presearch Rewards 데스크톱 월렛으로 단 한 번 이전할 수 있습니다.\n\n1. 데스크톱에서 Presearch 브라우저를 엽니다.\n2. Presearch://rewards 페이지로 이동합니다.\n3. “QR Code”를 클릭합니다.\n4. 기기로 QR 코드를 스캔합니다.";
 
 /* Title above the steps to use wallet transfer */
 "rewards.walletTransferStepsTitle" = "일회성 이전 코드 스캔";
@@ -260,7 +260,7 @@
 "RewardsInternalsContributionAmount" = "후원 금액";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessorBraveTokens" = "Brave 토큰";
+"RewardsInternalsContributionProcessorBraveTokens" = "Presearch 토큰";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "없음";
@@ -470,7 +470,7 @@
 "shieldEducation.benchmarkSpecialTierTitle" = "축하합니다. 정말 특별하십니다.";
 
 /* Subtitle for Shield Education Encrypted Connection Warning */
-"shieldEducation.encryptedConnectionWarningSubtitle" = "가능한 경우 Brave가 안전한 연결로 자동 업그레이드합니다.";
+"shieldEducation.encryptedConnectionWarningSubtitle" = "가능한 경우 Presearch가 안전한 연결로 자동 업그레이드합니다.";
 
 /* Title for Shield Education Encrypted Connection Warning */
 "shieldEducation.encryptedConnectionWarningTitle" = "연결이 암호화되었습니다.";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "살펴보기";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Brave Shields가 모든 사이트에서 온라인 프라이버시를 보호해드립니다.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields가 모든 사이트에서 온라인 프라이버시를 보호해드립니다.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "이 페이지에서 %ld개 이상의 트래커와 광고가 차단되었습니다.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shields가 방금 온라인 프라이버시를 보호해드렸습니다.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields가 방금 온라인 프라이버시를 보호해드렸습니다.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "이 페이지에서 트래커와 광고가 차단되었습니다.";
@@ -503,10 +503,10 @@
 "shieldEducation.videoAdBlockTitle" = "이 웹사이트에서 동영상을 시청하는 동안 광고가 차단되었습니다.";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "Brave의 개인정보 보호 없이 이 사이트를 브라우징하고 계십니다. Shields 사용 시 제대로 작동하지 않나요?";
+"ShieldsDownDisclaimer" = "Presearch의 개인정보 보호 없이 이 사이트를 브라우징하고 계십니다. Shields 사용 시 제대로 작동하지 않나요?";
 
 /* No comment provided by engineer. */
-"SiteReportedBody" = "이 사이트에 문제가 있다는 사실을 Brave 개발자가 파악할 수 있게 해주셔서 감사합니다. 최선을 다해 해결하겠습니다!";
+"SiteReportedBody" = "이 사이트에 문제가 있다는 사실을 Presearch 개발자가 파악할 수 있게 해주셔서 감사합니다. 최선을 다해 해결하겠습니다!";
 
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "감사합니다.";
@@ -521,7 +521,7 @@
 "sync.bookmarksImportPopupSuccessMessage" = "북마크 가져오기 성공";
 
 /* Text that informs a user about Brave Sync service deprecation. */
-"sync.syncV1DeprecationText" = "새로운 Brave Sync가 출시되어 설정에 적용될 예정입니다. 곧 업그레이드됩니다.";
+"sync.syncV1DeprecationText" = "새로운 Presearch Sync가 출시되어 설정에 적용될 예정입니다. 곧 업그레이드됩니다.";
 
 /* Bookmarks migration website page description */
 "sync.v2MigrationInterstitialPageDescription" = "일부 북마크를 가져오지 못했습니다. 수동으로 추가할 수 있습니다.";
@@ -533,7 +533,7 @@
 "today.allSources" = "모든 출처";
 
 /* The name of the feature */
-"today.braveToday" = "Brave Today";
+"today.braveToday" = "Presearch Today";
 
 /* No comment provided by engineer. */
 "today.contentAvailableButtonTitle" = "새 콘텐츠 사용 가능";
@@ -545,7 +545,7 @@
 "today.disableAll" = "모두 비활성화";
 
 /* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
-"today.disabledAlertBody" = "Brave Today에 %@ 제공 콘텐츠를 표시하지 않음";
+"today.disabledAlertBody" = "Presearch Today에 %@ 제공 콘텐츠를 표시하지 않음";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "비활성화됨";
@@ -566,7 +566,7 @@
 "today.enablePublisherContent" = "%@ 제공 콘텐츠 활성화";
 
 /* No comment provided by engineer. */
-"today.errorGeneralBody" = "Brave Today에 문제가 발생했습니다. 다시 시도하세요.";
+"today.errorGeneralBody" = "Presearch Today에 문제가 발생했습니다. 다시 시도하세요.";
 
 /* No comment provided by engineer. */
 "today.errorGeneralTitle" = "죄송합니다...";
@@ -575,16 +575,16 @@
 "today.introCardBody" = "관심사가 기기에 매칭되므로 어떠한 개인정보도 브라우저에 남지 않습니다. 새 콘텐츠가 하루 종일 업데이트됩니다.";
 
 /* No comment provided by engineer. */
-"today.introCardTitle" = "Brave Today에는 인기 스토리가 완전한 비공개 맞춤 피드로 표시됩니다.";
+"today.introCardTitle" = "Presearch Today에는 인기 스토리가 완전한 비공개 맞춤 피드로 표시됩니다.";
 
 /* No comment provided by engineer. */
-"today.isEnabledToggleLabel" = "Brave Today 표시";
+"today.isEnabledToggleLabel" = "Presearch Today 표시";
 
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "사용자 데이터에 대해 자세히 알아보기";
 
 /* 'Brave Offers' is a product name */
-"today.moreBraveOffers" = "Brave Offers 더보기";
+"today.moreBraveOffers" = "Presearch Offers 더보기";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "인터넷 끊김";
@@ -635,7 +635,7 @@
 "vpn.buyButton" = "구매";
 
 /* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "Brave Firewall + VPN";
+"vpn.buyVPNTitle" = "Presearch Firewall + VPN";
 
 /* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxBlockAds" = "원치 않는 네트워크 연결 차단";
@@ -713,7 +713,7 @@
 "vpn.contactFormTimezone" = "iOS 시간대";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "Brave Firewall + VPN 문제";
+"vpn.contactFormTitle" = "Presearch Firewall + VPN 문제";
 
 /* Button text to enable Brave VPN */
 "vpn.enableButton" = "활성화";
@@ -734,13 +734,13 @@
 "vpn.iapDisclaimer" = "모든 구독은 자동 갱신되지만, 갱신 전 취소할 수 있습니다.";
 
 /* Text explaining how the VPN works. */
-"vpn.installProfileBody" = "이 프로필을 사용하여 VPN을 자동으로 연결하고 항상 디바이스 간 트래픽을 안전하게 보호합니다. VPN 연결은 암호화되고 Brave의 지능적인 방화벽을 통해 라우팅되어 유해하거나 침입 가능성이 있는 연결을 차단합니다.";
+"vpn.installProfileBody" = "이 프로필을 사용하여 VPN을 자동으로 연결하고 항상 디바이스 간 트래픽을 안전하게 보호합니다. VPN 연결은 암호화되고 Presearch의 지능적인 방화벽을 통해 라우팅되어 유해하거나 침입 가능성이 있는 연결을 차단합니다.";
 
 /* Text for 'install vpn profile' button */
 "vpn.installProfileButtonText" = "VPN 프로필 설치";
 
 /* No comment provided by engineer. */
-"vpn.installProfileTitle" = "Brave에 VPN 프로필이 설치됩니다.";
+"vpn.installProfileTitle" = "Presearch에 VPN 프로필이 설치됩니다.";
 
 /* Popup that shows after user installs the vpn for the first time. */
 "vpn.installSuccessPopup" = "VPN이 활성화되었습니다.";
@@ -821,10 +821,10 @@
 "vpn.settingsVPNExpired" = "만료됨";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "Brave는 백그라운드에서도 계속 사용자를 보호해줍니다.";
+"vpn.vpnBackgroundNotificationBody" = "Presearch는 백그라운드에서도 계속 사용자를 보호해줍니다.";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "Brave Firewall + VPN 켜짐";
+"vpn.vpnBackgroundNotificationTitle" = "Presearch Firewall + VPN 켜짐";
 
 /* Message for an alert when the VPN can't be configured. */
 "vpn.vpnConfigGenericErrorBody" = "VPN을 초기화하는 중에 문제가 발생했습니다. 다시 시도하거나 VPN 설정 페이지에서 구성을 초기화해 보세요.";
@@ -833,7 +833,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "오류";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "Brave Firewall + VPN이 동작하려면 디바이스에 VPN 프로필이 설치되어 있어야 합니다.";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "Presearch Firewall + VPN이 동작하려면 디바이스에 VPN 프로필이 설치되어 있어야 합니다.";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "권한 거부됨";
@@ -845,10 +845,10 @@
 "vpn.vpnErrorPurchaseFailedTitle" = "오류";
 
 /* Disclaimer for user purchasing the VPN plan. */
-"vpn.vpnIAPBoilerPlate" = "구독 대금은 iTunes 계정을 통해 청구됩니다.\n\n구독을 구매하면 무료 평가판에서 미사용된 부분은 포기한 것으로 간주합니다.\n\n현재 구독 기간 종료 24시간 전에 취소하지 않으면 구독이 자동으로 갱신됩니다.\n\n구매 후 설정에서 구독을 관리할 수 있습니다.\n\nBrave를 사용하면 이용 약관 및 개인정보 취급방침을 읽고 이에 동의한 것으로 간주됩니다.";
+"vpn.vpnIAPBoilerPlate" = "구독 대금은 iTunes 계정을 통해 청구됩니다.\n\n구독을 구매하면 무료 평가판에서 미사용된 부분은 포기한 것으로 간주합니다.\n\n현재 구독 기간 종료 24시간 전에 취소하지 않으면 구독이 자동으로 갱신됩니다.\n\n구매 후 설정에서 구독을 관리할 수 있습니다.\n\nPresearch를 사용하면 이용 약관 및 개인정보 취급방침을 읽고 이에 동의한 것으로 간주됩니다.";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "Brave Firewall + VPN 구성이 재설정되고 모든 오류가 정정됩니다. 이 프로세스는 1분 정도 소요됩니다.";
+"vpn.vpnResetAlertBody" = "Presearch Firewall + VPN 구성이 재설정되고 모든 오류가 정정됩니다. 이 프로세스는 1분 정도 소요됩니다.";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "구성 재설정";

@@ -973,11 +973,13 @@ class BrowserViewController: UIViewController {
         }
         showQueuedAlertIfAvailable()
         
-        if PrivateBrowsingManager.shared.isPrivateBrowsing {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                self.presentDuckDuckGoCallout()
-            }
-        }
+        // Vsn - 17/03/2021
+//        if PrivateBrowsingManager.shared.isPrivateBrowsing {
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+//                self.presentDuckDuckGoCallout()
+//            }
+//        }
+        // End
     }
     
     func presentOnboardingIntro() {
@@ -2166,11 +2168,13 @@ extension BrowserViewController: SettingsDelegate {
         settingsViewController.dismiss(animated: true, completion: {
             // iPad doesn't receive a viewDidAppear because it displays settings as a floating modal window instead
             // of a fullscreen overlay.
-            if UIDevice.isIpad && PrivateBrowsingManager.shared.isPrivateBrowsing {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                    self.presentDuckDuckGoCallout()
-                }
-            }
+            // Vsn - 17/03/2021
+//            if UIDevice.isIpad && PrivateBrowsingManager.shared.isPrivateBrowsing {
+//                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+//                    self.presentDuckDuckGoCallout()
+//                }
+//            }
+            // End
         })
     }
 }
@@ -3707,9 +3711,11 @@ extension BrowserViewController: OnboardingControllerDelegate {
     
     private func presentDuckDuckGoCalloutIfNeeded() {
         if PrivateBrowsingManager.shared.isPrivateBrowsing && self.presentedViewController == nil {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
-                self.presentDuckDuckGoCallout()
-            }
+            // Vsn - 17/03/2021
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+//                self.presentDuckDuckGoCallout()
+//            }
+            // End
         }
     }
     

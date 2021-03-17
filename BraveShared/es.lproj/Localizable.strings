@@ -1,11 +1,11 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "Acerca de los escudos de Brave";
+"AboutBraveShields" = "Acerca de los escudos de Presearch";
 
 /* The body of the screen explaining Brave Shields */
 "AboutBraveShieldsBody" = "Los sitios web suelen usar cookies y scripts que tratan de identificarte a ti y a tu dispositivo. Su intención es averiguar quién eres y rastrear tus movimientos por la web para saber lo que haces en cada sitio.\n\nBrave bloquea estos elementos para que puedas navegar sin que te sigan.";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Brave Rewards";
+"BraveRewardsAdNotificationTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "Abrir";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "Si no ves este sitio web correctamente, prueba a desactivar los escudos";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Escudos de Brave";
+"BraveShieldsStatusTitle" = "Escudos de Presearch";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "desactivados";
@@ -38,19 +38,19 @@
 "BraveShieldsStatusValueUp" = "activados";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Toca dos veces para activar/desactivar Brave Shields";
+"BraveShieldsToggleHint" = "Toca dos veces para activar/desactivar Presearch Shields";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "Toca para reclamar tus tokens gratuitos.";
 
 /* The title of the notification that goes out monthly to users who can claim an ads grant */
-"MonthlyAdsClaimNotificationTitle" = "Brave Rewards 💵🎁";
+"MonthlyAdsClaimNotificationTitle" = "Presearch Rewards 💵🎁";
 
 /* No comment provided by engineer. */
 "MyFirstAdBody" = "Toca aquí para obtener más información.";
 
 /* No comment provided by engineer. */
-"MyFirstAdTitle" = "Este es tu primer anuncio de Brave";
+"MyFirstAdTitle" = "Este es tu primer anuncio de Presearch";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */
 "No" = "No";
@@ -62,10 +62,10 @@
 "OBAdsOptInMessageJapan" = "Gana puntos y recompensa a los creadores por su fantástico contenido mientras navegas.";
 
 /* Title when opting into brave Ads when region becomes available */
-"OBAdsOptInTitle" = "¡Brave Ads ya está aquí!";
+"OBAdsOptInTitle" = "¡Presearch Ads ya está aquí!";
 
 /* Title for ads onboarding screen */
-"OBAdsTitle" = "Brave mostrará su primer anuncio dentro de";
+"OBAdsTitle" = "Presearch mostrará su primer anuncio dentro de";
 
 /* Title for when the user completes onboarding */
 "OBCompleteTitle" = "Ya está todo listo.";
@@ -89,10 +89,10 @@
 "OBJoinButton" = "Unirse";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentClipboardPermission" = "Permitir que Brave compruebe mi portapapeles para encontrar un código de referencia correspondiente";
+"OBPrivacyConsentClipboardPermission" = "Permitir que Presearch compruebe mi portapapeles para encontrar un código de referencia correspondiente";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Es posible que hayas descargado Brave para apoyar a la persona que te lo ha recomendado. Para identificar a dicha persona, Brave necesita realizar una comprobación única en tu portapapeles para ver si tienes el código de referencia correspondiente. Esta comprobación se limita a la búsqueda del código, de forma que no se transmitirá ningún otro dato personal. Si decides no permitirlo, la persona que te ha recomendado Brave no recibirá ninguna recompensa.";
+"OBPrivacyConsentDetail" = "Es posible que hayas descargado Presearch para apoyar a la persona que te lo ha recomendado. Para identificar a dicha persona, Presearch necesita realizar una comprobación única en tu portapapeles para ver si tienes el código de referencia correspondiente. Esta comprobación se limita a la búsqueda del código, de forma que no se transmitirá ningún otro dato personal. Si decides no permitirlo, la persona que te ha recomendado Presearch no recibirá ninguna recompensa.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "No permitir esta comprobación";
@@ -110,7 +110,7 @@
 "OBRewardsAgreementDetailLink" = "Condiciones de uso";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "Brave Rewards apoya a los creadores";
+"OBRewardsAgreementTitle" = "Presearch Rewards apoya a los creadores";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetail" = "Empieza a apoyar a los creadores con anuncios privados y anónimos mientras navegas";
@@ -119,7 +119,7 @@
 "OBRewardsDetailInAdRegion" = "Gana tokens y recompensa a los creadores por su fantástico contenido mientras navegas.";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "Brave Rewards";
+"OBRewardsTitle" = "Presearch Rewards";
 
 /* Save button to save current selection */
 "OBSaveButton" = "Guardar";
@@ -128,13 +128,13 @@
 "OBSearchEngineDetail" = "Selecciona tu buscador predeterminado";
 
 /* Title for search engine onboarding screen */
-"OBSearchEngineTitle" = "Bienvenido al navegador Brave";
+"OBSearchEngineTitle" = "Bienvenido al navegador Presearch";
 
 /* Detail text for shields onboarding screen */
 "OBShieldsDetail" = "Bloquea los rastreadores que invaden la privacidad para poder navegar sin que te sigan por toda la web";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Escudos de Brave";
+"OBShieldsTitle" = "Escudos de Presearch";
 
 /* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "Mostrar";
@@ -161,10 +161,10 @@
 "ReportABrokenSite" = "Informar de un sitio web dañado";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Informa a los desarrolladores de Brave para que sepan que el sitio no funciona como debería con Brave Shields:";
+"ReportBrokenSiteBody1" = "Informa a los desarrolladores de Presearch para que sepan que el sitio no funciona como debería con Presearch Shields:";
 
 /* No comment provided by engineer. */
-"ReportBrokenSiteBody2" = "Nota: La dirección de este sitio se enviará con el número de versión de Brave que utilizas y tu dirección de IP (que no quedará almacenada).";
+"ReportBrokenSiteBody2" = "Nota: La dirección de este sitio se enviará con el número de versión de Presearch que utilizas y tu dirección de IP (que no quedará almacenada).";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Enviar";
@@ -179,7 +179,7 @@
 "rewards.disabledBody" = "Activar para ayudar a apoyar a los creadores de contenido";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Si usas Brave Rewards, ayudas a apoyar a los creadores de contenido mientras navegas.";
+"rewards.disabledStatusBody" = "Si usas Presearch Rewards, ayudas a apoyar a los creadores de contenido mientras navegas.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Estás ayudando a apoyar a los creadores de contenido";
@@ -194,13 +194,13 @@
 "rewards.legacyWalletTransferSubtitle" = "Tokens existentes de transferencia saliente única";
 
 /* No comment provided by engineer. */
-"rewards.settingsFooterMessage" = "Los pagos de Brave Rewards no están disponibles temporalmente en este dispositivo. Transfiere los fondos de tu cartera existente a una cartera de escritorio para conservar tus tokens.";
+"rewards.settingsFooterMessage" = "Los pagos de Presearch Rewards no están disponibles temporalmente en este dispositivo. Transfiere los fondos de tu cartera existente a una cartera de escritorio para conservar tus tokens.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Apoya a los creadores y editores de contenido de forma automática al activar Brave Private Ads. Brave Private Ads son anuncios que respetan la privacidad y que retribuyen a los creadores de contenido.";
+"rewards.settingsToggleMessage" = "Apoya a los creadores y editores de contenido de forma automática al activar Presearch Private Ads. Presearch Private Ads son anuncios que respetan la privacidad y que retribuyen a los creadores de contenido.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "Activar Brave Rewards";
+"rewards.settingsToggleTitle" = "Activar Presearch Rewards";
 
 /* Displayed under verified publishers */
 "rewards.supportingPublisher" = "Estás ayudando a apoyar a los creadores de contenido como este.";
@@ -215,19 +215,19 @@
 "rewards.unverifiedPublisher" = "Este creador no ha realizado la verificación y no se incluirá en el apoyo para creadores.";
 
 /* A confirmation message shown to the user after completing a wallet transfer successfully */
-"rewards.walletTransferCompleteBody" = "Se ha iniciado la transferencia. El saldo de BAT, sea cual sea, puede tardar varios minutos en aparecer en tu cartera de escritorio de Brave Rewards. Consulta tu resumen de Brave Rewards en un dispositivo de escritorio para obtener todos los detalles una vez que se haya completado la transferencia.\n\nPuedes cerrar esta ventana y usar Brave con normalidad mientras se realiza la transferencia.";
+"rewards.walletTransferCompleteBody" = "Se ha iniciado la transferencia. El saldo de BAT, sea cual sea, puede tardar varios minutos en aparecer en tu cartera de escritorio de Presearch Rewards. Consulta tu resumen de Presearch Rewards en un dispositivo de escritorio para obtener todos los detalles una vez que se haya completado la transferencia.\n\nPuedes cerrar esta ventana y usar Presearch con normalidad mientras se realiza la transferencia.";
 
 /* Title shown above the confirmation message after completing a wallet transfer successfully */
 "rewards.walletTransferCompleteTitle" = "Se ha iniciado la transferencia de saldo";
 
 /* Message on the alert presented if wallet transfer fails */
-"rewards.walletTransferFailureAlertMessage" = "El servidor de Brave Rewards no ha respondido. Vuelve a intentarlo dentro de un poco.";
+"rewards.walletTransferFailureAlertMessage" = "El servidor de Presearch Rewards no ha respondido. Vuelve a intentarlo dentro de un poco.";
 
 /* Title on the alert presented if wallet transfer fails */
 "rewards.walletTransferFailureAlertTitle" = "Error de conexión";
 
 /* Describes the steps for using wallet transfer */
-"rewards.walletTransferStepsBody" = "Tu saldo de tokens de Brave Rewards puede transferirse, por única vez, a una cartera de escritorio de Brave Rewards existente.\n\n1. Abre el navegador de Brave en tu escritorio.\n2. Navega a brave://rewards.\n3. Haz clic en \"Código QR\".\n4. Escanea el código QR con tu dispositivo.";
+"rewards.walletTransferStepsBody" = "Tu saldo de tokens de Presearch Rewards puede transferirse, por única vez, a una cartera de escritorio de Presearch Rewards existente.\n\n1. Abre el navegador de Presearch en tu escritorio.\n2. Navega a Presearch://rewards.\n3. Haz clic en \"Código QR\".\n4. Escanea el código QR con tu dispositivo.";
 
 /* Title above the steps to use wallet transfer */
 "rewards.walletTransferStepsTitle" = "Escanear código de transferencia de uso único";
@@ -260,7 +260,7 @@
 "RewardsInternalsContributionAmount" = "Importe de contribución";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessorBraveTokens" = "Tokens de Brave";
+"RewardsInternalsContributionProcessorBraveTokens" = "Tokens de Presearch";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Ninguno";
@@ -470,7 +470,7 @@
 "shieldEducation.benchmarkSpecialTierTitle" = "¡Enhorabuena! Eres muy especial.";
 
 /* Subtitle for Shield Education Encrypted Connection Warning */
-"shieldEducation.encryptedConnectionWarningSubtitle" = "Siempre que sea posible, Brave te ofrecerá automáticamente una conexión segura.";
+"shieldEducation.encryptedConnectionWarningSubtitle" = "Siempre que sea posible, Presearch te ofrecerá automáticamente una conexión segura.";
 
 /* Title for Shield Education Encrypted Connection Warning */
 "shieldEducation.encryptedConnectionWarningTitle" = "Ahora, tu conexión está cifrada.";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Echa un vistazo";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Brave Shields protege tu privacidad cuando accedes a cualquier sitio de Internet.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields protege tu privacidad cuando accedes a cualquier sitio de Internet.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "Se han bloqueado +%ld rastreadores y anuncios de esta página.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shields no ha hecho más que proteger tu privacidad en Internet.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields no ha hecho más que proteger tu privacidad en Internet.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Se han bloqueado los rastreadores y anuncios de esta página.";
@@ -503,10 +503,10 @@
 "shieldEducation.videoAdBlockTitle" = "Los anuncios se bloquearán cuando veas los vídeos de este sitio web.";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "Estás utilizando este sitio web sin la protección de privacidad de Brave. ¿Acaso no funciona bien con los escudos activados?";
+"ShieldsDownDisclaimer" = "Estás utilizando este sitio web sin la protección de privacidad de Presearch. ¿Acaso no funciona bien con los escudos activados?";
 
 /* No comment provided by engineer. */
-"SiteReportedBody" = "Gracias por informar a los desarrolladores de Brave sobre el problema de este sitio. ¡Haremos todo lo posible por solucionarlo!";
+"SiteReportedBody" = "Gracias por informar a los desarrolladores de Presearch sobre el problema de este sitio. ¡Haremos todo lo posible por solucionarlo!";
 
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "Gracias";
@@ -521,7 +521,7 @@
 "sync.bookmarksImportPopupSuccessMessage" = "Marcadores importados correctamente";
 
 /* Text that informs a user about Brave Sync service deprecation. */
-"sync.syncV1DeprecationText" = "Pronto se habrá una nueva Brave Sync que alterará tu configuración. Prepárate para la actualización.";
+"sync.syncV1DeprecationText" = "Pronto se habrá una nueva Presearch Sync que alterará tu configuración. Prepárate para la actualización.";
 
 /* Bookmarks migration website page description */
 "sync.v2MigrationInterstitialPageDescription" = "Error al importar algunos de tus marcadores. Puedes volver a añadirlos manualmente.";
@@ -533,7 +533,7 @@
 "today.allSources" = "Todas las fuentes";
 
 /* The name of the feature */
-"today.braveToday" = "Brave Today";
+"today.braveToday" = "Presearch Today";
 
 /* No comment provided by engineer. */
 "today.contentAvailableButtonTitle" = "Nuevo contenido disponible";
@@ -545,7 +545,7 @@
 "today.disableAll" = "Deshabilitar todo";
 
 /* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
-"today.disabledAlertBody" = "Brave Today impedirá que se muestre contenido de %@";
+"today.disabledAlertBody" = "Presearch Today impedirá que se muestre contenido de %@";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "Deshabilitado";
@@ -566,7 +566,7 @@
 "today.enablePublisherContent" = "Habilitar el contenido de %@";
 
 /* No comment provided by engineer. */
-"today.errorGeneralBody" = "Brave Today están teniendo algunos problemas. Vuelve a intentarlo.";
+"today.errorGeneralBody" = "Presearch Today están teniendo algunos problemas. Vuelve a intentarlo.";
 
 /* No comment provided by engineer. */
 "today.errorGeneralTitle" = "Vaya…";
@@ -575,16 +575,16 @@
 "today.introCardBody" = "Tus intereses quedan registrados en el dispositivo para que tu información personal nunca salga del navegador. Disfrutarás de contenido nuevo y actualizado durante todo el día.";
 
 /* No comment provided by engineer. */
-"today.introCardTitle" = "Brave Today te muestra las tendencias del momento a través de un canal completamente privado y exclusivo para ti.";
+"today.introCardTitle" = "Presearch Today te muestra las tendencias del momento a través de un canal completamente privado y exclusivo para ti.";
 
 /* No comment provided by engineer. */
-"today.isEnabledToggleLabel" = "Mostrar Brave Today";
+"today.isEnabledToggleLabel" = "Mostrar Presearch Today";
 
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "Más información sobre tus datos";
 
 /* 'Brave Offers' is a product name */
-"today.moreBraveOffers" = "Más ofertas de Brave";
+"today.moreBraveOffers" = "Más ofertas de Presearch";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "No hay Internet";
@@ -635,7 +635,7 @@
 "vpn.buyButton" = "Comprar";
 
 /* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "Firewall + VPN de Brave";
+"vpn.buyVPNTitle" = "Firewall + VPN de Presearch";
 
 /* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxBlockAds" = "Bloquea las conexiones de red no deseadas";
@@ -734,13 +734,13 @@
 "vpn.iapDisclaimer" = "Todas las suscripciones se renuevan automáticamente, pero se pueden cancelar antes de la renovación.";
 
 /* Text explaining how the VPN works. */
-"vpn.installProfileBody" = "Este perfil permite que la VPN se conecte automáticamente y proteja el tráfico del dispositivo al mismo tiempo. La conexión VPN estará cifrada y enrutada mediante el firewall inteligente de Brave para bloquear las conexiones potencialmente peligrosas e invasivas.";
+"vpn.installProfileBody" = "Este perfil permite que la VPN se conecte automáticamente y proteja el tráfico del dispositivo al mismo tiempo. La conexión VPN estará cifrada y enrutada mediante el firewall inteligente de Presearch para bloquear las conexiones potencialmente peligrosas e invasivas.";
 
 /* Text for 'install vpn profile' button */
 "vpn.installProfileButtonText" = "Instalar perfil de VPN";
 
 /* No comment provided by engineer. */
-"vpn.installProfileTitle" = "Brave va a instalar ahora el perfil de VPN.";
+"vpn.installProfileTitle" = "Presearch va a instalar ahora el perfil de VPN.";
 
 /* Popup that shows after user installs the vpn for the first time. */
 "vpn.installSuccessPopup" = "Se ha habilitado la VPN";
@@ -821,10 +821,10 @@
 "vpn.settingsVPNExpired" = "Expirado";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "Brave continuará protegiéndote incluso en segundo plano.";
+"vpn.vpnBackgroundNotificationBody" = "Presearch continuará protegiéndote incluso en segundo plano.";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "El firewall + VPN de Brave está ACTIVADO";
+"vpn.vpnBackgroundNotificationTitle" = "El firewall + VPN de Presearch está ACTIVADO";
 
 /* Message for an alert when the VPN can't be configured. */
 "vpn.vpnConfigGenericErrorBody" = "Ha ocurrido un problema al iniciar la VPN. Vuelve a intentarlo o prueba a restablecer la configuración en la página de ajustes de la VPN.";
@@ -833,7 +833,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "Error";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "Para que el firewall + VPN de Brave funcione, es necesario que instales un perfil VPN en tu dispositivo.";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "Para que el firewall + VPN de Presearch funcione, es necesario que instales un perfil VPN en tu dispositivo.";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "Permiso denegado";
@@ -845,10 +845,10 @@
 "vpn.vpnErrorPurchaseFailedTitle" = "Error";
 
 /* Disclaimer for user purchasing the VPN plan. */
-"vpn.vpnIAPBoilerPlate" = "Las suscripciones se cobrarán a través de tu cuenta de iTunes.\n\nCuando compras una suscripción, te quedas sin las partes que no hayas utilizado durante la prueba gratuita, en caso de que hubieses tenido una.\n\nLa suscripción se renovará automáticamente a menos que la canceles, como mínimo, 24 horas antes de que finalice el periodo activo en ese momento.\n\nPuedes gestionar las suscripciones que hayas comprado en Ajustes.\n\nAl utilizar Brave, aceptas las Condiciones de uso y la Política de privacidad.";
+"vpn.vpnIAPBoilerPlate" = "Las suscripciones se cobrarán a través de tu cuenta de iTunes.\n\nCuando compras una suscripción, te quedas sin las partes que no hayas utilizado durante la prueba gratuita, en caso de que hubieses tenido una.\n\nLa suscripción se renovará automáticamente a menos que la canceles, como mínimo, 24 horas antes de que finalice el periodo activo en ese momento.\n\nPuedes gestionar las suscripciones que hayas comprado en Ajustes.\n\nAl utilizar Presearch, aceptas las Condiciones de uso y la Política de privacidad.";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "Se restablecerá la configuración del firewall + VPN de Brave y se corregirán todos los errores. El proceso puede tardar un minuto.";
+"vpn.vpnResetAlertBody" = "Se restablecerá la configuración del firewall + VPN de Presearch y se corregirán todos los errores. El proceso puede tardar un minuto.";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "Restablecer la configuración";

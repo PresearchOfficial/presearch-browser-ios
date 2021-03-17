@@ -52,11 +52,11 @@ extension UIColor {
         static let red80 = UIColor(rgb: 0x5a0002)
         static let red90 = UIColor(rgb: 0x3e0200)
 
-        static let orange50 = UIColor(rgb: 0xff9400)
-        static let orange60 = UIColor(rgb: 0xd76e00)
-        static let orange70 = UIColor(rgb: 0xa44900)
-        static let orange80 = UIColor(rgb: 0x712b00)
-        static let orange90 = UIColor(rgb: 0x3e1300)
+        static let orange50 = UIColor(rgb: 0xff94ff) //0xff9400
+        static let orange60 = UIColor(rgb: 0xd76eff) //0xd76e00
+        static let orange70 = UIColor(rgb: 0xa449ff) //0xa44900
+        static let orange80 = UIColor(rgb: 0x712bff) //0x712b00
+        static let orange90 = UIColor(rgb: 0x3e13ff) //0x3e1300
 
         static let grey10 = UIColor(rgb: 0xf9f9fa)
         static let grey10A10 = UIColor(rgba: 0xf9f9fa19)

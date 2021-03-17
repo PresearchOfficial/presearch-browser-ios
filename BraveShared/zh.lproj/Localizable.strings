@@ -1,11 +1,11 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "关于 Brave Shields";
+"AboutBraveShields" = "关于 Presearch Shields";
 
 /* The body of the screen explaining Brave Shields */
 "AboutBraveShieldsBody" = "网站通常包含试图识别您和您的设备的 cookie 和脚本。它们想弄清楚您是谁，并在网上跟踪您，即跟踪您在每个站点上所执行的操作。\n\nBrave 会屏蔽这些操作，这样您就可以随意浏览，而不会被跟踪。";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Brave Rewards";
+"BraveRewardsAdNotificationTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "公开的设置";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "如果此站点显示为已损坏，请尝试关闭 Shields。";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Brave Shields";
+"BraveShieldsStatusTitle" = "Presearch Shields";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "关闭";
@@ -38,19 +38,19 @@
 "BraveShieldsStatusValueUp" = "开启";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "轻击两次即可切换 Brave Shields";
+"BraveShieldsToggleHint" = "轻击两次即可切换 Presearch Shields";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "点按以领取免费代币。";
 
 /* The title of the notification that goes out monthly to users who can claim an ads grant */
-"MonthlyAdsClaimNotificationTitle" = "Brave Rewards 💵🎁";
+"MonthlyAdsClaimNotificationTitle" = "Presearch Rewards 💵🎁";
 
 /* No comment provided by engineer. */
 "MyFirstAdBody" = "点击此处了解更多信息。";
 
 /* No comment provided by engineer. */
-"MyFirstAdTitle" = "这是您的第一个 Brave 广告";
+"MyFirstAdTitle" = "这是您的第一个 Presearch 广告";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */
 "No" = "否";
@@ -62,10 +62,10 @@
 "OBAdsOptInMessageJapan" = "一边浏览，一边赚取积分并奖励创作者，以获得精彩内容。";
 
 /* Title when opting into brave Ads when region becomes available */
-"OBAdsOptInTitle" = "Brave Ads 来了！";
+"OBAdsOptInTitle" = "Presearch Ads 来了！";
 
 /* Title for ads onboarding screen */
-"OBAdsTitle" = "Brave 会在以下时间内显示您的第一个广告：";
+"OBAdsTitle" = "Presearch 会在以下时间内显示您的第一个广告：";
 
 /* Title for when the user completes onboarding */
 "OBCompleteTitle" = "现在您可以开始了。";
@@ -89,10 +89,10 @@
 "OBJoinButton" = "加入";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentClipboardPermission" = "允许 Brave 检查我的剪贴板中是否有匹配的推荐代码";
+"OBPrivacyConsentClipboardPermission" = "允许 Presearch 检查我的剪贴板中是否有匹配的推荐代码";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "您可能已经下载了 Brave 以支持您的推荐人。为了检测您的引荐来源，Brave 会对剪贴板进行一次一次性的检查以查找匹配的推荐代码。此检查仅限于代码，不会传输其他个人数据。如果您选择退出，推荐人将不会获得 Brave 的奖励。";
+"OBPrivacyConsentDetail" = "您可能已经下载了 Presearch 以支持您的推荐人。为了检测您的引荐来源，Presearch 会对剪贴板进行一次一次性的检查以查找匹配的推荐代码。此检查仅限于代码，不会传输其他个人数据。如果您选择退出，推荐人将不会获得 Presearch 的奖励。";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "不允许此检查";
@@ -110,7 +110,7 @@
 "OBRewardsAgreementDetailLink" = "服务条款";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "Brave Rewards 支持创建者";
+"OBRewardsAgreementTitle" = "Presearch Rewards 支持创建者";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetail" = "浏览时开始为创作者提供私人广告支持和匿名广告支持";
@@ -119,7 +119,7 @@
 "OBRewardsDetailInAdRegion" = "一边浏览，一边赚取代币并奖励创作者，以获得精彩内容。";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "Brave Rewards";
+"OBRewardsTitle" = "Presearch Rewards";
 
 /* Save button to save current selection */
 "OBSaveButton" = "保存";
@@ -128,13 +128,13 @@
 "OBSearchEngineDetail" = "选择默认搜索引擎";
 
 /* Title for search engine onboarding screen */
-"OBSearchEngineTitle" = "欢迎使用 Brave 浏览器";
+"OBSearchEngineTitle" = "欢迎使用 Presearch 浏览器";
 
 /* Detail text for shields onboarding screen */
 "OBShieldsDetail" = "拦截侵犯隐私的跟踪程序，让您能够浏览网络内容，无需担心被跟踪";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Brave 防护盾";
+"OBShieldsTitle" = "Presearch 防护盾";
 
 /* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "给我看看";
@@ -161,10 +161,10 @@
 "ReportABrokenSite" = "报告损坏的网站";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "让 Brave 的开发人员知道此网站无法与 Shields 一起正常使用：";
+"ReportBrokenSiteBody1" = "让 Presearch 的开发人员知道此网站无法与 Shields 一起正常使用：";
 
 /* No comment provided by engineer. */
-"ReportBrokenSiteBody2" = "注意：该站点地址将与您使用的 Brave 的版本号和 IP 地址（不会存储）一起被提交。";
+"ReportBrokenSiteBody2" = "注意：该站点地址将与您使用的 Presearch 的版本号和 IP 地址（不会存储）一起被提交。";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "提交";
@@ -179,7 +179,7 @@
 "rewards.disabledBody" = "开启以帮助支持内容创建者";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "在浏览时使用 Brave Rewards 功能帮助支持内容创建者。";
+"rewards.disabledStatusBody" = "在浏览时使用 Presearch Rewards 功能帮助支持内容创建者。";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "您即将帮助支持内容创建者";
@@ -194,13 +194,13 @@
 "rewards.legacyWalletTransferSubtitle" = "一次性转出现有代币";
 
 /* No comment provided by engineer. */
-"rewards.settingsFooterMessage" = "暂时无法在此设备上使用 Brave Rewards。将您钱包里现有的资金转账到台式机钱包中可保留代币。";
+"rewards.settingsFooterMessage" = "暂时无法在此设备上使用 Presearch Rewards。将您钱包里现有的资金转账到台式机钱包中可保留代币。";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "通过启用 Brave Private Ads 自动支持内容创建者和发布者。Brave Private Ads 是尊重隐私的、回馈内容创作者的广告。";
+"rewards.settingsToggleMessage" = "通过启用 Presearch Private Ads 自动支持内容创建者和发布者。Presearch Private Ads 是尊重隐私的、回馈内容创作者的广告。";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "开启 Brave Rewards";
+"rewards.settingsToggleTitle" = "开启 Presearch Rewards";
 
 /* Displayed under verified publishers */
 "rewards.supportingPublisher" = "您即将帮助支持象这一位这样的内容创建者。";
@@ -215,19 +215,19 @@
 "rewards.unverifiedPublisher" = "该创建者尚未验证，因此不会受创建者支持";
 
 /* A confirmation message shown to the user after completing a wallet transfer successfully */
-"rewards.walletTransferCompleteBody" = "您的转账程序已启动。现有，所有 BAT 余额可能都需要几分钟才能显示在您桌面的 Brave Reward 钱包中。完成转账后，请在桌面上查看您的“奖励”摘要以了解详情。\n\n您可以关闭此窗口，并在转账过程中继续使用 Brave。";
+"rewards.walletTransferCompleteBody" = "您的转账程序已启动。现有，所有 BAT 余额可能都需要几分钟才能显示在您桌面的 Presearch Reward 钱包中。完成转账后，请在桌面上查看您的“奖励”摘要以了解详情。\n\n您可以关闭此窗口，并在转账过程中继续使用 Presearch。";
 
 /* Title shown above the confirmation message after completing a wallet transfer successfully */
 "rewards.walletTransferCompleteTitle" = "余额转移已启动";
 
 /* Message on the alert presented if wallet transfer fails */
-"rewards.walletTransferFailureAlertMessage" = "Brave Rewards 服务器未响应。请稍后重试。";
+"rewards.walletTransferFailureAlertMessage" = "Presearch Rewards 服务器未响应。请稍后重试。";
 
 /* Title on the alert presented if wallet transfer fails */
 "rewards.walletTransferFailureAlertTitle" = "连接错误";
 
 /* Describes the steps for using wallet transfer */
-"rewards.walletTransferStepsBody" = "您的 Brave Rewards 代币余额可以一次转到现有的 Brave Rewards 桌面钱包中。\n\n1. 在桌面上打开 Brave 浏览器 \n2. 导航至 brave://rewards\n3. 点击“QR 码”\n4. 使用设备扫描 QR 码";
+"rewards.walletTransferStepsBody" = "您的 Presearch Rewards 代币余额可以一次转到现有的 Presearch Rewards 桌面钱包中。\n\n1. 在桌面上打开 Presearch 浏览器 \n2. 导航至 Presearch://rewards\n3. 点击“QR 码”\n4. 使用设备扫描 QR 码";
 
 /* Title above the steps to use wallet transfer */
 "rewards.walletTransferStepsTitle" = "扫描一次性转账码";
@@ -260,7 +260,7 @@
 "RewardsInternalsContributionAmount" = "捐款金额";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessorBraveTokens" = "Brave 代币";
+"RewardsInternalsContributionProcessorBraveTokens" = "Presearch 代币";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "无";
@@ -470,7 +470,7 @@
 "shieldEducation.benchmarkSpecialTierTitle" = "您很特别。恭喜您！";
 
 /* Subtitle for Shield Education Encrypted Connection Warning */
-"shieldEducation.encryptedConnectionWarningSubtitle" = "如果可用，Brave 会自动将您升级到安全连接。";
+"shieldEducation.encryptedConnectionWarningSubtitle" = "如果可用，Presearch 会自动将您升级到安全连接。";
 
 /* Title for Shield Education Encrypted Connection Warning */
 "shieldEducation.encryptedConnectionWarningTitle" = "您的连接现已加密。";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "看一看";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Brave Shields 保护您在每个站点上的在线隐私。";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields 保护您在每个站点上的在线隐私。";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "页面上屏蔽了 %ld 多个跟踪器和广告";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shields 只是保护了您的在线隐私。";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields 只是保护了您的在线隐私。";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "跟踪器和广告已在此页面上被屏蔽。";
@@ -503,10 +503,10 @@
 "shieldEducation.videoAdBlockTitle" = "在此网站上观看视频时，广告被屏蔽。";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "你正在没有 Brave 隐私保护的情况下浏览本网站。Shields 处于开启状态时无法正常工作吗？";
+"ShieldsDownDisclaimer" = "你正在没有 Presearch 隐私保护的情况下浏览本网站。Shields 处于开启状态时无法正常工作吗？";
 
 /* No comment provided by engineer. */
-"SiteReportedBody" = "感谢您让 Brave 的开发人员知道该站点出了问题。我们将尽力解决这个问题！";
+"SiteReportedBody" = "感谢您让 Presearch 的开发人员知道该站点出了问题。我们将尽力解决这个问题！";
 
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "谢谢您！";
@@ -521,7 +521,7 @@
 "sync.bookmarksImportPopupSuccessMessage" = "已成功导入书签";
 
 /* Text that informs a user about Brave Sync service deprecation. */
-"sync.syncV1DeprecationText" = "即将推出新的 Brave Sync，它将影响您的设置。赶快做好升级的准备吧。";
+"sync.syncV1DeprecationText" = "即将推出新的 Presearch Sync，它将影响您的设置。赶快做好升级的准备吧。";
 
 /* Bookmarks migration website page description */
 "sync.v2MigrationInterstitialPageDescription" = "您的某些书签无法迁移。您可以手动将其重新添加。";
@@ -533,7 +533,7 @@
 "today.allSources" = "所有来源";
 
 /* The name of the feature */
-"today.braveToday" = "今日 Brave";
+"today.braveToday" = "今日 Presearch";
 
 /* No comment provided by engineer. */
 "today.contentAvailableButtonTitle" = "新内容可供查阅";
@@ -545,7 +545,7 @@
 "today.disableAll" = "全部禁用";
 
 /* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
-"today.disabledAlertBody" = "今日 Brave 将不再显示来自 %@ 的内容";
+"today.disabledAlertBody" = "今日 Presearch 将不再显示来自 %@ 的内容";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "已阻止";
@@ -566,7 +566,7 @@
 "today.enablePublisherContent" = "允许来自 %@ 的内容";
 
 /* No comment provided by engineer. */
-"today.errorGeneralBody" = "今日 Brave 出现问题。请重试。";
+"today.errorGeneralBody" = "今日 Presearch 出现问题。请重试。";
 
 /* No comment provided by engineer. */
 "today.errorGeneralTitle" = "哎呀...";
@@ -575,16 +575,16 @@
 "today.introCardBody" = "您的兴趣在您的设备上进行匹配的，因此您的个人信息永远不会离开浏览器。全天更新新内容。";
 
 /* No comment provided by engineer. */
-"today.introCardTitle" = "Brave Today 专为您而打造，以完全私密的状态显示热门新闻。";
+"today.introCardTitle" = "Presearch Today 专为您而打造，以完全私密的状态显示热门新闻。";
 
 /* No comment provided by engineer. */
-"today.isEnabledToggleLabel" = "显示今日 Brave";
+"today.isEnabledToggleLabel" = "显示今日 Presearch";
 
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "详细了解您的数据";
 
 /* 'Brave Offers' is a product name */
-"today.moreBraveOffers" = "更多 Brave 服务";
+"today.moreBraveOffers" = "更多 Presearch 服务";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "无网络";
@@ -635,7 +635,7 @@
 "vpn.buyButton" = "购买";
 
 /* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "Brave Firewall + VPN";
+"vpn.buyVPNTitle" = "Presearch Firewall + VPN";
 
 /* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxBlockAds" = "阻止不需要的网络连接";
@@ -713,7 +713,7 @@
 "vpn.contactFormTimezone" = "iOS 时区";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "Brave Firewall + VPN 问题";
+"vpn.contactFormTitle" = "Presearch Firewall + VPN 问题";
 
 /* Button text to enable Brave VPN */
 "vpn.enableButton" = "启用";
@@ -734,13 +734,13 @@
 "vpn.iapDisclaimer" = "所有订阅都会自动续订，但也可以在续订之前取消。";
 
 /* Text explaining how the VPN works. */
-"vpn.installProfileBody" = "此配置文件让 VPN 可以始终自动连接并保护设备上的流量。此 VPN 连接会被加密，并会通过 Brave 的智能防火墙进行路由，以阻止潜在有害和侵入性的连接。";
+"vpn.installProfileBody" = "此配置文件让 VPN 可以始终自动连接并保护设备上的流量。此 VPN 连接会被加密，并会通过 Presearch 的智能防火墙进行路由，以阻止潜在有害和侵入性的连接。";
 
 /* Text for 'install vpn profile' button */
 "vpn.installProfileButtonText" = "安装 VPN 配置文件";
 
 /* No comment provided by engineer. */
-"vpn.installProfileTitle" = "Brave 现在会安装一个 VPN 配置文件。";
+"vpn.installProfileTitle" = "Presearch 现在会安装一个 VPN 配置文件。";
 
 /* Popup that shows after user installs the vpn for the first time. */
 "vpn.installSuccessPopup" = "VPN 已启用";
@@ -821,10 +821,10 @@
 "vpn.settingsVPNExpired" = "过期";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "即使在后台， Brave 也会继续保护您。";
+"vpn.vpnBackgroundNotificationBody" = "即使在后台， Presearch 也会继续保护您。";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "Brave Firewall + VPN 已启用";
+"vpn.vpnBackgroundNotificationTitle" = "Presearch Firewall + VPN 已启用";
 
 /* Message for an alert when the VPN can't be configured. */
 "vpn.vpnConfigGenericErrorBody" = "初始化 VPN 时出现问题。请重试或尝试在 VPN 设置页面中重置配置。";
@@ -833,7 +833,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "错误";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "需要在设备上安装 VPN 配置文件，Brave Firewall + VPN 才能正常工作。";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "需要在设备上安装 VPN 配置文件，Presearch Firewall + VPN 才能正常工作。";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "授权被拒";
@@ -845,10 +845,10 @@
 "vpn.vpnErrorPurchaseFailedTitle" = "错误";
 
 /* Disclaimer for user purchasing the VPN plan. */
-"vpn.vpnIAPBoilerPlate" = "我们会通过您的 iTunes 帐户收取订阅费用。\n\n购买订阅后，免费试用的任何未使用部分（如已提供）会被没收。\n\n您的订阅会自动更新，除非在当前订阅期结束前至少 24 小时以前取消该订阅。\n\n您可以在“设置”中管理您的订阅。\n\n使用 Brave，即表示您同意使用条款和隐私政策。";
+"vpn.vpnIAPBoilerPlate" = "我们会通过您的 iTunes 帐户收取订阅费用。\n\n购买订阅后，免费试用的任何未使用部分（如已提供）会被没收。\n\n您的订阅会自动更新，除非在当前订阅期结束前至少 24 小时以前取消该订阅。\n\n您可以在“设置”中管理您的订阅。\n\n使用 Presearch，即表示您同意使用条款和隐私政策。";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "这将重置您的 Brave Firewall + VPN 配置并修复所有错误。此过程可能需要一分钟。";
+"vpn.vpnResetAlertBody" = "这将重置您的 Presearch Firewall + VPN 配置并修复所有错误。此过程可能需要一分钟。";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "重置配置";

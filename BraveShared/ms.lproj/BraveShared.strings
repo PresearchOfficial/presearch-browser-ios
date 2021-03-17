@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Ini membolehkan anda menyimpan imej ke Gulungan Kamera anda.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave ingin mengakses Foto anda";
+"AccessPhotoDeniedAlertTitle" = "Presearch ingin mengakses Foto anda";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Tambah Penanda Buku";
@@ -200,25 +200,25 @@
 "BookmarkUrlPlaceholderText" = "Alamat";
 
 /* Button to show the brave panel */
-"BravePanel" = "Panel Brave";
+"BravePanel" = "Panel Presearch";
 
 /* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+"BraveRewardsTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields & Privasi";
+"BraveShieldsAndPrivacy" = "Presearch Shields & Privasi";
 
 /* Sync page title */
 "BraveSync" = "Segerak";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Untuk bermula, anda perlu memasangkan Brave pada semua peranti yang anda ingin segerakkan. Untuk menghubungkan mereka bersama-sama, mulakan rantaian penyegerakan yang anda akan gunakan untuk menghubungkan semua peranti anda dengan selamat.";
+"BraveSyncWelcome" = "Untuk bermula, anda perlu memasangkan Presearch pada semua peranti yang anda ingin segerakkan. Untuk menghubungkan mereka bersama-sama, mulakan rantaian penyegerakan yang anda akan gunakan untuk menghubungkan semua peranti anda dengan selamat.";
 
 /* Browser Lock feature callout enable action. */
 "BrowserLockCalloutEnable" = "Aktifkan";
 
 /* Browser Lock feature callout message. */
-"BrowserLockCalloutMessage" = "Dengan Kunci Penyemak Imbas, anda perlu memasukkan PIN untuk mengakses Brave.";
+"BrowserLockCalloutMessage" = "Dengan Kunci Penyemak Imbas, anda perlu memasukkan PIN untuk mengakses Presearch.";
 
 /* Browser Lock feature callout not now action. */
 "BrowserLockCalloutNotNow" = "Bukan Sekarang";
@@ -329,7 +329,7 @@
 "DDGCalloutEnable" = "Ya";
 
 /* DuckDuckGo message. */
-"DDGCalloutMessage" = "Dengan carian peribadi, Brave akan menggunakan DuckDuckGo untuk menjawab carian anda semasa anda berada di Tab Peribadi ini. DuckDuckGo ialah enjin carian yang tidak menjejaki sejarah carian anda. Ia membolehkan anda mencari secara peribadi.";
+"DDGCalloutMessage" = "Dengan carian peribadi, Presearch akan menggunakan DuckDuckGo untuk menjawab carian anda semasa anda berada di Tab Peribadi ini. DuckDuckGo ialah enjin carian yang tidak menjejaki sejarah carian anda. Ia membolehkan anda mencari secara peribadi.";
 
 /* DuckDuckGo callout no action. */
 "DDGCalloutNo" = "Tidak";
@@ -344,25 +344,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Buka Tetapan";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan Brave untuk melindungi privasi anda  ";
+"defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan Presearch untuk melindungi privasi anda  ";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih Brave.  ";
+"defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih Presearch.  ";
 
 /* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Dioptimumkan untuk iOS 14. Jadikan Brave sebagai penyemak imbas lalai anda hari ini.  ";
+"defaultBrowserCallout.notificationBody" = "Dioptimumkan untuk iOS 14. Jadikan Presearch sebagai penyemak imbas lalai anda hari ini.  ";
 
 /* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Penyemk Imbas Web Brave";
+"defaultBrowserCallout.notificationTitle" = "Penyemk Imbas Web Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Tutup timbul penyemak imbas lalai";
 
 /* Name for default Brave theme. */
-"defaultThemeName" = "Brave gagal";
+"defaultThemeName" = "Presearch gagal";
 
 /* No comment provided by engineer. */
 "Delete" = "Padam";
@@ -461,7 +461,7 @@
 "ErrorPagesAdvancedWarning2" = "Ia mungkin salah konfigurasi atau usikan oleh penyerang. Teruskan jika anda menerima potensi risiko.";
 
 /* Warning text on the certificate error page */
-"ErrorPagesCertWarningDescription" = "Pemilik %@ telah mengkonfigurasi laman web mereka secara tidak betul. Untuk melindungi maklumat anda daripada dicuri, Brave tidak menyambung ke laman web ini.";
+"ErrorPagesCertWarningDescription" = "Pemilik %@ telah mengkonfigurasi laman web mereka secara tidak betul. Untuk melindungi maklumat anda daripada dicuri, Presearch tidak menyambung ke laman web ini.";
 
 /* Title on the certificate error page */
 "ErrorPagesCertWarningTitle" = "Sambungan anda tidak peribadi";
@@ -542,10 +542,10 @@
 "HideLinkPreviewsActionTitle" = "Sembunyikan Pratonton Pautan";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Sembunyikan Ikon Brave Rewards";
+"HideRewardsIcon" = "Sembunyikan Ikon Presearch Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Sembunyikan ikon Brave Rewards apabila Brave Rewards tidak didayakan";
+"HideRewardsIconSubtitle" = "Sembunyikan ikon Presearch Rewards apabila Presearch Rewards tidak didayakan";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Sejarah";
@@ -665,7 +665,7 @@
 "ntp.claimRewards" = "Tuntut Token";
 
 /* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Anda mendapat %@ dengan menyemak lalu dengan Brave.";
+"ntp.earningsReport" = "Anda mendapat %@ dengan menyemak lalu dengan Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Begitu caranya!";
@@ -674,7 +674,7 @@
 "ntp.hideSponsoredImages" = "Sembunyikan imej tajaan";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Ketahui lebih lanjut tentang Brave Rewards";
+"ntp.learnMoreAboutRewards" = "Ketahui lebih lanjut tentang Presearch Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Ketahui lebih lanjut tentang imej tajaan";
@@ -710,7 +710,7 @@
 "OpenAllBookmarks" = "Buka Semua (%i)";
 
 /* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Buka Tetapan Brave Rewards";
+"OpenBraveRewardsSettings" = "Buka Tetapan Presearch Rewards";
 
 /* Context menu for opening image in new tab */
 "OpenImageInNewTab" = "Buka Imej Dalam Tab Baru";
@@ -776,10 +776,10 @@
 "PrivateBrowsingOnlyWarning" = "Mod Penyemakan Imbas Peribadi Sahaja akan menutup semua tab semasa anda dan mengelog anda keluar daripada semua tapak.";
 
 /* Private tab details */
-"PrivateTabBody" = "Tab Peribadi tidak disimpan dalam Brave, namun ia tidak merahsiakan kehadiran anda dalam talian. Laman yang anda lawati dalam tab peribadi tidak akan ditunjukkan dalam sejarah anda dan kuki laman tersebut sentiasa hilang apabila anda menutupnya — tidak akan ada apa-apa jejak kuki tersebut dalam Brave. Namun begitu, muat turun akan disimpan. \nPembawa mudah alih anda (atau pemilik sambungan VPN atau rangkaian Wi-Fi anda) boleh melihat laman yang anda lawati dan laman tersebut akan mengetahui alamat IP awam anda, walaupun dalam Tab Peribadi.";
+"PrivateTabBody" = "Tab Peribadi tidak disimpan dalam Presearch, namun ia tidak merahsiakan kehadiran anda dalam talian. Laman yang anda lawati dalam tab peribadi tidak akan ditunjukkan dalam sejarah anda dan kuki laman tersebut sentiasa hilang apabila anda menutupnya — tidak akan ada apa-apa jejak kuki tersebut dalam Presearch. Namun begitu, muat turun akan disimpan. \nPembawa mudah alih anda (atau pemilik sambungan VPN atau rangkaian Wi-Fi anda) boleh melihat laman yang anda lawati dan laman tersebut akan mengetahui alamat IP awam anda, walaupun dalam Tab Peribadi.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Penggunaan Tab Peribadi hanya dapat mengubah apa yang dibuat dengan Brave pada peranti anda, ia tidak mengubah tingkah laku orang lain.\n\nLaman sentiasa belajar alamat IP anda apabila anda melawat laman tersebut. Dengan ini, laman sering boleh meneka lokasi kasar anda - biasanya bandar anda. Kadang-kadang tekaan lokasi boleh menjadi lebih spesifik. Laman juga tahu semua perkara yang anda katakan kepada mereka secara khusus, seperti istilah carian. Jika anda log masuk ke laman, mereka akan mengetahui bahawa anda pemilik akaun itu. Anda masih akan dilog keluar apabila anda menutup Tab Peribadi kerana Brave akan membuang kuki yang mengekalkan log masuk anda.\n\nSesiapa pun yang menghubungkan anda kepada Internet (ISP anda) dapat melihat semua aktiviti rangkaian anda. Biasanya, ini merupakan pembawa mudah alih anda. Jika anda disambungkan ke rangkaian WiFi, ini merupakan pemilik rangkaian itu, dan jika anda menggunakan VPN, maka sesiapa pun yang menguruskan VPN itu. ISP anda boleh melihat laman web yang anda kunjungi semasa anda melawatnya. Sekiranya laman web tersebut menggunakan HTTPS, mereka hanya dapat meneka apa yang anda lakukan di laman web tersebut. Sekiranya laman hanya menggunakan HTTP maka ISP anda dapat melihat segala-galanya: istilah carian anda, laman yang anda baca, dan pautan yang anda ikuti.\n\nSekiranya majikan menguruskan peranti anda, mereka mungkin juga menjejaki apa yang anda lakukan dengannya. Penggunaan Tab Peribadi mungkin tidak dapat menghalang mereka daripada mengetahui laman yang telah anda lawati. Seseorang yang mempunyai akses ke peranti anda juga boleh memasangkan perisian yang memantau aktiviti anda, dan Tab Pribadi tidak akan melindungi anda daripada perbuatan tersebut.";
+"PrivateTabDetails" = "Penggunaan Tab Peribadi hanya dapat mengubah apa yang dibuat dengan Presearch pada peranti anda, ia tidak mengubah tingkah laku orang lain.\n\nLaman sentiasa belajar alamat IP anda apabila anda melawat laman tersebut. Dengan ini, laman sering boleh meneka lokasi kasar anda - biasanya bandar anda. Kadang-kadang tekaan lokasi boleh menjadi lebih spesifik. Laman juga tahu semua perkara yang anda katakan kepada mereka secara khusus, seperti istilah carian. Jika anda log masuk ke laman, mereka akan mengetahui bahawa anda pemilik akaun itu. Anda masih akan dilog keluar apabila anda menutup Tab Peribadi kerana Presearch akan membuang kuki yang mengekalkan log masuk anda.\n\nSesiapa pun yang menghubungkan anda kepada Internet (ISP anda) dapat melihat semua aktiviti rangkaian anda. Biasanya, ini merupakan pembawa mudah alih anda. Jika anda disambungkan ke rangkaian WiFi, ini merupakan pemilik rangkaian itu, dan jika anda menggunakan VPN, maka sesiapa pun yang menguruskan VPN itu. ISP anda boleh melihat laman web yang anda kunjungi semasa anda melawatnya. Sekiranya laman web tersebut menggunakan HTTPS, mereka hanya dapat meneka apa yang anda lakukan di laman web tersebut. Sekiranya laman hanya menggunakan HTTP maka ISP anda dapat melihat segala-galanya: istilah carian anda, laman yang anda baca, dan pautan yang anda ikuti.\n\nSekiranya majikan menguruskan peranti anda, mereka mungkin juga menjejaki apa yang anda lakukan dengannya. Penggunaan Tab Peribadi mungkin tidak dapat menghalang mereka daripada mengetahui laman yang telah anda lawati. Seseorang yang mempunyai akses ke peranti anda juga boleh memasangkan perisian yang memantau aktiviti anda, dan Tab Pribadi tidak akan melindungi anda daripada perbuatan tersebut.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Ketahui tentang Tab Peribadi.";
@@ -794,7 +794,7 @@
 "QuickSearchEngines" = "Enjin Carian Pantas";
 
 /* Open the App Store to rate Brave. */
-"RateBrave" = "Berikan penarafan kepada Brave";
+"RateBrave" = "Berikan penarafan kepada Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Tingkatkan saiz teks";
@@ -866,7 +866,7 @@
 "RestoreTabNegativeButtonTitle" = "Tidak";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "Nampaknya Brave telah rosak sebelumnya. Adakah anda ingin memulihkan tab anda?";
+"RestoreTabOnCrashAlertMessage" = "Nampaknya Presearch telah rosak sebelumnya. Adakah anda ingin memulihkan tab anda?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Aduh, ini memalukan.";
@@ -938,16 +938,16 @@
 "Security" = "Sekuriti";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Hantar laporan rosak supaya Brave boleh menyelesaikan masalah?";
+"SendCrashReportAlertMessage" = "Hantar laporan rosak supaya Presearch boleh menyelesaikan masalah?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "Aduh! Brave rosak";
+"SendCrashReportAlertTitle" = "Aduh! Presearch rosak";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Hantar Laporan";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Brave kini boleh ditetapkan sebagai penyemak imbas lalai anda di iOS. Ketik di sini untuk membuka tetapan.";
+"setDefaultBrowserCalloutTitle" = "Presearch kini boleh ditetapkan sebagai penyemak imbas lalai anda di iOS. Ketik di sini untuk membuka tetapan.";
 
 /* Settings item to set the Brave as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Tetapkan sebagai Penyemak Imbas Lalai";
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "Kongsi dengan...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Lalai Global Brave Shields";
+"ShieldsDefaults" = "Lalai Global Presearch Shields";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Ini adalah tetapan Shields lalai untuk tapak baharu. Mengubah ini tidak akan menjejaskan tetapan setiap tapak sedia ada anda.";
@@ -1052,7 +1052,7 @@
 "sync.v2MigrationErrorTitle" = "Ralat";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "Untuk menggunakan Brave Sync, penanda buku yang ada mesti dipindahkan untuk menggunakan sistem baharu. Operasi ini tidak akan memadam penanda buku anda.";
+"sync.v2MigrationMessage" = "Untuk menggunakan Presearch Sync, penanda buku yang ada mesti dipindahkan untuk menggunakan sistem baharu. Operasi ini tidak akan memadam penanda buku anda.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Pindah";
@@ -1124,7 +1124,7 @@
 "SyncRemoveDeviceDefaultName" = "Peranti";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Data yang kini disegerakkan akan disimpan, namun semua data dalam cache Segerak Brave akan dipadamkan. Anda perlu memulakan rantaian penyegerakan baru untuk menyegerakkan semula data peranti.";
+"SyncRemoveLastDeviceMessage" = "Data yang kini disegerakkan akan disimpan, namun semua data dalam cache Segerak Presearch akan dipadamkan. Anda perlu memulakan rantaian penyegerakan baru untuk menyegerakkan semula data peranti.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Padamkan Rantaian Penyegerakan";
@@ -1163,7 +1163,7 @@
 "SyncToDevice" = "Segerakkan kepada peranti";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "Dengan menggunakan peranti disegerakkan yang sedia ada, buka Tetapan Brave dan navigasi kepada Tetapan -> Penyegerakan. Pilih \"Tambah Peranti\" dan imbas kod yang dipaparkan pada skrin.";
+"SyncToDeviceDescription" = "Dengan menggunakan peranti disegerakkan yang sedia ada, buka Tetapan Presearch dan navigasi kepada Tetapan -> Penyegerakan. Pilih \"Tambah Peranti\" dan imbas kod yang dipaparkan pada skrin.";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "Tidak dapat mencipta kumpulan segerak baru.";
@@ -1256,7 +1256,7 @@
 "themeQRCodeShareButton" = "Kongsi...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Kongsi Brave dengan rakan anda!";
+"themeQRCodeShareTitle" = "Kongsi Presearch dengan rakan anda!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automatik";

@@ -140,7 +140,7 @@
 "ScanQRCodeInvalidDataErrorMessage" = "Les données ne sont pas valides.";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCodePermissionErrorMessage" = "Autorisez Brave à accéder à l'appareil photo de votre appareil dans Réglages -> Confidentialité -> Appareil photo.";
+"ScanQRCodePermissionErrorMessage" = "Autorisez Presearch à accéder à l'appareil photo de votre appareil dans Réglages -> Confidentialité -> Appareil photo.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCodeViewTitle" = "Analyser le code QR";
@@ -230,7 +230,7 @@
 "UnableToAddPassErrorTitle" = "Échec lors de l'ajout du passe";
 
 /* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
-"UnableToOpenURLError" = "Brave ne peut pas ouvrir la page, car l'adresse n'est pas valide.";
+"UnableToOpenURLError" = "Presearch ne peut pas ouvrir la page, car l'adresse n'est pas valide.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "UnableToOpenURLErrorTitle" = "Impossible d'ouvrir la page";

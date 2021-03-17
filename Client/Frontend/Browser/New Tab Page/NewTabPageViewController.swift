@@ -116,18 +116,20 @@ class NewTabPageViewController: UIViewController, Themeable {
         super.init(nibName: nil, bundle: nil)
         
         sections = [
-            StatsSectionProvider(),
-            FavoritesSectionProvider(action: { [weak self] bookmark, action in
-                self?.handleFavoriteAction(favorite: bookmark, action: action)
-            }, legacyLongPressAction: { [weak self] alertController in
-                self?.present(alertController, animated: true)
-            }),
-            FavoritesOverflowSectionProvider(action: { [weak self] in
-                self?.delegate?.focusURLBar()
-            }),
-            DuckDuckGoCalloutSectionProvider(profile: profile, action: { [weak self] in
-                self?.delegate?.tappedDuckDuckGoCallout()
-            })
+            StatsSectionProvider()
+            // Vsn - 17/03/2021
+//            FavoritesSectionProvider(action: { [weak self] bookmark, action in
+//                self?.handleFavoriteAction(favorite: bookmark, action: action)
+//            }, legacyLongPressAction: { [weak self] alertController in
+//                self?.present(alertController, animated: true)
+//            }),
+//            FavoritesOverflowSectionProvider(action: { [weak self] in
+//                self?.delegate?.focusURLBar()
+//            }),
+//            DuckDuckGoCalloutSectionProvider(profile: profile, action: { [weak self] in
+//                self?.delegate?.tappedDuckDuckGoCallout()
+//            })
+            // End
         ]
       
         // This is a one-off view, adding it to the NTP only if necessary.

@@ -19,7 +19,9 @@ public struct BraveUX {
     
     public static let readerModeBarHeight = 28
     
-    public static let braveOrange = UIColor(rgb: 0xfb542b)
+    // Vsn - 17/03/2021
+    public static let braveOrange = UIColor(rgb: 0x147cfc) //0xfb542b
+    // End
     
     public static let blue = UIColor(rgb: 0x424acb)
     public static let lightBlue = UIColor(rgb: 0x4A90E2)

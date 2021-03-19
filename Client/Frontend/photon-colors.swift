@@ -14,11 +14,11 @@ extension UIColor {
         static let magenta80 = UIColor(rgb: 0x7d004f)
         static let magenta90 = UIColor(rgb: 0x440027)
 
-        static let purple50 = UIColor(rgb: 0x9400ff)
-        static let purple60 = UIColor(rgb: 0x8236B9)
-        static let purple70 = UIColor(rgb: 0x6200a4)
-        static let purple80 = UIColor(rgb: 0x440071)
-        static let purple90 = UIColor(rgb: 0x25003e)
+        static let purple50 = UIColor(rgb: 0x000dff) //0x9400ff
+        static let purple60 = UIColor(rgb: 0x363db9) //0x8236B9
+        static let purple70 = UIColor(rgb: 0x0006a4) //0x6200a4
+        static let purple80 = UIColor(rgb: 0x000471) //0x440071
+        static let purple90 = UIColor(rgb: 0x00023e) //0x25003e
 
         static let blue40 = UIColor(rgb: 0x45a1ff)
         static let blue50 = UIColor(rgb: 0x0a84ff)
@@ -52,11 +52,11 @@ extension UIColor {
         static let red80 = UIColor(rgb: 0x5a0002)
         static let red90 = UIColor(rgb: 0x3e0200)
 
-        static let orange50 = UIColor(rgb: 0xff94ff) //0xff9400
-        static let orange60 = UIColor(rgb: 0xd76eff) //0xd76e00
-        static let orange70 = UIColor(rgb: 0xa449ff) //0xa44900
-        static let orange80 = UIColor(rgb: 0x712bff) //0x712b00
-        static let orange90 = UIColor(rgb: 0x3e13ff) //0x3e1300
+        static let orange50 = UIColor(rgb: 0x0038ff) //0xff9400
+        static let orange60 = UIColor(rgb: 0x003ed7) //0xd76e00
+        static let orange70 = UIColor(rgb: 0x003aa4) //0xa44900
+        static let orange80 = UIColor(rgb: 0x002f71) //0x712b00
+        static let orange90 = UIColor(rgb: 0x001f3e) //0x3e1300
 
         static let grey10 = UIColor(rgb: 0xf9f9fa)
         static let grey10A10 = UIColor(rgba: 0xf9f9fa19)

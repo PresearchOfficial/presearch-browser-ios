@@ -30,8 +30,8 @@ final public class Colors {
   // MARK: - Magenta
   public static let magenta600 = UIColor(hex: 0xA3278F)
   // MARK: - Purple
-  public static let purple500 = UIColor(hex: 0x845EF7)
-  public static let purple600 = UIColor(hex: 0x6845D1)
+  public static let purple500 = UIColor(hex: 0x5e68f7) //0x845EF7
+  public static let purple600 = UIColor(hex: 0x4c45d1) //0x6845D1
   // MARK: - Blurple
   public static let blurple100 = UIColor(hex: 0xF0F1FF)
   public static let blurple200 = UIColor(hex: 0xD0D2F7)

@@ -3,13 +3,13 @@
 public struct BraveUX {    
     public static let braveCommunityURL = URL(string: "https://community.brave.com/")!
     public static let braveVPNFaqURL = URL(string: "https://support.brave.com/hc/en-us/articles/360045045952")!
-    public static let bravePrivacyURL = URL(string: "https://brave.com/privacy/")!
-    public static let braveTodayPrivacyURL = URL(string: "https://brave.com/privacy/#brave-today")!
+    public static let bravePrivacyURL = URL(string: "https://www.presearch.nl/en/about-us/privacy-policy/")! //"https://brave.com/privacy/"
+    public static let braveTodayPrivacyURL = URL(string: "https://www.presearch.nl/en/about-us/privacy-policy/")! //"https://brave.com/privacy/#brave-today"
     public static let braveOffersURL = URL(string: "https://offers.brave.com/")!
     public static let braveRewardsLearnMoreURL = URL(string: "https://brave.com/rewards-ios/")!
     public static let braveRewardsUnverifiedPublisherLearnMoreURL = URL(string: "https://brave.com/faq-rewards/#unclaimed-funds")!
     public static let braveTodayPartnersURL = URL(string: "https://brave.com/brave-today/")!
-    public static let braveTermsOfUseURL = URL(string: "https://www.brave.com/terms_of_use")!
+    public static let braveTermsOfUseURL = URL(string: "https://www.presearch.org/terms")! //"https://www.brave.com/terms_of_use"
     public static let prefKeyOptInDialogWasSeen = "OptInDialogWasSeen"
     public static let prefKeyUserAllowsTelemetry = "userallowstelemetry"
     
@@ -25,7 +25,7 @@ public struct BraveUX {
     
     public static let blue = UIColor(rgb: 0x424acb)
     public static let lightBlue = UIColor(rgb: 0x4A90E2)
-    public static let purple = UIColor(rgb: 0x8236b9)
+    public static let purple = UIColor(rgb: 0x3638b9) //0x8236b9
     public static let green = UIColor(rgb: 0x1bc760)
     public static let red = UIColor(rgb: 0xE2052A)
     

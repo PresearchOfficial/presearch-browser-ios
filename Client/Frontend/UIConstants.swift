@@ -11,8 +11,8 @@ extension UIColor {
     struct Defaults {
         static let mobileGreyF = UIColor(rgb: 0x636369)
         static let iOSHighlightBlue = UIColor(rgb: 0xccdded) // This color should exactly match the ios text highlight
-        static let purple60A30 = UIColor(rgba: 0x8000d74c)
-        static let mobilePrivatePurple = UIColor(rgb: 0xcf68ff)
+        static let purple60A30 = UIColor(rgba: 0x0400d74c) //0x8000d74c
+        static let mobilePrivatePurple = UIColor(rgb: 0x6868ff) //0xcf68ff
         static let paleBlue = UIColor(rgb: 0xB0D5FB)
         static let lightBeige = UIColor(rgb: 0xf0e6dc)
     }

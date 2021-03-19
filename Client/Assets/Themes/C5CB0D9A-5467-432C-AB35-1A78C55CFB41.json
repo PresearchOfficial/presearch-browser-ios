@@ -8,17 +8,17 @@
     "enabled": true,
     
     "colors": {
-        "header": "0x1B0C32",
-        "footer": "0x1B0C32",
-        "home": "0x301B5A",
-        "addressBar": "0x3D2742",
+        "header": "0x0C1832",
+        "footer": "0x0C1832",
+        "home": "0x1B375A",
+        "addressBar": "0x1B2A35",
         "border": "0xffffff",
-        "accent": "0x5cacfc",
+        "accent": "0xA0A5EB",
         "tints": {
-            "home": "0xE7E6E9",
-            "header": "0xE7E6E9",
-            "footer": "0xE7E6E9",
-            "addressBar": "0xE7E6E9"
+            "home": "0xE6E6E9",
+            "header": "0xE6E6E9",
+            "footer": "0xE6E6E9",
+            "addressBar": "0xE6E6E9"
         },
         "transparencies": {
             "addressBarAlpha": 1.0,
@@ -27,7 +27,7 @@
         "stats": {
             "ads": "0xFB542B",
             "trackers": "0x1bc760",
-            "dataSaved": "0xA0A5EB",
+            "dataSaved": "0x9AD1FF",
             "timeSaved": "0xffffff"
         }
     },

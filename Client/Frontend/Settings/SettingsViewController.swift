@@ -127,26 +127,28 @@ class SettingsViewController: TableViewController {
             aboutSection
         ]
         
-        let shouldShowVPNSection = { () -> Bool in
-            if !VPNProductInfo.isComplete || Preferences.VPN.vpnSettingHeaderWasDismissed.value {
-                return false
-            }
-            
-            switch BraveVPN.vpnState {
-            case .notPurchased, .expired, .purchased:
-                return true
-            case .installed:
-                return false
-            }
-        }()
-        
-//        if shouldShowVPNSection {
-//            list.insert(enableBraveVPNSection, at: 0)
+        // Vsn - 18/03/2021
+//        let shouldShowVPNSection = { () -> Bool in
+//            if !VPNProductInfo.isComplete || Preferences.VPN.vpnSettingHeaderWasDismissed.value {
+//                return false
+//            }
+//
+//            switch BraveVPN.vpnState {
+//            case .notPurchased, .expired, .purchased:
+//                return true
+//            case .installed:
+//                return false
+//            }
+//        }()
+//
+////        if shouldShowVPNSection {
+////            list.insert(enableBraveVPNSection, at: 0)
+////        }
+//
+//        if let debugSection = debugSection {
+//            list.append(debugSection)
 //        }
-        
-        if let debugSection = debugSection {
-            list.append(debugSection)
-        }
+        // End
 
         return list
     }
@@ -328,10 +330,12 @@ class SettingsViewController: TableViewController {
         display.rows.append(contentsOf: [
             .boolRow(title: Strings.showBookmarkButtonInTopToolbar,
                      option: Preferences.General.showBookmarkToolbarShortcut,
-                     image: #imageLiteral(resourceName: "settings-bookmarks-shortcut").template),
-            .boolRow(title: Strings.hideRewardsIcon,
-                     option: Preferences.Rewards.hideRewardsIcon,
-                     image: #imageLiteral(resourceName: "settings-rewards-icon").template)
+                     image: #imageLiteral(resourceName: "settings-bookmarks-shortcut").template)
+            // Vsn - 19/03/2021
+//            .boolRow(title: Strings.hideRewardsIcon,
+//                     option: Preferences.Rewards.hideRewardsIcon,
+//                     image: #imageLiteral(resourceName: "settings-rewards-icon").template)
+            // End
         ])
         
         return display
@@ -421,7 +425,7 @@ class SettingsViewController: TableViewController {
                 Row(text: Strings.rateBrave,
                     selection: { [unowned self] in
                         // Rate Brave
-                        guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id1052879175?action=write-review")
+                        guard let writeReviewURL = URL(string: "https://itunes.apple.com/") //app/id1052879175?action=write-review
                             else { return }
                         UIApplication.shared.open(writeReviewURL)
                         self.dismiss(animated: true)
@@ -468,15 +472,17 @@ class SettingsViewController: TableViewController {
                         let toc = SettingsContentViewController().then { $0.url = BraveUX.braveTermsOfUseURL }
                         self.navigationController?.pushViewController(toc, animated: true)
                     },
-                    accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
-                Row(text: Strings.settingsLicenses, selection: { [unowned self] in
-                    guard let url = URL(string: WebServer.sharedInstance.base) else { return }
-                    
-                    let licenses = SettingsContentViewController().then {
-                        $0.url = url.appendingPathComponent("about").appendingPathComponent("license")
-                    }
-                    self.navigationController?.pushViewController(licenses, animated: true)
-                    }, accessory: .disclosureIndicator)
+                    accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self)
+                // Vsn - 18/03/2021
+//                Row(text: Strings.settingsLicenses, selection: { [unowned self] in
+//                    guard let url = URL(string: WebServer.sharedInstance.base) else { return }
+//
+//                    let licenses = SettingsContentViewController().then {
+//                        $0.url = url.appendingPathComponent("about").appendingPathComponent("license")
+//                    }
+//                    self.navigationController?.pushViewController(licenses, animated: true)
+//                    }, accessory: .disclosureIndicator)
+                // End
             ]
         )
     }()

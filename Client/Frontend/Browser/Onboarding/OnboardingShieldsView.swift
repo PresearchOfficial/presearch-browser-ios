@@ -31,12 +31,18 @@ extension OnboardingShieldsViewController {
             $0.spacing = UX.negativeSpacing
         }
         
-        let imageView = AnimationView(name: "onboarding-shields").then {
+        // Vsn - 22/03/2021
+//        let imageView = AnimationView(name: "onboarding-shields").then {
+//            $0.contentMode = .scaleAspectFit
+//            $0.setContentCompressionResistancePriority(.defaultLow, for: .vertical)
+//            $0.play()
+//            $0.loopMode = .loop
+//        }
+        let imageView = UIImageView().then {
+            $0.image = UIImage(named: "onboarding-shields")
             $0.contentMode = .scaleAspectFit
-            $0.setContentCompressionResistancePriority(.defaultLow, for: .vertical)
-            $0.play()
-            $0.loopMode = .loop
         }
+        // End
         
         private let descriptionView = UIView().then {
             $0.layer.cornerRadius = 12
@@ -133,6 +139,12 @@ extension OnboardingShieldsViewController {
             // Design wants LESS offset on iPhone 8 than on iPhone X
             let offset = self.safeAreaInsets.top > 30 ? 0 : -UX.animationContentInset
             imageView.frame = CGRect(x: 0.0, y: UX.animationContentInset + offset, width: newSize.width, height: newSize.height)
+            
+            // Vsn - 22/03/2021
+            imageView.frame.origin.x += 30
+            imageView.frame.size.width -= 60
+            imageView.frame.size.height -= 60
+            // End
         }
         
         @available(*, unavailable)

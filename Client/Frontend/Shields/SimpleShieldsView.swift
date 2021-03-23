@@ -134,7 +134,7 @@ class SimpleShieldsView: UIView, Themeable {
             )
 
             infoStackView.addArrangedSubview(infoButton)
-            shareStackView.addArrangedSubview(shareButton)
+//            shareStackView.addArrangedSubview(shareButton)
 
             contentStackView.snp.makeConstraints {
                 $0.edges.equalToSuperview()

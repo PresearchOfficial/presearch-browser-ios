@@ -620,6 +620,14 @@ extension Strings {
     public static let alwaysShow = NSLocalizedString("AlwaysShow", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Always Show", comment: "Setting preference to always show the browser tabs bar.")
     public static let showInLandscapeOnly = NSLocalizedString("ShowInLandscapeOnly", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Show in Landscape Only", comment: "Setting preference to only show the browser tabs bar when the device is in the landscape orientation.")
     public static let rateBrave = NSLocalizedString("RateBrave", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Rate Presearch", comment: "Open the App Store to rate Presearch.")
+    
+    // Vsn - 22/03/2021
+    public static let twitterPresearch = NSLocalizedString("TwitterPresearch", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Twitter", comment: "Open page on twitter to give comment Presearch.")
+    public static let telegramPresearch = NSLocalizedString("TelegramBrave", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Telegram", comment: "Open page on telegram to give comment Presearch.")
+    public static let nodesPresearch = NSLocalizedString("NodesBrave", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Nodes", comment: "Open page on nodes to give comment Presearch.")
+    public static let keywordAdPresearch = NSLocalizedString("KeywordAdBrave", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Keyword Advertising", comment: "Open page on keyword Advertising to give comment Presearch.")
+    // End
+    
     public static let reportABug = NSLocalizedString("ReportABug", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Report a Bug", comment: "Providers the user an email page where they can submit a but report.")
     public static let privacyPolicy = NSLocalizedString("PrivacyPolicy", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Privacy Policy", comment: "Show Presearch Browser Privacy Policy page from the Privacy section in the settings.")
     public static let termsOfUse = NSLocalizedString("TermsOfUse", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Terms of Use", comment: "Show Presearch Browser TOS page from the Privacy section in the settings.")

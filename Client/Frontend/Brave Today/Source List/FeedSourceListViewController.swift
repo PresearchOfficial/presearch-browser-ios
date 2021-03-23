@@ -23,6 +23,7 @@ class FeedSourceListViewController: UITableViewController {
     init(dataSource: FeedDataSource, category: String?) {
         self.dataSource = dataSource
         self.category = category
+        
         super.init(style: .plain)
         reloadSections()
         if dataSource.sources.count > 1 {

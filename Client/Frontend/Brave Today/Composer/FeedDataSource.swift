@@ -272,6 +272,11 @@ class FeedDataSource {
                 let decodedResource = try self.decoder.decode([FailableDecodable<FeedItem.Source>].self, from: data)
                 DispatchQueue.main.async {
                     self.sources = decodedResource.compactMap(\.wrappedValue)
+                    // Vsn - 23/03/2021
+                    self.sources = self.sources.filter({ (source) -> Bool in
+                        !source.name.lowercased().contains("brave")
+                    })
+                    // End
                 }
             } catch {
                 // Could be a source type change, so may not be a big issue. If the user goes to download
@@ -409,7 +414,11 @@ class FeedDataSource {
                 self.state = .failure(error)
                 completion?()
             case (.success(let sources), .success(let items)):
-                self.sources = sources
+                // Vsn - 23/03/2021
+                self.sources = sources.filter({ (source) -> Bool in
+                    !source.name.lowercased().contains("brave")
+                })
+                // End
                 self.items = items
                 self.loadRSSFeeds().uponQueue(.main) { [weak self] results in
                     guard let self = self else { return }
@@ -601,9 +610,11 @@ class FeedDataSource {
             .fillUsing(FilteredFillStrategy(isIncluded: { $0.source.category == Self.topNewsCategory }), [
                 .headline(paired: false)
             ]),
-            .fillUsing(dealsCategoryFillStrategy, [
-                .deals
-            ]),
+            // Vsn - 23/03/2021
+//            .fillUsing(dealsCategoryFillStrategy, [
+//                .deals
+//            ]),
+            // End
             .repeating([
                 .repeating([.headline(paired: false)], times: 2),
                 .repeating([.headline(paired: true)], times: 2),
@@ -618,9 +629,11 @@ class FeedDataSource {
                     ]
                 ),
                 .headline(paired: false),
-                .fillUsing(dealsCategoryFillStrategy, [
-                    .deals
-                ]),
+                // Vsn - 23/03/2021
+//                .fillUsing(dealsCategoryFillStrategy, [
+//                    .deals
+//                ]),
+                // End
                 .headline(paired: false),
                 .headline(paired: true),
                 .brandedGroup(numbered: true),

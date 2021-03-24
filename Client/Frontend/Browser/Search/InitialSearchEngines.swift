@@ -98,7 +98,13 @@ class InitialSearchEngines {
 //                   .init(id: .startpage)]
 //        defaultSearchEngine = .google
         // End
-        engines = [.init(id: .presearch)]
+        // Vsn - 24/03/2021
+        engines = [.init(id: .presearch),
+                   .init(id: .google),
+                   .init(id: .bing),
+                   .init(id: .duckduckgo),
+                   .init(id: .qwant),
+                   .init(id: .startpage)]
         defaultSearchEngine = .presearch
         
         // Locale and region specific overrides can be modified here.

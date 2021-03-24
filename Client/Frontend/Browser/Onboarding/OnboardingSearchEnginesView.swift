@@ -92,12 +92,15 @@ extension OnboardingSearchEnginesViewController {
             containerView.addSubview(braveLogo)
             [titlePrimary, titleSecondary].forEach(titleStackView.addArrangedSubview(_:))
             
+            // Vsn - 24/03/2021
             [skipButton, continueButton]
                 .forEach(buttonsStackView.addArrangedSubview(_:))
+            skipButton.isHidden = true
             
-            [titleStackView, searchEnginesTable, buttonsStackView]
+            [titleStackView, UIView(), buttonsStackView] //searchEnginesTable
                 .forEach(mainStackView.addArrangedSubview(_:))
-            
+            // End
+
             containerView.addSubview(mainStackView)
             
             braveLogo.snp.makeConstraints {

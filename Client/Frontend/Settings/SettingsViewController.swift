@@ -118,9 +118,7 @@ class SettingsViewController: TableViewController {
     private var sections: [Section] {
         var list = [
             featuresSection,
-            // Vsn - 16/03/2021
-//            generalSection,
-            // End
+            generalSection,
             displaySection,
             securitySection,
             supportSection,
@@ -232,21 +230,23 @@ class SettingsViewController: TableViewController {
                 Row(text: Strings.searchEngines, selection: { [unowned self] in
                     let viewController = SearchSettingsTableViewController(profile: self.profile)
                     self.navigationController?.pushViewController(viewController, animated: true)
-                }, image: #imageLiteral(resourceName: "settings-search").template, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
-                Row(text: Strings.sync, selection: { [unowned self] in
-                    if BraveSyncAPI.shared.isInSyncGroup {
-                        if !DeviceInfo.hasConnectivity() {
-                            self.present(SyncAlerts.noConnection, animated: true)
-                            return
-                        }
-                        
-                        self.navigationController?
-                            .pushViewController(SyncSettingsTableViewController(style: .grouped), animated: true)
-                    } else {
-                        self.navigationController?.pushViewController(SyncWelcomeViewController(), animated: true)
-                    }
-                    }, image: #imageLiteral(resourceName: "settings-sync").template, accessory: .disclosureIndicator,
-                       cellClass: MultilineValue1Cell.self)
+                }, image: #imageLiteral(resourceName: "settings-search").template, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self)
+                // Vsn - 24/03/2021
+//                Row(text: Strings.sync, selection: { [unowned self] in
+//                    if BraveSyncAPI.shared.isInSyncGroup {
+//                        if !DeviceInfo.hasConnectivity() {
+//                            self.present(SyncAlerts.noConnection, animated: true)
+//                            return
+//                        }
+//
+//                        self.navigationController?
+//                            .pushViewController(SyncSettingsTableViewController(style: .grouped), animated: true)
+//                    } else {
+//                        self.navigationController?.pushViewController(SyncWelcomeViewController(), animated: true)
+//                    }
+//                    }, image: #imageLiteral(resourceName: "settings-sync").template, accessory: .disclosureIndicator,
+//                       cellClass: MultilineValue1Cell.self)
+                // End
             ]
         )
         

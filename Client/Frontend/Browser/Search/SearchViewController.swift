@@ -204,8 +204,11 @@ class SearchViewController: SiteTableViewController, LoaderListener {
         if !hasQuickSearchEngines { return }
 
         view.addSubview(searchEngineScrollView)
+        // Vsn - 27/03/2021
         searchEngineScrollView.addSubview(searchEngineScrollViewContent)
-
+        searchEngineScrollView.isHidden = true
+        // End
+        
         layoutTable()
         layoutSearchEngineScrollView()
 

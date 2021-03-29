@@ -50,7 +50,9 @@ class SearchSettingsTableViewController: UITableViewController {
     enum CurrentEngineType: Int, CaseIterable {
         case standard
         case `private`
-        case quick
+        // Vsn - 27/03/2021
+//        case quick
+        // End
         case suggestions
     }
     
@@ -187,12 +189,14 @@ class SearchSettingsTableViewController: UITableViewController {
                 case CurrentEngineType.private.rawValue:
                     engine = searchEngines.defaultEngine(forType: .privateMode)
                     cell = configureSearchEngineCell(type: .privateMode, engineName: engine?.displayName)
-                case CurrentEngineType.quick.rawValue:
-                    cell = tableView.dequeueReusableCell(withIdentifier: Constants.quickSearchEngineRowIdentifier, for: indexPath).then {
-                        $0.textLabel?.text = Strings.quickSearchEngines
-                        $0.accessoryType = .disclosureIndicator
-                        $0.editingAccessoryType = .disclosureIndicator
-                    }
+            // Vsn - 27/03/2021
+//                case CurrentEngineType.quick.rawValue:
+//                    cell = tableView.dequeueReusableCell(withIdentifier: Constants.quickSearchEngineRowIdentifier, for: indexPath).then {
+//                        $0.textLabel?.text = Strings.quickSearchEngines
+//                        $0.accessoryType = .disclosureIndicator
+//                        $0.editingAccessoryType = .disclosureIndicator
+//                    }
+            // End
                 case CurrentEngineType.suggestions.rawValue:
                     let toggle = UISwitch().then {
                         $0.addTarget(self, action: #selector(didToggleSearchSuggestions), for: .valueChanged)
@@ -252,9 +256,11 @@ class SearchSettingsTableViewController: UITableViewController {
             navigationController?.pushViewController(configureSearchEnginePicker(.standard), animated: true)
         } else if indexPath.section == Section.current.rawValue && indexPath.item == CurrentEngineType.private.rawValue {
             navigationController?.pushViewController(configureSearchEnginePicker(.privateMode), animated: true)
-        } else if indexPath.section == Section.current.rawValue && indexPath.item == CurrentEngineType.quick.rawValue {
-            let quickSearchEnginesViewController = SearchQuickEnginesViewController(profile: profile)
-            navigationController?.pushViewController(quickSearchEnginesViewController, animated: true)
+            // Vsn - 27/03/2021
+//        } else if indexPath.section == Section.current.rawValue && indexPath.item == CurrentEngineType.quick.rawValue {
+//            let quickSearchEnginesViewController = SearchQuickEnginesViewController(profile: profile)
+//            navigationController?.pushViewController(quickSearchEnginesViewController, animated: true)
+            // End
         } else if indexPath.section == Section.customSearch.rawValue && indexPath.item == customSearchEngines.count {
             let customEngineViewController = SearchCustomEngineViewController(profile: profile)
             navigationController?.pushViewController(customEngineViewController, animated: true)

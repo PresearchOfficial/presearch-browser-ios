@@ -16,7 +16,7 @@
 set -e
 
 missingCommand() {
-    echo >&2 "Brave requires the command: \033[1m$1\033[0m\nPlease install it via Homebrew or directly from $2"
+    echo >&2 "Presearch requires the command: \033[1m$1\033[0m\nPlease install it via Homebrew or directly from $2"
     exit 1
 }
 

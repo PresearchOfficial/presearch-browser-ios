@@ -34,7 +34,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.brave.ios</string>
+			<string>com.vishnuvasu</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>http</string>
@@ -84,7 +84,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>This lets you take and upload photos.</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Brave requires Face ID to access your saved logins.</string>
+	<string>Presearch requires Face ID to access your saved logins.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Websites you visit may request your location.</string>
 	<key>NSMicrophoneUsageDescription</key>

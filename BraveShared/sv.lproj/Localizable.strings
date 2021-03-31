@@ -38,7 +38,7 @@
 "BraveShieldsStatusValueUp" = "Upp";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Dubbeltryck för att växla Presearch Shields";
+"BraveShieldsToggleHint" = "Dubbeltryck för att växla Presearch Ad Blocker";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "Tryck för att göra anspråk på dina gratis tokens.";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Ta en titt";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields skyddar din integritet online på alla webbplatser.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blocker skyddar din integritet online på alla webbplatser.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "%ld+ spårare och annonser blockerade på den här sidan.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields skyddade precis din integritet online.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker skyddade precis din integritet online.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Spårare och annonser har blockerats på den här sidan.";

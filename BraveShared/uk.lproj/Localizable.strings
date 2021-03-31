@@ -38,7 +38,7 @@
 "BraveShieldsStatusValueUp" = "Увімкн.";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Торкніться двічі, щоб увімкнути Presearch Shields";
+"BraveShieldsToggleHint" = "Торкніться двічі, щоб увімкнути Presearch Ad Blocker";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "Торкніться, щоб отримати безкоштовні токени.";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Зверніть увагу";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields захищає вашу конфіденційність на кожному вебсайті.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blocker захищає вашу конфіденційність на кожному вебсайті.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "Заблоковано трекерів і реклами на цій сторінці: %ld+.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields захищає вашу конфіденційність онлайн.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker захищає вашу конфіденційність онлайн.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Трекери та реклама заблоковані на цій сторінці.";

@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Brave Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields & Privasi";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker & Privasi";
 
 /* Sync page title */
 "BraveSync" = "Sinkronisasi";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Buka semua tautan dengan Brave untuk menjaga privasi Anda";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields dirancang untuk memblokir pelacak & iklan, menghemat data dan waktu Anda di setiap situs yang Anda kunjungi";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker dirancang untuk memblokir pelacak & iklan, menghemat data dan waktu Anda di setiap situs yang Anda kunjungi";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Buka pengaturan, ketuk Default Browser App, dan pilih Brave.";

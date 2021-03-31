@@ -1,5 +1,5 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "À propos de Presearch Shields";
+"AboutBraveShields" = "À propos de Presearch Ad Blocker";
 
 /* The body of the screen explaining Brave Shields */
 "AboutBraveShieldsBody" = "Les sites comprennent souvent des cookies et des scripts qui tentent de vous identifier et d'identifier votre appareil. Ils cherchent à savoir qui vous êtes et vous suivent sur le Web, traquant vos actions sur chaque site.\n\nPresearch bloque cela pour que vous puissiez naviguer sans vous sentir épié.";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "Si ce site semble ne pas fonctionner correctement, essayez de désactiver Shields";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Presearch Shields";
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "désactivé";
@@ -134,7 +134,7 @@
 "OBShieldsDetail" = "Bloquez les traqueurs qui portent atteinte à votre vie privée afin de naviguer sans être pisté sur le Web";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Presearch Shields";
+"OBShieldsTitle" = "Presearch Ad Blocker";
 
 /* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "Afficher";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Jetez-y un coup d'œil";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields protège votre confidentialité en ligne sur chaque site.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blocker protège votre confidentialité en ligne sur chaque site.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "Plus de %ld traceurs et publicités bloqués sur cette page.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields vient de protéger votre confidentialité en ligne.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker vient de protéger votre confidentialité en ligne.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Des traceurs et des publicités ont été bloqués sur cette page.";

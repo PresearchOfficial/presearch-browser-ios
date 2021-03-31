@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Brave Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields & プライバシー";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker & プライバシー";
 
 /* Sync page title */
 "BraveSync" = "Brave Sync";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "プライバシーを保護するためすべてのリンクをBraveで開く";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shieldはすべてのサイトでトラッカーと広告をブロックし、データ通信量と時間を節約します。";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blockerはすべてのサイトでトラッカーと広告をブロックし、データ通信量と時間を節約します。";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "アプリ設定画面で、「デフォルトのブラウザApp」をタップし、Braveを選択してください。";
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "共有";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Brave Shieldsの全体のデフォルト設定";
+"ShieldsDefaults" = "Presearch Ad Blockerの全体のデフォルト設定";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "今後アクセスするサイトに適用されるデフォルトのShield設定です。こちらを変更しても個別サイトの設定には影響しません。";

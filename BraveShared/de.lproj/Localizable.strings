@@ -1,5 +1,5 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "Über Presearch Shields";
+"AboutBraveShields" = "Über Presearch Ad Blocker";
 
 /* The body of the screen explaining Brave Shields */
 "AboutBraveShieldsBody" = "Websites nutzen häufig Cookies und Skripte, mit denen man Sie und Ihr Gerät erkennen kann. Das Ziel ist dabei, Ihre Identität zu ermitteln und Ihre Aktivitäten im Internet auf jeder der von Ihnen besuchten Websites zu verfolgen.\n\nPresearch blockiert dieses Tracking, damit Sie surfen können, ohne im Web beobachtet zu werden.";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "Wenn diese Website defekt erscheint, versuchen Sie es mit Shields down";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Presearch Shields";
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "Down";
@@ -38,7 +38,7 @@
 "BraveShieldsStatusValueUp" = "Online";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Zum Umschalten von Presearch Shields doppeltippen";
+"BraveShieldsToggleHint" = "Zum Umschalten von Presearch Ad Blocker doppeltippen";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "Tippen Sie, um Ihre kostenlosen Token anzufordern.";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Schauen Sie sich das an";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields schützt Ihre Online-Privatsphäre auf jeder Website.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blocker schützt Ihre Online-Privatsphäre auf jeder Website.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "%ld+ Tracker und Anzeigen wurden auf dieser Seite blockiert.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields hat soeben Ihre Online-Privatsphäre geschützt.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker hat soeben Ihre Online-Privatsphäre geschützt.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Auf dieser Seite blockierte Tracker und Anzeigen.";

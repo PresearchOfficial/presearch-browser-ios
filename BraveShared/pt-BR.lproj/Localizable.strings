@@ -38,7 +38,7 @@
 "BraveShieldsStatusValueUp" = "Ativadas";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Toque duas vezes para ativar/desativar o Presearch Shields";
+"BraveShieldsToggleHint" = "Toque duas vezes para ativar/desativar o Presearch Ad Blocker";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "Toque para reivindicar seus tokens gratuitos.";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "Conferir";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "O Presearch Shields protege sua privacidade on-line em todos os sites.";
+"shieldEducation.trackerAdCountBlockSubtitle" = "O Presearch Ad Blocker protege sua privacidade on-line em todos os sites.";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "Pelo menos %ld rastreadores e anúncios bloqueados nesta página.";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "O Presearch Shields acabou de proteger sua privacidade on-line.";
+"shieldEducation.trackerAdWarningSubTitle" = "O Presearch Ad Blocker acabou de proteger sua privacidade on-line.";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "Rastreadores e anúncios bloqueados nesta página";

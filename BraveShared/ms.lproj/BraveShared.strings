@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Presearch Shields & Privasi";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker & Privasi";
 
 /* Sync page title */
 "BraveSync" = "Segerak";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan Presearch untuk melindungi privasi anda  ";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Presearch Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih Presearch.  ";
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "Kongsi dengan...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Lalai Global Presearch Shields";
+"ShieldsDefaults" = "Lalai Global Presearch Ad Blocker";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Ini adalah tetapan Shields lalai untuk tapak baharu. Mengubah ini tidak akan menjejaskan tetapan setiap tapak sedia ada anda.";

@@ -1,5 +1,5 @@
 /* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "关于 Presearch Shields";
+"AboutBraveShields" = "关于 Presearch Ad Blocker";
 
 /* The body of the screen explaining Brave Shields */
 "AboutBraveShieldsBody" = "网站通常包含试图识别您和您的设备的 cookie 和脚本。它们想弄清楚您是谁，并在网上跟踪您，即跟踪您在每个站点上所执行的操作。\n\nBrave 会屏蔽这些操作，这样您就可以随意浏览，而不会被跟踪。";
@@ -29,7 +29,7 @@
 "BraveShieldsSiteBroken" = "如果此站点显示为已损坏，请尝试关闭 Shields。";
 
 /* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Presearch Shields";
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
 /* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "关闭";
@@ -38,7 +38,7 @@
 "BraveShieldsStatusValueUp" = "开启";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "轻击两次即可切换 Presearch Shields";
+"BraveShieldsToggleHint" = "轻击两次即可切换 Presearch Ad Blocker";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "点按以领取免费代币。";
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "看一看";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Shields 保护您在每个站点上的在线隐私。";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blocker 保护您在每个站点上的在线隐私。";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "页面上屏蔽了 %ld 多个跟踪器和广告";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Presearch Shields 只是保护了您的在线隐私。";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker 只是保护了您的在线隐私。";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "跟踪器和广告已在此页面上被屏蔽。";

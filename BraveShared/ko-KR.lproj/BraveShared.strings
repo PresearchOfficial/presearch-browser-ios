@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Brave Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields 및 프라이버시";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker 및 프라이버시";
 
 /* Sync page title */
 "BraveSync" = "동기화";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "모든 링크를 Brave로 열어 프라이버시를 보호하세요.";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields가 트래커와 광고를 차단하여 사이트를 방문할 때마다 데이터와 시간을 절약합니다.";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker가 트래커와 광고를 차단하여 사이트를 방문할 때마다 데이터와 시간을 절약합니다.";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "설정을 열고 기본 브라우저 앱을 탭한 다음 Brave를 선택하세요.";
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "다음 대상과 공유...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Brave Shields 전역 기본값";
+"ShieldsDefaults" = "Presearch Ad Blocker 전역 기본값";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "새로운 사이트에 적용되는 기본 Shields 설정입니다. 이 설정을 변경해도 기존 사이트별 설정에는 영향을 주지 않습니다.";

@@ -1,7 +1,7 @@
-/* The title of the screen explaining Brave Shields */
+/* The title of the screen explaining Presearch Ad Blocker */
 "AboutBraveShields" = "Brave Shieldについて";
 
-/* The body of the screen explaining Brave Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "多くのサイトには、お客様とお客様のデバイスを識別するためのクッキーやスクリプトが含まれています。これによってインターネット上のいたる所であなたを特定・追跡し、行動データを収集しようとしています。\n\nBraveはそういったものをブロックするので、あなたが追跡されることなくブラウジングすることが可能になります。";
 
 /* No comment provided by engineer. */
@@ -28,13 +28,13 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "もしサイトに正しく表示されていない場合は、Shieldをオフにしてみてください";
 
-/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusTitle" = "Brave Shield";
 
-/* Context: The 'Down' in 'Brave Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "オフ";
 
-/* Context: The 'Up' in 'Brave Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "オン";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
@@ -134,7 +134,7 @@
 "OBShieldsDetail" = "プライバシーを侵害するトラッカーをブロックすることで、インターネット上でつきまとわれずにブラウジングすることができます。";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Brave Shields";
+"OBShieldsTitle" = "Presearch Ad Blocker";
 
 /* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "表示する";
@@ -154,7 +154,7 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "コンテキストメニューを閉じる";
 
-/* Description for closing the `Brave Shields` popover menu that is displayed. */
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "Shieldメニューを閉じる";
 
 /* No comment provided by engineer. */
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "見てみる";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Brave Shieldsはすべてのサイトであなたのオンラインでのプライバシーを保護します。";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blockerはすべてのサイトであなたのオンラインでのプライバシーを保護します。";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "%ld+ トラッカーと広告がこのページでブロックされました。";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shieldsがあなたのオンラインでのプライバシーを保護しました。";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blockerがあなたのオンラインでのプライバシーを保護しました。";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "トラッカーと広告がこのページでブロックされました。";

@@ -1,11 +1,11 @@
-/* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "關於 Brave Shields";
+/* The title of the screen explaining Presearch Ad Blocker */
+"AboutBraveShields" = "關於 Presearch Ad Blocker";
 
-/* The body of the screen explaining Brave Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "網站通常會透過 Cookie 和指令碼嘗試識別您和您使用的裝置，藉此掌握您的身分及瞭解您使用網路的情形，進而追蹤您在每個網站上的行為。\n\nBrave 會封鎖這些項目，讓您能在不受追蹤的情況下自在瀏覽。";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Brave Rewards";
+"BraveRewardsAdNotificationTitle" = "Presearch Ad Blocker";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "公開";
@@ -28,17 +28,17 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "如果這個網站貌似無法正常運作，請嘗試關閉 Shields";
 
-/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Brave Shields";
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
-/* Context: The 'Down' in 'Brave Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "關閉";
 
-/* Context: The 'Up' in 'Brave Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "開啟";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "點兩下即可切換 Brave Shields";
+"BraveShieldsToggleHint" = "點兩下即可切換 Presearch Ad Blocker";
 
 /* The body of the notification that goes out monthly to users who can claim an ads grant */
 "MonthlyAdsClaimNotificationBody" = "輕觸即可免費領取代幣。";
@@ -154,7 +154,7 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "關閉內容選單";
 
-/* Description for closing the `Brave Shields` popover menu that is displayed. */
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "關閉 Shields 選單";
 
 /* No comment provided by engineer. */
@@ -479,13 +479,13 @@
 "shieldEducation.inspectTitle" = "立即查看";
 
 /* Subtitle for Shield Education Tracker Ad Count Block */
-"shieldEducation.trackerAdCountBlockSubtitle" = "Brave Shields 會在每個網站上保護您線上活動的隱私。";
+"shieldEducation.trackerAdCountBlockSubtitle" = "Presearch Ad Blocker 會在每個網站上保護您線上活動的隱私。";
 
 /* Title for Shield Education Tracker Ad Count Block when block count raises over the defined limit. The parameter substituted for \"%ld\" is the limit of the trackers and ads blocked on the page when education pop over is presented. E.g.: 10+ trackers & ads blocked on the page */
 "shieldEducation.trackerAdCountBlockTitle" = "已封鎖此頁面上超過 %ld 個追蹤程式和廣告。";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shields 剛剛保護了您線上活動的隱私。";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker 剛剛保護了您線上活動的隱私。";
 
 /* Title for Shield Education Tracker Ad Warning */
 "shieldEducation.trackerAdWarningTitle" = "已封鎖此頁面上的追蹤程式和廣告。";

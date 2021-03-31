@@ -1,7 +1,7 @@
-/* The title of the screen explaining Brave Shields */
+/* The title of the screen explaining Presearch Ad Blockers */
 "AboutBraveShields" = "关于 Presearch Ad Blocker";
 
-/* The body of the screen explaining Brave Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "网站通常包含试图识别您和您的设备的 cookie 和脚本。它们想弄清楚您是谁，并在网上跟踪您，即跟踪您在每个站点上所执行的操作。\n\nBrave 会屏蔽这些操作，这样您就可以随意浏览，而不会被跟踪。";
 
 /* No comment provided by engineer. */
@@ -28,13 +28,13 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "如果此站点显示为已损坏，请尝试关闭 Shields。";
 
-/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
-/* Context: The 'Down' in 'Brave Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "关闭";
 
-/* Context: The 'Up' in 'Brave Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "开启";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
@@ -154,7 +154,7 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "关闭 Context 菜单";
 
-/* Description for closing the `Brave Shields` popover menu that is displayed. */
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "关闭 Shields 菜单";
 
 /* No comment provided by engineer. */

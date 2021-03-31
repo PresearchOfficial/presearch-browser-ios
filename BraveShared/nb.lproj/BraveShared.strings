@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Brave Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields og -personvern";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker og -personvern";
 
 /* Sync page title */
 "BraveSync" = "Synk";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Åpne alle lenkene med Brave for å beskytte personvernet ditt";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields blokkerer sporere og annonser, sparer data og sparer deg tid på hvert nettsted du besøker";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker blokkerer sporere og annonser, sparer data og sparer deg tid på hvert nettsted du besøker";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Åpne Innstillinger, trykk på Standard Nettleser-appen, og velg Brave.";
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "Lagre med ...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Globale standarder for Brave Shields";
+"ShieldsDefaults" = "Globale standarder for Presearch Ad Blocker";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Dette er standard Shields-innstillinger for nye nettsteder. Å endre disse påvirker ikke de eksisterende innstillingene per nettsted.";

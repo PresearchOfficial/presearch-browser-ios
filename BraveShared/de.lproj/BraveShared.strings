@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Brave Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields und Datenschutz";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker und Datenschutz";
 
 /* Sync page title */
 "BraveSync" = "Synchronisieren";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Öffnen Sie alle Links mit Brave, um Ihre Privatsphäre zu schützen.";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields blockiert Tracker und Anzeigen und spart Ihnen Daten und Zeit auf jeder von Ihnen besuchten Website.";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker blockiert Tracker und Anzeigen und spart Ihnen Daten und Zeit auf jeder von Ihnen besuchten Website.";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Öffnen Sie die Einstellungen, tippen Sie auf „Standardbrowser“ und wählen Sie Brave aus.";
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "Teilen mit …";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Globale Brave Shields-Standardeinstellungen";
+"ShieldsDefaults" = "Globale Presearch Ad Blocker-Standardeinstellungen";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Dies sind die Shields-Standardeinstellungen für neue Seiten. Änderungen wirken sich nicht auf Ihre bestehenden Einstellungen für Seiten.";

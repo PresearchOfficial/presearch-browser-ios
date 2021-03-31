@@ -206,7 +206,7 @@
 "BraveRewardsTitle" = "Brave Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields et Confidentialité";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker et Confidentialité";
 
 /* Sync page title */
 "BraveSync" = "Synchronisation";
@@ -347,7 +347,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Ouvrez tous les liens avec Brave pour protéger votre vie privée";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields bloque les traceurs et les publicités, économise les données et vous fait gagner du temps sur chaque site que vous consultez";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker bloque les traceurs et les publicités, économise les données et vous fait gagner du temps sur chaque site que vous consultez";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Ouvrez les paramètres, appuyez sur Application de navigateur par défaut et sélectionnez Brave.";

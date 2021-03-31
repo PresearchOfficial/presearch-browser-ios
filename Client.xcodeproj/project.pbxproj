@@ -8493,7 +8493,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 2;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
@@ -9313,7 +9313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 2;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",

@@ -10,11 +10,11 @@ import Foundation
 class InitialSearchEngines {
     /// Type of search engine available to the user.
     enum SearchEngineID: String {
-        case google, bing, duckduckgo, yandex, qwant, startpage, yahoo, ecosia, presearch
+        case presearch, google, bing, duckduckgo, yandex, qwant, startpage, yahoo, ecosia
         
         var excludedFromOnboarding: Bool {
             switch self {
-            case .google, .bing, .duckduckgo, .yandex, .qwant, .startpage, .ecosia, .presearch:
+            case .presearch, .google, .bing, .duckduckgo, .yandex, .qwant, .startpage, .ecosia :
                 return false
             case .yahoo:
                 return true

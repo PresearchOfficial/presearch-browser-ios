@@ -3,8 +3,9 @@
 public struct BraveUX {    
     public static let braveCommunityURL = URL(string: "https://community.brave.com/")!
     public static let braveVPNFaqURL = URL(string: "https://support.brave.com/hc/en-us/articles/360045045952")!
-    public static let bravePrivacyURL = URL(string: "https://www.presearch.nl/en/about-us/privacy-policy/")! //"https://brave.com/privacy/"
-    public static let braveTodayPrivacyURL = URL(string: "https://www.presearch.nl/en/about-us/privacy-policy/")! //"https://brave.com/privacy/#brave-today"
+    public static let bravePrivacyURL = URL(string: "https://presearch.org/privacy")! //"https://brave.com/privacy/"
+    public static let braveTodayPrivacyURL = URL(string: "https://presearch.org/privacy")! //"https://brave.com/privacy/#brave-today"
+    public static let presearchLicense = URL(string: "https://github.com/PresearchOfficial/presearch-browser-ios")!
     public static let braveOffersURL = URL(string: "https://offers.brave.com/")!
     public static let braveRewardsLearnMoreURL = URL(string: "https://brave.com/rewards-ios/")!
     public static let braveRewardsUnverifiedPublisherLearnMoreURL = URL(string: "https://brave.com/faq-rewards/#unclaimed-funds")!

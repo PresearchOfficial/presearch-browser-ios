@@ -501,30 +501,31 @@ class SettingsViewController: TableViewController {
                     actionSheet.addAction(UIAlertAction(title: Strings.cancelButtonTitle, style: .cancel, handler: nil))
                     self.navigationController?.present(actionSheet, animated: true, completion: nil)
                 }, cellClass: MultilineValue1Cell.self),
-//                Row(text: Strings.privacyPolicy,
-//                    selection: { [unowned self] in
-//                        // Show privacy policy
-//                        let privacy = SettingsContentViewController().then { $0.url = BraveUX.bravePrivacyURL }
-//                        self.navigationController?.pushViewController(privacy, animated: true)
-//                    },
-//                    accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
+                Row(text: Strings.privacyPolicy,
+                    selection: { [unowned self] in
+                        // Show privacy policy
+                        let privacy = SettingsContentViewController().then { $0.url = BraveUX.bravePrivacyURL }
+                        self.navigationController?.pushViewController(privacy, animated: true)
+                    },
+                    accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
                 Row(text: Strings.termsOfUse,
                     selection: { [unowned self] in
                         // Show terms of use
                         let toc = SettingsContentViewController().then { $0.url = BraveUX.braveTermsOfUseURL }
                         self.navigationController?.pushViewController(toc, animated: true)
                     },
-                    accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self)
+                    accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
+                
                 // Vsn - 18/03/2021
-//                Row(text: Strings.settingsLicenses, selection: { [unowned self] in
-//                    guard let url = URL(string: WebServer.sharedInstance.base) else { return }
-//
-//                    let licenses = SettingsContentViewController().then {
-//                        $0.url = url.appendingPathComponent("about").appendingPathComponent("license")
-//                    }
-//                    self.navigationController?.pushViewController(licenses, animated: true)
-//                    }, accessory: .disclosureIndicator)
-                // End
+                Row(text: Strings.settingsLicenses, selection: { [unowned self] in
+                    guard let url = URL(string: WebServer.sharedInstance.base) else { return }
+
+                    let licenses = SettingsContentViewController().then {
+                        $0.url = url.appendingPathComponent("about").appendingPathComponent("license")
+                    }
+                    self.navigationController?.pushViewController(licenses, animated: true)
+                    }, accessory: .disclosureIndicator),
+//                 End
             ]
         )
     }()

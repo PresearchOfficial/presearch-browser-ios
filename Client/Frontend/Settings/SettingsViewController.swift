@@ -204,14 +204,14 @@ class SettingsViewController: TableViewController {
 //        }
         // End
         
-        #if !NO_BRAVE_TODAY
-        section.rows.append(
-            Row(text: Strings.BraveToday.braveToday, selection: {
-                let todaySettings = BraveTodaySettingsViewController(dataSource: self.feedDataSource)
-                self.navigationController?.pushViewController(todaySettings, animated: true)
-            }, image: #imageLiteral(resourceName: "settings-brave-today").template, accessory: .disclosureIndicator)
-        )
-        #endif
+//        #if !NO_BRAVE_TODAY
+//        section.rows.append(
+//            Row(text: Strings.BraveToday.braveToday, selection: {
+//                let todaySettings = BraveTodaySettingsViewController(dataSource: self.feedDataSource)
+//                self.navigationController?.pushViewController(todaySettings, animated: true)
+//            }, image: #imageLiteral(resourceName: "settings-brave-today").template, accessory: .disclosureIndicator)
+//        )
+//        #endif
          
         // Vsn - 16/03/2021
 //        vpnRow = vpnSettingsRow()

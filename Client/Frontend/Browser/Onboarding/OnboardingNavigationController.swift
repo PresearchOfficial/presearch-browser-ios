@@ -58,7 +58,7 @@ class OnboardingNavigationController: UINavigationController {
                         // End
                     }
                     
-                    let newUserScreens: [Screens] = [.searchEnginePicker, .shieldsInfo]
+                    let newUserScreens: [Screens] = [.searchEnginePicker ]
                     
                     // Vsn - 16/03/2021
 //                    // FIXME: Update to iOS14 clipboard api once ready (#2838)
@@ -80,7 +80,7 @@ class OnboardingNavigationController: UINavigationController {
                 }
             } else {
                 switch self {
-                case .newUser: return [.searchEnginePicker, .shieldsInfo]
+                case .newUser: return [.searchEnginePicker]
                 case .existingUserRewardsOff: return []
                 }
             }
@@ -90,7 +90,6 @@ class OnboardingNavigationController: UINavigationController {
     fileprivate enum Screens {
         case privacyConsent
         case searchEnginePicker
-        case shieldsInfo
         case rewardsAgreement
         
         /// Returns new ViewController associated with the screen type
@@ -99,8 +98,6 @@ class OnboardingNavigationController: UINavigationController {
             case .privacyConsent: return OnboardingPrivacyConsentViewController(profile: profile, rewards: rewards, theme: theme)
             case .searchEnginePicker:
                 return OnboardingSearchEnginesViewController(profile: profile, rewards: rewards, theme: theme)
-            case .shieldsInfo:
-                return OnboardingShieldsViewController(profile: profile, rewards: rewards, theme: theme)
             case .rewardsAgreement:
                 return OnboardingRewardsAgreementViewController(profile: profile, rewards: rewards, theme: theme)
             }
@@ -110,7 +107,6 @@ class OnboardingNavigationController: UINavigationController {
             switch self {
             case .privacyConsent: return OnboardingPrivacyConsentViewController.self
             case .searchEnginePicker: return OnboardingSearchEnginesViewController.self
-            case .shieldsInfo: return OnboardingShieldsViewController.self
             case .rewardsAgreement: return OnboardingRewardsAgreementViewController.self
             }
         }

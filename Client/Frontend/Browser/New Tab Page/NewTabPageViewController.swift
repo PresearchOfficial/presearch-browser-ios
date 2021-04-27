@@ -137,20 +137,20 @@ class NewTabPageViewController: UIViewController, Themeable {
             sections.insert(NTPDefaultBrowserCalloutProvider(), at: 0)
         }
         
-        #if !NO_BRAVE_TODAY
-        if !PrivateBrowsingManager.shared.isPrivateBrowsing {
-            sections.append(
-                BraveTodaySectionProvider(
-                    dataSource: feedDataSource,
-                    ads: rewards.ads,
-                    actionHandler: { [weak self] in
-                        self?.handleBraveTodayAction($0)
-                    }
-                )
-            )
-            layout.braveTodaySection = sections.firstIndex(where: { $0 is BraveTodaySectionProvider })
-        }
-        #endif
+//        #if !NO_BRAVE_TODAY
+//        if !PrivateBrowsingManager.shared.isPrivateBrowsing {
+//            sections.append(
+//                BraveTodaySectionProvider(
+//                    dataSource: feedDataSource,
+//                    ads: rewards.ads,
+//                    actionHandler: { [weak self] in
+//                        self?.handleBraveTodayAction($0)
+//                    }
+//                )
+//            )
+//            layout.braveTodaySection = sections.firstIndex(where: { $0 is BraveTodaySectionProvider })
+//        }
+//        #endif
         
         collectionView.delegate = self
         collectionView.dataSource = self

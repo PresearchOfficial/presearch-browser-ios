@@ -4,9 +4,10 @@ Presearch Privacy Browser for iOS
 
 Download on the [App Store](https://apps.apple.com/us/app/presearch-privacy-browser/id1565192485).
 
-This branch (development)
+This branch 
 -----------
-Presearch Privacy Browser is a fork of the Brave Browser.
+
+Presearch Privacy Browser is a fork of the Brave Browser. 
 
 Building the code
 -----------------

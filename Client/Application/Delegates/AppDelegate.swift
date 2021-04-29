@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
     var shutdownWebServer: DispatchSourceTimer?
     
     /// Object used to handle server pings
-    let dau = DAU()
+//    let dau = DAU()
     
     /// Must be added at launch according to Apple's documentation.
     let iapObserver = IAPObserver()
@@ -291,7 +291,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         }
         
         if isFirstLaunch {
-            Preferences.DAU.installationDate.value = Date()
+//            Preferences.DAU.installationDate.value = Date()
             
             // VPN credentials are kept in keychain and persist between app reinstalls.
             // To avoid unexpected problems we clear all vpn keychain items.
@@ -348,7 +348,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
             urp.referralLookup(refCode: refCode) { referralCode, offerUrl in
                 // Attempting to send ping after first urp lookup.
                 // This way we can grab the referral code if it exists, see issue #2586.
-                self.dau.sendPingToServer()
+//                self.dau.sendPingToServer()
                 if let code = referralCode {
                     let retryTime = AppConstants.buildChannel.isPublic ? 1.days : 10.minutes
                     let retryDeadline = Date() + retryTime
@@ -416,7 +416,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         // (offline, bad connection etc.).
         // Also send the ping only after the URP lookup has processed.
         if Preferences.URP.referralLookupOutstanding.value == false {
-            dau.sendPingToServer()
+//            dau.sendPingToServer()
         }
     }
 

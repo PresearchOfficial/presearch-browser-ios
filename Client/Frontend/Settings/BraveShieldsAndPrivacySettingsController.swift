@@ -130,9 +130,9 @@ class BraveShieldsAndPrivacySettingsController: TableViewController {
              (PasswordsClearable(profile: self.profile), true),
              (DownloadsClearable(), true)]
         
-        #if !NO_BRAVE_TODAY
-        alwaysVisible.append((BraveTodayClearable(feedDataSource: self.feedDataSource), true))
-        #endif
+//        #if !NO_BRAVE_TODAY
+//        alwaysVisible.append((BraveTodayClearable(feedDataSource: self.feedDataSource), true))
+//        #endif
         
         return alwaysVisible
     }()

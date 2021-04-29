@@ -117,7 +117,7 @@ extension Preferences {
         static let privateBrowsingOnly = Option<Bool>(key: "privacy.private-only", default: false)
         /// Blocks all cookies and access to local storage
         static let blockAllCookies = Option<Bool>(key: "privacy.block-all-cookies", default: false)
-        /// The toggles states for clear private data screen
+        /// The toggles states for clear private data screend
         static let clearPrivateDataToggles = Option<[Bool]>(key: "privacy.clear-data-toggles", default: [])
     }
     final class NewTabPage {

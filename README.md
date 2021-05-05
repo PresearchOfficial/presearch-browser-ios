@@ -25,7 +25,7 @@ Building the code
     ```
 1. Pull in the project dependencies:
     ```shell
-    cd brave-ios
+    cd Presearch-ios
     sh ./bootstrap.sh
     ```
 1. Open `Client.xcodeproj` in Xcode.

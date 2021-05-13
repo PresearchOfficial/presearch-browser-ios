@@ -20,7 +20,6 @@ import StoreKit
 import SafariServices
 import BraveUI
 import NetworkExtension
-import YubiKit
 import FeedKit
 
 private let log = Logger.browserLogger
@@ -2668,10 +2667,7 @@ extension BrowserViewController: TabDelegate {
         
         tab.addContentScript(BraveGetUA(tab: tab), name: BraveGetUA.name(), sandboxed: false)
 
-        if YubiKitDeviceCapabilities.supportsMFIAccessoryKey {
-            tab.addContentScript(U2FExtensions(tab: tab), name: U2FExtensions.name(), sandboxed: false)
-        }
-        
+
         tab.addContentScript(ResourceDownloadManager(tab: tab), name: ResourceDownloadManager.name(), sandboxed: false)
         
         tab.addContentScript(WindowRenderHelperScript(tab: tab), name: WindowRenderHelperScript.name(), sandboxed: false)

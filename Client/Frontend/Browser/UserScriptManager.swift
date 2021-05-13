@@ -5,7 +5,6 @@
 import WebKit
 import Shared
 import Data
-import YubiKit
 
 private let log = Logger.browserLogger
 
@@ -253,9 +252,6 @@ class UserScriptManager {
                 $0.addUserScript(script)
             }
             
-            if YubiKitDeviceCapabilities.supportsMFIAccessoryKey, isU2FEnabled, let script = U2FUserScript {
-                $0.addUserScript(script)
-            }
 
             if isU2FEnabled, let script = U2FLowLevelUserScript {
                 $0.addUserScript(script)

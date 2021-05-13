@@ -244,7 +244,7 @@ class Tab: NSObject {
                 tab: self,
                 isFingerprintingProtectionEnabled: Preferences.Shields.fingerprintingProtection.value,
                 isCookieBlockingEnabled: Preferences.Privacy.blockAllCookies.value,
-                isU2FEnabled: webView.hasOnlySecureContent,
+//                isU2FEnabled: webView.hasOnlySecureContent,
                 isPaymentRequestEnabled: webView.hasOnlySecureContent)
             tabDelegate?.tab?(self, didCreateWebView: webView)
         }

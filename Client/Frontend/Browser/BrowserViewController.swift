@@ -1580,7 +1580,7 @@ class BrowserViewController: UIViewController {
             guard let tab = tabManager[webView] else {
                 break
             }
-            tab.userScriptManager?.isU2FEnabled = webView.hasOnlySecureContent
+//            tab.userScriptManager?.isU2FEnabled = webView.hasOnlySecureContent
             tab.userScriptManager?.isPaymentRequestEnabled = webView.hasOnlySecureContent
             if tab.secureContentState == .secure && !webView.hasOnlySecureContent {
                 tab.secureContentState = .insecure

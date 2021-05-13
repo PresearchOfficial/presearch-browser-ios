@@ -7,12 +7,6 @@
 /* Suffix for error strings */
 "tryAgain" = ". Spróbuj ponownie.";
 
-/* Error handling U2F authentication. */
-"U2FAuthenticationError" = "Błąd podczas uwierzytelniania klucza zabezpieczeń";
-
-/* Error handling U2F registration. */
-"U2FRegistrationError" = "Błąd podczas rejestracji klucza zabezpieczeń";
-
 /* Error message if list of Payment Instruments doesn't include BAT */
 "unsupportedInstrumentMessage" = "Nieobsługiwane instrumenty płatnicze";
 

@@ -39,12 +39,12 @@ class UserScriptManager {
     }
     
     // Whether or not the U2F APIs should be exposed
-    var isU2FEnabled: Bool {
-        didSet {
-            if oldValue == isU2FEnabled { return }
-            reloadUserScripts()
-        }
-    }
+//    var isU2FEnabled: Bool {
+//        didSet {
+//            if oldValue == isU2FEnabled { return }
+//            reloadUserScripts()
+//        }
+//    }
     
     // Whether or not the PaymentRequest APIs should be exposed
     var isPaymentRequestEnabled: Bool {
@@ -93,11 +93,11 @@ class UserScriptManager {
         return false
     }
     
-    init(tab: Tab, isFingerprintingProtectionEnabled: Bool, isCookieBlockingEnabled: Bool, isU2FEnabled: Bool, isPaymentRequestEnabled: Bool) {
+    init(tab: Tab, isFingerprintingProtectionEnabled: Bool, isCookieBlockingEnabled: Bool, isPaymentRequestEnabled: Bool) {
         self.tab = tab
         self.isFingerprintingProtectionEnabled = isFingerprintingProtectionEnabled
         self.isCookieBlockingEnabled = isCookieBlockingEnabled
-        self.isU2FEnabled = isU2FEnabled
+//        self.isU2FEnabled = isU2FEnabled
         self.isPaymentRequestEnabled = isPaymentRequestEnabled
         reloadUserScripts()
     }
@@ -147,25 +147,25 @@ class UserScriptManager {
     
     // U2FUserScript is injected at document start to avoid overriding the low-level
     // FIDO legacy sign and register APIs that have different arguments
-    private let U2FUserScript: WKUserScript? = {
-        guard let path = Bundle.main.path(forResource: "U2F", ofType: "js"), let source = try? String(contentsOfFile: path) else {
-            log.error("Failed to load U2F.js")
-            return nil
-        }
+//    private let U2FUserScript: WKUserScript? = {
+//        guard let path = Bundle.main.path(forResource: "U2F", ofType: "js"), let source = try? String(contentsOfFile: path) else {
+//            log.error("Failed to load U2F.js")
+//            return nil
+//        }
         
-        var alteredSource = source
-        
-        alteredSource = alteredSource.replacingOccurrences(of: "$<webauthn>", with: "fido2\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<webauthn-internal>", with: "fido2internal\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f>", with: "fido\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f-internal>", with: "fidointernal\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<pkc>", with: "pkp\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<assert>", with: "assert\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<attest>", with: "attest\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<handler>", with: "U2F\(messageHandlerTokenString)", options: .literal)
-        
-        return WKUserScript(source: alteredSource, injectionTime: .atDocumentStart, forMainFrameOnly: false)
-    }()
+//        var alteredSource = source
+//
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<webauthn>", with: "fido2\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<webauthn-internal>", with: "fido2internal\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f>", with: "fido\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f-internal>", with: "fidointernal\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<pkc>", with: "pkp\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<assert>", with: "assert\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<attest>", with: "attest\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<handler>", with: "U2F\(messageHandlerTokenString)", options: .literal)
+//
+//        return WKUserScript(source: alteredSource, injectionTime: .atDocumentStart, forMainFrameOnly: false)
+//    }()
     
     // PaymentRequestUserScript is injected at document start to handle
     // requests to payment APIs
@@ -188,19 +188,19 @@ class UserScriptManager {
     
     // U2FLowLevelUserScript is injected at documentEnd to override the message channels
     // with hooks that plug into the Yubico API
-    private let U2FLowLevelUserScript: WKUserScript? = {
-        guard let path = Bundle.main.path(forResource: "U2F-low-level", ofType: "js"), let source = try? String(contentsOfFile: path) else {
-            log.error("Failed to load U2F-low-level.js")
-            return nil
-        }
-        var alteredSource = source
-
-        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f>", with: "fido\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f-internal>", with: "fidointernal\(securityTokenString)", options: .literal)
-        alteredSource = alteredSource.replacingOccurrences(of: "$<handler>", with: "U2F\(messageHandlerTokenString)", options: .literal)
-
-        return WKUserScript(source: alteredSource, injectionTime: .atDocumentStart, forMainFrameOnly: false)
-    }()
+//    private let U2FLowLevelUserScript: WKUserScript? = {
+//        guard let path = Bundle.main.path(forResource: "U2F-low-level", ofType: "js"), let source = try? String(contentsOfFile: path) else {
+//            log.error("Failed to load U2F-low-level.js")
+//            return nil
+//        }
+//        var alteredSource = source
+//
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f>", with: "fido\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<u2f-internal>", with: "fidointernal\(securityTokenString)", options: .literal)
+//        alteredSource = alteredSource.replacingOccurrences(of: "$<handler>", with: "U2F\(messageHandlerTokenString)", options: .literal)
+//
+//        return WKUserScript(source: alteredSource, injectionTime: .atDocumentStart, forMainFrameOnly: false)
+//    }()
     
     private let resourceDownloadManagerUserScript: WKUserScript? = {
         guard let path = Bundle.main.path(forResource: "ResourceDownloader", ofType: "js"), let source = try? String(contentsOfFile: path) else {
@@ -253,9 +253,9 @@ class UserScriptManager {
             }
             
 
-            if isU2FEnabled, let script = U2FLowLevelUserScript {
-                $0.addUserScript(script)
-            }
+//            if isU2FEnabled, let script = U2FLowLevelUserScript {
+//                $0.addUserScript(script)
+//            }
             
             if let script = resourceDownloadManagerUserScript {
                 $0.addUserScript(script)

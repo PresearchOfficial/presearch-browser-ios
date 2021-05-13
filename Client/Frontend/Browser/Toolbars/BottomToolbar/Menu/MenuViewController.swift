@@ -196,8 +196,8 @@ class MenuViewController: UITableViewController {
         
         preferredContentSize = CGSize(width: fit.width, height: fit.height + UX.topBottomInset * 2)
         
-        NotificationCenter.default.addObserver(self, selector: #selector(vpnConfigChanged),
-                                               name: .NEVPNStatusDidChange, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(vpnConfigChanged),
+//                                               name: .NEVPNStatusDidChange, object: nil)
     }
     
     deinit {
@@ -323,7 +323,7 @@ class MenuViewController: UITableViewController {
     
     private func openVPNAction(menuCell: MenuCell) {
         let enabled = !menuCell.toggleButton.isOn
-        let vpnState = BraveVPN.vpnState
+//        let vpnState = BraveVPN.vpnState
         
         /// Connecting to the vpn takes a while, that's why we have to show a spinner until it finishes.
         if enabled {
@@ -343,14 +343,14 @@ class MenuViewController: UITableViewController {
             return
         }
         
-        switch BraveVPN.vpnState {
-        case .notPurchased, .purchased, .expired:
-            guard let vc = vpnState.enableVPNDestinationVC else { return }
-            open(vc, doneButton: DoneButton(style: .cancel, position: .left), allowSwipeToDismiss: true)
-        case .installed:
-            // Do not modify UISwitch state here, update it based on vpn status observer.
-            enabled ? BraveVPN.reconnect() : BraveVPN.disconnect()
-        }
+//        switch BraveVPN.vpnState {
+//        case .notPurchased, .purchased, .expired:
+//            guard let vc = vpnState.enableVPNDestinationVC else { return }
+//            open(vc, doneButton: DoneButton(style: .cancel, position: .left), allowSwipeToDismiss: true)
+//        case .installed:
+//            // Do not modify UISwitch state here, update it based on vpn status observer.
+//            enabled ? BraveVPN.reconnect() : BraveVPN.disconnect()
+//        }
     }
     
     private func openBookmarks() {
@@ -407,11 +407,11 @@ class MenuViewController: UITableViewController {
     @objc func vpnConfigChanged() {
         guard let cell = vpnMenuCell else { return }
         
-        cell.toggleButton.isOn = BraveVPN.isConnected
-        
-        if BraveVPN.isConnected {
-            cell.isLoading = false
-        }
+//        cell.toggleButton.isOn = BraveVPN.isConnected
+//        
+//        if BraveVPN.isConnected {
+//            cell.isLoading = false
+//        }
     }
 }
 

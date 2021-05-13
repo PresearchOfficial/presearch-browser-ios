@@ -148,7 +148,7 @@ class BraveVPN {
         
         // No VPN config set means the user could buy the vpn but hasn't gone through the second screen
         // to install the vpn and connect to a server.
-        if NEVPNManager.shared().connection.status == .invalid { return .purchased }
+//        if NEVPNManager.shared().connection.status == .invalid { return .purchased }
         
         return .installed(enabled: isConnected)
     }

@@ -583,7 +583,7 @@ class BrowserViewController: UIViewController {
     
     @objc func vpnConfigChanged() {
         // Load latest changes to the vpn.
-        NEVPNManager.shared().loadFromPreferences { _ in }
+//        NEVPNManager.shared().loadFromPreferences { _ in }
     }
 
     @objc func appDidBecomeActiveNotification() {
@@ -614,8 +614,8 @@ class BrowserViewController: UIViewController {
                            name: UIApplication.didEnterBackgroundNotification, object: nil)
             $0.addObserver(self, selector: #selector(resetNTPNotification),
                            name: .adsOrRewardsToggledInSettings, object: nil)
-            $0.addObserver(self, selector: #selector(vpnConfigChanged),
-                           name: .NEVPNConfigurationChange, object: nil)
+//            $0.addObserver(self, selector: #selector(vpnConfigChanged),
+//                           name: .NEVPNConfigurationChange, object: nil)
             $0.addObserver(self, selector: #selector(updateShieldNotifications),
                            name: NSNotification.Name(rawValue: BraveGlobalShieldStats.didUpdateNotification), object: nil)
         }
@@ -728,7 +728,7 @@ class BrowserViewController: UIViewController {
         }
         
         vpnProductInfo.load()
-        BraveVPN.initialize()
+//        BraveVPN.initialize()
         
         showWalletTransferExpiryPanelIfNeeded()
         
@@ -1082,11 +1082,11 @@ class BrowserViewController: UIViewController {
     private func presentVPNCallout() {
         let onboardingNotCompleted =
             Preferences.General.basicOnboardingCompleted.value == OnboardingState.completed.rawValue
-        let notEnoughAppLaunches = Preferences.VPN.appLaunchCountForVPNPopup.value < BraveVPN.appLaunchesToShowVPNPopup
+//        let notEnoughAppLaunches = Preferences.VPN.appLaunchCountForVPNPopup.value < BraveVPN.appLaunchesToShowVPNPopup
         let showedPopup = Preferences.VPN.popupShowed
 
         if onboardingNotCompleted
-            || notEnoughAppLaunches
+//            || notEnoughAppLaunches
             || showedPopup.value
             || !VPNProductInfo.isComplete {
             return
@@ -1099,9 +1099,9 @@ class BrowserViewController: UIViewController {
             $0.modalPresentationStyle = .overFullScreen
         }
         
-        popup.enableVPNTapped = { [weak self] in
-            self?.presentCorrespondingVPNViewController()
-        }
+//        popup.enableVPNTapped = { [weak self] in
+//            self?.presentCorrespondingVPNViewController()
+//        }
         
         present(popup, animated: false)
         
@@ -1109,22 +1109,22 @@ class BrowserViewController: UIViewController {
     }
     
     /// Shows a vpn screen based on vpn state.
-    func presentCorrespondingVPNViewController() {
-        guard let vc = BraveVPN.vpnState.enableVPNDestinationVC else { return }
-        let nav = SettingsNavigationController(rootViewController: vc)
-        nav.navigationBar.topItem?.leftBarButtonItem =
-            .init(barButtonSystemItem: .cancel, target: nav, action: #selector(nav.done))
-        let idiom = UIDevice.current.userInterfaceIdiom
-        
-        UIDevice.current.forcePortraitIfIphone(for: UIApplication.shared)
-        
-        if #available(iOS 13.0, *) {
-            nav.modalPresentationStyle = idiom == .phone ? .pageSheet : .formSheet
-        } else {
-            nav.modalPresentationStyle = idiom == .phone ? .fullScreen : .formSheet
-        }
-        present(nav, animated: true)
-    }
+//    func presentCorrespondingVPNViewController() {
+//        guard let vc = BraveVPN.vpnState.enableVPNDestinationVC else { return }
+//        let nav = SettingsNavigationController(rootViewController: vc)
+//        nav.navigationBar.topItem?.leftBarButtonItem =
+//            .init(barButtonSystemItem: .cancel, target: nav, action: #selector(nav.done))
+//        let idiom = UIDevice.current.userInterfaceIdiom
+//
+//        UIDevice.current.forcePortraitIfIphone(for: UIApplication.shared)
+//
+//        if #available(iOS 13.0, *) {
+//            nav.modalPresentationStyle = idiom == .phone ? .pageSheet : .formSheet
+//        } else {
+//            nav.modalPresentationStyle = idiom == .phone ? .fullScreen : .formSheet
+//        }
+//        present(nav, animated: true)
+//    }
     
     /// Whether or not to show the Default Browser intro callout. It's set at app launch in AppDelegate
     var shouldShowIntroScreen = false

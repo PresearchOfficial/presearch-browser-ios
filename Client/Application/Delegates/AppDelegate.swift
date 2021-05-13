@@ -296,7 +296,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
             // VPN credentials are kept in keychain and persist between app reinstalls.
             // To avoid unexpected problems we clear all vpn keychain items.
             // New set of keychain items will be created on purchase or iap restoration.
-            BraveVPN.clearCredentials()
+//            BraveVPN.clearCredentials()
         }
         
         if let urp = UserReferralProgram.shared {
@@ -552,7 +552,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         if let url = userActivity.webpageURL {
             switch UniversalLinkManager.universalLinkType(for: url, checkPath: false) {
             case .buyVPN:
-                browserViewController.presentCorrespondingVPNViewController()
+//                browserViewController.presentCorrespondingVPNViewController()
                 return true
             case .none:
                 break

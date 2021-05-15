@@ -581,10 +581,9 @@ class BrowserViewController: UIViewController {
         }
     }
     
-    @objc func vpnConfigChanged() {
-        // Load latest changes to the vpn.
-//        NEVPNManager.shared().loadFromPreferences { _ in }
-    }
+//    @objc func vpnConfigChanged() {
+//
+//    }
 
     @objc func appDidBecomeActiveNotification() {
         // Re-show any components that might have been hidden because they were being displayed
@@ -614,8 +613,6 @@ class BrowserViewController: UIViewController {
                            name: UIApplication.didEnterBackgroundNotification, object: nil)
             $0.addObserver(self, selector: #selector(resetNTPNotification),
                            name: .adsOrRewardsToggledInSettings, object: nil)
-//            $0.addObserver(self, selector: #selector(vpnConfigChanged),
-//                           name: .NEVPNConfigurationChange, object: nil)
             $0.addObserver(self, selector: #selector(updateShieldNotifications),
                            name: NSNotification.Name(rawValue: BraveGlobalShieldStats.didUpdateNotification), object: nil)
         }
@@ -1086,9 +1083,7 @@ class BrowserViewController: UIViewController {
         let showedPopup = Preferences.VPN.popupShowed
 
         if onboardingNotCompleted
-//            || notEnoughAppLaunches
-            || showedPopup.value
-            || !VPNProductInfo.isComplete {
+            || showedPopup.value {
             return
         }
         

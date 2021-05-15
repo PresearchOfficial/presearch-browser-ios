@@ -27,37 +27,7 @@ class BraveVPN {
     
     /// Initialize the vpn service. It should be called even if the user hasn't bought the vpn yet.
     /// This function can have side effects if the receipt has expired(removes the vpn connection then).
-    static func initialize() {
-        // The vpn can live outside of the app.
-        // When the app loads we should load it from preferences to track its state.
-        NEVPNManager.shared().loadFromPreferences { error in
-            if let error = error {
-                logAndStoreError("Failed to load vpn conection: \(error)")
-            }
-            
-            // We validate the current receipt at the start to know if the subscription has expirerd.
-            BraveVPN.validateReceipt() { expired in
-                if expired == true {
-                    BraveVPN.clearConfiguration()
-                    logAndStoreError("Receipt expired")
-                    return
-                }
-                
-                if isConnected {
-                    GRDGatewayAPI.shared().getServerStatus { completion in
-                        if completion.responseStatus == .serverOK {
-                            log.debug("VPN server status OK")
-                            return
-                        }
-                        
-                        logAndStoreError("VPN server status failure, migrating to new host")
-                        disconnect()
-                        reconnect()
-                    }
-                }
-            }
-        }
-    }
+
     
     // MARK: - STATE
     
@@ -130,34 +100,26 @@ class BraveVPN {
     }
     
     /// Current state ot the VPN service.
-    static var vpnState: State {
-        // User hasn't bought or restored the vpn yet.
-        // If vpn plan expired, this preference is not set to nil but the date is set to year 1970
-        // to force the UI to show expired state.
-        if Preferences.VPN.expirationDate.value == nil { return .notPurchased }
+//    static var vpnState: State {
+//        // User hasn't bought or restored the vpn yet.
+//        // If vpn plan expired, this preference is not set to nil but the date is set to year 1970
+//        // to force the UI to show expired state.
+//        if Preferences.VPN.expirationDate.value == nil { return .notPurchased }
+//
+//
+//        // The app has not expired yet and nothing is in keychain.
+//        // This means user has reinstalled the app while their vpn plan is still active.
+//        if GRDKeychain.getPasswordString(forAccount: kKeychainStr_SubscriberCredential) == nil {
+//            return .notPurchased
+//        }
+//    }
+    
         
-        if hasExpired == true {
-            return .expired(enabled: NEVPNManager.shared().isEnabled)
-        }
-        
-        // The app has not expired yet and nothing is in keychain.
-        // This means user has reinstalled the app while their vpn plan is still active.
-        if GRDKeychain.getPasswordString(forAccount: kKeychainStr_SubscriberCredential) == nil {
-            return .notPurchased
-        }
-        
-        // No VPN config set means the user could buy the vpn but hasn't gone through the second screen
-        // to install the vpn and connect to a server.
-//        if NEVPNManager.shared().connection.status == .invalid { return .purchased }
-        
-        return .installed(enabled: isConnected)
-    }
+//        return .installed(enabled: isConnected)
+//    }
     
     /// Returns true if the user is connected to Brave's vpn at the moment.
     /// This will return true if the user is connected to other VPN.
-    static var isConnected: Bool {
-        NEVPNManager.shared().connection.status == .connected
-    }
     
     /// Returns the last used hostname for the vpn configuration.
     /// Returns nil if the hostname string is empty(due to some error when configuring it for example).
@@ -521,11 +483,6 @@ class BraveVPN {
     private static func clearConfiguration() {
         GRDVPNHelper.clearVpnConfiguration()
         
-        NEVPNManager.shared().removeFromPreferences { error in
-            if let error = error {
-                logAndStoreError("Remove vpn error: \(error)")
-            }
-        }
     }
     
     static func clearCredentials() {
@@ -533,57 +490,57 @@ class BraveVPN {
         GRDKeychain.removeKeychanItem(forAccount: kKeychainStr_SubscriberCredential)
     }
     
-    static func sendVPNWorksInBackgroundNotification() {
-        
-        switch vpnState {
-        case .expired, .notPurchased, .purchased:
-            break
-        case .installed(let enabled):
-            if !enabled || Preferences.VPN.vpnWorksInBackgroundNotificationShowed.value {
-                break
-            }
-            
-            let center = UNUserNotificationCenter.current()
-            let notificationId = "vpnWorksInBackgroundNotification"
-            
-            center.requestAuthorization(options: [.provisional, .alert, .sound, .badge]) { granted, error in
-                if let error = error {
-                    log.error("Failed to request notifications permissions: \(error)")
-                    return
-                }
-                
-                if !granted {
-                    log.info("Not authorized to schedule a notification")
-                    return
-                }
-                
-                center.getPendingNotificationRequests { requests in
-                    if requests.contains(where: { $0.identifier == notificationId }) {
-                        // Already has one scheduled no need to schedule again.
-                        // Should not happens since we push the notification right away.
-                        return
-                    }
-                    
-                    let content = UNMutableNotificationContent()
-                    content.title = Strings.VPN.vpnBackgroundNotificationTitle
-                    content.body = Strings.VPN.vpnBackgroundNotificationBody
-                    
-                    // Empty `UNNotificationTrigger` sends the notification right away.
-                    let request = UNNotificationRequest(identifier: notificationId, content: content,
-                                                        trigger: nil)
-                    
-                    center.add(request) { error in
-                        if let error = error {
-                            log.error("Failed to add notification: \(error)")
-                            return
-                        }
-                        
-                        Preferences.VPN.vpnWorksInBackgroundNotificationShowed.value = true
-                    }
-                }
-            }
-        }
-    }
+//    static func sendVPNWorksInBackgroundNotification() {
+//
+//        switch vpnState {
+//        case .expired, .notPurchased, .purchased:
+//            break
+//        case .installed(let enabled):
+//            if !enabled || Preferences.VPN.vpnWorksInBackgroundNotificationShowed.value {
+//                break
+//            }
+//
+//            let center = UNUserNotificationCenter.current()
+//            let notificationId = "vpnWorksInBackgroundNotification"
+//
+//            center.requestAuthorization(options: [.provisional, .alert, .sound, .badge]) { granted, error in
+//                if let error = error {
+//                    log.error("Failed to request notifications permissions: \(error)")
+//                    return
+//                }
+//
+//                if !granted {
+//                    log.info("Not authorized to schedule a notification")
+//                    return
+//                }
+//
+//                center.getPendingNotificationRequests { requests in
+//                    if requests.contains(where: { $0.identifier == notificationId }) {
+//                        // Already has one scheduled no need to schedule again.
+//                        // Should not happens since we push the notification right away.
+//                        return
+//                    }
+//
+//                    let content = UNMutableNotificationContent()
+//                    content.title = Strings.VPN.vpnBackgroundNotificationTitle
+//                    content.body = Strings.VPN.vpnBackgroundNotificationBody
+//
+//                    // Empty `UNNotificationTrigger` sends the notification right away.
+//                    let request = UNNotificationRequest(identifier: notificationId, content: content,
+//                                                        trigger: nil)
+//
+//                    center.add(request) { error in
+//                        if let error = error {
+//                            log.error("Failed to add notification: \(error)")
+//                            return
+//                        }
+//
+//                        Preferences.VPN.vpnWorksInBackgroundNotificationShowed.value = true
+//                    }
+//                }
+//            }
+//        }
+//    }
     
     private static func saveHostname(_ hostname: String) {
         GRDVPNHelper.saveAll(inOneBoxHostname: hostname)

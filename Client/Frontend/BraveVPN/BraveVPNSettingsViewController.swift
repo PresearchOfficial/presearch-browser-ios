@@ -75,25 +75,8 @@ class BraveVPNSettingsViewController: TableViewController {
         super.viewDidLoad()
         
         title = Strings.VPN.vpnName
-//        NotificationCenter.default.addObserver(self, selector: #selector(vpnConfigChanged),
-//                                               name: .NEVPNStatusDidChange, object: nil)
         
         fetchRegionList()
-//
-//        let switchView = SwitchAccessoryView(initialValue: BraveVPN.isConnected, valueChange: { vpnOn in
-//            if vpnOn {
-//                BraveVPN.reconnect()
-//            } else {
-//                BraveVPN.disconnect()
-//            }
-//        })
-//
-//        self.vpnConnectionStatusSwitch = switchView
-//
-//        let vpnStatusSection = Section(rows: [
-//            Row(text: Strings.VPN.settingsVPNEnabled,
-//                accessory: .view(switchView), uuid: vpnStatusSectionCellId)
-//        ], uuid: vpnStatusSectionCellId)
 
         let subscriptionStatus = BraveVPN.hasExpired == true ?
             Strings.VPN.subscriptionStatusExpired : BraveVPN.subscriptionName
@@ -284,7 +267,7 @@ class BraveVPNSettingsViewController: TableViewController {
         present(alert, animated: true)
     }
     
-    @objc func vpnConfigChanged() {
-        vpnConnectionStatusSwitch?.isOn = BraveVPN.isConnected
-    }
+//    @objc func vpnConfigChanged() {
+//        vpnConnectionStatusSwitch?.isOn = BraveVPN.isConnected
+//    }
 }

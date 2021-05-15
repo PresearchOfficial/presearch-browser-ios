@@ -196,8 +196,6 @@ class MenuViewController: UITableViewController {
         
         preferredContentSize = CGSize(width: fit.width, height: fit.height + UX.topBottomInset * 2)
         
-//        NotificationCenter.default.addObserver(self, selector: #selector(vpnConfigChanged),
-//                                               name: .NEVPNStatusDidChange, object: nil)
     }
     
     deinit {
@@ -330,18 +328,18 @@ class MenuViewController: UITableViewController {
             menuCell.isLoading = true
         }
         
-        if !VPNProductInfo.isComplete {
-            let alert =
-                UIAlertController(title: Strings.VPN.errorCantGetPricesTitle,
-                                  message: Strings.VPN.errorCantGetPricesBody,
-                                  preferredStyle: .alert)
-            alert.addAction(.init(title: Strings.OKString, style: .default))
-            dismissView()
-            bvc.present(alert, animated: true)
-            // Reattempt to connect to the App Store to get VPN prices.
-            bvc.vpnProductInfo.load()
-            return
-        }
+//        if !VPNProductInfo.isComplete {
+//            let alert =
+//                UIAlertController(title: Strings.VPN.errorCantGetPricesTitle,
+//                                  message: Strings.VPN.errorCantGetPricesBody,
+//                                  preferredStyle: .alert)
+//            alert.addAction(.init(title: Strings.OKString, style: .default))
+//            dismissView()
+//            bvc.present(alert, animated: true)
+//            // Reattempt to connect to the App Store to get VPN prices.
+//            bvc.vpnProductInfo.load()
+//            return
+//        }
         
 //        switch BraveVPN.vpnState {
 //        case .notPurchased, .purchased, .expired:
@@ -404,15 +402,15 @@ class MenuViewController: UITableViewController {
         dismiss(animated: true)
     }
     
-    @objc func vpnConfigChanged() {
-        guard let cell = vpnMenuCell else { return }
-        
-//        cell.toggleButton.isOn = BraveVPN.isConnected
+//    @objc func vpnConfigChanged() {
+//        guard let cell = vpnMenuCell else { return }
 //        
-//        if BraveVPN.isConnected {
-//            cell.isLoading = false
-//        }
-    }
+////        cell.toggleButton.isOn = BraveVPN.isConnected
+////        
+////        if BraveVPN.isConnected {
+////            cell.isLoading = false
+////        }
+//    }
 }
 
 // MARK: - PopoverContentComponent

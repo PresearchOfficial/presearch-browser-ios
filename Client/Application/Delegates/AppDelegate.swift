@@ -422,7 +422,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
 
     func applicationDidEnterBackground(_ application: UIApplication) {
         syncOnDidEnterBackground(application: application)
-        BraveVPN.sendVPNWorksInBackgroundNotification()
+//        BraveVPN.sendVPNWorksInBackgroundNotification()
     }
 
     fileprivate func syncOnDidEnterBackground(application: UIApplication) {

@@ -8458,7 +8458,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Debug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.4;
+				CURRENT_PROJECT_VERSION = 1.7.6;
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -8894,7 +8894,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)/**",
-					"$(SRCROOT)/ThirdParty/YubiKit",
 					"$(PROJECT_DIR)/Client/WebFilters/ShieldStats/Adblock/Resources",
 					"$(PROJECT_DIR)/ThirdParty/sqlcipher",
 				);
@@ -9278,7 +9277,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Debug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.4;
+				CURRENT_PROJECT_VERSION = 1.7.6;
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -9348,7 +9347,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)/**",
-					"$(SRCROOT)/ThirdParty/YubiKit",
 					"$(PROJECT_DIR)/Client/WebFilters/ShieldStats/Adblock/Resources",
 					"$(PROJECT_DIR)/ThirdParty/sqlcipher",
 				);

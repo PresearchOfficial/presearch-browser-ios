@@ -923,7 +923,7 @@ extension Strings {
         public static let trackerAdWarningSubtitle =
             NSLocalizedString("shieldEducation.trackerAdWarningSubTitle",
                               bundle: .braveShared,
-                              value: "Presearch c just protected your online privacy.",
+                              value: "Presearch just protected your online privacy.",
                               comment: "Subtitle for Shield Education Tracker Ad Warning")
         
         public static let videoAdBlockSubtitle =

@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "这允许您将图像保存到您的手机相册中";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave 想访问您的相册";
+"AccessPhotoDeniedAlertTitle" = "Presearch 想访问您的相册";
 
 /* Button to add a bookmark */
 "AddBookmark" = "添加书签";
@@ -157,7 +157,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "正在拦截监视器";
 
-/* Brave panel individual toggle title */
+/* Presearch panel individual toggle title */
 "BlockPhishing" = "拦截钓鱼网站";
 
 /* No comment provided by engineer. */
@@ -199,11 +199,11 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "地址";
 
-/* Button to show the brave panel */
-"BravePanel" = "Brave 面板";
+/* Button to show the Presearch panel */
+"BravePanel" = "Presearch 面板";
 
 /* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+"BraveRewardsTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveShieldsAndPrivacy" = "Presearch Ad Blocker 与隐私";
@@ -212,13 +212,13 @@
 "BraveSync" = "同步";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "首先，您需要在所有计划同步的设备上安装 Brave。要将它们链接在一起，请启动同步链，您将使用该同步链将所有设备安全地链接在一起。";
+"BraveSyncWelcome" = "首先，您需要在所有计划同步的设备上安装 Presearch。要将它们链接在一起，请启动同步链，您将使用该同步链将所有设备安全地链接在一起。";
 
 /* Browser Lock feature callout enable action. */
 "BrowserLockCalloutEnable" = "启用";
 
 /* Browser Lock feature callout message. */
-"BrowserLockCalloutMessage" = "有了浏览器锁，您将需要输入 PIN 才可访问 Brave。";
+"BrowserLockCalloutMessage" = "有了浏览器锁，您将需要输入 PIN 才可访问 Presearch。";
 
 /* Browser Lock feature callout not now action. */
 "BrowserLockCalloutNotNow" = "现在不";
@@ -329,7 +329,7 @@
 "DDGCalloutEnable" = "是";
 
 /* DuckDuckGo message. */
-"DDGCalloutMessage" = "通过私人搜索功能，Brave 会在您在此私人标签中时通过 DuckDuckGo 对您的搜索进行回应。DuckDuckGo 是一个不会跟踪您的搜索历史的搜索引擎，让您可以私下进行搜索。";
+"DDGCalloutMessage" = "通过私人搜索功能，Presearch 会在您在此私人标签中时通过 DuckDuckGo 对您的搜索进行回应。DuckDuckGo 是一个不会跟踪您的搜索历史的搜索引擎，让您可以私下进行搜索。";
 
 /* DuckDuckGo callout no action. */
 "DDGCalloutNo" = "不";
@@ -344,25 +344,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "打开设置";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "用 Brave 打开所有链接以保护您的隐私";
+"defaultBrowserCallout.introPrimaryText" = "用 Presearch 打开所有链接以保护您的隐私";
 
 /* Secondary text on default browser popup. */
 "defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker 可屏蔽跟踪器和广告、保存数据，并节省您访问每个网站的时间";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "打开设置、点击默认浏览器应用，然后选择 Brave。";
+"defaultBrowserCallout.introTertiaryText" = "打开设置、点击默认浏览器应用，然后选择 Presearch。";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "已针对 iOS 14 进行了优yij化。立即将 Brave 设为您的默认浏览器。";
+/* Notification body to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationBody" = "已针对 iOS 14 进行了优yij化。立即将 Presearch 设为您的默认浏览器。";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Brave 网页浏览器";
+/* Notification title to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Presearch 网页浏览器";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "关闭默认浏览器标注";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Brave 默认";
+/* Name for default Presearch theme. */
+"defaultThemeName" = "Presearch 默认";
 
 /* No comment provided by engineer. */
 "Delete" = "删除";
@@ -461,7 +461,7 @@
 "ErrorPagesAdvancedWarning2" = "这可能是由攻击者造成的配置错误或篡改。如果您接受它带来的潜在风险，请继续。";
 
 /* Warning text on the certificate error page */
-"ErrorPagesCertWarningDescription" = "%@ 的所有者未正确配置其网站。为了防止您的信息被盗，Brave 尚未连接到此网站。";
+"ErrorPagesCertWarningDescription" = "%@ 的所有者未正确配置其网站。为了防止您的信息被盗，Presearch 尚未连接到此网站。";
 
 /* Title on the certificate error page */
 "ErrorPagesCertWarningTitle" = "您的连接不是私人连接";
@@ -481,10 +481,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "允许链接切换应用吗？";
 
-/* Allow Brave to open the external app URL */
+/* Allow Presearch to open the external app URL */
 "ExternalAppURLAllow" = "允许";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow Presearch to open the external app URL */
 "ExternalAppURLDontAllow" = "不允许";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -542,10 +542,10 @@
 "HideLinkPreviewsActionTitle" = "隐藏链接预览";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "隐藏 Brave Rewards 图标";
+"HideRewardsIcon" = "隐藏 Presearch Rewards 图标";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "未启用“Brave Rewards”时隐藏“Brave Rewards”图标";
+"HideRewardsIconSubtitle" = "未启用“Presearch Rewards”时隐藏“Presearch Rewards”图标";
 
 /* Title for history menu item */
 "HistortMenuItem" = "历史记录";
@@ -658,14 +658,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "字数不足";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Brave 支持";
+/* Bookmark title for Presearch Support */
+"ntp.braveSupportFavoriteTitle" = "Presearch 支持";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "领取代币";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "您通过用 Brave 进行浏览赚取了 %@。";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "您通过用 Presearch 进行浏览赚取了 %@。";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "太棒了！";
@@ -674,7 +674,7 @@
 "ntp.hideSponsoredImages" = "隐藏赞助图片";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "了解更多有关 Brave Rewards 的内容";
+"ntp.learnMoreAboutRewards" = "了解更多有关 Presearch Rewards 的内容";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "了解更多有关赞助图片的内容";
@@ -709,8 +709,8 @@
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "打开所有（%i）";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "打开 Brave Rewards 设置";
+/* Button title for opening the Presearch Rewards panel to settings */
+"OpenBraveRewardsSettings" = "打开 Presearch Rewards 设置";
 
 /* Context menu for opening image in new tab */
 "OpenImageInNewTab" = "在新标签中打开图片";
@@ -776,10 +776,10 @@
 "PrivateBrowsingOnlyWarning" = "“仅私人浏览”模式会关闭所有当前选项卡，而且还会将你退出所有站点。";
 
 /* Private tab details */
-"PrivateTabBody" = "私人标签未保存在 Brave 中，但它们不会让您在线匿名。您在私人标签中访问的网站将不会在您的历史记录中显示，并且当您关闭它们时，其 Cookie 总是会消失 - 不会在 Brave 中留下任何痕迹。您的移动运营商（或您所连接的 WiFi 网络或 VPN  的所有者）可以查看您访问的网站，这些网站将学习您的公共IP地址，即使在私人标签中也是如此。";
+"PrivateTabBody" = "私人标签未保存在 Presearch 中，但它们不会让您在线匿名。您在私人标签中访问的网站将不会在您的历史记录中显示，并且当您关闭它们时，其 Cookie 总是会消失 - 不会在 Presearch 中留下任何痕迹。您的移动运营商（或您所连接的 WiFi 网络或 VPN  的所有者）可以查看您访问的网站，这些网站将学习您的公共IP地址，即使在私人标签中也是如此。";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "使用私密 Tabs 只会更改 Brave 对您设备的操作，不会更改其他应用对您设备的操作。\n\n当您访问网站时，网站会随时知晓您的 IP 地址。由此地址，他们通常可以大致猜测您的位置 - 通常是您所在的城市。有时，对于位置的猜测可能更加具体。网站也会知晓您明确告诉他们的所有内容，例如您的搜索条件。如果您登录某个网站，他们就会知晓您是该帐户的所有者。当您关闭私密 Tabs 时，您仍然会被迫退出，因为 Brave 会删除辅助您随时登录的 cookie。\n\n为您连网（您的 ISP）的任何人都可以看到您所有的网络活动。通常是您的移动运营商。如果您连接到 WiFi 网络，则是该网络的所有者，如果您在使用 VPN，则是运行该 VPN 的人。您的 ISP 可以在您访问时查看您访问的网站。如果这些网站使用 HTTPS，它们只能对您在这些网站上所进行的操作进行合理的猜测。但是，如果某个网站仅使用 HTTP，那么您的 ISP 可以查看所有内容：您的搜索条件，您所阅读的页面以及您关注的链接。\n\n如果雇主管理您的设备，他们也可能会跟踪您的设备。使用私密 Tabs 可能不会阻止他们知晓您访问过哪些网站。有权访问您设备的其他人也可能安装了监控您活动的软件，而私密 Tabs 也无法保护您不受此影响。";
+"PrivateTabDetails" = "使用私密 Tabs 只会更改 Presearch 对您设备的操作，不会更改其他应用对您设备的操作。\n\n当您访问网站时，网站会随时知晓您的 IP 地址。由此地址，他们通常可以大致猜测您的位置 - 通常是您所在的城市。有时，对于位置的猜测可能更加具体。网站也会知晓您明确告诉他们的所有内容，例如您的搜索条件。如果您登录某个网站，他们就会知晓您是该帐户的所有者。当您关闭私密 Tabs 时，您仍然会被迫退出，因为 Presearch 会删除辅助您随时登录的 cookie。\n\n为您连网（您的 ISP）的任何人都可以看到您所有的网络活动。通常是您的移动运营商。如果您连接到 WiFi 网络，则是该网络的所有者，如果您在使用 VPN，则是运行该 VPN 的人。您的 ISP 可以在您访问时查看您访问的网站。如果这些网站使用 HTTPS，它们只能对您在这些网站上所进行的操作进行合理的猜测。但是，如果某个网站仅使用 HTTP，那么您的 ISP 可以查看所有内容：您的搜索条件，您所阅读的页面以及您关注的链接。\n\n如果雇主管理您的设备，他们也可能会跟踪您的设备。使用私密 Tabs 可能不会阻止他们知晓您访问过哪些网站。有权访问您设备的其他人也可能安装了监控您活动的软件，而私密 Tabs 也无法保护您不受此影响。";
 
 /* Private tab information link */
 "PrivateTabLink" = "了解私人标签";
@@ -793,8 +793,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "快速搜索引擎";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "对 Brave 评分";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "对 Presearch 评分";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "增大字体";
@@ -866,7 +866,7 @@
 "RestoreTabNegativeButtonTitle" = "不";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "看起来 Brave 先前崩溃了。您想恢复标签吗？";
+"RestoreTabOnCrashAlertMessage" = "看起来 Presearch 先前崩溃了。您想恢复标签吗？";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "这很尴尬。";
@@ -938,18 +938,18 @@
 "Security" = "安全";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "发送崩溃报告，Brave 可以修复问题？";
+"SendCrashReportAlertMessage" = "发送崩溃报告，Presearch 可以修复问题？";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "糟糕！Brave 崩溃了";
+"SendCrashReportAlertTitle" = "糟糕！Presearch 崩溃了";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "发送报告";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "现在，您可将 Brave 设置为您的 iOS 默认浏览器。点击此处打开设置。";
+"setDefaultBrowserCalloutTitle" = "现在，您可将 Presearch 设置为您的 iOS 默认浏览器。点击此处打开设置。";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the Presearch as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "设为默认浏览器";
 
 /* No comment provided by engineer. */
@@ -1027,7 +1027,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "显示标签栏";
 
-/* Brave panel topmost title */
+/* Presearch panel topmost title */
 "SiteShieldSettings" = "屏蔽";
 
 /* Open search section of settings */
@@ -1052,7 +1052,7 @@
 "sync.v2MigrationErrorTitle" = "错误";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "要使用 Brave Sync，必须先迁移现有的书签才能使用新系统。此操作不会删除您的书签。";
+"sync.v2MigrationMessage" = "要使用 Presearch Sync，必须先迁移现有的书签才能使用新系统。此操作不会删除您的书签。";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "迁移";
@@ -1124,7 +1124,7 @@
 "SyncRemoveDeviceDefaultName" = "设备";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "当前同步的数据将保留，但 Brave 的同步缓存中的所有数据将删除。您将需要启动一个新的同步链来再次同步设备数据。";
+"SyncRemoveLastDeviceMessage" = "当前同步的数据将保留，但 Presearch 的同步缓存中的所有数据将删除。您将需要启动一个新的同步链来再次同步设备数据。";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "删除同步链";
@@ -1163,7 +1163,7 @@
 "SyncToDevice" = "同步到设备";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "使用现有已同步设备打开 Brave 设置，并浏览至“设置”>“同步”。选择“添加设备”，然后扫描屏幕上显示的码。";
+"SyncToDeviceDescription" = "使用现有已同步设备打开 Presearch 设置，并浏览至“设置”>“同步”。选择“添加设备”，然后扫描屏幕上显示的码。";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "无法创建新同步组。";
@@ -1249,14 +1249,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "服务条款";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Presearch Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "使用条款";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "分享...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "与你的朋友分享 Brave 吧！";
+"themeQRCodeShareTitle" = "与你的朋友分享 Presearch 吧！";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "自动";
@@ -1297,7 +1297,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "使用地区广告拦截";
 
-/* Version number of Brave shown in settings */
+/* Version number of Presearch shown in settings */
 "VersionTemplate" = "版本 %1$@ （%2$@）";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

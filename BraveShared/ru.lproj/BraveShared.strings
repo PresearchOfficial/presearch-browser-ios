@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Это позволяет сохранять изображения в фотогалерее Camera Roll.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave нужен доступ к вашим фотографиям";
+"AccessPhotoDeniedAlertTitle" = "Presearch нужен доступ к вашим фотографиям";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Добавить закладку";
@@ -200,10 +200,10 @@
 "BookmarkUrlPlaceholderText" = "Адрес";
 
 /* Button to show the brave panel */
-"BravePanel" = "Панель Brave";
+"BravePanel" = "Панель Presearch";
 
 /* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+"BraveRewardsTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveShieldsAndPrivacy" = "Presearch Ad Blocker и конфиденциальность";
@@ -212,13 +212,13 @@
 "BraveSync" = "Синхронизация";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Установите Brave на всех устройствах, которые хотите синхронизировать. Чтобы безопасно связать их между собой, создайте цепочку синхронизации.";
+"BraveSyncWelcome" = "Установите Presearch на всех устройствах, которые хотите синхронизировать. Чтобы безопасно связать их между собой, создайте цепочку синхронизации.";
 
 /* Browser Lock feature callout enable action. */
 "BrowserLockCalloutEnable" = "Включить";
 
 /* Browser Lock feature callout message. */
-"BrowserLockCalloutMessage" = "Включите блокировку браузера, чтобы защитить Brave при помощи PIN-кода";
+"BrowserLockCalloutMessage" = "Включите блокировку браузера, чтобы защитить Presearch при помощи PIN-кода";
 
 /* Browser Lock feature callout not now action. */
 "BrowserLockCalloutNotNow" = "Не сейчас";
@@ -329,7 +329,7 @@
 "DDGCalloutEnable" = "Да";
 
 /* DuckDuckGo message. */
-"DDGCalloutMessage" = "В режиме инкогнито Brave использует поисковую систему DuckDuckGo. Она не отслеживает историю поиска, сохраняя конфиденциальность ваших запросов.";
+"DDGCalloutMessage" = "В режиме инкогнито Presearch использует поисковую систему DuckDuckGo. Она не отслеживает историю поиска, сохраняя конфиденциальность ваших запросов.";
 
 /* DuckDuckGo callout no action. */
 "DDGCalloutNo" = "Нет";
@@ -344,19 +344,19 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Открыть настройки";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Для безопасности открывайте ссылки с помощью Brave";
+"defaultBrowserCallout.introPrimaryText" = "Для безопасности открывайте ссылки с помощью Presearch";
 
 /* Secondary text on default browser popup. */
 "defaultBrowserCallout.introSecondaryText" = "Пользуйтесь Интернетом без помех. Presearch Ad Blocker блокирует рекламу и трекеры, а также защищает данные.";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Откройте настройки, нажмите «Браузерное приложение по умолчанию» и выберите Brave.";
+"defaultBrowserCallout.introTertiaryText" = "Откройте настройки, нажмите «Браузерное приложение по умолчанию» и выберите Presearch.";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Оптимизировано для iOS 14. Сделайте Brave браузером по умолчанию.";
+/* Notification body to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationBody" = "Оптимизировано для iOS 14. Сделайте Presearch браузером по умолчанию.";
 
 /* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Браузер Brave";
+"defaultBrowserCallout.notificationTitle" = "Браузер Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Закрыть сообщение о браузере по умолчанию";
@@ -542,10 +542,10 @@
 "HideLinkPreviewsActionTitle" = "Скрыть предварительный просмотр ссылок";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Скрыть значок Brave Rewards";
+"HideRewardsIcon" = "Скрыть значок Presearch Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Скрывает значок Brave Rewards, если сервис Brave Rewards не включен";
+"HideRewardsIconSubtitle" = "Скрывает значок Presearch Rewards, если сервис Presearch Rewards не включен";
 
 /* Title for history menu item */
 "HistortMenuItem" = "История";
@@ -659,13 +659,13 @@
 "NotEnoughWordsTitle" = "Вы ввели не все слова";
 
 /* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Служба поддержки Brave";
+"ntp.braveSupportFavoriteTitle" = "Служба поддержки Presearch";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Получить баллы";
 
 /* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Вы заработали %@, пользуясь Brave.";
+"ntp.earningsReport" = "Вы заработали %@, пользуясь Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Так держать!";
@@ -674,7 +674,7 @@
 "ntp.hideSponsoredImages" = "Не показывать спонсорские изображения";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Подробнее о Brave Rewards…";
+"ntp.learnMoreAboutRewards" = "Подробнее о Presearch Rewards…";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Подробнее о спонсорских изображениях…";
@@ -704,13 +704,13 @@
 "ntp.sponsoredImageDescription" = "Просматривая это спонсорское изображение, вы поддерживаете издателей и создателей контента.";
 
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
-"ntp.turnRewardsTos" = "Включая Brave Rewards, вы принимаете";
+"ntp.turnRewardsTos" = "Включая Presearch Rewards, вы принимаете";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Открыть все (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Открыть настройки Brave Rewards";
+/* Button title for opening the Presearch Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Открыть настройки Presearch Rewards";
 
 /* Context menu for opening image in new tab */
 "OpenImageInNewTab" = "Открыть изображение в новой вкладке";
@@ -776,10 +776,10 @@
 "PrivateBrowsingOnlyWarning" = "В режиме «Приватный просмотр» будут закрыты все открытые вкладки и будет выполнен выход со всех сайтов.";
 
 /* Private tab details */
-"PrivateTabBody" = "Использование приватных вкладок не дает вам полной анонимности в Интернете. При включении этого режима в Brave не сохраняется история браузера, а файлы cookie удаляются сразу после выхода из него. Если вы скачивали файлы, то они останутся на устройстве.\nМобильный оператор, владелец сети Wi-Fi или провайдер VPN сможет увидеть, какие сайты вы посещали, а у сайтов будет доступ к вашему внешнему IP-адресу, даже если вы открывали страницы в приватных вкладках.";
+"PrivateTabBody" = "Использование приватных вкладок не дает вам полной анонимности в Интернете. При включении этого режима в Presearch не сохраняется история браузера, а файлы cookie удаляются сразу после выхода из него. Если вы скачивали файлы, то они останутся на устройстве.\nМобильный оператор, владелец сети Wi-Fi или провайдер VPN сможет увидеть, какие сайты вы посещали, а у сайтов будет доступ к вашему внешнему IP-адресу, даже если вы открывали страницы в приватных вкладках.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Используя приватные вкладки, вы влияете только на то, какую информацию Brave сохраняет на вашем устройстве.\n\nСайты получают ваш IP-адрес автоматически, как только вы заходите на них. При этом они могут определить ваше примерное местоположение — как правило, на уровне города. Иногда эти данные могут быть точнее. Кроме того, сайты сохраняют всю вводимую вами информацию, например поисковые запросы. Если вы войдете в систему, им будет известно, что вы являетесь владельцем этой учетной записи. При закрытии приватных вкладок вы автоматически выйдете из аккаунта, так как Brave удалит файлы cookie, необходимые для того, чтобы оставаться в системе.\n\nВаши действия в сети может отслеживать интернет-провайдер. Как правило, это оператор мобильной связи либо владелец сети Wi-Fi или VPN, в зависимости от того, кто предоставляет вам доступ к интернету. Ваш интернет-провайдер видит, какие сайты вы посещаете. Если используется протокол HTTPS, интернет-провайдер сможет лишь догадываться о том, что вы делали на сайте. Если же сайт использует только протокол HTTP, интернет-провайдер сможет узнать всё: какие поисковые запросы вы вводили, какие страницы посещали, по каким ссылкам переходили и т. д.\n\nИспользование приватных вкладок вряд ли помешает работодателю узнать, на какие сайты вы заходили, если он управляет вашим устройством. Кроме того, другие люди, у которых есть доступ к вашему устройству, могут установить программу, отслеживающую ваши действия, — приватные вкладки не помогут и в этом случае.";
+"PrivateTabDetails" = "Используя приватные вкладки, вы влияете только на то, какую информацию Presearch сохраняет на вашем устройстве.\n\nСайты получают ваш IP-адрес автоматически, как только вы заходите на них. При этом они могут определить ваше примерное местоположение — как правило, на уровне города. Иногда эти данные могут быть точнее. Кроме того, сайты сохраняют всю вводимую вами информацию, например поисковые запросы. Если вы войдете в систему, им будет известно, что вы являетесь владельцем этой учетной записи. При закрытии приватных вкладок вы автоматически выйдете из аккаунта, так как Presearch удалит файлы cookie, необходимые для того, чтобы оставаться в системе.\n\nВаши действия в сети может отслеживать интернет-провайдер. Как правило, это оператор мобильной связи либо владелец сети Wi-Fi или VPN, в зависимости от того, кто предоставляет вам доступ к интернету. Ваш интернет-провайдер видит, какие сайты вы посещаете. Если используется протокол HTTPS, интернет-провайдер сможет лишь догадываться о том, что вы делали на сайте. Если же сайт использует только протокол HTTP, интернет-провайдер сможет узнать всё: какие поисковые запросы вы вводили, какие страницы посещали, по каким ссылкам переходили и т. д.\n\nИспользование приватных вкладок вряд ли помешает работодателю узнать, на какие сайты вы заходили, если он управляет вашим устройством. Кроме того, другие люди, у которых есть доступ к вашему устройству, могут установить программу, отслеживающую ваши действия, — приватные вкладки не помогут и в этом случае.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Подробнее о вкладках инкогнито…";
@@ -793,8 +793,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Быстрый поиск";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Оценить Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Оценить Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Увеличить текст";
@@ -866,7 +866,7 @@
 "RestoreTabNegativeButtonTitle" = "Нет";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "В Brave произошел сбой. Восстановить вкладки?";
+"RestoreTabOnCrashAlertMessage" = "В Presearch произошел сбой. Восстановить вкладки?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Приносим извинения";
@@ -947,7 +947,7 @@
 "SendReportButtonTitle" = "Отправить отчет";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Теперь можно установить Brave в качестве браузера по умолчанию для iOS. Нажмите, чтобы открыть настройки.";
+"setDefaultBrowserCalloutTitle" = "Теперь можно установить Presearch в качестве браузера по умолчанию для iOS. Нажмите, чтобы открыть настройки.";
 
 /* Settings item to set the Brave as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Установить в качестве браузера по умолчанию";
@@ -1052,7 +1052,7 @@
 "sync.v2MigrationErrorTitle" = "Ошибка";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "Чтобы воспользоваться новой системой Brave Sync, необходимо переместить имеющиеся закладки. При этом они не будут удалены.";
+"sync.v2MigrationMessage" = "Чтобы воспользоваться новой системой Presearch Sync, необходимо переместить имеющиеся закладки. При этом они не будут удалены.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Переместить";
@@ -1070,13 +1070,13 @@
 "SyncAddDeviceScan" = "QR-код цепочки синхронизации";
 
 /* Sync add device description */
-"SyncAddDeviceScanDescription" = "Запустите Brave на втором мобильном устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите «Сканировать код синхронизации». Отсканируйте QR-код ниже с помощью камеры.\n\nОтноситесь к этому коду как к паролю. Не показывайте его никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
+"SyncAddDeviceScanDescription" = "Запустите Presearch на втором мобильном устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите «Сканировать код синхронизации». Отсканируйте QR-код ниже с помощью камеры.\n\nОтноситесь к этому коду как к паролю. Не показывайте его никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
 
 /* Add device to sync with code words */
 "SyncAddDeviceWords" = "Введите код синхронизации";
 
 /* Sync add device description */
-"SyncAddDeviceWordsDescription" = "Запустите Brave на устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите кнопку «%@». Введите указанные ниже кодовые слова.\n\nОтноситесь к кодовым словам как к паролю. Не сообщайте их никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
+"SyncAddDeviceWordsDescription" = "Запустите Presearch на устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите кнопку «%@». Введите указанные ниже кодовые слова.\n\nОтноситесь к кодовым словам как к паролю. Не сообщайте их никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
 
 /* Add device to sync with code words navigation title */
 "SyncAddDeviceWordsTitle" = "Введите кодовые слова";
@@ -1124,7 +1124,7 @@
 "SyncRemoveDeviceDefaultName" = "Устройство";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Данные, которые уже были синхронизированы, останутся на устройстве. Информация в кеше синхронизации Brave будет удалена. Чтобы снова синхронизировать сведения на устройстве, вам потребуется создать новую цепочку синхронизации.";
+"SyncRemoveLastDeviceMessage" = "Данные, которые уже были синхронизированы, останутся на устройстве. Информация в кеше синхронизации Presearch будет удалена. Чтобы снова синхронизировать сведения на устройстве, вам потребуется создать новую цепочку синхронизации.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Удалить цепочку";
@@ -1163,7 +1163,7 @@
 "SyncToDevice" = "Синхронизация с устройством";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "Запустите Brave на уже синхронизированном устройстве, откройте настройки и выберите «Синхронизация». Нажмите «Добавить устройство» и отсканируйте код на экране.";
+"SyncToDeviceDescription" = "Запустите Presearch на уже синхронизированном устройстве, откройте настройки и выберите «Синхронизация». Нажмите «Добавить устройство» и отсканируйте код на экране.";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "Не удалось создать группу синхронизации.";
@@ -1256,7 +1256,7 @@
 "themeQRCodeShareButton" = "Поделиться…";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Расскажите о браузере Brave друзьям!";
+"themeQRCodeShareTitle" = "Расскажите о браузере Presearch друзьям!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Автоматически";

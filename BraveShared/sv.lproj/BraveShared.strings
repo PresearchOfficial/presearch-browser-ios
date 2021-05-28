@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Detta låter dig spara bilden till din kamerarulle.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave vill ha tillgång till dina foton";
+"AccessPhotoDeniedAlertTitle" = "Presearch vill ha tillgång till dina foton";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Lägg till bokmärke";
@@ -200,10 +200,10 @@
 "BookmarkUrlPlaceholderText" = "Adress";
 
 /* Button to show the brave panel */
-"BravePanel" = "Brave-panelen";
+"BravePanel" = "Presearch-panelen";
 
 /* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+"BraveRewardsTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveShieldsAndPrivacy" = "Presearch Ad Blocker och sekretess";
@@ -212,13 +212,13 @@
 "BraveSync" = "Synkronisera";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Till att börja med måste du ha installerat Brave på alla enheter du vill synkronisera. För att sammanlänka dem kan du starta en synkroniseringskedja som du använder för att koppla ihop alla dina enheter säkert.";
+"BraveSyncWelcome" = "Till att börja med måste du ha installerat Presearch på alla enheter du vill synkronisera. För att sammanlänka dem kan du starta en synkroniseringskedja som du använder för att koppla ihop alla dina enheter säkert.";
 
 /* Browser Lock feature callout enable action. */
 "BrowserLockCalloutEnable" = "Aktivera";
 
 /* Browser Lock feature callout message. */
-"BrowserLockCalloutMessage" = "Med kodlåset för Brave så kommer du behöva ange koden för att komma in i webbläsaren.";
+"BrowserLockCalloutMessage" = "Med kodlåset för Presearch så kommer du behöva ange koden för att komma in i webbläsaren.";
 
 /* Browser Lock feature callout not now action. */
 "BrowserLockCalloutNotNow" = "Inte nu";
@@ -329,7 +329,7 @@
 "DDGCalloutEnable" = "Ja";
 
 /* DuckDuckGo message. */
-"DDGCalloutMessage" = "Vid privat sökning använder Brave DuckDuckGo för att leverera sökträffar. DuckDuckGo är en sökmotor som inte spårar din sökhistorik, vilket låter dig göra privata sökningar.";
+"DDGCalloutMessage" = "Vid privat sökning använder Presearch DuckDuckGo för att leverera sökträffar. DuckDuckGo är en sökmotor som inte spårar din sökhistorik, vilket låter dig göra privata sökningar.";
 
 /* DuckDuckGo callout no action. */
 "DDGCalloutNo" = "Nej";
@@ -344,25 +344,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Öppna inställningar";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Öppna alla länkar med Brave för att skydda din integritet";
+"defaultBrowserCallout.introPrimaryText" = "Öppna alla länkar med Presearch för att skydda din integritet";
 
 /* Secondary text on default browser popup. */
 "defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker blockerar spårare och annonser, sparar data och sparar tid på alla webbplats du besöker";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Öppna Inställningar, tryck på Standardwebbläsare och välj Brave.";
+"defaultBrowserCallout.introTertiaryText" = "Öppna Inställningar, tryck på Standardwebbläsare och välj Presearch.";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Optimerad för iOS 14. Gör Brave till din standardwebbläsare idag.";
+/* Notification body to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationBody" = "Optimerad för iOS 14. Gör Presearch till din standardwebbläsare idag.";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Webbläsaren Brave";
+/* Notification title to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Webbläsaren Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Stäng text om standardwebbläsare";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Brave standardinställningar";
+/* Name for default Presearch theme. */
+"defaultThemeName" = "Presearch standardinställningar";
 
 /* No comment provided by engineer. */
 "Delete" = "Radera";
@@ -461,7 +461,7 @@
 "ErrorPagesAdvancedWarning2" = "Det kan vara en felkonfiguration eller manipulering av en angripare. Fortsätt om du accepterar den potentiella risken.";
 
 /* Warning text on the certificate error page */
-"ErrorPagesCertWarningDescription" = "Ägaren till % @ har konfigurerat sin webbplats felaktigt. För att skydda din information från att bli stulen så anslöt inte Brave till denna webbplats.";
+"ErrorPagesCertWarningDescription" = "Ägaren till % @ har konfigurerat sin webbplats felaktigt. För att skydda din information från att bli stulen så anslöt inte Presearch till denna webbplats.";
 
 /* Title on the certificate error page */
 "ErrorPagesCertWarningTitle" = "Din anslutning är inte säker";
@@ -481,10 +481,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "Tillåt länk att byta appar?";
 
-/* Allow Brave to open the external app URL */
+/* Allow Presearch to open the external app URL */
 "ExternalAppURLAllow" = "Tillåt";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow Presearch to open the external app URL */
 "ExternalAppURLDontAllow" = "Tillåt inte";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -542,10 +542,10 @@
 "HideLinkPreviewsActionTitle" = "Dölj förhandsgranskning av länkar";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Dölj Brave Rewards-ikonen";
+"HideRewardsIcon" = "Dölj Presearch Rewards-ikonen";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Döljer Brave Rewards-ikonen när Brave Rewards inte är aktiverat";
+"HideRewardsIconSubtitle" = "Döljer Presearch Rewards-ikonen när Presearch Rewards inte är aktiverat";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historik";
@@ -658,14 +658,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "För få ord";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Brave Support";
+/* Bookmark title for Presearch Support */
+"ntp.braveSupportFavoriteTitle" = "Presearch Support";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Hämta tokens";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Du tjänade %@ genom att surfa med Brave.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "Du tjänade %@ genom att surfa med Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Bra jobbat!";
@@ -674,7 +674,7 @@
 "ntp.hideSponsoredImages" = "Dölj sponsrade bilder";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Lär dig mer om Brave Rewards";
+"ntp.learnMoreAboutRewards" = "Lär dig mer om Presearch Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Lär dig mer om sponsrade bilder";
@@ -709,8 +709,8 @@
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Öppna alla (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Öppna inställningar för Brave Rewards";
+/* Button title for opening the Presearch Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Öppna inställningar för Presearch Rewards";
 
 /* Context menu for opening image in new tab */
 "OpenImageInNewTab" = "Öppna bild i ny flik";
@@ -760,7 +760,7 @@
 /* Settings privacy section title */
 "Privacy" = "Integritet";
 
-/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Presearch Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "Integritetspolicy";
 
 /* Private button title */
@@ -776,10 +776,10 @@
 "PrivateBrowsingOnlyWarning" = "Läget endast privat surfning kommer att stänga alla öppna flikar och logga ut dig från alla webbplatser.";
 
 /* Private tab details */
-"PrivateTabBody" = "Privata flikar sparas inte i Brave, men de gör dig inte anonym online. Webbplatser som du besöker på en privat flik visas inte i din historik och deras cookies försvinner alltid när du stänger dem - det finns inga spår av dem kvar i Brave. Men hämtningar sparas.\nDin mobiloperatör (eller ägaren till WiFi-nätverket eller den VPN som du är ansluten till) kan se vilka webbplatser som du besöker och vilka webbplatser som kommer att lära sig din offentliga IP-adress, även i privata flikar.";
+"PrivateTabBody" = "Privata flikar sparas inte i Presearch, men de gör dig inte anonym online. Webbplatser som du besöker på en privat flik visas inte i din historik och deras cookies försvinner alltid när du stänger dem - det finns inga spår av dem kvar i Presearch. Men hämtningar sparas.\nDin mobiloperatör (eller ägaren till WiFi-nätverket eller den VPN som du är ansluten till) kan se vilka webbplatser som du besöker och vilka webbplatser som kommer att lära sig din offentliga IP-adress, även i privata flikar.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "När du använder privata flikar ändras Brave bara på din enhet, ingen annans.\n\nWebbplatser får alltid veta din IP-adress när du besöker dem. Utifrån detta kan de oftast räkna ut ungefär var du befinner dig, till exempel din ort. Ibland kan de gissa mer specifikt. Webbplatser vet också allt som du explicit anger, till exempel sökningar. Om du loggar in på en webbplats vet de att du äger kontot. Du loggas ut när du stänger den privata fliken eftersom Brave raderar den cookie som håller dig inloggad.\n\nDin internetleverantör, alltså den som tillhandahåller din internetanslutning, kan se all din nätverksaktivitet. Beroende på anslutningstyp är leverantören din mobilleverantör (för mobildata), wifi-nätets ägare (för wifi) eller den som tillhandahåller din VPN-anslutning (för VPN). Leverantören kan se vilka webbplatser du besöker. Om webbplatserna har HTTPS kan leverantören inte se mer än vilken platsen är, men om webbplatsen bara har HTTP kan leverantören se allt: vad du söker på, vilka sidor du läser och vilka länkar du följer.\n\nOm ditt företag ansvarar för din enhet kan de också se vad du gör med den. Att använda privata flikar kommer förmodligen inte hindra dem från att ta reda på vilka webbplatser du besökt. Någon annan med tillgång till din enhet kan ha installerat ett program som övervakar din aktivitet, och privata flikar skyddar inte mot det heller.";
+"PrivateTabDetails" = "När du använder privata flikar ändras Presearch bara på din enhet, ingen annans.\n\nWebbplatser får alltid veta din IP-adress när du besöker dem. Utifrån detta kan de oftast räkna ut ungefär var du befinner dig, till exempel din ort. Ibland kan de gissa mer specifikt. Webbplatser vet också allt som du explicit anger, till exempel sökningar. Om du loggar in på en webbplats vet de att du äger kontot. Du loggas ut när du stänger den privata fliken eftersom Presearch raderar den cookie som håller dig inloggad.\n\nDin internetleverantör, alltså den som tillhandahåller din internetanslutning, kan se all din nätverksaktivitet. Beroende på anslutningstyp är leverantören din mobilleverantör (för mobildata), wifi-nätets ägare (för wifi) eller den som tillhandahåller din VPN-anslutning (för VPN). Leverantören kan se vilka webbplatser du besöker. Om webbplatserna har HTTPS kan leverantören inte se mer än vilken platsen är, men om webbplatsen bara har HTTP kan leverantören se allt: vad du söker på, vilka sidor du läser och vilka länkar du följer.\n\nOm ditt företag ansvarar för din enhet kan de också se vad du gör med den. Att använda privata flikar kommer förmodligen inte hindra dem från att ta reda på vilka webbplatser du besökt. Någon annan med tillgång till din enhet kan ha installerat ett program som övervakar din aktivitet, och privata flikar skyddar inte mot det heller.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Läs mer om privata flikar.";
@@ -793,8 +793,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Snabbsökmotorer";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Betygsätt Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Betygsätt Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Öka textstorleken";
@@ -938,16 +938,16 @@
 "Security" = "Säkerhet";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Skicka kraschrapport så att Brave kan lösa problemet?";
+"SendCrashReportAlertMessage" = "Skicka kraschrapport så att Presearch kan lösa problemet?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "Oj! Brave kraschade";
+"SendCrashReportAlertTitle" = "Oj! Presearch kraschade";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Skicka rapport";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Brave kan nu anges som din standardwebbläsare i iOS. Tryck här för att öppna inställningarna.";
+"setDefaultBrowserCalloutTitle" = "Presearch kan nu anges som din standardwebbläsare i iOS. Tryck här för att öppna inställningarna.";
 
 /* Settings item to set the Brave as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Ange som standardwebbläsare";
@@ -1052,7 +1052,7 @@
 "sync.v2MigrationErrorTitle" = "Fel";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "För att använda Brave Sync måste dina befintliga bokmärken migreras för att använda det nya systemet. Den här operationen kommer inte att radera dina bokmärken.";
+"sync.v2MigrationMessage" = "För att använda Presearch Sync måste dina befintliga bokmärken migreras för att använda det nya systemet. Den här operationen kommer inte att radera dina bokmärken.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Migrera";
@@ -1124,7 +1124,7 @@
 "SyncRemoveDeviceDefaultName" = "Enhet";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Data som för närvarande synkroniseras kommer att behållas, men all data i Braves Sync cache kommer att raderas. Du måste starta en ny synkroniseringskedja för att synkronisera enhetsdata igen.";
+"SyncRemoveLastDeviceMessage" = "Data som för närvarande synkroniseras kommer att behållas, men all data i Presearchs Sync cache kommer att raderas. Du måste starta en ny synkroniseringskedja för att synkronisera enhetsdata igen.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Radera synkroniseringskedja";
@@ -1256,7 +1256,7 @@
 "themeQRCodeShareButton" = "Dela ...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Dela Brave med dina vänner!";
+"themeQRCodeShareTitle" = "Dela Presearch med dina vänner!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automatisk";
@@ -1297,7 +1297,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "Använd regional annonsblockering";
 
-/* Version number of Brave shown in settings */
+/* Version number of Presearch shown in settings */
 "VersionTemplate" = "Version %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

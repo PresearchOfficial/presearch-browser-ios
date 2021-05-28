@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Cette action vous permet d'enregistrer l'image dans Pellicule.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave souhaite accéder à vos photos";
+"AccessPhotoDeniedAlertTitle" = "Presearch souhaite accéder à vos photos";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Ajouter un marque-page";
@@ -157,7 +157,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Écran des blocages";
 
-/* Brave panel individual toggle title */
+/* Presearch panel individual toggle title */
 "BlockPhishing" = "Bloquer l'hameçonnage";
 
 /* No comment provided by engineer. */
@@ -199,11 +199,11 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Adresse";
 
-/* Button to show the brave panel */
-"BravePanel" = "Panneau Brave";
+/* Button to show the Presearch panel */
+"BravePanel" = "Panneau Presearch";
 
 /* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+"BraveRewardsTitle" = "Presearch Rewards";
 
 /* No comment provided by engineer. */
 "BraveShieldsAndPrivacy" = "Presearch Ad Blocker et Confidentialité";
@@ -212,13 +212,13 @@
 "BraveSync" = "Synchronisation";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Pour pouvoir commencer, vous devez avoir installé Brave sur tous les appareils que vous souhaitez synchroniser. Pour les associer, lancez une chaîne de synchronisation que vous utiliserez pour associer tous vos appareils en toute sécurité.";
+"BraveSyncWelcome" = "Pour pouvoir commencer, vous devez avoir installé Presearch sur tous les appareils que vous souhaitez synchroniser. Pour les associer, lancez une chaîne de synchronisation que vous utiliserez pour associer tous vos appareils en toute sécurité.";
 
 /* Browser Lock feature callout enable action. */
 "BrowserLockCalloutEnable" = "Activer";
 
 /* Browser Lock feature callout message. */
-"BrowserLockCalloutMessage" = "Avec le verrouillage de navigateur, vous devez saisir un code confidentiel pour accéder à Brave.";
+"BrowserLockCalloutMessage" = "Avec le verrouillage de navigateur, vous devez saisir un code confidentiel pour accéder à Presearch.";
 
 /* Browser Lock feature callout not now action. */
 "BrowserLockCalloutNotNow" = "Pas maintenant";
@@ -329,7 +329,7 @@
 "DDGCalloutEnable" = "Oui";
 
 /* DuckDuckGo message. */
-"DDGCalloutMessage" = "Lorsque vous effectuez des recherches privées dans cet onglet, Brave utilise DuckDuckGo. DuckDuckGo est un moteur de recherche qui ne collecte pas votre historique de recherches et vous permet ainsi d'effectuer des recherches privées.";
+"DDGCalloutMessage" = "Lorsque vous effectuez des recherches privées dans cet onglet, Presearch utilise DuckDuckGo. DuckDuckGo est un moteur de recherche qui ne collecte pas votre historique de recherches et vous permet ainsi d'effectuer des recherches privées.";
 
 /* DuckDuckGo callout no action. */
 "DDGCalloutNo" = "Non";
@@ -344,25 +344,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Ouvrir les paramètres";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Ouvrez tous les liens avec Brave pour protéger votre vie privée";
+"defaultBrowserCallout.introPrimaryText" = "Ouvrez tous les liens avec Presearch pour protéger votre vie privée";
 
 /* Secondary text on default browser popup. */
 "defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker bloque les traceurs et les publicités, économise les données et vous fait gagner du temps sur chaque site que vous consultez";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Ouvrez les paramètres, appuyez sur Application de navigateur par défaut et sélectionnez Brave.";
+"defaultBrowserCallout.introTertiaryText" = "Ouvrez les paramètres, appuyez sur Application de navigateur par défaut et sélectionnez Presearch.";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Optimisé pour iOS 14. Faites de Brave votre navigateur par défaut.";
+/* Notification body to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationBody" = "Optimisé pour iOS 14. Faites de Presearch votre navigateur par défaut.";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Navigateur Web Brave";
+/* Notification title to promote setting Presearch app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Navigateur Web Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Fermer la légende du navigateur par défaut";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Thème Brave par défaut";
+/* Name for default Presearch theme. */
+"defaultThemeName" = "Thème Presearch par défaut";
 
 /* No comment provided by engineer. */
 "Delete" = "Supprimer";
@@ -461,7 +461,7 @@
 "ErrorPagesAdvancedWarning2" = "Il est possible qu'il s'agisse d'une mauvaise configuration ou d'une altération venant d'un pirate. Poursuivez en ayant conscience du risque potentiel.";
 
 /* Warning text on the certificate error page */
-"ErrorPagesCertWarningDescription" = "Le propriétaire de %@ a configuré son site Web de manière incorrecte. Pour protéger vos informations contre le vol, Brave ne s'est pas connecté à ce site Web.";
+"ErrorPagesCertWarningDescription" = "Le propriétaire de %@ a configuré son site Web de manière incorrecte. Pour protéger vos informations contre le vol, Presearch ne s'est pas connecté à ce site Web.";
 
 /* Title on the certificate error page */
 "ErrorPagesCertWarningTitle" = "Votre connexion n'est pas privée";
@@ -481,10 +481,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "Autoriser le lien à changer d'app ?";
 
-/* Allow Brave to open the external app URL */
+/* Allow Presearch to open the external app URL */
 "ExternalAppURLAllow" = "Autoriser";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow Presearch to open the external app URL */
 "ExternalAppURLDontAllow" = "Ne pas autoriser";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -542,10 +542,10 @@
 "HideLinkPreviewsActionTitle" = "Masquer les aperçus de liens";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Masquer l'icône Brave Rewards";
+"HideRewardsIcon" = "Masquer l'icône Presearch Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Masque l'icône Brave Rewards lorsque l'option Brave Rewards n'est pas activée.";
+"HideRewardsIconSubtitle" = "Masque l'icône Presearch Rewards lorsque l'option Presearch Rewards n'est pas activée.";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historique";
@@ -658,14 +658,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "Nombre de mots insuffisant";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Assistance Brave";
+/* Bookmark title for Presearch Support */
+"ntp.braveSupportFavoriteTitle" = "Assistance Presearch";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Récupérer mes jetons";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Vous avez gagné %@ en naviguant avec Brave.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "Vous avez gagné %@ en naviguant avec Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Bravo !";
@@ -674,7 +674,7 @@
 "ntp.hideSponsoredImages" = "Masquer les images sponsorisées";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "En savoir plus sur Brave Rewards";
+"ntp.learnMoreAboutRewards" = "En savoir plus sur Presearch Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "En savoir plus sur les images sponsorisées";
@@ -709,8 +709,8 @@
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Tout ouvrir (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Ouvrir les paramètres Brave Rewards";
+/* Button title for opening the Presearch Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Ouvrir les paramètres Presearch Rewards";
 
 /* Context menu for opening image in new tab */
 "OpenImageInNewTab" = "Ouvrir l'image dans un nouvel onglet";
@@ -776,10 +776,10 @@
 "PrivateBrowsingOnlyWarning" = "Le mode«  Navigation privée uniquement » fermera tous vos onglets actuels et vous déconnectera de tous les sites.";
 
 /* Private tab details */
-"PrivateTabBody" = "Même si les onglets privés ne sont pas enregistrés dans Brave, ces derniers ne vous rendent pas anonymes sur Internet. Les sites que vous consultez dans un onglet privé ne s'affichent pas dans votre historique, et leurs cookies sont toujours supprimés (ils ne sont pas conservés dans Brave) lorsque vous fermez leur onglet. Vos téléchargements sont toutefois enregistrés.\nLes onglets privés n'empêchent pas votre opérateur mobile (ou le propriétaire du réseau Wi-Fi ou du VPN auquel vous êtes connecté) de voir les sites que vous consultez, ni ces sites d'obtenir votre adresse IP publique.";
+"PrivateTabBody" = "Même si les onglets privés ne sont pas enregistrés dans Presearch, ces derniers ne vous rendent pas anonymes sur Internet. Les sites que vous consultez dans un onglet privé ne s'affichent pas dans votre historique, et leurs cookies sont toujours supprimés (ils ne sont pas conservés dans Presearch) lorsque vous fermez leur onglet. Vos téléchargements sont toutefois enregistrés.\nLes onglets privés n'empêchent pas votre opérateur mobile (ou le propriétaire du réseau Wi-Fi ou du VPN auquel vous êtes connecté) de voir les sites que vous consultez, ni ces sites d'obtenir votre adresse IP publique.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "L'utilisation des onglets privés change seulement les opérations que Brave peut effectuer sur votre appareil, mais pas le comportement des autres.\n\nLes sites obtiennent toujours votre adresse IP lorsque vous les consultez. Grâce à elle, ils peuvent souvent deviner votre position approximative (généralement votre ville). Parfois, cette localisation peut être déterminée de manière beaucoup plus précise. Les sites reçoivent toutes les informations que vous leur communiquez, comme les termes de recherche. Si vous vous connectez à un site, il saura que vous êtes le propriétaire de ce compte. Cependant, vous serez toujours déconnecté lorsque vous fermerez les onglets privés, car Brave supprime le cookie qui permet de vous garder connecté.\n\nQuel que soit votre fournisseur d'accès Internet, il peut voir toutes vos activités sur le réseau. Il s'agit souvent de votre opérateur mobile. Si vous êtes connecté à un réseau Wi-Fi, il s'agit du propriétaire du réseau, et si vous utilisez un VPN, il s'agit du fournisseur de ce VPN. Votre fournisseur d'accès Internet peut voir les sites que vous consultez lorsque vous les consultez. Si ces sites utilisent le protocole HTTPS, votre fournisseur n'aura aucune information concrète concernant vos activités sur ce site. Cependant, si un site utilise seulement le protocole HTTP, alors votre fournisseur d'accès Internet peut tout voir : vos termes de recherche, les pages que vous avez lues et les liens sur lesquels vous avez cliqué.\n\nSi un employeur gère votre appareil, il peut également suivre l'utilisation que vous en faites. L'utilisation des onglets privés ne l'empêchera certainement pas de savoir quels sites vous consultez. De plus, une personne ayant accès à votre appareil a pu installer un logiciel qui surveille votre activité, et les onglets privés ne vous protégeront pas contre cela non plus.";
+"PrivateTabDetails" = "L'utilisation des onglets privés change seulement les opérations que Presearch peut effectuer sur votre appareil, mais pas le comportement des autres.\n\nLes sites obtiennent toujours votre adresse IP lorsque vous les consultez. Grâce à elle, ils peuvent souvent deviner votre position approximative (généralement votre ville). Parfois, cette localisation peut être déterminée de manière beaucoup plus précise. Les sites reçoivent toutes les informations que vous leur communiquez, comme les termes de recherche. Si vous vous connectez à un site, il saura que vous êtes le propriétaire de ce compte. Cependant, vous serez toujours déconnecté lorsque vous fermerez les onglets privés, car Presearch supprime le cookie qui permet de vous garder connecté.\n\nQuel que soit votre fournisseur d'accès Internet, il peut voir toutes vos activités sur le réseau. Il s'agit souvent de votre opérateur mobile. Si vous êtes connecté à un réseau Wi-Fi, il s'agit du propriétaire du réseau, et si vous utilisez un VPN, il s'agit du fournisseur de ce VPN. Votre fournisseur d'accès Internet peut voir les sites que vous consultez lorsque vous les consultez. Si ces sites utilisent le protocole HTTPS, votre fournisseur n'aura aucune information concrète concernant vos activités sur ce site. Cependant, si un site utilise seulement le protocole HTTP, alors votre fournisseur d'accès Internet peut tout voir : vos termes de recherche, les pages que vous avez lues et les liens sur lesquels vous avez cliqué.\n\nSi un employeur gère votre appareil, il peut également suivre l'utilisation que vous en faites. L'utilisation des onglets privés ne l'empêchera certainement pas de savoir quels sites vous consultez. De plus, une personne ayant accès à votre appareil a pu installer un logiciel qui surveille votre activité, et les onglets privés ne vous protégeront pas contre cela non plus.";
 
 /* Private tab information link */
 "PrivateTabLink" = "En savoir plus sur les onglets privés.";
@@ -793,8 +793,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Moteurs de recherches rapides";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Noter Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Noter Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Augmenter la taille du texte";
@@ -829,7 +829,7 @@
 /* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "Charger la page d'origine";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Presearch reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "Impossible d'afficher la page en mode Lecteur.";
 
 /* Accessibility label for button decreasing font size in display settings of reader mode */
@@ -866,7 +866,7 @@
 "RestoreTabNegativeButtonTitle" = "Non";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "Il semblerait que Brave ait planté. Voulez-vous restaurer vos onglets ?";
+"RestoreTabOnCrashAlertMessage" = "Il semblerait que Presearch ait planté. Voulez-vous restaurer vos onglets ?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Hum, c'est embarrassant.";
@@ -938,18 +938,18 @@
 "Security" = "Sécurité";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Envoyer un rapport d'incident afin que Brave puisse résoudre le problème ?";
+"SendCrashReportAlertMessage" = "Envoyer un rapport d'incident afin que Presearch puisse résoudre le problème ?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "Oups, Brave a planté.";
+"SendCrashReportAlertTitle" = "Oups, Presearch a planté.";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Envoyer le rapport";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Brave peut maintenant être défini comme votre navigateur par défaut dans iOS. Appuyez ici pour ouvrir les paramètres.";
+"setDefaultBrowserCalloutTitle" = "Presearch peut maintenant être défini comme votre navigateur par défaut dans iOS. Appuyez ici pour ouvrir les paramètres.";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the Presearch as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Définir comme navigateur par défaut";
 
 /* No comment provided by engineer. */
@@ -971,7 +971,7 @@
 "ShareWithMenuItem" = "Partager avec…";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Réglages par défaut Brave Shields";
+"ShieldsDefaults" = "Réglages par défaut Presearch Shields";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Voici les réglages Shields par défaut pour les nouveaux sites. La modification de ces réglages n'affectera pas vos réglages personnalisés pour des sites spécifiques.";
@@ -1027,7 +1027,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "Afficher la barre des onglets";
 
-/* Brave panel topmost title */
+/* Presearch panel topmost title */
 "SiteShieldSettings" = "Shields";
 
 /* Open search section of settings */
@@ -1052,7 +1052,7 @@
 "sync.v2MigrationErrorTitle" = "Erreur";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "Afin d'utiliser Brave Sync, vous devez migrer vos marque-pages existants pour utiliser le nouveau système. Cette opération ne supprimera pas vos marque-pages.";
+"sync.v2MigrationMessage" = "Afin d'utiliser Presearch Sync, vous devez migrer vos marque-pages existants pour utiliser le nouveau système. Cette opération ne supprimera pas vos marque-pages.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Migrer";
@@ -1124,7 +1124,7 @@
 "SyncRemoveDeviceDefaultName" = "Appareil";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Les données actuellement synchronisées seront conservées, mais toutes les données dans le cache de la synchronisation Brave seront supprimées. Vous devrez démarrer une nouvelle chaîne de synchronisation pour synchroniser à nouveau les données de l'appareil.";
+"SyncRemoveLastDeviceMessage" = "Les données actuellement synchronisées seront conservées, mais toutes les données dans le cache de la synchronisation Presearch seront supprimées. Vous devrez démarrer une nouvelle chaîne de synchronisation pour synchroniser à nouveau les données de l'appareil.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Supprimer la chaîne de synchronisation";
@@ -1163,7 +1163,7 @@
 "SyncToDevice" = "Synchroniser avec l'appareil";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "À l'aide de l'appareil synchronisé existant, ouvrez la section Paramètres Brave, accédez à Paramètres -> Synchronisation. Choisissez « Ajouter un appareil » et scannez le code qui s'affiche à l'écran.";
+"SyncToDeviceDescription" = "À l'aide de l'appareil synchronisé existant, ouvrez la section Paramètres Presearch, accédez à Paramètres -> Synchronisation. Choisissez « Ajouter un appareil » et scannez le code qui s'affiche à l'écran.";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "Impossible de créer un nouveau groupe de synchronisation.";
@@ -1249,14 +1249,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "Conditions d'utilisation";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Presearch Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Conditions d'utilisation";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "Partager…";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Partagez Brave avec vos amis !";
+"themeQRCodeShareTitle" = "Partagez Presearch avec vos amis !";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automatique";
@@ -1297,7 +1297,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "Utiliser un bloqueur de publicités régional";
 
-/* Version number of Brave shown in settings */
+/* Version number of Presearch shown in settings */
 "VersionTemplate" = "Version %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

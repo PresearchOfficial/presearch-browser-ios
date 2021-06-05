@@ -9,7 +9,7 @@
 "NSCameraUsageDescription" = "Questa impostazione ti permette di scattare e caricare le foto.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Brave richiede il Face ID per visualizzare gli accessi salvati.";
+"NSFaceIDUsageDescription" = "Presearch richiede il Face ID per visualizzare gli accessi salvati.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "I siti web che visiti potrebbero richiedere la tua posizione.";

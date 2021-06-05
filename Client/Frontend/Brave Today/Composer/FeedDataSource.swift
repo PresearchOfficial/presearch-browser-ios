@@ -274,7 +274,7 @@ class FeedDataSource {
                     self.sources = decodedResource.compactMap(\.wrappedValue)
                     // Vsn - 23/03/2021
                     self.sources = self.sources.filter({ (source) -> Bool in
-                        !source.name.lowercased().contains("brave")
+                        !source.name.lowercased().contains("presearch")
                     })
                     // End
                 }
@@ -416,7 +416,7 @@ class FeedDataSource {
             case (.success(let sources), .success(let items)):
                 // Vsn - 23/03/2021
                 self.sources = sources.filter({ (source) -> Bool in
-                    !source.name.lowercased().contains("brave")
+                    !source.name.lowercased().contains("presearch")
                 })
                 // End
                 self.items = items

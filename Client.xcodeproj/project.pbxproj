@@ -669,7 +669,6 @@
 		59A68D66379CFA85C4EAF00B /* TwoLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A68B1F857A8638598A63A0 /* TwoLineCell.swift */; };
 		59B6902921B684A700E9388E /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6902821B684A700E9388E /* BundleExtension.swift */; };
 		59B6911D21B695A400E9388E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6911B21B695A400E9388E /* InfoPlist.strings */; };
-		59B6912321B695A400E9388E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6912121B695A400E9388E /* InfoPlist.strings */; };
 		59B6912621B695A400E9388E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6912421B695A400E9388E /* InfoPlist.strings */; };
 		59B6912921B695A400E9388E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6912721B695A400E9388E /* InfoPlist.strings */; };
 		59B6912C21B695A400E9388E /* Shared.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6912A21B695A400E9388E /* Shared.strings */; };
@@ -801,6 +800,7 @@
 		A83E5B1D1C1DA8D80026D912 /* UIPasteboardExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E5B1C1C1DA8D80026D912 /* UIPasteboardExtensionsTests.swift */; };
 		A83E5B1E1C1DAAAA0026D912 /* UIPasteboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E5AB61C1D993D0026D912 /* UIPasteboardExtensions.swift */; };
 		A89911422662291E00F1BB86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B2142FC1E5E055000CDD3FC /* InfoPlist.strings */; };
+		A8D1CBF3266B34FD001E1CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6912121B695A400E9388E /* InfoPlist.strings */; };
 		A9072B801D07B34100459960 /* NoImageModeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9072B7F1D07B34100459960 /* NoImageModeHelper.swift */; };
 		C400467C1CF4E43E00B08303 /* BackForwardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400467B1CF4E43E00B08303 /* BackForwardListViewController.swift */; };
 		C40046FA1CF8E0B200B08303 /* BackForwardListAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40046F91CF8E0B200B08303 /* BackForwardListAnimator.swift */; };
@@ -6206,8 +6206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D1CBF3266B34FD001E1CA5 /* InfoPlist.strings in Resources */,
 				27F443F42138843400296C58 /* BraveShareToInfoPlist.strings in Resources */,
-				59B6912321B695A400E9388E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

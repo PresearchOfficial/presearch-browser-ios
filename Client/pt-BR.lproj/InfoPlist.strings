@@ -9,7 +9,7 @@
 "NSCameraUsageDescription" = "Isso permite que você tire e carregue fotos.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "O Brave exige o Face ID para acessar seus logins salvos.";
+"NSFaceIDUsageDescription" = "O Presearch exige o Face ID para acessar seus logins salvos.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "Os sites que você visitar poderão solicitar sua localização.";

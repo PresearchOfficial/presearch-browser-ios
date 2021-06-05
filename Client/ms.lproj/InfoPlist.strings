@@ -9,7 +9,7 @@
 "NSCameraUsageDescription" = "Ini membolehkan anda mengambil dan memuat naik foto.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Brave memerlukan ID Muka untuk mengakses log masuk anda yang disimpan.";
+"NSFaceIDUsageDescription" = "Presearch memerlukan ID Muka untuk mengakses log masuk anda yang disimpan.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "Laman web yang anda lawati boleh meminta lokasi anda.";

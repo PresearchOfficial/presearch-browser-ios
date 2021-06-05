@@ -18,7 +18,7 @@ class OpenSearchEngine: NSObject, NSSecureCoding {
         static let qwant = "Qwant"
     }
     
-    static let defaultSearchClientName = "brave"
+    static let defaultSearchClientName = "Presearch"
     
     let shortName: String
     let referenceURL: String?

@@ -40,7 +40,7 @@ class NTPDownloaderTests: XCTestCase {
             "logo": {
                 "imageUrl": "logo.png",
                 "alt": "Visit Brave.com",
-                "companyName": "Brave",
+                "companyName": "Presearch",
                 "destinationUrl": "https://brave.com"
             },
             "wallpapers": []
@@ -55,7 +55,7 @@ class NTPDownloaderTests: XCTestCase {
             "logo": {
                 "imageUrl": "logo.png",
                 "alt": "Visit Brave.com",
-                "companyName": "Brave",
+                "companyName": "Presearch",
                 "destinationUrl": "https://brave.com"
             },
             "wallpapers": [

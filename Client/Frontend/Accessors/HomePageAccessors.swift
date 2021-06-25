@@ -10,12 +10,17 @@ import XCGLogger
 /// These are pure functions, so it's quite ok to have them
 /// as static.
 class HomePageAccessors {
-
+    
     static func getHomePage(_ prefs: Prefs) -> URL? {
-        let string = prefs.stringForKey(HomePageConstants.homePageURLPrefKey)
-        guard let urlString = string else {
-            return nil
-        }
+        
+//        prefs.stringForKey(HomePageConstants.homePageURLPrefKey)
+//        guard let urlString = string else {
+//            return nil
+//        }
+        
+        // Using only "https://presearch.org" as Fixed Homepage
+        let urlString = "https://presearch.org"
+        
         return NSURL(string: urlString) as URL?
     }
 }

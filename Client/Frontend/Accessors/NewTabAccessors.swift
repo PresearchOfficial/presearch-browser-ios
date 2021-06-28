@@ -10,7 +10,7 @@ import XCGLogger
 struct NewTabAccessors {
     // static let `default` = NewTabPage.topSites
     
-    //For fixed HomePage
+    // For fixed HomePage
     static let `default` = NewTabPage.homePage
 
     static func getNewTabPage() -> NewTabPage {

@@ -60,6 +60,18 @@ class OnboardingSearchEnginesViewController: OnboardingViewController {
     }
     
     @objc override func continueTapped() {
+        // Update selected row when app did entered background and entered forground
+        if contentView.searchEnginesTable.indexPathForSelectedRow?.section == nil {
+            for searchEngine in self.availableEngines.enumerated() {
+                if searchEngine.element.shortName == self.searchEngines.defaultEngine().shortName {
+                    let indexPath = IndexPath(row: 0, section: searchEngine.offset)
+                    self.contentView.searchEnginesTable.selectRow(at: indexPath, animated: false,
+                                                                  scrollPosition: .none)
+                    break
+                }
+            }
+        }
+        
         guard let selectedRow = contentView.searchEnginesTable.indexPathForSelectedRow?.section,
             let selectedEngine = availableEngines[safe: selectedRow]?.shortName else {
                 return

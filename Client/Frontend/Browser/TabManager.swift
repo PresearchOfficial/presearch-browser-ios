@@ -218,6 +218,7 @@ class TabManager: NSObject {
 
     func selectTab(_ tab: Tab?, previous: Tab? = nil) {
         assert(Thread.isMainThread)
+        
         let previous = previous ?? selectedTab
 
         if previous === tab {
@@ -263,7 +264,10 @@ class TabManager: NSObject {
         }
         
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate,
-            let newSelectedTab = tab, let previousTab = previous, let newTabUrl = newSelectedTab.url, let previousTabUrl = previousTab.url else { return }
+            let newSelectedTab = tab, let previousTab = previous, let newTabUrl = newSelectedTab.url, let previousTabUrl = previousTab.url
+        else {
+            return
+        }
         
         let rewards = appDelegate.browserViewController.rewards
         
@@ -354,7 +358,6 @@ class TabManager: NSObject {
 
         let type: TabType = isPrivate ? .private : .regular
         let tab = Tab(configuration: configuration, type: type)
-        
         configureTab(tab, request: request, afterTab: afterTab, flushToDisk: flushToDisk, zombie: zombie, id: id)
         return tab
     }
@@ -401,7 +404,7 @@ class TabManager: NSObject {
         }
         
         delegates.forEach { $0.get()?.tabManager(self, willAddTab: tab) }
-
+        
         if parent == nil || parent?.type != tab.type {
             allTabs.append(tab)
         } else if let parent = parent, var insertIndex = allTabs.firstIndex(of: parent) {

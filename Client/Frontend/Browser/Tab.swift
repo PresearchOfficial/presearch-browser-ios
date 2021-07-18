@@ -65,6 +65,7 @@ class Tab: NSObject {
             let siteURL = URL(string: string) {
             return siteURL
         }
+        
         return self.url
     }
 
@@ -432,7 +433,8 @@ class Tab: NSObject {
                 return webView.loadFileURL(url, allowingReadAccessTo: url)
             }
 
-            return webView.load(request)
+            let res = webView.load(request)
+            return res
         }
         return nil
     }

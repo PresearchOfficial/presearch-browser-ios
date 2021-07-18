@@ -374,6 +374,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         guard let routerpath = NavigationPath(url: url) else {
             return false
         }
+        
         self.browserViewController.handleNavigationPath(path: routerpath)
         return true
     }

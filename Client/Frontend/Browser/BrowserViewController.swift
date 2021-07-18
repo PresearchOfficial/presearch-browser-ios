@@ -3655,9 +3655,13 @@ extension BrowserViewController {
     }
     
     func handleNavigationPath(path: NavigationPath) {
-        self.loadQueue.uponQueue(.main) {
+//        self.loadQueue.uponQueue(.main) {
+//            NavigationPath.handle(nav: path, with: self)
+//        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
             NavigationPath.handle(nav: path, with: self)
-        }
+        })
     }
 }
 

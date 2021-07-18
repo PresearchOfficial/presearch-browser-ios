@@ -34,7 +34,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.vishnuvasu</string>
+			<string>com.Presearch.BrowseriOS</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>http</string>

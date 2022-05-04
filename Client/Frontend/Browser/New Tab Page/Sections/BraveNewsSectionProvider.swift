@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -19,9 +19,9 @@ struct FeedItemActionContext {
   var indexPath: IndexPath
 }
 
-/// The section provider for Brave News.
+/// The section provider for Presearch News.
 class BraveNewsSectionProvider: NSObject, NTPObservableSectionProvider {
-  /// Set of actions that can occur from the Brave News section
+  /// Set of actions that can occur from the Presearch News section
   enum Action {
     /// The user interacted with the welcome card
     case optInCardAction(OptInCardAction)
@@ -388,7 +388,7 @@ class BraveNewsSectionProvider: NSObject, NTPObservableSectionProvider {
       }
       let openActions: [UIAction] = [
         openInNewTab,
-        // Brave News is only available in normal tabs, so this isn't technically required
+        // Presearch News is only available in normal tabs, so this isn't technically required
         // but good to be on the safe side
         !PrivateBrowsingManager.shared.isPrivateBrowsing ? openInNewPrivateTab : nil,
       ].compactMap { $0 }
@@ -445,7 +445,7 @@ class BraveNewsSectionProvider: NSObject, NTPObservableSectionProvider {
 
       let openActions: [UIAction] = [
         openInNewTab,
-        // Brave News is only available in normal tabs, so this isn't technically required
+        // Presearch News is only available in normal tabs, so this isn't technically required
         // but good to be on the safe side
         !PrivateBrowsingManager.shared.isPrivateBrowsing ? openInNewPrivateTab : nil,
       ].compactMap({ $0 })

@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -10,10 +10,10 @@ import BraveShared
 import Data
 import BraveCore
 
-/// Displays relevant Brave News settings such as toggling the feature on/off, and selecting sources
+/// Displays relevant Presearch News settings such as toggling the feature on/off, and selecting sources
 ///
 /// This controller may be presented in an isolated environment outside of the main settings pages from the
-/// Brave News header on the NTP
+/// Presearch News header on the NTP
 class BraveNewsSettingsViewController: TableViewController {
 
   private let feedDataSource: FeedDataSource
@@ -44,7 +44,7 @@ class BraveNewsSettingsViewController: TableViewController {
   }
 
   private func reloadSections() {
-    // If a user hasn't opted in, they must do so before using Brave News's features
+    // If a user hasn't opted in, they must do so before using Presearch News's features
     if !Preferences.BraveNews.userOptedIn.value {
       dataSource.sections = [
         .init(

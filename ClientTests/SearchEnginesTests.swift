@@ -11,7 +11,7 @@ import BraveShared
 class SearchEnginesTests: XCTestCase {
 
   private let DefaultSearchEngineName = "Google"
-  // BRAVE TODO: This list is not accurate because Brave uses many more engines
+  // BRAVE TODO: This list is not accurate because Presearch uses many more engines
   private let ExpectedEngineNames = ["Qwant", "Bing", "DuckDuckGo", "Google", "StartPage"]
 
   override func setUp() {

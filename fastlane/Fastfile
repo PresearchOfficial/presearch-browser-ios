@@ -58,7 +58,7 @@ platform :ios do
     )
   end
 
-  desc "Creates a Brave Beta Release build for TestFlight."
+  desc "Creates a Presearch Beta Release build for TestFlight."
   lane :beta do |options|
     overrideParams = {
       scheme: "Beta",
@@ -70,7 +70,7 @@ platform :ios do
     testflight_build({overrideParams: overrideParams})
   end
 
-  desc "Creates a Brave Internal Beta Release build for TestFlight."
+  desc "Creates a Presearch Internal Beta Release build for TestFlight."
   lane :internal do |options|
 
     overrideParams = {
@@ -90,10 +90,10 @@ platform :ios do
       export_options: {
         method: "app-store",
         provisioningProfiles: { 
-          "com.brave.ios.browser" => "Brave iOS",
-          "com.brave.ios.browser.ShareExtension" => "Brave iOS Share Extension",
-          "com.brave.ios.browser.BrowserIntents" => "Brave iOS Intents Extension",
-          "com.brave.ios.browser.BraveWidgetsExtension" => "Brave iOS Widgets Extension"
+          "com.brave.ios.browser" => "Presearch iOS",
+          "com.brave.ios.browser.ShareExtension" => "Presearch iOS Share Extension",
+          "com.brave.ios.browser.BrowserIntents" => "Presearch iOS Intents Extension",
+          "com.brave.ios.browser.BraveWidgetsExtension" => "Presearch iOS Widgets Extension"
         },
         manageAppVersionAndBuildNumber: false
       },

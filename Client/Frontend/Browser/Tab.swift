@@ -26,7 +26,7 @@ protocol TabDelegate {
   func tab(_ tab: Tab, didRemoveSnackbar bar: SnackBar)
   /// Triggered when "Find in Page" is selected on selected web text
   func tab(_ tab: Tab, didSelectFindInPageFor selectedText: String)
-  /// Triggered when "Search with Brave" is selected on selected web text
+  /// Triggered when "Search with Presearch" is selected on selected web text
   func tab(_ tab: Tab, didSelectSearchWithBraveFor selectedText: String)
   @objc optional func tab(_ tab: Tab, didCreateWebView webView: WKWebView)
   @objc optional func tab(_ tab: Tab, willDeleteWebView webView: WKWebView)
@@ -254,7 +254,7 @@ class Tab: NSObject {
     }
   }
 
-  /// A helper property that handles native to Brave Search communication.
+  /// A helper property that handles native to Presearch Search communication.
   var braveSearchManager: BraveSearchManager?
 
   private lazy var refreshControl = UIRefreshControl().then {
@@ -727,7 +727,7 @@ extension Tab: TabWebViewDelegate {
     tabDelegate?.tab(self, didSelectFindInPageFor: selectedText)
   }
 
-  /// Triggered when "Search with Brave" is selected on selected text
+  /// Triggered when "Search with Presearch" is selected on selected text
   fileprivate func tabWebView(_ tabWebView: TabWebView, didSelectSearchWithBraveFor selectedText: String) {
     tabDelegate?.tab(self, didSelectSearchWithBraveFor: selectedText)
   }
@@ -781,7 +781,7 @@ private class TabContentScriptManager: NSObject, WKScriptMessageHandlerWithReply
 private protocol TabWebViewDelegate: AnyObject {
   /// Triggered when "Find in Page" is selected on selected text
   func tabWebView(_ tabWebView: TabWebView, didSelectFindInPageFor selectedText: String)
-  /// Triggered when "Search with Brave" is selected on selected text
+  /// Triggered when "Search with Presearch" is selected on selected text
   func tabWebView(_ tabWebView: TabWebView, didSelectSearchWithBraveFor selectedText: String)
 }
 
@@ -860,16 +860,16 @@ class TabWebViewMenuHelper: UIView {
   }
 }
 
-// MARK: - Brave Search
+// MARK: - Presearch Search
 
 extension Tab {
-  /// Call the api on the Brave Search website and passes the fallback results to it.
+  /// Call the api on the Presearch Search website and passes the fallback results to it.
   /// Important: This method is also called when there is no fallback results
   /// or when the fallback call should not happen at all.
   /// The website expects the iOS device to always call this method(blocks on it).
   func injectResults() {
     DispatchQueue.main.async {
-      // If the backup search results happen before the Brave Search loads
+      // If the backup search results happen before the Presearch Search loads
       // The method we pass data to is undefined.
       // For such case we do not call that method or remove the search backup manager.
       // swiftlint:disable:next safe_javascript

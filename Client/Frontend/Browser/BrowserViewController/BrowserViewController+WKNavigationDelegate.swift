@@ -221,7 +221,7 @@ extension BrowserViewController: WKNavigationDelegate {
       for: navigationAction, options: isPrivateBrowsing ? .privateBrowsing : .default
     )
 
-    // Brave Search logic.
+    // Presearch Search logic.
 
     if navigationAction.targetFrame?.isMainFrame == true,
       BraveSearchManager.isValidURL(url) {

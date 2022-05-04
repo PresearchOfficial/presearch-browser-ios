@@ -34,7 +34,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.brave.ios</string>
+			<string>com.presearch.ios</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>http</string>
@@ -82,7 +82,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>This lets you take and upload photos.</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>This authenticates your access to Brave</string>
+	<string>This authenticates your access to Presearch</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Websites you visit may request your location.</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -102,10 +102,10 @@
 	<string>$(BRAVE_SERVICES_KEY)</string>
 	<key>UIAppFonts</key>
 	<array>
-        <string>NewYorkMedium-Bold.otf</string>
-        <string>NewYorkMedium-BoldItalic.otf</string>
-        <string>NewYorkMedium-Regular.otf</string>
-        <string>NewYorkMedium-RegularItalic.otf</string>
+		<string>NewYorkMedium-Bold.otf</string>
+		<string>NewYorkMedium-BoldItalic.otf</string>
+		<string>NewYorkMedium-Regular.otf</string>
+		<string>NewYorkMedium-RegularItalic.otf</string>
 		<string>FiraSans-Bold.ttf</string>
 		<string>FiraSans-BoldItalic.ttf</string>
 		<string>FiraSans-Book.ttf</string>

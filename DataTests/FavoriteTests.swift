@@ -30,7 +30,7 @@ class FavoriteTests: CoreDataTestCase {
 
   func testAddFavorite() {
     let url = "http://brave.com"
-    let title = "Brave"
+    let title = "Presearch"
 
     let favoritedBookmark = createAndWait(url: URL(string: url), title: title)
     XCTAssertEqual(try! DataController.viewContext.count(for: fetchRequest), 1)
@@ -65,7 +65,7 @@ class FavoriteTests: CoreDataTestCase {
 
   func testEditFavoriteName() {
     let url = "http://brave.com"
-    let customTitle = "Brave"
+    let customTitle = "Presearch"
     let newTitle = "Updated Title"
 
     let object = createAndWait(url: URL(string: url), title: "title", customTitle: customTitle)

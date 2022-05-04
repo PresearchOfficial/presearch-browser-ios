@@ -6,7 +6,7 @@ import Foundation
 
 extension URLCache {
 
-  /// Setup default URLCache settings for Brave
+  /// Setup default URLCache settings for Presearch
   public func setupBraveDefaults() {
     memoryCapacity = 6 * 1024 * 1024  // 6 MB
     diskCapacity = 40 * 1024 * 1024

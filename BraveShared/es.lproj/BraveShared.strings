@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Esto le permite guardar la imagen en su Carrete.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave desea acceder a sus fotografías";
+"AccessPhotoDeniedAlertTitle" = "desea acceder a sus fotografías";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Añadir marcador";
@@ -40,8 +40,8 @@
 /* Label for the Face ID/Passcode item in Settings */
 "AuthenticationFaceIDPasscodeSetting" = "Face ID y clave de acceso";
 
-/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "Sirve para autenticar tu acceso a Brave";
+/* Touch ID or PIN entry prompt subtitle when accessing with the Browser Lock feature enabled */
+"AuthenticationLoginsTouchReason" = "Sirve para autenticar tu acceso a Presearch";
 
 /* Label for the Passcode item in Settings */
 "AuthenticationPasscode" = "Código de acceso";
@@ -100,7 +100,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Monitor de bloqueo";
 
-/* Brave panel individual toggle title */
+/* panel individual toggle title */
 "BlockPhishing" = "Bloquear suplantaciones de identidad";
 
 /* No comment provided by engineer. */
@@ -146,13 +146,13 @@
 "BookmarkUrlPlaceholderText" = "Dirección";
 
 /* Button to show the brave panel */
-"BravePanel" = "Panel de Brave";
+"BravePanel" = "Panel de Presearch";
 
-/* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+/* Rewards settings title */
+"BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields y privacidad";
+"BraveShieldsAndPrivacy" = "Shields y privacidad";
 
 /* Sync page title */
 "BraveSync" = "Sincronización";
@@ -161,13 +161,13 @@
 "BraveSyncInternalsTitle" = "Sincronizar datos internos";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Lo primero que tendrás que hacer es instalar Brave en todos los dispositivos que quieras sincronizar. Para conectarlos entre sí, inicia una cadena de sincronización con la que vincular todos tus dispositivos de forma segura.";
+"BraveSyncWelcome" = "Lo primero que tendrás que hacer es instalar en todos los dispositivos que quieras sincronizar. Para conectarlos entre sí, inicia una cadena de sincronización con la que vincular todos tus dispositivos de forma segura.";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "Browser Lock";
 
 /* No comment provided by engineer. */
-"BrowserLockDescription" = "Accede a Brave con Touch ID, Face ID o con un código de acceso generado por el sistema.";
+"BrowserLockDescription" = "Accede a con Touch ID, Face ID o con un código de acceso generado por el sistema.";
 
 /* A button title for the action to move to the next step of the browser lock migration process. */
 "browserLockMigrationContinueButtonTitle" = "Continuar";
@@ -176,10 +176,10 @@
 "browserLockMigrationNoPasscodeSetup" = "¿No has configurado ningún ID ni código de acceso? Abre los ajustes y pulsa \"%@\"";
 
 /* Subtitle on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationSubtitle" = "Hemos simplificado los códigos de acceso de Brave. Ahora, puedes acceder a Brave con el mismo ID o código de acceso que utilizas en tu teléfono.";
+"browserLockMigrationSubtitle" = "Hemos simplificado los códigos de acceso de Presearch. Ahora, puedes acceder a con el mismo ID o código de acceso que utilizas en tu teléfono.";
 
 /* Title on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationTitle" = "Abre Brave con tu Face ID o Touch ID de Apple o con un código de acceso";
+"browserLockMigrationTitle" = "Abre con tu Face ID o Touch ID de Apple o con un código de acceso";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "Historial de navegación";
@@ -188,7 +188,7 @@
 "Cache" = "Caché";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Si usas Brave como navegador predeterminado, todos los enlaces en los que hagas clic se abrirán con la protección de privacidad de Brave.";
+"callout.defaultBrowserCalloutDescription" = "Si usas como navegador predeterminado, todos los enlaces en los que hagas clic se abrirán con la protección de privacidad de Presearch.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Configurar como predeterminado";
@@ -200,7 +200,7 @@
 "callout.defaultBrowserCalloutSecondaryButtonTitle" = "Omitir";
 
 /* Title for Default Browser Full Screen Callout */
-"callout.defaultBrowserTitle" = "Establece Brave como tu navegador predeterminado";
+"callout.defaultBrowserTitle" = "Establece como tu navegador predeterminado";
 
 /* Button title for Playlist Onboarding View */
 "callout.playlistOnboardingViewButtonTitle" = "Ver el vídeo";
@@ -212,7 +212,7 @@
 "callout.playlistOnboardingViewTitle" = "Añade el vídeo a Lista de reproducción…";
 
 /* Subtitle - Description for Privacy Everywhere Full Screen Callout */
-"callout.privacyEverywhereCalloutDescription" = "Disfruta de la privacidad de Brave en tu ordenador o tableta, y mantén los marcadores y extensiones sincronizados en todos los dispositivos.";
+"callout.privacyEverywhereCalloutDescription" = "Disfruta de la privacidad de en tu ordenador o tableta, y mantén los marcadores y extensiones sincronizados en todos los dispositivos.";
 
 /* Title for button in Default Browser Full Screen Callout */
 "callout.privacyEverywhereCalloutPrimaryButtonTitle" = "Sincronizar";
@@ -326,25 +326,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Abrir Ajustes";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Abre todos los enlaces con Brave para proteger tu privacidad";
+"defaultBrowserCallout.introPrimaryText" = "Abre todos los enlaces con para proteger tu privacidad";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields bloquea rastreadores y anuncios, guarda datos y te ayuda a ahorrar tiempo cada vez que visitas un sitio";
+"defaultBrowserCallout.introSecondaryText" = "Shields bloquea rastreadores y anuncios, guarda datos y te ayuda a ahorrar tiempo cada vez que visitas un sitio";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Abre Ajustes, toca en \"Aplicación de navegador predeterminado\" y selecciona Brave.";
+"defaultBrowserCallout.introTertiaryText" = "Abre Ajustes, toca en \"Aplicación de navegador predeterminado\" y selecciona Presearch.";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Versión optimizada para iOS %@. Establece Brave como tu navegador predeterminado hoy mismo.";
+/* Notification body to promote setting app as default browser */
+"defaultBrowserCallout.notificationBody" = "Versión optimizada para iOS %@. Establece como tu navegador predeterminado hoy mismo.";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Navegador web Brave";
+/* Notification title to promote setting app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Navegador web Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Cierra los avisos predeterminados del navegador";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Predeterminado de Brave";
+/* Name for default theme. */
+"defaultThemeName" = "Predeterminado de Presearch";
 
 /* No comment provided by engineer. */
 "Delete" = "Eliminar";
@@ -490,10 +490,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "¿Permitir que el enlace cambie de aplicación?";
 
-/* Allow Brave to open the external app URL */
+/* Allow to open the external app URL */
 "ExternalAppURLAllow" = "Permitir";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow to open the external app URL */
 "ExternalAppURLDontAllow" = "No permitir";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -554,10 +554,10 @@
 "HideLinkPreviewsActionTitle" = "Ocultar vistas previas de enlaces";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Ocultar el icono de Brave Rewards";
+"HideRewardsIcon" = "Ocultar el icono de Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Oculta el icono de Brave Rewards cuando esta función no está activada";
+"HideRewardsIconSubtitle" = "Oculta el icono de Rewards cuando esta función no está activada";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historial";
@@ -724,14 +724,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "No hay suficientes palabras";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Asistencia de Brave";
+/* Bookmark title for Support */
+"ntp.braveSupportFavoriteTitle" = "Asistencia de Presearch";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Reclamar tokens";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Has ganado %@ por navegar con Brave.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "Has ganado %@ por navegar con Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "¡Sigue así!";
@@ -740,7 +740,7 @@
 "ntp.hideSponsoredImages" = "Ocultar las imágenes de patrocinadores";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Más información sobre Brave Rewards";
+"ntp.learnMoreAboutRewards" = "Más información sobre Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Más información sobre las imágenes de patrocinadores";
@@ -770,19 +770,19 @@
 "ntp.sponsoredImageDescription" = "Estás apoyando a los creadores y editores de contenido al ver esta imagen patrocinada.";
 
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
-"ntp.turnRewardsTos" = "Al activar Brave Rewards, aceptas los %@.";
+"ntp.turnRewardsTos" = "Al activar Rewards, aceptas los %@.";
 
 /* The description of the popover showing trackers that were blocked. */
 "onboarding.blockedAdsOnboardingPopoverDescriptionThree" = "Toca la Protección de cualquier sitio web para ver todo lo que se ha bloqueado.";
 
 /* The alternate description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "Brave ha bloqueado %1$@ en: %2$@.";
+"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "ha bloqueado %1$@ en: %2$@.";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "Brave ha bloqueado %1$@ y %2$d rastreadores más el: %3$@.";
+"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "ha bloqueado %1$@ y %2$d rastreadores más el: %3$@.";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "Brave ha bloqueado %1$@ y %2$d rastreador más el: %3$@.";
+"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "ha bloqueado %1$@ y %2$d rastreador más el: %3$@.";
 
 /* DEscription for the NTP pop-over that describes the onboarding is done */
 "onboarding.ntpOnboardingPopoverDoneDescription" = "¡Echa un vistazo al menú para ver los ajustes y otras estupendas funciones de privacidad!";
@@ -815,13 +815,13 @@
 "onboarding.searchViewEnterWebsiteRowTitle" = "Introduce un sitio web";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "¡Te damos la bienvenida a Brave!";
+"onboarding.welcomeScreenTitle" = "¡Te damos la bienvenida a Presearch!";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Abrir todo (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Abrir los ajustes de Brave Rewards";
+/* Button title for opening the Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Abrir los ajustes de Rewards";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Se ha producido un error desconocido al abrir la carpeta de descargas en la aplicación Archivos.";
@@ -841,35 +841,35 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "Abrir sitio web";
 
-/* The subtitle description of menu item Brave News */
+/* The subtitle description of menu item News */
 "optionsMenu.braveNewsItemDescription" = "Las historias más importantes del día en un canal de noticias privado";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "Noticias";
 
-/* The subtitle description of menu item Brave Playlist */
+/* The subtitle description of menu item Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "Guarda una lista de reproducción de vídeos/transmisiones sin conexión";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "Lista de reproducción";
 
-/* The subtitle description of menu item Brave Talk */
+/* The subtitle description of menu item Talk */
 "optionsMenu.braveTalkItemDescription" = "Videollamadas privadas directamente en tu navegador";
 
-/* Brave Talk Item Menu title */
+/* Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "Charla";
 
-/* The subtitle description of menu item Brave VPN */
+/* The subtitle description of menu item VPN */
 "optionsMenu.braveVPNItemDescription" = "Protege por completo tu dispositivo en línea";
 
-/* Brave VPN Item Menu title */
+/* VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item Brave Wallet */
+/* The subtitle description of menu item Wallet */
 "optionsMenu.braveWalletItemDescription" = "La cartera de criptomonedas segura que no necesita extensiones";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Funciones de Brave";
+"optionsMenu.menuSectionTitle" = "Funciones de Presearch";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "Otros ajustes de privacidad";
@@ -904,7 +904,7 @@
 /* Settings privacy section title */
 "Privacy" = "Privacidad";
 
-/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "Política de privacidad";
 
 /* Private button title */
@@ -920,10 +920,10 @@
 "PrivateBrowsingOnlyWarning" = "El modo \"Solo navegación privada\" cerrará todas las pestañas que tengas abiertas y te desconectará de todos los sitios.";
 
 /* Private tab details */
-"PrivateTabBody" = "Las pestañas privadas no se guardan en Brave, pero tampoco te convierten en alguien anónimo en línea. Los sitios que visitas con una pestaña privada no constan en el historial y las cookies desaparecen al cerrarla, sin que quede rastro alguno de ellas en Brave. No obstante, las descargas sí quedarán guardadas.\nTu operador de telefonía móvil (o el propietario de la red wifi o RPV a la que estés conectado) puede ver los sitios que visitas, y esos mismos sitios conocerán tu dirección IP pública aunque utilices pestañas privadas.";
+"PrivateTabBody" = "Las pestañas privadas no se guardan en Presearch, pero tampoco te convierten en alguien anónimo en línea. Los sitios que visitas con una pestaña privada no constan en el historial y las cookies desaparecen al cerrarla, sin que quede rastro alguno de ellas en Presearch. No obstante, las descargas sí quedarán guardadas.\nTu operador de telefonía móvil (o el propietario de la red wifi o RPV a la que estés conectado) puede ver los sitios que visitas, y esos mismos sitios conocerán tu dirección IP pública aunque utilices pestañas privadas.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Lo único que cambia el uso de pestañas privadas es lo que hace Brave en tu dispositivo, no lo que hacen los demás.\n\nLos sitios web retienen tu dirección IP cada vez que los visitas, lo que significa que suelen tener una idea aproximada sobre tu ubicación (como la ciudad en la que te encuentras). A veces, la localización puede ser mucho más precisa. Los sitios web también retienen todo lo que compartes con ellos, como los términos de búsqueda que utilizas. Si inicias sesión en un sitio web, este sabrá que eres el propietario de esa cuenta. Aun así, tu sesión finalizará en cuanto cierres las pestañas privadas, ya que Brave desechará la cookie que mantiene tu sesión iniciada.\n\nTu proveedor de acceso a Internet, sea quien sea, puede ver toda tu actividad en la red. A menudo, se trata de tu compañía telefónica. Si estás conectado a una red wifi, el proveedor será el propietario de dicha red, mientras que, si usas una VPN, el proveedor será el encargado de gestionar esa VPN. Tu proveedor de acceso a Internet puede ver qué sitios visitas en tiempo real. Si esos sitios utilizan HTTPS, solo podrán obtener una idea aproximada de lo que haces en esos sitios web; sin embargo, si un sitio no utiliza más que HTTP, tu proveedor de acceso a Internet podrá verlo todo: tus términos de búsqueda, las páginas que consultas y los enlaces en los que clicas.\n\nSi el dispositivo lo gestiona tu empresa, puede que esta también supervise lo que haces con él. Es muy probable que el uso de pestañas privadas no logre impedir que la empresa sepa qué sitios visitas. Además, existe la posibilidad de que otra persona con acceso a tu dispositivo haya instalado en él un software para controlar tu actividad, ante lo que las pestañas privadas tampoco pueden protegerte.";
+"PrivateTabDetails" = "Lo único que cambia el uso de pestañas privadas es lo que hace en tu dispositivo, no lo que hacen los demás.\n\nLos sitios web retienen tu dirección IP cada vez que los visitas, lo que significa que suelen tener una idea aproximada sobre tu ubicación (como la ciudad en la que te encuentras). A veces, la localización puede ser mucho más precisa. Los sitios web también retienen todo lo que compartes con ellos, como los términos de búsqueda que utilizas. Si inicias sesión en un sitio web, este sabrá que eres el propietario de esa cuenta. Aun así, tu sesión finalizará en cuanto cierres las pestañas privadas, ya que desechará la cookie que mantiene tu sesión iniciada.\n\nTu proveedor de acceso a Internet, sea quien sea, puede ver toda tu actividad en la red. A menudo, se trata de tu compañía telefónica. Si estás conectado a una red wifi, el proveedor será el propietario de dicha red, mientras que, si usas una VPN, el proveedor será el encargado de gestionar esa VPN. Tu proveedor de acceso a Internet puede ver qué sitios visitas en tiempo real. Si esos sitios utilizan HTTPS, solo podrán obtener una idea aproximada de lo que haces en esos sitios web; sin embargo, si un sitio no utiliza más que HTTP, tu proveedor de acceso a Internet podrá verlo todo: tus términos de búsqueda, las páginas que consultas y los enlaces en los que clicas.\n\nSi el dispositivo lo gestiona tu empresa, puede que esta también supervise lo que haces con él. Es muy probable que el uso de pestañas privadas no logre impedir que la empresa sepa qué sitios visitas. Además, existe la posibilidad de que otra persona con acceso a tu dispositivo haya instalado en él un software para controlar tu actividad, ante lo que las pestañas privadas tampoco pueden protegerte.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Más información acerca de las pestañas privadas.";
@@ -937,8 +937,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Buscadores rápidos";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Valorar Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Valorar Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Aumentar el tamaño del texto";
@@ -967,13 +967,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "Cambia el tipo de fuente.";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "Cargando contenido…";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "Cargar la página original";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "No se ha podido mostrar la página en la vista de lectura.";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -1004,25 +1004,25 @@
 "RestoreTabNegativeButtonTitle" = "No";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "Parece que Brave se cerró repentinamente. ¿Le gustaría recuperar sus pestañas?";
+"RestoreTabOnCrashAlertMessage" = "Parece que se cerró repentinamente. ¿Le gustaría recuperar sus pestañas?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Vaya, esto es embarazoso.";
 
-/* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Con Brave Rewards, puedes ver los anuncios de la red Brave Ads que protegen la privacidad. Sin rastreadores ni reducciones de velocidad. Además, tus datos estarán totalmente protegidos.";
+/* Body for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInBody" = "Con Rewards, puedes ver los anuncios de la red Ads que protegen la privacidad. Sin rastreadores ni reducciones de velocidad. Además, tus datos estarán totalmente protegidos.";
 
-/* Title for Brave Talk rewards opt-in screen button */
-"rewards.braveTalkRewardsOptInButtonTitle" = "Activar Brave Rewards";
+/* Title for Talk rewards opt-in screen button */
+"rewards.braveTalkRewardsOptInButtonTitle" = "Activar Rewards";
 
-/* Body for successful Brave Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Haz clic en cualquier lugar de la pantalla para continuar hacia Charla de Brave.";
+/* Body for successful Talk rewards opt-in */
+"rewards.braveTalkRewardsOptInSuccessBody" = "Haz clic en cualquier lugar de la pantalla para continuar hacia Charla de Presearch.";
 
-/* Title for successful Brave Talk rewards opt-in */
+/* Title for successful Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "Ya puedes iniciar una llamada gratuita";
 
-/* Title for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Para iniciar una llamada gratuita, activa Brave Rewards";
+/* Title for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInTitle" = "Para iniciar una llamada gratuita, activa Rewards";
 
 /* The placeholders say 'Terms of Service' and 'Privacy Policy'. So full sentence goes like: 'By clicking, you agree to the Terms of Service and Privacy Policy...' */
 "rewards.optInDisclaimer" = "Al hacer clic, aceptas las %1$@ y la %2$@. Puedes deshabilitar esta opción en cualquier momento en Ajustes.";
@@ -1112,24 +1112,24 @@
 "SearchSuggestionsSectionHeader" = "Sugerencias de búsqueda";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "Buscar con Brave";
+"SearchWithBrave" = "Buscar con Presearch";
 
 /* Settings security section title */
 "Security" = "Seguridad";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "¿Enviar un informe de incidencias para que Brave pueda arreglar el problema?";
+"SendCrashReportAlertMessage" = "¿Enviar un informe de incidencias para que pueda arreglar el problema?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "¡Ups! Brave se ha cerrado repentinamente";
+"SendCrashReportAlertTitle" = "¡Ups! se ha cerrado repentinamente";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Enviar informe";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Ya puedes establecer a Brave como tu navegador predeterminado en iOS. Toca aquí para abrir los ajustes.";
+"setDefaultBrowserCalloutTitle" = "Ya puedes establecer a como tu navegador predeterminado en iOS. Toca aquí para abrir los ajustes.";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Establecer como navegador predeterminado";
 
 /* No comment provided by engineer. */
@@ -1151,7 +1151,7 @@
 "settings.autocloseTabsSetting" = "Cerrar pestañas";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "Permite que Brave cierre automáticamente las pestañas que no hayas visitado recientemente.";
+"settings.autocloseTabsSettingFooter" = "Permite que cierre automáticamente las pestañas que no hayas visitado recientemente.";
 
 /* Error message that is shown in settings when there was a problem loading */
 "SettingsContentLoadErrorMessage" = "No se ha podido cargar la página.";
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "Compartir con…";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Opciones por defecto globales de Brave Shields";
+"ShieldsDefaults" = "Opciones por defecto globales de Shields";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Son ajustes por defecto Brave Shields para sitios nuevos. Se pueden cambiar sin que se alteren los ajustes actuales del sitio.";
+"ShieldsDefaultsFooter" = "Son ajustes por defecto Shields para sitios nuevos. Se pueden cambiar sin que se alteren los ajustes actuales del sitio.";
 
 /* shields overview message */
 "ShieldsOverview" = "Los Shields del sitio le permiten controlar cuándo bloquear anuncios y rastreadores en cada sitio que visite. Si prefiere ver anuncios en un sitio en concreto, puede habilitarlos aquí.";
@@ -1225,7 +1225,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "Mostrar barra de pestañas";
 
-/* Brave panel topmost title */
+/* panel topmost title */
 "SiteShieldSettings" = "Shields";
 
 /* Open search section of settings */
@@ -1256,7 +1256,7 @@
 "sync.v2MigrationErrorTitle" = "Error";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "Para usar Brave Sync, tienes que migrar los marcadores actuales para poder acceder al nuevo sistema. Esta operación no eliminará los marcadores.";
+"sync.v2MigrationMessage" = "Para usar Sync, tienes que migrar los marcadores actuales para poder acceder al nuevo sistema. Esta operación no eliminará los marcadores.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Migrar";
@@ -1319,22 +1319,22 @@
 "SyncInitErrorTitle" = "Error de comunicación en la sincronización";
 
 /* Sync Error Description */
-"syncInsecureVersionError" = "Este código de sincronización se generó en una versión obsoleta de Brave instalada en otro dispositivo. Actualiza Brave en todos los dispositivos sincronizados y vuelve a intentarlo.";
+"syncInsecureVersionError" = "Este código de sincronización se generó en una versión obsoleta de instalada en otro dispositivo. Actualiza en todos los dispositivos sincronizados y vuelve a intentarlo.";
 
 /* Sync Error Description */
 "syncInvalidVersionError" = "Formato no válido";
 
 /* Default name for a device */
-"syncJoinChainCameraWarning" = "Esto transferirá tus datos de Brave (y posiblemente tus contraseñas) al dispositivo que ha generado este código QR. Asegúrate de que este código QR lo haya generado un dispositivo tuyo. ¿Seguro que quieres hacerlo?";
+"syncJoinChainCameraWarning" = "Esto transferirá tus datos de (y posiblemente tus contraseñas) al dispositivo que ha generado este código QR. Asegúrate de que este código QR lo haya generado un dispositivo tuyo. ¿Seguro que quieres hacerlo?";
 
 /* Default name for a device */
-"syncJoinChainCodewordsWarning" = "Esto transferirá tus datos de Brave (y posiblemente tus contraseñas) al dispositivo que ha generado estas palabras clave. Asegúrate de que estas palabras clave las haya generado un dispositivo tuyo. ¿Seguro que quieres hacerlo?";
+"syncJoinChainCodewordsWarning" = "Esto transferirá tus datos de (y posiblemente tus contraseñas) al dispositivo que ha generado estas palabras clave. Asegúrate de que estas palabras clave las haya generado un dispositivo tuyo. ¿Seguro que quieres hacerlo?";
 
 /* Title for pairing sync device */
 "syncJoinChainWarningTitle" = "Advertencia";
 
 /* Sync Error Description */
-"syncNewerVersionError" = "Este código de sincronización se generó en una versión reciente de Brave instalada en otro dispositivo. Actualiza Brave en todos los dispositivos sincronizados y vuelve a intentarlo.";
+"syncNewerVersionError" = "Este código de sincronización se generó en una versión reciente de instalada en otro dispositivo. Actualiza en todos los dispositivos sincronizados y vuelve a intentarlo.";
 
 /* No internet connection alert body. */
 "SyncNoConnectionBody" = "Comprueba tu conexión a Internet y vuelve a intentarlo.";
@@ -1355,7 +1355,7 @@
 "SyncRemoveDeviceDefaultName" = "Dispositivo";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Se conservarán los datos que están sincronizados en este momento, pero se eliminarán todos los datos de la caché de sincronización de Brave. Tendrás que iniciar una nueva cadena de sincronización para sincronizar otra vez los datos del dispositivo.";
+"SyncRemoveLastDeviceMessage" = "Se conservarán los datos que están sincronizados en este momento, pero se eliminarán todos los datos de la caché de sincronización de Presearch. Tendrás que iniciar una nueva cadena de sincronización para sincronizar otra vez los datos del dispositivo.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Eliminar cadena de sincronización";
@@ -1394,7 +1394,7 @@
 "SyncToDevice" = "Sincronizar con dispositivo";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "Con un dispositivo ya sincronizado, abre Ajustes de Brave y dirígete a Ajustes -> Sincronización. A continuación, pulsa sobre \"Añadir dispositivo\" y escanea el código que aparece en pantalla.";
+"SyncToDeviceDescription" = "Con un dispositivo ya sincronizado, abre Ajustes de y dirígete a Ajustes -> Sincronización. A continuación, pulsa sobre \"Añadir dispositivo\" y escanea el código que aparece en pantalla.";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "No se puede sincronizar este dispositivo";
@@ -1486,14 +1486,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "Condiciones de uso";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Términos de uso";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "Compartir…";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "¡Habla de Brave con tus amigos!";
+"themeQRCodeShareTitle" = "¡Habla de con tus amigos!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automático";
@@ -1537,7 +1537,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "Usar bloqueador de anuncios regional";
 
-/* Version number of Brave shown in settings */
+/* Version number of shown in settings */
 "VersionTemplate" = "Versión %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

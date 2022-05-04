@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -24,7 +24,7 @@ private enum WelcomeViewID: Int {
 
 class WelcomeViewController: UIViewController {
   private let profile: Profile?
-  private let rewards: BraveRewards?
+//  private let rewards: BraveRewards?
   private var state: WelcomeViewCalloutState?
 
   var onAdsWebsiteSelected: ((URL?) -> Void)?
@@ -33,13 +33,13 @@ class WelcomeViewController: UIViewController {
   convenience init(profile: Profile?, rewards: BraveRewards?) {
     self.init(
       profile: profile,
-      rewards: rewards,
+//      rewards: rewards,
       state: .welcome(title: Strings.Onboarding.welcomeScreenTitle))
   }
 
-  init(profile: Profile?, rewards: BraveRewards?, state: WelcomeViewCalloutState?) {
+  init(profile: Profile?, state: WelcomeViewCalloutState?) {
     self.profile = profile
-    self.rewards = rewards
+//    self.rewards = rewards
     self.state = state
     super.init(nibName: nil, bundle: nil)
     self.transitioningDelegate = self
@@ -357,7 +357,7 @@ class WelcomeViewController: UIViewController {
   private func animateToPrivacyState() {
     let nextController = WelcomeViewController(
       profile: profile,
-      rewards: rewards,
+//      rewards: rewards,
       state: nil)
     nextController.onAdsWebsiteSelected = onAdsWebsiteSelected
     nextController.onSkipSelected = onSkipSelected
@@ -376,7 +376,7 @@ class WelcomeViewController: UIViewController {
   private func animateToDefaultBrowserState() {
     let nextController = WelcomeViewController(
       profile: profile,
-      rewards: rewards,
+//      rewards: rewards,
       state: nil)
     nextController.onAdsWebsiteSelected = onAdsWebsiteSelected
     nextController.onSkipSelected = onSkipSelected
@@ -401,7 +401,7 @@ class WelcomeViewController: UIViewController {
   private func animateToReadyState() {
     let nextController = WelcomeViewController(
       profile: profile,
-      rewards: rewards,
+//      rewards: rewards,
       state: nil)
     nextController.onAdsWebsiteSelected = onAdsWebsiteSelected
     nextController.onSkipSelected = onSkipSelected

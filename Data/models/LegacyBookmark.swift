@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -64,7 +64,7 @@ extension Favorite {
   /// In 1.12 we moved database to new location. That migration caused some bugs for few users.
   /// This will attempt to restore bookmarks for them.
   ///
-  /// Restoration must happen after Brave Sync is initialized.
+  /// Restoration must happen after Presearch Sync is initialized.
   fileprivate static func restore_1_12_Bookmarks(completion: @escaping () -> Void) {
     let restorationCompleted = Preferences.Database.bookmark_v1_12_1RestorationCompleted
 

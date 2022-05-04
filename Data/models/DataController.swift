@@ -20,7 +20,7 @@ public enum WriteContext {
 }
 
 public class DataController {
-  private static let databaseName = "Brave.sqlite"
+  private static let databaseName = "Presearch.sqlite"
   private static let modelName = "Model"
 
   /// This code is checked when the persistent store is loaded.
@@ -174,7 +174,7 @@ public class DataController {
         includingPropertiesForKeys: nil,
         options: [])
 
-      // Delete all Brave.X files
+      // Delete all Presearch.X files
       try documentFiles
         .filter { $0.lastPathComponent.hasPrefix(DataController.databaseName) }
         .forEach(FileManager.default.removeItem)

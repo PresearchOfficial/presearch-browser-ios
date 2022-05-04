@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -16,10 +16,10 @@ class BraveSearchScriptHandler: TabContentScript {
   private let profile: Profile
   private weak var rewards: BraveRewards?
 
-  /// Tracks how many in current browsing session the user has been prompted to set Brave Search as a default
-  /// while on one of Brave Search websites.
+  /// Tracks how many in current browsing session the user has been prompted to set Presearch Search as a default
+  /// while on one of Presearch Search websites.
   private static var canSetAsDefaultCounter = 0
-  /// How many times user should be shown the default browser prompt on Brave Search websites.
+  /// How many times user should be shown the default browser prompt on Presearch Search websites.
   private let maxCountOfDefaultBrowserPromptsPerSession = 3
   /// How many times user is shown the default browser prompt in total, this does not reset between app launches.
   private let maxCountOfDefaultBrowserPromptsTotal = 10
@@ -83,14 +83,14 @@ class BraveSearchScriptHandler: TabContentScript {
   private func handleCanSetBraveSearchAsDefault(methodId: Int) {
 
     if PrivateBrowsingManager.shared.isPrivateBrowsing {
-      log.debug("Private mode detected, skipping setting Brave Search as a default")
+      log.debug("Private mode detected, skipping setting Presearch Search as a default")
       callback(methodId: methodId, result: false)
       return
     }
 
     let maximumPromptCount = Preferences.Search.braveSearchDefaultBrowserPromptCount
     if Self.canSetAsDefaultCounter >= maxCountOfDefaultBrowserPromptsPerSession || maximumPromptCount.value >= maxCountOfDefaultBrowserPromptsTotal {
-      log.debug("Maximum number of tries of Brave Search website prompts reached")
+      log.debug("Maximum number of tries of Presearch Search website prompts reached")
       callback(methodId: methodId, result: false)
       return
     }

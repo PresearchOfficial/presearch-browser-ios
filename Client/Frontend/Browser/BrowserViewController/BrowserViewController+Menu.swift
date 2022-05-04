@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -15,23 +15,6 @@ import BraveCore
 private let log = Logger.browserLogger
 
 extension BrowserViewController {
-  func featuresMenuSection(_ menuController: MenuViewController) -> some View {
-    VStack(spacing: 0) {
-      VPNMenuButton(
-        vpnProductInfo: self.vpnProductInfo,
-        displayVPNDestination: { [unowned self] vc in
-          (self.presentedViewController as? MenuViewController)?
-            .pushInnerMenu(vc)
-        },
-        enableInstalledVPN: { [unowned menuController] in
-          /// Donate Enable VPN Activity for suggestions
-          let enableVPNActivity = ActivityShortcutManager.shared.createShortcutActivity(type: .enableBraveVPN)
-          menuController.userActivity = enableVPNActivity
-          enableVPNActivity.becomeCurrent()
-        })
-    }
-  }
-
   func privacyFeaturesMenuSection(_ menuController: MenuViewController) -> some View {
     VStack(alignment: .leading, spacing: 5) {
       Text(Strings.OptionsMenu.menuSectionTitle.capitalized)
@@ -39,21 +22,6 @@ extension BrowserViewController {
         .foregroundColor(Color(.braveLabel))
         .padding(.horizontal, 14)
         .padding(.bottom, 5)
-
-      VPNMenuButton(
-        vpnProductInfo: self.vpnProductInfo,
-        description: Strings.OptionsMenu.braveVPNItemDescription,
-        displayVPNDestination: { [unowned self] vc in
-          (self.presentedViewController as? MenuViewController)?
-            .pushInnerMenu(vc)
-        },
-        enableInstalledVPN: { [unowned menuController] in
-          /// Donate Enable VPN Activity for suggestions
-          let enableVPNActivity = ActivityShortcutManager.shared.createShortcutActivity(type: .enableBraveVPN)
-          menuController.userActivity = enableVPNActivity
-          enableVPNActivity.becomeCurrent()
-        }
-      )
 
       MenuItemButton(
         icon: #imageLiteral(resourceName: "playlist_menu").template,
@@ -65,9 +33,9 @@ extension BrowserViewController {
         self.presentPlaylistController()
       }
 
-      // Add Brave Talk and News options only in normal browsing
+      // Add Presearch Talk and News options only in normal browsing
       if !PrivateBrowsingManager.shared.isPrivateBrowsing {
-        // Show Brave News if it is first launch and after first launch If the new is enabled
+        // Show Presearch News if it is first launch and after first launch If the new is enabled
         if Preferences.General.isFirstLaunch.value || (!Preferences.General.isFirstLaunch.value && Preferences.BraveNews.isEnabled.value) {
           MenuItemButton(
             icon: #imageLiteral(resourceName: "menu_brave_news").template,

@@ -1,4 +1,4 @@
-// Copyright 2022 The Brave Authors. All rights reserved.
+// Copyright 2022 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -11,7 +11,7 @@ import Network
 
 private let log = Logger.browserLogger
 
-/// Stores the alerts data we receive from Brave VPN.
+/// Stores the alerts data we receive from Presearch VPN.
 /// The alert is a resource blocked by the VPN service
 public final class BraveVPNAlert: NSManagedObject, CRUD, Identifiable {
 

@@ -1,4 +1,4 @@
-// Copyright 2022 The Brave Authors. All rights reserved.
+// Copyright 2022 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -8,7 +8,7 @@ import LocalAuthentication
 import BraveCore
 
 public class SettingsStore: ObservableObject {
-  /// The number of minutes to wait until the Brave Wallet is automatically locked
+  /// The number of minutes to wait until the Presearch Wallet is automatically locked
   @Published var autoLockInterval: AutoLockInterval = .minute {
     didSet {
       keyringService.setAutoLockMinutes(autoLockInterval.value) { _ in }

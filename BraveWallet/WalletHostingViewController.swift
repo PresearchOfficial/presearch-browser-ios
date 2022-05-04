@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -8,7 +8,7 @@ import SwiftUI
 import BraveCore
 import Combine
 
-/// Methods for handling actions that occur while the user is interacting with Brave Wallet that require
+/// Methods for handling actions that occur while the user is interacting with Presearch Wallet that require
 /// some integration with the browser
 public protocol BraveWalletDelegate: AnyObject {
   /// Open a specific URL that comes from the wallet UI. For instance, when purchasing tokens through Wyre

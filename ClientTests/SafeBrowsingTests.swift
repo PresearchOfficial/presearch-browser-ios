@@ -41,7 +41,7 @@ class SafeBrowsingTests: XCTestCase {
     let braveUrl = URL(string: "https://brave.com")!
     let exampleUrl = URL(string: "https://example.com")!
 
-    // Brave domain will have safe browsing shield turned off.
+    // Presearch domain will have safe browsing shield turned off.
     // No need to call getOrCreateForUrl here.
     Domain.setBraveShieldInternal(forUrl: braveUrl, shield: .SafeBrowsing, isOn: false, context: .existing(context))
 

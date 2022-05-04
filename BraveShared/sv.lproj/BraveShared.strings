@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Detta låter dig spara bilden till din kamerarulle.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave vill ha tillgång till dina foton";
+"AccessPhotoDeniedAlertTitle" = "vill ha tillgång till dina foton";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Lägg till bokmärke";
@@ -40,8 +40,8 @@
 /* Label for the Face ID/Passcode item in Settings */
 "AuthenticationFaceIDPasscodeSetting" = "Face ID och lösenord";
 
-/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "Detta autentiserar din åtkomst till Brave";
+/* Touch ID or PIN entry prompt subtitle when accessing with the Browser Lock feature enabled */
+"AuthenticationLoginsTouchReason" = "Detta autentiserar din åtkomst till Presearch";
 
 /* Label for the Passcode item in Settings */
 "AuthenticationPasscode" = "Lösenord";
@@ -100,7 +100,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Blockeringsvisare";
 
-/* Brave panel individual toggle title */
+/* panel individual toggle title */
 "BlockPhishing" = "Blockera phishing";
 
 /* No comment provided by engineer. */
@@ -146,13 +146,13 @@
 "BookmarkUrlPlaceholderText" = "Adress";
 
 /* Button to show the brave panel */
-"BravePanel" = "Brave-panelen";
+"BravePanel" = "Presearch-panelen";
 
-/* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+/* Rewards settings title */
+"BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields och sekretess";
+"BraveShieldsAndPrivacy" = "Shields och sekretess";
 
 /* Sync page title */
 "BraveSync" = "Synkronisera";
@@ -161,13 +161,13 @@
 "BraveSyncInternalsTitle" = "Synkronisera felsökning";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Till att börja med måste du ha installerat Brave på alla enheter du vill synkronisera. För att sammanlänka dem kan du starta en synkroniseringskedja som du använder för att koppla ihop alla dina enheter säkert.";
+"BraveSyncWelcome" = "Till att börja med måste du ha installerat på alla enheter du vill synkronisera. För att sammanlänka dem kan du starta en synkroniseringskedja som du använder för att koppla ihop alla dina enheter säkert.";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "Webbläsarlås";
 
 /* No comment provided by engineer. */
-"BrowserLockDescription" = "Lås upp Brave med Touch ID, Face ID eller systemets lösenord.";
+"BrowserLockDescription" = "Lås upp med Touch ID, Face ID eller systemets lösenord.";
 
 /* A button title for the action to move to the next step of the browser lock migration process. */
 "browserLockMigrationContinueButtonTitle" = "Fortsätt";
@@ -176,10 +176,10 @@
 "browserLockMigrationNoPasscodeSetup" = "Har du inte skapat ett ID eller en lösenordskod? Öppna Inställningar och tryck på \"%@\"";
 
 /* Subtitle on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationSubtitle" = "Vi har förenklat Brave-lösenord. Du kan nu komma åt Brave med samma ID eller lösenord som du använder på din telefon.";
+"browserLockMigrationSubtitle" = "Vi har förenklat Presearch-lösenord. Du kan nu komma åt med samma ID eller lösenord som du använder på din telefon.";
 
 /* Title on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationTitle" = "Öppna Brave med ditt Apple Face ID, Touch ID eller lösenord";
+"browserLockMigrationTitle" = "Öppna med ditt Apple Face ID, Touch ID eller lösenord";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "Webbläsarhistorik";
@@ -188,7 +188,7 @@
 "Cache" = "Cache";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Om du har Brave som standardwebbläsare öppnas alla länkar du klickar på med Braves integritetsskydd.";
+"callout.defaultBrowserCalloutDescription" = "Om du har som standardwebbläsare öppnas alla länkar du klickar på med Braves integritetsskydd.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Välj som standard";
@@ -200,7 +200,7 @@
 "callout.defaultBrowserCalloutSecondaryButtonTitle" = "Hoppa över det här";
 
 /* Title for Default Browser Full Screen Callout */
-"callout.defaultBrowserTitle" = "Gör Brave till standardwebbläsare";
+"callout.defaultBrowserTitle" = "Gör till standardwebbläsare";
 
 /* Button title for Playlist Onboarding View */
 "callout.playlistOnboardingViewButtonTitle" = "Se videon";
@@ -326,25 +326,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Öppna inställningar";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Öppna alla länkar med Brave för att skydda din integritet";
+"defaultBrowserCallout.introPrimaryText" = "Öppna alla länkar med för att skydda din integritet";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields blockerar spårare och annonser, sparar data och sparar tid på alla webbplats du besöker";
+"defaultBrowserCallout.introSecondaryText" = "Shields blockerar spårare och annonser, sparar data och sparar tid på alla webbplats du besöker";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Öppna Inställningar, tryck på Standardwebbläsare och välj Brave.";
+"defaultBrowserCallout.introTertiaryText" = "Öppna Inställningar, tryck på Standardwebbläsare och välj Presearch.";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Optimerad för iOS %@. Gör Brave till din standardwebbläsare idag.";
+/* Notification body to promote setting app as default browser */
+"defaultBrowserCallout.notificationBody" = "Optimerad för iOS %@. Gör till din standardwebbläsare idag.";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Webbläsaren Brave";
+/* Notification title to promote setting app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Webbläsaren Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Stäng text om standardwebbläsare";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Brave standardinställningar";
+/* Name for default theme. */
+"defaultThemeName" = "standardinställningar";
 
 /* No comment provided by engineer. */
 "Delete" = "Radera";
@@ -490,10 +490,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "Tillåt länk att byta appar?";
 
-/* Allow Brave to open the external app URL */
+/* Allow to open the external app URL */
 "ExternalAppURLAllow" = "Tillåt";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow to open the external app URL */
 "ExternalAppURLDontAllow" = "Tillåt inte";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -554,10 +554,10 @@
 "HideLinkPreviewsActionTitle" = "Dölj förhandsgranskning av länkar";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Dölj Brave Rewards-ikonen";
+"HideRewardsIcon" = "Dölj Rewards-ikonen";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Döljer Brave Rewards-ikonen när Brave Rewards inte är aktiverat";
+"HideRewardsIconSubtitle" = "Döljer Rewards-ikonen när Rewards inte är aktiverat";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historik";
@@ -724,14 +724,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "För få ord";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Brave Support";
+/* Bookmark title for Support */
+"ntp.braveSupportFavoriteTitle" = "Support";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Hämta tokens";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Du tjänade %@ genom att surfa med Brave.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "Du tjänade %@ genom att surfa med Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Bra jobbat!";
@@ -740,7 +740,7 @@
 "ntp.hideSponsoredImages" = "Dölj sponsrade bilder";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Lär dig mer om Brave Rewards";
+"ntp.learnMoreAboutRewards" = "Lär dig mer om Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Lär dig mer om sponsrade bilder";
@@ -776,13 +776,13 @@
 "onboarding.blockedAdsOnboardingPopoverDescriptionThree" = "Tryck på skölden på vilken webbplats som helst för att se allt vi blockerat.";
 
 /* The alternate description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "Brave blockerade %1$@ på: %2$@.";
+"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "blockerade %1$@ på: %2$@.";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "Brave blockerade %1$@ och %2$d andra spårare på: %3$@.";
+"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "blockerade %1$@ och %2$d andra spårare på: %3$@.";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "Brave blockerade %1$@ och %2$d annan spårare på: %3$@.";
+"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "blockerade %1$@ och %2$d annan spårare på: %3$@.";
 
 /* DEscription for the NTP pop-over that describes the onboarding is done */
 "onboarding.ntpOnboardingPopoverDoneDescription" = "Kolla in menyn för inställningar och andra praktiska integritetsfunktioner!";
@@ -815,13 +815,13 @@
 "onboarding.searchViewEnterWebsiteRowTitle" = "Skriv in en webbplats";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "Välkommen till Brave!";
+"onboarding.welcomeScreenTitle" = "Välkommen till Presearch!";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Öppna alla (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Öppna inställningar för Brave Rewards";
+/* Button title for opening the Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Öppna inställningar för Rewards";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Ett okänt fel uppstod när mappen Nedladdningar öppnades i appen Files.";
@@ -841,35 +841,35 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "Öppne hemsida";
 
-/* The subtitle description of menu item Brave News */
+/* The subtitle description of menu item News */
 "optionsMenu.braveNewsItemDescription" = "Dagens största nyheter i ett privat nyhetsflöde";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "Nyheter";
 
-/* The subtitle description of menu item Brave Playlist */
+/* The subtitle description of menu item Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "Spara valfri video/stream i en offlinespellista";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "Spellista";
 
-/* The subtitle description of menu item Brave Talk */
+/* The subtitle description of menu item Talk */
 "optionsMenu.braveTalkItemDescription" = "Privata videosamtal direkt i webbläsaren";
 
-/* Brave Talk Item Menu title */
+/* Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "Samtal";
 
-/* The subtitle description of menu item Brave VPN */
+/* The subtitle description of menu item VPN */
 "optionsMenu.braveVPNItemDescription" = "Skydda hela din enhet online";
 
-/* Brave VPN Item Menu title */
+/* VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item Brave Wallet */
+/* The subtitle description of menu item Wallet */
 "optionsMenu.braveWalletItemDescription" = "En säker kryptoplånbok – inga tillägg krävs";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Brave-funktioner";
+"optionsMenu.menuSectionTitle" = "Presearch-funktioner";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "Andra sekretessinställningar";
@@ -904,7 +904,7 @@
 /* Settings privacy section title */
 "Privacy" = "Integritet";
 
-/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "Integritetspolicy";
 
 /* Private button title */
@@ -920,10 +920,10 @@
 "PrivateBrowsingOnlyWarning" = "Läget endast privat surfning kommer att stänga alla öppna flikar och logga ut dig från alla webbplatser.";
 
 /* Private tab details */
-"PrivateTabBody" = "Privata flikar sparas inte i Brave, men de gör dig inte anonym online. Webbplatser som du besöker på en privat flik visas inte i din historik och deras cookies försvinner alltid när du stänger dem – det finns inga spår av dem kvar i Brave. Men hämtningar sparas.\nDin mobiloperatör (eller ägaren till WiFi-nätverket eller den VPN som du är ansluten till) kan se vilka webbplatser som du besöker och vilka webbplatser som kommer att lära sig din offentliga IP-adress, även i privata flikar.";
+"PrivateTabBody" = "Privata flikar sparas inte i Presearch, men de gör dig inte anonym online. Webbplatser som du besöker på en privat flik visas inte i din historik och deras cookies försvinner alltid när du stänger dem – det finns inga spår av dem kvar i Presearch. Men hämtningar sparas.\nDin mobiloperatör (eller ägaren till WiFi-nätverket eller den VPN som du är ansluten till) kan se vilka webbplatser som du besöker och vilka webbplatser som kommer att lära sig din offentliga IP-adress, även i privata flikar.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "När du använder privata flikar ändras Brave bara på din enhet, ingen annans.\n\nWebbplatser får alltid veta din IP-adress när du besöker dem. Utifrån detta kan de oftast räkna ut ungefär var du befinner dig, till exempel din ort. Ibland kan de gissa mer specifikt. Webbplatser vet också allt som du explicit anger, till exempel sökningar. Om du loggar in på en webbplats vet de att du äger kontot. Du loggas ut när du stänger den privata fliken eftersom Brave raderar den cookie som håller dig inloggad.\n\nDin internetleverantör, alltså den som tillhandahåller din internetanslutning, kan se all din nätverksaktivitet. Beroende på anslutningstyp är leverantören din mobilleverantör (för mobildata), wifi-nätets ägare (för wifi) eller den som tillhandahåller din VPN-anslutning (för VPN). Leverantören kan se vilka webbplatser du besöker. Om webbplatserna har HTTPS kan leverantören inte se mer än vilken platsen är, men om webbplatsen bara har HTTP kan leverantören se allt: vad du söker på, vilka sidor du läser och vilka länkar du följer.\n\nOm ditt företag ansvarar för din enhet kan de också se vad du gör med den. Att använda privata flikar kommer förmodligen inte hindra dem från att ta reda på vilka webbplatser du besökt. Någon annan med tillgång till din enhet kan ha installerat ett program som övervakar din aktivitet, och privata flikar skyddar inte mot det heller.";
+"PrivateTabDetails" = "När du använder privata flikar ändras bara på din enhet, ingen annans.\n\nWebbplatser får alltid veta din IP-adress när du besöker dem. Utifrån detta kan de oftast räkna ut ungefär var du befinner dig, till exempel din ort. Ibland kan de gissa mer specifikt. Webbplatser vet också allt som du explicit anger, till exempel sökningar. Om du loggar in på en webbplats vet de att du äger kontot. Du loggas ut när du stänger den privata fliken eftersom raderar den cookie som håller dig inloggad.\n\nDin internetleverantör, alltså den som tillhandahåller din internetanslutning, kan se all din nätverksaktivitet. Beroende på anslutningstyp är leverantören din mobilleverantör (för mobildata), wifi-nätets ägare (för wifi) eller den som tillhandahåller din VPN-anslutning (för VPN). Leverantören kan se vilka webbplatser du besöker. Om webbplatserna har HTTPS kan leverantören inte se mer än vilken platsen är, men om webbplatsen bara har HTTP kan leverantören se allt: vad du söker på, vilka sidor du läser och vilka länkar du följer.\n\nOm ditt företag ansvarar för din enhet kan de också se vad du gör med den. Att använda privata flikar kommer förmodligen inte hindra dem från att ta reda på vilka webbplatser du besökt. Någon annan med tillgång till din enhet kan ha installerat ett program som övervakar din aktivitet, och privata flikar skyddar inte mot det heller.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Läs mer om privata flikar.";
@@ -937,8 +937,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Snabbsökmotorer";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Betygsätt Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Betygsätt Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Öka textstorleken";
@@ -967,13 +967,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "Ändrar typsnitt.";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "Laddar innehåll ...";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "Ladda standardsida";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "Sidan kunde inte visas i läsläge.";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -1004,25 +1004,25 @@
 "RestoreTabNegativeButtonTitle" = "Nej";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "Det verkar som att Brave kraschade förut. Vill du återställa dina flikar?";
+"RestoreTabOnCrashAlertMessage" = "Det verkar som att kraschade förut. Vill du återställa dina flikar?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Oj, det här var ju pinsamt.";
 
-/* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Med Brave Rewards kan du se sekretessbevarande annonser från Brave Ads-nätverket. Inga spårare. Inga kapacitetssänkningar. Och dina data förblir helt säkra.";
+/* Body for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInBody" = "Med Rewards kan du se sekretessbevarande annonser från Ads-nätverket. Inga spårare. Inga kapacitetssänkningar. Och dina data förblir helt säkra.";
 
-/* Title for Brave Talk rewards opt-in screen button */
+/* Title for Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Aktivera Rewards";
 
-/* Body for successful Brave Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Klicka var som helst på skärmen för att fortsätta till Brave Talk.";
+/* Body for successful Talk rewards opt-in */
+"rewards.braveTalkRewardsOptInSuccessBody" = "Klicka var som helst på skärmen för att fortsätta till Talk.";
 
-/* Title for successful Brave Talk rewards opt-in */
+/* Title for successful Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "Nu kan du starta ett gratis samtal";
 
-/* Title for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Aktivera Brave Rewards för att starta ett gratis samtal";
+/* Title for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInTitle" = "Aktivera Rewards för att starta ett gratis samtal";
 
 /* The placeholders say 'Terms of Service' and 'Privacy Policy'. So full sentence goes like: 'By clicking, you agree to the Terms of Service and Privacy Policy...' */
 "rewards.optInDisclaimer" = "Genom att klicka godkänner du %1$@ och %2$@. Inaktivera när som helst i Inställningar.";
@@ -1112,24 +1112,24 @@
 "SearchSuggestionsSectionHeader" = "Sökförslag";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "Sök med Brave";
+"SearchWithBrave" = "Sök med Presearch";
 
 /* Settings security section title */
 "Security" = "Säkerhet";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Skicka kraschrapport så att Brave kan lösa problemet?";
+"SendCrashReportAlertMessage" = "Skicka kraschrapport så att kan lösa problemet?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "Oj! Brave kraschade";
+"SendCrashReportAlertTitle" = "Oj! kraschade";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Skicka rapport";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Brave kan nu anges som din standardwebbläsare i iOS. Tryck här för att öppna inställningarna.";
+"setDefaultBrowserCalloutTitle" = "kan nu anges som din standardwebbläsare i iOS. Tryck här för att öppna inställningarna.";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Ange som standardwebbläsare";
 
 /* No comment provided by engineer. */
@@ -1151,7 +1151,7 @@
 "settings.autocloseTabsSetting" = "Stäng flikar";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "Tillåt att Brave automatiskt stänger flikar som inte nyligen har visats.";
+"settings.autocloseTabsSettingFooter" = "Tillåt att automatiskt stänger flikar som inte nyligen har visats.";
 
 /* Error message that is shown in settings when there was a problem loading */
 "SettingsContentLoadErrorMessage" = "Kunde inte ladda sidan.";
@@ -1169,7 +1169,7 @@
 "ShareWithMenuItem" = "Dela med …";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Globala standardinställningar för Brave Shields";
+"ShieldsDefaults" = "Globala standardinställningar för Shields";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Dessa är Shields standardinställningar för nya webbplatser. Om du ändrar dessa påverkas inte dina befintliga inställningar per webbplats.";
@@ -1225,7 +1225,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "Visa flikfältet";
 
-/* Brave panel topmost title */
+/* panel topmost title */
 "SiteShieldSettings" = "Sköldar";
 
 /* Open search section of settings */
@@ -1256,7 +1256,7 @@
 "sync.v2MigrationErrorTitle" = "Fel";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "För att använda Brave Sync måste dina befintliga bokmärken migreras för att använda det nya systemet. Den här operationen kommer inte att radera dina bokmärken.";
+"sync.v2MigrationMessage" = "För att använda Sync måste dina befintliga bokmärken migreras för att använda det nya systemet. Den här operationen kommer inte att radera dina bokmärken.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Migrera";
@@ -1319,22 +1319,22 @@
 "SyncInitErrorTitle" = "Synkroniserings kommunikationsfel";
 
 /* Sync Error Description */
-"syncInsecureVersionError" = "Den här synkroniseringskoden genererades av en föråldrad version av Brave på en annan enhet. Uppdatera Brave på alla synkroniserade enheter och försök igen.";
+"syncInsecureVersionError" = "Den här synkroniseringskoden genererades av en föråldrad version av på en annan enhet. Uppdatera på alla synkroniserade enheter och försök igen.";
 
 /* Sync Error Description */
 "syncInvalidVersionError" = "Ogiltigt format";
 
 /* Default name for a device */
-"syncJoinChainCameraWarning" = "Det här delar dina Brave-data, vilket kan innefatta dina lösenord, med enheten som genererade den här QR-koden. Kontrollera att QR-koden skapades av en enhet du äger. Är du säker på att du vill gå vidare?";
+"syncJoinChainCameraWarning" = "Det här delar dina Presearch-data, vilket kan innefatta dina lösenord, med enheten som genererade den här QR-koden. Kontrollera att QR-koden skapades av en enhet du äger. Är du säker på att du vill gå vidare?";
 
 /* Default name for a device */
-"syncJoinChainCodewordsWarning" = "Det här delar dina Brave-data, vilket kan innefatta dina lösenord, med enheten som genererade de här kodorden. Kontrollera att kodorden skapades av en enhet du äger. Är du säker på att du vill gå vidare?";
+"syncJoinChainCodewordsWarning" = "Det här delar dina Presearch-data, vilket kan innefatta dina lösenord, med enheten som genererade de här kodorden. Kontrollera att kodorden skapades av en enhet du äger. Är du säker på att du vill gå vidare?";
 
 /* Title for pairing sync device */
 "syncJoinChainWarningTitle" = "Varning";
 
 /* Sync Error Description */
-"syncNewerVersionError" = "Den här synkroniseringskoden genererades av en nyare version av Brave på en annan enhet. Uppdatera Brave på alla synkroniserade enheter och försök igen.";
+"syncNewerVersionError" = "Den här synkroniseringskoden genererades av en nyare version av på en annan enhet. Uppdatera på alla synkroniserade enheter och försök igen.";
 
 /* No internet connection alert body. */
 "SyncNoConnectionBody" = "Kontrollera din internetanslutning och försök igen.";
@@ -1486,14 +1486,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "Användarvillkor";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Villkor";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "Dela ...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Dela Brave med dina vänner!";
+"themeQRCodeShareTitle" = "Dela med dina vänner!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automatisk";
@@ -1537,7 +1537,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "Använd regional annonsblockering";
 
-/* Version number of Brave shown in settings */
+/* Version number of shown in settings */
 "VersionTemplate" = "Version %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

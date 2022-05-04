@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -12,7 +12,7 @@ extension Strings {
       "wallet.braveWallet",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Brave Wallet",
+      value: "Presearch Wallet",
       comment: "The title shown on the wallet settings page."
     )
     public static let wallet = NSLocalizedString(
@@ -20,7 +20,7 @@ extension Strings {
       tableName: "BraveWallet",
       bundle: .braveWallet,
       value: "Wallet",
-      comment: "The title shown on the menu to access Brave Wallet"
+      comment: "The title shown on the menu to access Presearch Wallet"
     )
     public static let otherWalletActionsAccessibilityTitle = NSLocalizedString(
       "wallet.otherWalletActionsAccessibilityTitle",
@@ -349,13 +349,13 @@ extension Strings {
       tableName: "BraveWallet",
       bundle: .braveWallet,
       value: "Restore",
-      comment: "The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave"
+      comment: "The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch"
     )
     public static let cryptoTitle = NSLocalizedString(
       "wallet.cryptoTitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Brave Wallet",
+      value: "Presearch Wallet",
       comment: "The title of the crypto tab"
     )
     public static let backupWalletWarningMessage = NSLocalizedString(
@@ -488,14 +488,14 @@ extension Strings {
       "wallet.setupCryptoTitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Welcome to the new Brave Wallet",
+      value: "Welcome to the new Presearch Wallet",
       comment: "The title displayed on the 'setup crypto' onboarding screen"
     )
     public static let setupCryptoSubtitle = NSLocalizedString(
       "wallet.setupCryptoSubtitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Hold crypto assets in your custody and track portfolio performance. All right from the Brave privacy browser.",
+      value: "Hold crypto assets in your custody and track portfolio performance. All right from the Presearch privacy browser.",
       comment: "The subtitle displayed on the 'setup crypto' onboarding screen"
     )
     public static let setupCryptoButtonTitle = NSLocalizedString(
@@ -593,7 +593,7 @@ extension Strings {
       "wallet.restoreWalletSubtitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Enter your recovery phrase to restore your Brave wallet crypto account.",
+      value: "Enter your recovery phrase to restore your Presearch wallet crypto account.",
       comment: "The subtitle on the restore wallet screen."
     )
     public static let restoreWalletPhrasePlaceholder = NSLocalizedString(
@@ -607,8 +607,8 @@ extension Strings {
       "wallet.restoreWalletImportFromLegacyBraveWallet",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Import from legacy Brave crypto wallets?",
-      comment: "A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet"
+      value: "Import from legacy Presearch crypto wallets?",
+      comment: "A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet"
     )
     public static let restoreWalletShowRecoveryPhrase = NSLocalizedString(
       "wallet.restoreWalletShowRecoveryPhrase",
@@ -663,7 +663,7 @@ extension Strings {
       "wallet.settingsResetWalletAlertTitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Are you sure you want to reset Brave Wallet?",
+      value: "Are you sure you want to reset Presearch Wallet?",
       comment: "The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device"
     )
     public static let settingsResetWalletAlertMessage = NSLocalizedString(
@@ -845,7 +845,7 @@ extension Strings {
       "wallet.biometricsSetupTitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Unlock Brave Wallet with your Face ID, Touch ID, or password.",
+      value: "Unlock Presearch Wallet with your Face ID, Touch ID, or password.",
       comment: "The title shown when a user is asked if they would like to setup biometric unlock"
     )
     public static let biometricsSetupEnableButtonTitle = NSLocalizedString(
@@ -873,7 +873,7 @@ extension Strings {
       "wallet.autoLockFooter",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "The number of minutes to wait until the Brave Wallet is automatically locked",
+      value: "The number of minutes to wait until the Presearch Wallet is automatically locked",
       comment: "The footer beneath the auto-lock title and interval duration"
     )
     public static let enterAmount = NSLocalizedString(
@@ -978,7 +978,7 @@ extension Strings {
       "wallet.swapCryptoUnsupportNetworkBody",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Brave doesn't currently support swap on the %@. Please switch to a supported chain.",
+      value: "Presearch doesn't currently support swap on the %@. Please switch to a supported chain.",
       comment: "The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network'"
     )
     public static let swapCryptoSlippageTitle = NSLocalizedString(
@@ -1517,7 +1517,7 @@ extension Strings {
       "wallet.swapDexAggrigatorNote",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Brave uses 0x as a DEX aggregator.",
+      value: "Presearch uses 0x as a DEX aggregator.",
       comment: "A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange)"
     )
     public static let swapDexAggrigatorDisclaimer = NSLocalizedString(
@@ -1525,7 +1525,7 @@ extension Strings {
       tableName: "BraveWallet",
       bundle: .braveWallet,
       value: "0x will process the Ethereum address and IP address to fulfill a transaction (including getting quotes). 0x will ONLY use this data for the purposes of processing transactions.",
-      comment: "A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage."
+      comment: "A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage."
     )
     public static let chartAxisDateLabel = NSLocalizedString(
       "wallet.chartAxisDateLabel",
@@ -1552,8 +1552,8 @@ extension Strings {
       "wallet.braveSwapFeeDisclaimer",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Quote includes a %@ Brave fee.",
-      comment: "A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee'"
+      value: "Quote includes a %@ Presearch fee.",
+      comment: "A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee'"
     )
     public static let screenshotDetectedTitle = NSLocalizedString(
       "wallet.screenshotDetectedTitle",
@@ -1566,14 +1566,14 @@ extension Strings {
       "wallet.recoveryPhraseScreenshotDetectedMessage",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Warning: A screenshot of your recovery phrase may get backed up to a cloud file service, and be readable by any application with photos access. Brave recommends that you not save this screenshot, and delete it as soon as possible.",
+      value: "Warning: A screenshot of your recovery phrase may get backed up to a cloud file service, and be readable by any application with photos access. Presearch recommends that you not save this screenshot, and delete it as soon as possible.",
       comment: "The message displayed when the user takes a screenshot of their recovery phrase"
     )
     public static let privateKeyScreenshotDetectedMessage = NSLocalizedString(
       "wallet.privateKeyScreenshotDetectedMessage",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Warning: A screenshot of your private key may get backed up to a cloud file service, and be readable by any application with photos access. Brave recommends that you not save this screenshot, and delete it as soon as possible.",
+      value: "Warning: A screenshot of your private key may get backed up to a cloud file service, and be readable by any application with photos access. Presearch recommends that you not save this screenshot, and delete it as soon as possible.",
       comment: "The message displayed when the user takes a screenshot of their private key"
     )
     public static let sendWarningAddressIsOwn = NSLocalizedString(
@@ -2021,8 +2021,8 @@ extension Strings {
       "wallet.dappsConnectionNotificationTitle",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "This page wants to interact with Brave Wallet",
-      comment: "The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet."
+      value: "This page wants to interact with Presearch Wallet",
+      comment: "The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet."
     )
     public static let editPermissionsTitle = NSLocalizedString(
       "wallet.editPermissionsTitle",
@@ -2077,7 +2077,7 @@ extension Strings {
       "wallet.newSiteConnectMessage",
       tableName: "BraveWallet",
       bundle: .braveWallet,
-      value: "Connect to Brave Wallet",
+      value: "Connect to Presearch Wallet",
       comment: "The message displayed below the dapp's origin url in new site connection screen."
     )
     public static let newSiteConnectFooter = NSLocalizedString(

@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "Assets";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Die Anzahl Minuten, bis die Brave-Wallet automatisch gesperrt wird.";
+"wallet.autoLockFooter" = "Die Anzahl Minuten, bis die Presearch-Wallet automatisch gesperrt wird.";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Automatisch sperren nach";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "Biometrische Entsperrung konnte nicht aktiviert werden.";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "Entsperren Sie die Brave-Wallet mit Ihrer Face-ID, Touch-ID oder Ihrem Passwort.";
+"wallet.biometricsSetupTitle" = "Entsperren Sie die Presearch-Wallet mit Ihrer Face-ID, Touch-ID oder Ihrem Passwort.";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Angebot enthält eine Brave-Gebühr von %@.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "Angebot enthält eine Presearch-Gebühr von %@.";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Brave-Wallet";
+"wallet.braveWallet" = "Presearch-Wallet";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "Kaufen";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "Schützen Sie Ihre Kryptowährungs-Assets mit einem Passwort";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave-Wallet";
+"wallet.cryptoTitle" = "Presearch-Wallet";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "Explorer-URLs blockieren";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Benutzerdefiniert";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Diese Seite möchte mit der Brave-Wallet interagieren";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Diese Seite möchte mit der Presearch-Wallet interagieren";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "Alle";
@@ -518,10 +518,10 @@
 "wallet.primaryCryptoAccountsTitle" = "Primäre Kryptowährungskonten";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Warnung: Ein Screenshot Ihres privaten Schlüssels wird möglicherweise in einem Cloud-Dateidienst gesichert und kann von jeder Anwendung mit Fotozugriff gelesen werden. Brave empfiehlt, diesen Screenshot nicht zu speichern und so schnell wie möglich zu löschen.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Warnung: Ein Screenshot Ihres privaten Schlüssels wird möglicherweise in einem Cloud-Dateidienst gesichert und kann von jeder Anwendung mit Fotozugriff gelesen werden. Presearch empfiehlt, diesen Screenshot nicht zu speichern und so schnell wie möglich zu löschen.";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Warnung: Ein Screenshot Ihres Wiederherstellungssatzes wird möglicherweise in einem Cloud-Dateidienst gesichert und kann von jeder Anwendung mit Fotozugriff gelesen werden. Brave empfiehlt, diesen Screenshot nicht zu speichern und so schnell wie möglich zu löschen.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Warnung: Ein Screenshot Ihres Wiederherstellungssatzes wird möglicherweise in einem Cloud-Dateidienst gesichert und kann von jeder Anwendung mit Fotozugriff gelesen werden. Presearch empfiehlt, diesen Screenshot nicht zu speichern und so schnell wie möglich zu löschen.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Marktpreis aktualisieren";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Wallet wiederherstellen";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "Wiederherstellen";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "Aus alten Brave-Kryptowährungs-Wallets importieren?";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Aus alten Presearch-Kryptowährungs-Wallets importieren?";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Neues Passwort";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "Wiederherstellungsphrase anzeigen";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "Geben Sie Ihre Wiederherstellungsphrase ein, um Ihr Brave-Wallet-Kryptowährungskonto wiederherzustellen.";
+"wallet.restoreWalletSubtitle" = "Geben Sie Ihre Wiederherstellungsphrase ein, um Ihr Presearch-Wallet-Kryptowährungskonto wiederherzustellen.";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "Kryptowährungskonto wiederherstellen";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Diese Aktion kann nicht rückgängig gemacht werden. Ihre Wiederherstellungsphrase ist die einzige Möglichkeit, den Zugriff auf Ihr Konto und Ihre Kryptowährungs-Assets wiederherzustellen";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Möchten Sie die Brave-Wallet wirklich zurücksetzen?";
+"wallet.settingsResetWalletAlertTitle" = "Möchten Sie die Presearch-Wallet wirklich zurücksetzen?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Willkommen";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "Loslegen";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Bewahren Sie Kryptowährungs-Assets auf und verfolgen Sie die Performance Ihres Portfolios. Und das direkt vom Brave-Datenschutzbrowser.";
+"wallet.setupCryptoSubtitle" = "Bewahren Sie Kryptowährungs-Assets auf und verfolgen Sie die Performance Ihres Portfolios. Und das direkt vom Presearch-Datenschutzbrowser.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "Willkommen bei der neuen Brave-Wallet";
+"wallet.setupCryptoTitle" = "Willkommen bei der neuen Presearch-Wallet";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "Privaten Schlüssel anzeigen";
@@ -722,7 +722,7 @@
 "wallet.swapCryptoToTitle" = "An";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Brave unterstützt derzeit keinen Tausch im %@. Bitte wechseln Sie zu einer unterstützten Blockchain.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Presearch unterstützt derzeit keinen Tausch im %@. Bitte wechseln Sie zu einer unterstützten Blockchain.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Nicht unterstützte Blockchain";
@@ -730,11 +730,11 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "Token und Assets tauschen.";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x verarbeitet die Ethereum-Adresse und IP-Adresse, um eine Transaktion auszuführen (einschließlich der Angebotseinholung). 0x verwendet diese Daten NUR zum Zwecke der Verarbeitung von Transaktionen.";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave nutzt 0x als DEX-Aggregator.";
+"wallet.swapDexAggrigatorNote" = "Presearch nutzt 0x als DEX-Aggregator.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Limit";
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "Im Blockchain-Explorer anzeigen";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "Wallet";
 

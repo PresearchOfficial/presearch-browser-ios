@@ -7,7 +7,7 @@ import BraveCore
 import pop
 import Shared
 
-/// The main ads view. Mimics a system notification in that it shows an icon, "app name" (always will be "Brave Rewards"), title and body.
+/// The main ads view. Mimics a system notification in that it shows an icon, "app name" (always will be "Presearch Rewards"), title and body.
 class AdContentButton: UIControl {
   let titleLabel = UILabel().then {
     $0.textColor = .bravePrimary

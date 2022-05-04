@@ -10,7 +10,7 @@
 "NSCameraUsageDescription" = "Questa impostazione ti permette di scattare e caricare le foto.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "In questo modo puoi autenticarti per l’accesso a Brave";
+"NSFaceIDUsageDescription" = "In questo modo puoi autenticarti per l’accesso a Presearch";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "I siti web che visiti potrebbero richiedere la tua posizione.";

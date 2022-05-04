@@ -5,5 +5,5 @@
 #include "Release.xcconfig"
 
 // Manual Code-Signing
-CODE_SIGN_IDENTITY = Apple Distribution: Brave Software, Inc.
+CODE_SIGN_IDENTITY = Apple Distribution: Presearch Software, Inc.
 CODE_SIGN_STYLE = Manual

@@ -344,7 +344,7 @@ class SearchEngines {
   /// Function for Yahoo Search Engine Migration
   /// If Default Search Engine is Yahoo or Yahoo! JAPAN,
   /// the engine will be migrated as Custom Search Engine and set as default
-  /// In Private Mode the default engine will be set as Brave Search
+  /// In Private Mode the default engine will be set as Presearch Search
   func migrateDefaultYahooSearchEngines() {
     // Checking Standard Tab Engine is Yahoo and create a new custom engine for it
     let standardTabEngineName = Preferences.Search.defaultEngineName.value

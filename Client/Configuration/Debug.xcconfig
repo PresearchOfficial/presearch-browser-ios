@@ -5,7 +5,7 @@
 #include "Base.xcconfig"
 #include "Local.xcconfig"
 
-MOZ_BUNDLE_DISPLAY_NAME = Brave ($(USER))
+MOZ_BUNDLE_DISPLAY_NAME = Presearch ($(USER))
 
 BRAVE_API_KEY = key
 BRAVE_SERVICES_KEY = key

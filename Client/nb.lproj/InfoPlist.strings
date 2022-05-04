@@ -10,7 +10,7 @@
 "NSCameraUsageDescription" = "Dette lar deg ta bilder og laste dem opp.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Dette autentiserer din tilgang til Brave";
+"NSFaceIDUsageDescription" = "Dette autentiserer din tilgang til Presearch";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "Hjemmesidene du besøker kan be om å få vite hvor du befinner deg.";

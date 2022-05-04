@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -146,15 +146,16 @@ class NewTabPageViewController: UIViewController {
         }
         
         self?.present(host, animated: true)
-      }),
-      FavoritesSectionProvider(action: { [weak self] bookmark, action in
-        self?.handleFavoriteAction(favorite: bookmark, action: action)
-      }, legacyLongPressAction: { [weak self] alertController in
-        self?.present(alertController, animated: true)
-      }),
-      FavoritesOverflowSectionProvider(action: { [weak self] in
-        self?.delegate?.focusURLBar()
-      }),
+      })
+//      ,
+//      FavoritesSectionProvider(action: { [weak self] bookmark, action in
+//        self?.handleFavoriteAction(favorite: bookmark, action: action)
+//      }, legacyLongPressAction: { [weak self] alertController in
+//        self?.present(alertController, animated: true)
+//      }),
+//      FavoritesOverflowSectionProvider(action: { [weak self] in
+//        self?.delegate?.focusURLBar()
+//      }),
     ]
 
     // This is a one-off view, adding it to the NTP only if necessary.
@@ -500,7 +501,7 @@ class NewTabPageViewController: UIViewController {
     notificationController = nil
   }
 
-  // MARK: - Brave News
+  // MARK: - Presearch News
 
   private func handleBraveNewsAction(_ action: BraveNewsSectionProvider.Action) {
     switch action {
@@ -575,7 +576,7 @@ class NewTabPageViewController: UIViewController {
         switchingToPrivateMode: switchingToPrivateMode
       )
 
-      /// Donate Open Brave News Activity for Custom Suggestions
+      /// Donate Open Presearch News Activity for Custom Suggestions
       let openBraveNewsActivity = ActivityShortcutManager.shared.createShortcutActivity(type: .openBraveNews)
       self.userActivity = openBraveNewsActivity
       openBraveNewsActivity.becomeCurrent()
@@ -841,10 +842,10 @@ extension NewTabPageViewController {
     }
     guard isBraveNewsVisible, let newsSection = layout.braveNewsSection else { return }
     if collectionView.numberOfItems(inSection: newsSection) > 0 {
-      // Hide the buttons as Brave News feeds appear
+      // Hide the buttons as Presearch News feeds appear
       backgroundButtonsView.alpha = 1.0 - max(0.0, min(1.0, (scrollView.contentOffset.y - scrollView.contentInset.top) / 16))
-      // Show the header as Brave News feeds appear
-      // Offset of where Brave News starts
+      // Show the header as Presearch News feeds appear
+      // Offset of where Presearch News starts
       let todayStart = collectionView.frame.height - feedOverlayView.headerView.bounds.height - 32 - 16
       // Offset of where the header should begin becoming visible
       let alphaInStart = collectionView.frame.height / 2.0
@@ -878,9 +879,9 @@ extension NewTabPageViewController {
     }
   }
 
-  /// Moves New Tab Page Scroll to start of Brave News - Used for shortcut
+  /// Moves New Tab Page Scroll to start of Presearch News - Used for shortcut
   func scrollToBraveNews() {
-    // Offset of where Brave News starts
+    // Offset of where Presearch News starts
     let todayStart = collectionView.frame.height - feedOverlayView.headerView.bounds.height - 32 - 16
     collectionView.contentOffset.y = todayStart
   }

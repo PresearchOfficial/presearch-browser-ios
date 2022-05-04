@@ -140,29 +140,12 @@ class SettingsViewController: TableViewController {
     var list = [
       defaultBrowserSection,
       featuresSection,
-      generalSection,
+//      generalSection,
       displaySection,
       securitySection,
       supportSection,
       aboutSection,
     ]
-
-    let shouldShowVPNSection = { () -> Bool in
-      if !VPNProductInfo.isComplete || Preferences.VPN.vpnSettingHeaderWasDismissed.value {
-        return false
-      }
-
-      switch BraveVPN.vpnState {
-      case .notPurchased, .expired, .purchased:
-        return true
-      case .installed:
-        return false
-      }
-    }()
-
-    if shouldShowVPNSection {
-      list.insert(enableBraveVPNSection, at: 0)
-    }
 
     if let debugSection = debugSection {
       list.append(debugSection)
@@ -224,29 +207,10 @@ class SettingsViewController: TableViewController {
               feedDataSource: self.feedDataSource,
               historyAPI: self.historyAPI)
             self.navigationController?.pushViewController(controller, animated: true)
-          }, image: #imageLiteral(resourceName: "settings-shields"), accessory: .disclosureIndicator)
+          }, image: #imageLiteral(resourceName: "shields-off-menu-icon"), accessory: .disclosureIndicator)
       ],
       uuid: featureSectionUUID.uuidString
     )
-
-    if BraveRewards.isAvailable, let rewards = rewards {
-      section.rows += [
-        Row(
-          text: Strings.braveRewardsTitle,
-          selection: { [unowned self] in
-            let rewardsVC = BraveRewardsSettingsViewController(rewards, legacyWallet: self.legacyWallet)
-            rewardsVC.walletTransferLearnMoreTapped = { [weak self] in
-              guard let self = self else { return }
-              self.dismiss(animated: true) {
-                self.presentingViewController?.dismiss(animated: true) {
-                  self.settingsDelegate?.settingsOpenURLInNewTab(BraveUX.braveRewardsLearnMoreURL)
-                }
-              }
-            }
-            self.navigationController?.pushViewController(rewardsVC, animated: true)
-          }, image: #imageLiteral(resourceName: "settings-brave-rewards"), accessory: .disclosureIndicator)
-      ]
-    }
 
     #if !NO_BRAVE_NEWS
     section.rows.append(
@@ -258,11 +222,6 @@ class SettingsViewController: TableViewController {
         }, image: #imageLiteral(resourceName: "settings-brave-today").template, accessory: .disclosureIndicator)
     )
     #endif
-
-    vpnRow = vpnSettingsRow()
-    if let vpnRow = vpnRow {
-      section.rows.append(vpnRow)
-    }
 
     section.rows.append(
       Row(
@@ -373,17 +332,6 @@ class SettingsViewController: TableViewController {
       self.navigationController?.pushViewController(optionsViewController, animated: true)
     }
     display.rows.append(row)
-
-    display.rows.append(
-      Row(
-        text: Strings.NTP.settingsTitle,
-        selection: { [unowned self] in
-          self.navigationController?.pushViewController(NTPTableViewController(), animated: true)
-        },
-        image: #imageLiteral(resourceName: "settings-ntp").template,
-        accessory: .disclosureIndicator,
-        cellClass: MultilineValue1Cell.self
-      ))
 
     if UIDevice.current.userInterfaceIdiom == .pad {
       display.rows.append(
@@ -523,7 +471,7 @@ class SettingsViewController: TableViewController {
         Row(
           text: Strings.rateBrave,
           selection: { [unowned self] in
-            // Rate Brave
+            // Rate Presearch
             guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id1052879175?action=write-review")
             else { return }
             UIApplication.shared.open(writeReviewURL)
@@ -626,12 +574,12 @@ class SettingsViewController: TableViewController {
             self.displayRewardsDebugMenu()
           }, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
         Row(
-          text: "View Brave News Debug Menu",
+          text: "View Presearch News Debug Menu",
           selection: { [unowned self] in
             self.displayBraveNewsDebugMenu()
           }, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
         Row(
-          text: "View Brave Search Debug Menu",
+          text: "View Presearch Search Debug Menu",
           selection: { [unowned self] in
             self.displayBraveSearchDebugMenu()
           }, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),

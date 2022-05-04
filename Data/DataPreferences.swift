@@ -14,7 +14,7 @@ public extension Preferences {
       ///     successful or not. Once it is `true`, it should never be set to `false` again.
       public static let completed = Option<Bool>(key: "database.document-to-support-directory-migration.completed", default: false)
 
-      /// Since the migration may need to be re-attempted on each Brave version update this is used to store
+      /// Since the migration may need to be re-attempted on each Presearch version update this is used to store
       ///   the past version attempt, so it can be determined if another migration attempt is due.
       public static let previousAttemptedVersion = Option<String?>(key: "database.document-to-support-directory-migration.previous-attempted-version", default: nil)
     }

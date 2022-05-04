@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -11,7 +11,7 @@ import Data
 
 private let log = Logger.browserLogger
 
-/// A static class to handle all things related to the Brave VPN service.
+/// A static class to handle all things related to the Presearch VPN service.
 class BraveVPN {
 
   private static let housekeepingApi = GRDHousekeepingAPI()
@@ -160,7 +160,7 @@ class BraveVPN {
     return .installed(enabled: isConnected)
   }
 
-  /// Returns true if the user is connected to Brave's vpn at the moment.
+  /// Returns true if the user is connected to Presearch's vpn at the moment.
   /// This will return true if the user is connected to other VPN.
   static var isConnected: Bool {
     NEVPNManager.shared().connection.status == .connected

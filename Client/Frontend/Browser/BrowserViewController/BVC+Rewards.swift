@@ -17,12 +17,6 @@ private let log = Logger.braveCoreLogger
 extension BrowserViewController {
   func updateRewardsButtonState() {
     if !isViewLoaded { return }
-    if !BraveRewards.isAvailable {
-      self.topToolbar.locationView.rewardsButton.isHidden = true
-      return
-    }
-    self.topToolbar.locationView.rewardsButton.isHidden = Preferences.Rewards.hideRewardsIcon.value || PrivateBrowsingManager.shared.isPrivateBrowsing
-    self.topToolbar.locationView.rewardsButton.iconState = Preferences.Rewards.rewardsToggledOnce.value ? (rewards.isEnabled || rewards.isCreatingWallet ? .enabled : .disabled) : .initial
   }
 
   func showRewardsDebugSettings() {
@@ -45,7 +39,6 @@ extension BrowserViewController {
 
       Preferences.FullScreenCallout.rewardsCalloutCompleted.value = true
       present(controller, animated: true)
-      topToolbar.locationView.rewardsButton.iconState = Preferences.Rewards.rewardsToggledOnce.value ? (rewards.isEnabled || rewards.isCreatingWallet ? .enabled : .disabled) : .initial
       return
     }
 
@@ -80,7 +73,6 @@ extension BrowserViewController {
 
     let popover = PopoverController(contentController: braveRewardsPanel, contentSizeBehavior: .autoLayout)
     popover.addsConvenientDismissalMargins = false
-    popover.present(from: topToolbar.locationView.rewardsButton, on: self)
     popover.popoverDidDismiss = { [weak self] _ in
       guard let self = self else { return }
       if let tabId = self.tabManager.selectedTab?.rewardsId, self.rewards.ledger?.selectedTabId == 0 {
@@ -100,9 +92,6 @@ extension BrowserViewController {
       let popover = PopoverController(contentController: controller, contentSizeBehavior: .autoLayout)
       popover.popoverDidDismiss = { _ in
         Preferences.Rewards.transferUnavailableLastSeen.value = Date().timeIntervalSince1970
-      }
-      DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-        popover.present(from: self.topToolbar.locationView.rewardsButton, on: self)
       }
     }
 

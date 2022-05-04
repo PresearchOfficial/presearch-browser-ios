@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "Aset";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Jumlah menit untuk menunggu hingga Brave Wallet secara otomatis terkunci";
+"wallet.autoLockFooter" = "Jumlah menit untuk menunggu hingga Presearch Wallet secara otomatis terkunci";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Secara Otomatis Mengunci Setelah";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "Gagal mengaktifkan pembukaan kunci biometrik.";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "Buka kunci Brave Wallet dengan menggunakan Face ID, Touch ID, atau kata sandi Anda.";
+"wallet.biometricsSetupTitle" = "Buka kunci Presearch Wallet dengan menggunakan Face ID, Touch ID, atau kata sandi Anda.";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Penawaran mencakup %@ biaya Brave.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "Penawaran mencakup %@ biaya Presearch.";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Brave Wallet";
+"wallet.braveWallet" = "Presearch Wallet";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "Beli";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "Amankan aset kripto Anda dengan menggunakan kata sandi";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave Wallet";
+"wallet.cryptoTitle" = "Presearch Wallet";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "Blokir URL eksplorer";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Khusus";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Halaman ini ingin berinteraksi dengan Dompet Brave";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Halaman ini ingin berinteraksi dengan Dompet Presearch";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "Semua";
@@ -518,10 +518,10 @@
 "wallet.primaryCryptoAccountsTitle" = "Akun Kripto Utama";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Peringatan: Tangkapan layar kunci privat Anda dapat dicadangkan ke layanan awan, dan dapat dibaca menggunakan aplikasi apa pun yang memiliki akses foto. Brave merekomendasikan agar Anda tidak menyimpan tangkapan layar ini, dan menghapusnya sesegera mungkin.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Peringatan: Tangkapan layar kunci privat Anda dapat dicadangkan ke layanan awan, dan dapat dibaca menggunakan aplikasi apa pun yang memiliki akses foto. Presearch merekomendasikan agar Anda tidak menyimpan tangkapan layar ini, dan menghapusnya sesegera mungkin.";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Peringatan: Tangkapan layar frasa pemulihan Anda dapat dicadangkan ke layanan awan, dan dapat dibaca menggunakan aplikasi apa pun yang memiliki akses foto. Brave merekomendasikan agar Anda tidak menyimpan tangkapan layar ini, dan menghapusnya sesegera mungkin.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Peringatan: Tangkapan layar frasa pemulihan Anda dapat dicadangkan ke layanan awan, dan dapat dibaca menggunakan aplikasi apa pun yang memiliki akses foto. Presearch merekomendasikan agar Anda tidak menyimpan tangkapan layar ini, dan menghapusnya sesegera mungkin.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Perbarui harga pasar";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Pulihkan Dompet";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "Pulihkan";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "Impor dari dompet kripto Brave yang lama?";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Impor dari dompet kripto Presearch yang lama?";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Kata Sandi Baru";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "Tampilkan Frasa Pemulihan";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "Masukkan frasa pemulihan Anda untuk memulihkan akun kripto dompet Brave Anda.";
+"wallet.restoreWalletSubtitle" = "Masukkan frasa pemulihan Anda untuk memulihkan akun kripto dompet Presearch Anda.";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "Pulihkan Akun Kripto";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Tindakan ini tidak dapat dibalik. Frasa pemulihan Anda adalah satu-satunya cara untuk mendapat kembali akses akun ke aset kripto Anda.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Anda yakin ingin mengatur ulang Brave Wallet?";
+"wallet.settingsResetWalletAlertTitle" = "Anda yakin ingin mengatur ulang Presearch Wallet?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Selamat Datang";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "Memulai";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Simpan aset kripto di kepemilikan Anda dan lacak kinerja portofolio. Semuanya dari peramban privat Brave.";
+"wallet.setupCryptoSubtitle" = "Simpan aset kripto di kepemilikan Anda dan lacak kinerja portofolio. Semuanya dari peramban privat Presearch.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "Selamat datang ke dunia Brave Wallet";
+"wallet.setupCryptoTitle" = "Selamat datang ke dunia Presearch Wallet";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "Tampilkan Kunci Privat";
@@ -722,7 +722,7 @@
 "wallet.swapCryptoToTitle" = "Untuk";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Saat ini, Brave tidak mendukung pertukaran di %@. Silahkan alihkan ke rantai yang didukung.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Saat ini, Presearch tidak mendukung pertukaran di %@. Silahkan alihkan ke rantai yang didukung.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Rantai yang tidak didukung";
@@ -730,11 +730,11 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "Tukar token dan aset.";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x akan memproses alamat Ethereum dan alamat IP untuk memenuhi transaksi (termasuk mendapatkan penawaran). 0x HANYA akan menggunakan data ini untuk keperluan pemrosesan transaksi.";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave menggunakan 0x sebagai agregator DEX.";
+"wallet.swapDexAggrigatorNote" = "Presearch menggunakan 0x sebagai agregator DEX.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Batas";
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "Lihat di penjelajah blok";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "Dompet";
 

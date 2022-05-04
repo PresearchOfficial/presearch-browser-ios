@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -10,11 +10,12 @@ import Foundation
 class InitialSearchEngines {
   /// Type of search engine available to the user.
   enum SearchEngineID: String {
-    case google, braveSearch, bing, duckduckgo, yandex, qwant, startpage, ecosia
+    case google, braveSearch, bing, duckduckgo, yandex, qwant, startpage, ecosia, presearch
 
     /// Open Search Reference  for default search Engines
     var openSearchReference: String {
       switch self {
+      case .presearch: return "presearch.org"
       case .google: return "google.com"
       case .braveSearch: return "search.brave"
       case .bing: return "bing.com"
@@ -30,7 +31,7 @@ class InitialSearchEngines {
     /// This is caused because we use 'display name' as a preference key.
     var legacyName: String? {
       switch self {
-      case .braveSearch: return "Brave Search beta"
+      case .presearch: return "Presearch"
       default: return nil
       }
     }
@@ -117,6 +118,7 @@ class InitialSearchEngines {
 
     // Default order and available search engines, applies to all locales
     engines = [
+      .init(id: .presearch),
       .init(id: .braveSearch),
       .init(id: .google),
       .init(id: .bing),
@@ -124,7 +126,7 @@ class InitialSearchEngines {
       .init(id: .qwant),
       .init(id: .startpage),
     ]
-    defaultSearchEngine = .google
+    defaultSearchEngine = .presearch
 
     // Locale and region specific overrides can be modified here.
     // For conflicting rules priorities are as follows:

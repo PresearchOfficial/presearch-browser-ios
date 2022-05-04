@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "자산";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Brave 지갑이 자동으로 잠길 때까지 대기 시간(분)";
+"wallet.autoLockFooter" = "Presearch 지갑이 자동으로 잠길 때까지 대기 시간(분)";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "다음 시간 이후 자동 잠금";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "생체인식 잠금 해제를 활성화하지 못했습니다.";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "Face ID, Touch ID 또는 비밀번호로 Brave 월렛 잠금 해제";
+"wallet.biometricsSetupTitle" = "Face ID, Touch ID 또는 비밀번호로 Presearch 월렛 잠금 해제";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Brave 수수료 %@가 견적에 포함되어 있습니다.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "Presearch 수수료 %@가 견적에 포함되어 있습니다.";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Brave 월렛";
+"wallet.braveWallet" = "Presearch 월렛";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "구매";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "비밀번호로 암호화폐 자산 안전하게 보호";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave 월렛";
+"wallet.cryptoTitle" = "Presearch 월렛";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "블록 탐색기 URL";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "맞춤";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "이 페이지가 Brave 월렛과 상호작용하려고 함";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "이 페이지가 Presearch 월렛과 상호작용하려고 함";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "모두";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "월렛 복구";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "복구";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "레거시 Brave 암호화폐 월렛에서 가져오시겠습니까?";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "레거시 Presearch 암호화폐 월렛에서 가져오시겠습니까?";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "새 비밀번호";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "복구 문구 표시";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "Brave 월렛 암호화폐 계정을 복구하려면 복구 문구를 입력하세요.";
+"wallet.restoreWalletSubtitle" = "Presearch 월렛 암호화폐 계정을 복구하려면 복구 문구를 입력하세요.";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "암호화폐 계정 복구";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "이 액션은 되돌릴 수 없습니다. 복구 문구는 암호화폐 자산 계정에 다시 액세스할 수 있는 유일한 수단입니다.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Brave 월렛을 재설정하시겠습니까?";
+"wallet.settingsResetWalletAlertTitle" = "Presearch 월렛을 재설정하시겠습니까?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "환영합니다";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "시작하기";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "보호관리 계정에 암호화폐 자산을 보유하고 포트폴리오 실적을 추적합니다. 프라이버시가 보호되는 Brave 브라우저에서는 이 모든 것이 가능합니다.";
+"wallet.setupCryptoSubtitle" = "보호관리 계정에 암호화폐 자산을 보유하고 포트폴리오 실적을 추적합니다. 프라이버시가 보호되는 Presearch 브라우저에서는 이 모든 것이 가능합니다.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "새로운 Brave 월렛에 오신 것을 환영합니다";
+"wallet.setupCryptoTitle" = "새로운 Presearch 월렛에 오신 것을 환영합니다";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "비공개 키 표시";
@@ -730,7 +730,7 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "토큰 및 자산을 스왑합니다.";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x는 이더리움 주소와 IP 주소를 처리하여 거래를 수행합니다(견적 받기 포함). 0x는 거래 처리 목적으로만 이 데이터를 사용합니다.";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "블록 탐색기에서 보기";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "월렛";
 

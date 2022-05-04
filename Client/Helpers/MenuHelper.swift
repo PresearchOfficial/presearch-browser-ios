@@ -16,7 +16,7 @@ import Shared
   @objc optional func menuHelperSecure()
   /// Triggered when "Find in Page" menu item is selected
   @objc optional func menuHelperFindInPage()
-  /// Triggered when "Search with Brave" menu item is selected
+  /// Triggered when "Search with Presearch" menu item is selected
   @objc optional func menuHelperSearchWithBrave()
 }
 
@@ -31,7 +31,7 @@ open class MenuHelper: NSObject {
   public static let selectorReveal: Selector = #selector(MenuHelperInterface.menuHelperReveal)
   /// Selector for the "Find in Page" menu item
   public static let selectorFindInPage: Selector = #selector(MenuHelperInterface.menuHelperFindInPage)
-  /// Selector for the "Search with Brave" menu item
+  /// Selector for the "Search with Presearch" menu item
   public static let selectorSearchWithBrave: Selector = #selector(MenuHelperInterface.menuHelperSearchWithBrave)
 
   open class var defaultHelper: MenuHelper {

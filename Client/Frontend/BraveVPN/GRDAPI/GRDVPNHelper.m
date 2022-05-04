@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -215,7 +215,7 @@ static NSString * const kGRDWifiAssistEnableFallback = @"kGRDWifiAssistEnableFal
                 } else {
                     vpnManager.enabled = YES;
                     vpnManager.protocolConfiguration = [GRDVPNHelper prepareIKEv2ParametersForServer:vpnServer eapUsername:eapUsername eapPasswordRef:eapPassword withCertificateType:NEVPNIKEv2CertificateTypeECDSA256];
-                    vpnManager.localizedDescription = @"Brave Firewall + VPN";
+                    vpnManager.localizedDescription = @"Presearch Firewall + VPN";
                     vpnManager.onDemandEnabled = YES;
                     if ([GRDVPNHelper isPayingUser] == YES) {
                         vpnManager.onDemandRules = [GRDVPNHelper vpnOnDemandRules];

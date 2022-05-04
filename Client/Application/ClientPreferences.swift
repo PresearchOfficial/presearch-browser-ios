@@ -52,11 +52,11 @@ extension Preferences {
 // MARK: - User Preferences
 extension Preferences {
   final class General {
-    /// Whether this is the first time user has ever launched Brave after intalling. *Should never be set to `true` manually!*
+    /// Whether this is the first time user has ever launched Presearch after intalling. *Should never be set to `true` manually!*
     static let isFirstLaunch = Option<Bool>(key: "general.first-launch", default: true)
     /// Whether this is a new user who installed the application after onboarding retention updates
     static let isNewRetentionUser = Option<Bool?>(key: "general.new-retention", default: nil)
-    /// Whether or not to save logins in Brave
+    /// Whether or not to save logins in Presearch
     static let saveLogins = Option<Bool>(key: "general.save-logins", default: true)
     /// Whether or not to block popups from websites automaticaly
     static let blockPopups = Option<Bool>(key: "general.block-popups", default: true)
@@ -166,7 +166,7 @@ extension Preferences {
     static let shouldShowRecentSearches = Option<Bool>(key: "search.should-show-recent-searches", default: false)
     /// Whether or not to show recent searches opt-in
     static let shouldShowRecentSearchesOptIn = Option<Bool>(key: "search.should-show-recent-searches.opt-in", default: true)
-    /// How many times Brave Search websites has asked the user to check whether Brave Search can be set as a default
+    /// How many times Presearch Search websites has asked the user to check whether Presearch Search can be set as a default
     static let braveSearchDefaultBrowserPromptCount =
       Option<Int>(key: "search.brave-search-default-website-prompt", default: 0)
     /// Determines Yahoo Search Engine is migration is done
@@ -318,7 +318,7 @@ extension Preferences {
     Option<Bool>(key: "privacy-hub.show-notification-permission-callout", default: true)
     /// When disabled, no tracker data will be recorded for the Privacy Reports.
     static let captureShieldsData = Option<Bool>(key: "privacy-hub.capture-shields-data", default: true)
-    /// When disabled, no Brave VPN alerts will be recorded for the Privacy Reports.
+    /// When disabled, no Presearch VPN alerts will be recorded for the Privacy Reports.
     static let captureVPNAlerts = Option<Bool>(key: "privacy-hub.capture-vpn-alerts", default: true)
     /// Tracker when to consolidate tracker and vpn data. By default the first consolidation happens 7 days after Privacy Reports build is installed.
     static let nextConsolidationDate =

@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "Tillgångar";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Väntetid i minuter innan Brave-plånboken låses automatiskt";
+"wallet.autoLockFooter" = "Väntetid i minuter innan Presearch-plånboken låses automatiskt";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Lås automatiskt efter";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "Kunde inte aktivera biometrisk upplåsning.";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "Lås upp Brave-plånboken med Face ID, Touch ID eller lösenord.";
+"wallet.biometricsSetupTitle" = "Lås upp Presearch-plånboken med Face ID, Touch ID eller lösenord.";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Kursen inkluderar en Brave-avgift på %@.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "Kursen inkluderar en Presearch-avgift på %@.";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Brave-plånbok";
+"wallet.braveWallet" = "Presearch-plånbok";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "Köp";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "Säkra dina kryptotillgångar med ett lösenord";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave-plånbok";
+"wallet.cryptoTitle" = "Presearch-plånbok";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "Blockera utforskar-URL:er";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Anpassat";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Den här sidan vill interagera med Brave Wallet";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Den här sidan vill interagera med Presearch Wallet";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "Alla";
@@ -518,10 +518,10 @@
 "wallet.primaryCryptoAccountsTitle" = "Primära kryptokonton";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Varning: En skärmbild av din privata nyckel kan säkerhetskopieras till en molnfiltjänst och kunna läsas av alla program med åtkomst till foton. Brave rekommenderar att du inte sparar den här skärmbilden och tar bort den så snart som möjligt.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Varning: En skärmbild av din privata nyckel kan säkerhetskopieras till en molnfiltjänst och kunna läsas av alla program med åtkomst till foton. Presearch rekommenderar att du inte sparar den här skärmbilden och tar bort den så snart som möjligt.";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Varning: En skärmbild av din återställningsfras kan säkerhetskopieras till en molnfiltjänst och kunna läsas av alla program med åtkomst till foton. Brave rekommenderar att du inte sparar den här skärmbilden och tar bort den så snart som möjligt.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Varning: En skärmbild av din återställningsfras kan säkerhetskopieras till en molnfiltjänst och kunna läsas av alla program med åtkomst till foton. Presearch rekommenderar att du inte sparar den här skärmbilden och tar bort den så snart som möjligt.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Uppdatera marknadspris";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Återställ plånbok";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "Återställ";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "Vill du importera från äldre Brave-kryptoplånböcker?";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Vill du importera från äldre Presearch-kryptoplånböcker?";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Nytt lösenord";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "Visa återställningsfras";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "Ange din återställningsfras för att återställa Brave-kryptoplånbokskontot.";
+"wallet.restoreWalletSubtitle" = "Ange din återställningsfras för att återställa Presearch-kryptoplånbokskontot.";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "Återställ kryptokonto";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Det här går inte att ångra. Återställningsfrasen är ditt enda sätt att återfå kontoåtkomst till dina kryptotillgångar.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Vill du verkligen återställa Brave-plånboken?";
+"wallet.settingsResetWalletAlertTitle" = "Vill du verkligen återställa Presearch-plånboken?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Välkommen";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "Kom igång";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Äg kryptotillgångar och ha koll på hur det går med din portfölj tack vare Brave-webbläsarens integritetsskydd.";
+"wallet.setupCryptoSubtitle" = "Äg kryptotillgångar och ha koll på hur det går med din portfölj tack vare Presearch-webbläsarens integritetsskydd.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "Välkommen till den nya Brave-plånboken";
+"wallet.setupCryptoTitle" = "Välkommen till den nya Presearch-plånboken";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "Visa privat nyckel";
@@ -722,7 +722,7 @@
 "wallet.swapCryptoToTitle" = "Till";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Brave stöder inte byten på %@ just nu. Välj en kedja som stöds.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Presearch stöder inte byten på %@ just nu. Välj en kedja som stöds.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Kedjan stöds inte";
@@ -730,11 +730,11 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "Byt tokens och tillgångar.";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x bearbetar Ethereum- och IP-adressen för att genomföra en transaktion (vilket innefattar erhållande av kurser). 0x använder bara dessa data för att bearbeta transaktioner.";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave använder 0x som DEX-aggregator.";
+"wallet.swapDexAggrigatorNote" = "Presearch använder 0x som DEX-aggregator.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Gräns";
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "Visa i blockutforskare";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "Plånbok";
 

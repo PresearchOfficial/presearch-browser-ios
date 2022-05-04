@@ -14,7 +14,7 @@ class HistoryTests: CoreDataTestCase {
   }
 
   func testAdd() {
-    let title = "Brave"
+    let title = "Presearch"
     let url = URL(string: "https://brave.com")!
 
     let object = createAndWait(title: title, url: url)
@@ -62,7 +62,7 @@ class HistoryTests: CoreDataTestCase {
   }
 
   func testGetExisting() {
-    let title = "Brave"
+    let title = "Presearch"
     let url = URL(string: "https://brave.com")!
     let wrongUrl = URL(string: "https://wrong.example.com")!
 

@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -10,9 +10,9 @@ import Foundation
 /// Handles correcting center-aligned single items in a flow layout while using
 /// automatic sizing cells
 class NewTabPageFlowLayout: UICollectionViewFlowLayout {
-  /// Brave News section acts a little differently, as it is pushed to the bottom of the screen despite
+  /// Presearch News section acts a little differently, as it is pushed to the bottom of the screen despite
   /// there being space between, therefore additional space has to be given to the overall content size
-  /// when Brave News is enabled
+  /// when Presearch News is enabled
   var braveNewsSection: Int? {
     didSet {
       invalidateLayout()
@@ -42,7 +42,7 @@ class NewTabPageFlowLayout: UICollectionViewFlowLayout {
       let diff = collectionView.frame.height - attribute.frame.minY
       gapLength = diff - gapPadding
 
-      // Obtain the total height of the Brave News section to calculate any extra height to be added
+      // Obtain the total height of the Presearch News section to calculate any extra height to be added
       // to the content size. The extra height will ensure that there is always enough space to scroll
       // the header into full-visibility
       let numberOfItems = collectionView.numberOfItems(inSection: braveNewsSection)

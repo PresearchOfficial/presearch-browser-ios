@@ -7,7 +7,7 @@ import BraveShared
 import BraveUI
 
 extension AppDelegate {
-  /// Setup basic control defaults based on Brave design system colors
+  /// Setup basic control defaults based on Presearch design system colors
   ///
   /// Only set values here that should be universally accepted as a default color for said
   /// control. Do not apply appearance overrides here to solve for laziness of not wanting to set

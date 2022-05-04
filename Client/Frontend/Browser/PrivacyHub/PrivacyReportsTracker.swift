@@ -1,4 +1,4 @@
-// Copyright 2022 The Brave Authors. All rights reserved.
+// Copyright 2022 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -13,13 +13,13 @@ struct PrivacyReportsTracker: Identifiable {
   let source: Source?
   
   /// Blocked tracker may come in two types:
-  /// Items blocked by Brave Shields, handled by `BlockedResource` model.
-  /// Items blocked by the Brave VPN feature, handled by `BraveVPNAlert` model.
+  /// Items blocked by Presearch Shields, handled by `BlockedResource` model.
+  /// Items blocked by the Presearch VPN feature, handled by `BraveVPNAlert` model.
   /// This data is used to show correct labels on the all-time blocked items list.
   enum Source {
     case shields
     case vpn
-    // The tracker was found by both Brave Shields and the Brave VPN alerts.
+    // The tracker was found by both Presearch Shields and the Presearch VPN alerts.
     case both
   }
   
@@ -27,7 +27,7 @@ struct PrivacyReportsTracker: Identifiable {
     name
   }
   
-  /// Blocked trackers are detected by Brave shields and Brave VPN.
+  /// Blocked trackers are detected by Presearch shields and Presearch VPN.
   /// This method merges those two sources of data and sets proper `Source` for them.
   static func merge(
     shieldItems: Set<CountableEntity>,

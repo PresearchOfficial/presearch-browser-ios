@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -29,7 +29,7 @@ struct UniversalLinkManager {
   /// - parameter url: URL to to check against.
   /// - parameter checkPath: If false, only url host is checked, if true we check for both host and path matching.
   /// This is because we have to handle universal link from 2 places. When a user opens it from another app, path checking is not needed
-  /// since this is handled by the `AppDelegate`. If the link is opened from the Brave app itself and it matches the associated domain
+  /// since this is handled by the `AppDelegate`. If the link is opened from the Presearch app itself and it matches the associated domain
   /// app delegate doesn't handle such case, it must be handled manually.
   static func universalLinkType(for url: URL, checkPath: Bool) -> LinkType? {
     guard let components = URLComponents(url: url, resolvingAgainstBaseURL: false),

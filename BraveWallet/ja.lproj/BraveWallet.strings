@@ -124,7 +124,7 @@
 /* The title shown when a user is asked if they would like to setup biometric unlock */
 "wallet.biometricsSetupTitle" = "BraveウォレットをFace ID, Touch ID, もしくはパスワードでロック解除します。";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
 "wallet.braveSwapFeeDisclaimer" = "相場価格は %@ のBrave手数料を含んでいます。";
 
 /* The title shown on the wallet settings page. */
@@ -265,7 +265,7 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "カスタム";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
 "wallet.dappsConnectionNotificationTitle" = "このページがBraveウォレットとの接続を求めています";
 
 /* Describes what range of data to show on the graph (all data available) */
@@ -547,10 +547,10 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "ウォレットを復元する";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "復元";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
 "wallet.restoreWalletImportFromLegacyBraveWallet" = "従来のBraveクリプトウォレットからインポートしますか？";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
@@ -730,7 +730,7 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "トークンとアセットをスワップします。";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0xがイーサリアムアドレスとIPアドレスをトランザクション（クォートの入手を含む）を実行するために処理します。0xはこのデータをトランザクションの処理のためだけに用います。";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "ブロックエクスプローラーで確認する";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "ウォレット";
 

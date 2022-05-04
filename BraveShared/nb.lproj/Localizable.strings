@@ -1,11 +1,11 @@
-/* The title of the screen explaining Brave Shields */
-"AboutBraveShields" = "Om Brave-skjold";
+/* The title of the screen explaining Shields */
+"AboutBraveShields" = "Om Presearch-skjold";
 
-/* The body of the screen explaining Brave Shields */
+/* The body of the screen explaining Shields */
 "AboutBraveShieldsBody" = "Nettsteder inkluderer ofte informasjonskapsler og skript som prøver å identifisere deg og enheten din. De vil finne ut hvem du er og følge deg på nettet – spore hva du gjør på hvert nettsted.\n\nBrave blokkerer disse tingene slik at du kan surfe uten å bli forfulgt.";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Brave Rewards";
+"BraveRewardsAdNotificationTitle" = "Rewards";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "Åpne";
@@ -28,20 +28,20 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "Hvis nettstedet ser ut til å være ødelagt, prøv Skjold ned";
 
-/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
-"BraveShieldsStatusTitle" = "Brave-skjold";
+/* Context: 'Shields Up' or 'Shields Down' */
+"BraveShieldsStatusTitle" = "Presearch-skjold";
 
-/* Context: The 'Down' in 'Brave Shields Down' */
+/* Context: The 'Down' in 'Shields Down' */
 "BraveShieldsStatusValueDown" = "Ned";
 
-/* Context: The 'Up' in 'Brave Shields Up' */
+/* Context: The 'Up' in 'Shields Up' */
 "BraveShieldsStatusValueUp" = "Opp";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Dobbeltklikk for å skru av og på Brave Shields";
+"BraveShieldsToggleHint" = "Dobbeltklikk for å skru av og på Shields";
 
 /* The name of the feature */
-"bravetalk.braveTalkTitle" = "Brave Prat";
+"bravetalk.braveTalkTitle" = "Prat";
 
 /* Title indicating whether the section for the algorithm used */
 "certificateViewer.algorithmTitle" = "Algoritme";
@@ -109,7 +109,7 @@
 /* Title of the section for Department of the Company. Example: Human Resources. */
 "certificateViewer.organizationalUnitTitle" = "Organisasjonsenhet";
 
-/* Title of the section for Name of the Company. Example: Brave Inc. */
+/* Title of the section for Name of the Company. Example: Inc. */
 "certificateViewer.organizationTitle" = "Organisasjon";
 
 /* Title indicating 'Parameters' or Input passed to a function/algorithm. */
@@ -212,13 +212,13 @@
 "MonthlyAdsClaimNotificationBody" = "Trykk for å gjøre krav på dine gratis tokener.";
 
 /* The title of the notification that goes out monthly to users who can claim an ads grant */
-"MonthlyAdsClaimNotificationTitle" = "Brave Rewards 💵🎁";
+"MonthlyAdsClaimNotificationTitle" = "Rewards 💵🎁";
 
 /* No comment provided by engineer. */
 "MyFirstAdBody" = "Trykk her for å lære mer.";
 
 /* No comment provided by engineer. */
-"MyFirstAdTitle" = "Dette er den første Brave-annonsen din";
+"MyFirstAdTitle" = "Dette er den første Presearch-annonsen din";
 
 /* It refers to a night mode, to a type of mode a user can change referring to website appearance. */
 "nightMode.modeTitle" = "Modus";
@@ -242,10 +242,10 @@
 "OBAdsOptInMessageJapan" = "Tjen poeng og belønn skaperne for supert innhold mens du surfer.";
 
 /* Title when opting into brave Ads when region becomes available */
-"OBAdsOptInTitle" = "Brave-annonser er her!";
+"OBAdsOptInTitle" = "Presearch-annonser er her!";
 
 /* Title for ads onboarding screen */
-"OBAdsTitle" = "Brave vil vise din første annonse i";
+"OBAdsTitle" = "vil vise din første annonse i";
 
 /* Title for when the user completes onboarding */
 "OBCompleteTitle" = "Nå er du klar til å begynne.";
@@ -265,14 +265,14 @@
 /* Button to finish onboarding and start using the app. */
 "OBFinishButton" = "Start å surfe";
 
-/* Button to join Brave Rewards. */
+/* Button to join Rewards. */
 "OBJoinButton" = "Registrer deg";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentClipboardPermission" = "La Brave sjekke utklippstavlen min for en samsvarende henvisningskode";
+"OBPrivacyConsentClipboardPermission" = "La sjekke utklippstavlen min for en samsvarende henvisningskode";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Du har kanskje lastet ned Brave for å støtte henviseren din. For å oppdage henviseren din, utfører Brave en engangskontroll av utklippstavlen for samsvarende henvisningskode. Denne kontrollen er begrenset til koden, og ingen andre personlige data vil bli overført. Hvis du velger bort dette, mottar henviseren ikke belønninger fra Brave.";
+"OBPrivacyConsentDetail" = "Du har kanskje lastet ned for å støtte henviseren din. For å oppdage henviseren din, utfører en engangskontroll av utklippstavlen for samsvarende henvisningskode. Denne kontrollen er begrenset til koden, og ingen andre personlige data vil bli overført. Hvis du velger bort dette, mottar henviseren ikke belønninger fra Presearch.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Ikke tillat denne kontrollen";
@@ -293,10 +293,10 @@
 "OBRewardsAgreementDetailsAnd" = "og";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "Brave Belønninger";
+"OBRewardsAgreementTitle" = "Belønninger";
 
 /* Detail text for rewards onboarding screen */
-"OBRewardsDetail" = "Ved å takke ja til Brave Private Annonser støtter du innholdsutgivere og -produsenter hver gang du ser på en annonse.";
+"OBRewardsDetail" = "Ved å takke ja til Private Annonser støtter du innholdsutgivere og -produsenter hver gang du ser på en annonse.";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetailInAdRegion" = "Tjen tokener og belønn skaperne for supert innhold mens du surfer.";
@@ -305,7 +305,7 @@
 "OBRewardsPrivacyPolicyDetailLink" = "Personvernreglene";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "Brave Rewards";
+"OBRewardsTitle" = "Rewards";
 
 /* Save button to save current selection */
 "OBSaveButton" = "Lagre";
@@ -314,18 +314,18 @@
 "OBSearchEngineDetail" = "Velg standard søkemotor";
 
 /* Title for search engine onboarding screen */
-"OBSearchEngineTitle" = "Velkommen til Brave Browser";
+"OBSearchEngineTitle" = "Velkommen til Browser";
 
 /* Detail text for shields onboarding screen */
 "OBShieldsDetail" = "Blokker trackere som truer personvernet, slik at du kan surfe på nett uten å bli forfulgt";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Brave-skjold";
+"OBShieldsTitle" = "Presearch-skjold";
 
-/* Button to show the Brave Rewards Ads. */
+/* Button to show the Rewards Ads. */
 "OBShowMeButton" = "Vis meg";
 
-/* Button to show Brave Rewards. */
+/* Button to show Rewards. */
 "OBTurnOnButton" = "Start";
 
 /* Continue button to navigate to next onboarding screen. */
@@ -341,7 +341,7 @@
 "playList.addToPlayListAlertDescription" = "Vil du legge til denne videoen i spillelisten din?";
 
 /* Alert Title for adding videos to playlist */
-"playList.addToPlayListAlertTitle" = "Legg til i Brave Playlist";
+"playList.addToPlayListAlertTitle" = "Legg til i Playlist";
 
 /* The title of the screen in CarPlay that contains all the audio/playback options */
 "playlist.carplayOptionsScreenTitle" = "Avspillingsalternativer";
@@ -362,7 +362,7 @@
 "playlist.carplaySettingsSectionTitle" = "Innstillinger";
 
 /* The title of the playlist when in Carplay mode */
-"playlist.carplayTitle" = "Brave-spilleliste";
+"playlist.carplayTitle" = "Presearch-spilleliste";
 
 /* The title of the button indicating that the user delete the offline data. (deletes the data that allows them to play offline) */
 "playlist.deleteForOfflineButtonTitle" = "Slett offline-bufferdata";
@@ -380,7 +380,7 @@
 "playList.loadResourcesErrorAlertDescription" = "Det oppstod et problem under innlastingen av ressursen!";
 
 /* Description footer for playlist menu badge option */
-"playlist.menuBadgeOptionFooterText" = "Etter aktivering vil et merke vises på hovedmenyikonet, hvilket indikerer at videoen på siden kan legges til i Brave-spillelisten.";
+"playlist.menuBadgeOptionFooterText" = "Etter aktivering vil et merke vises på hovedmenyikonet, hvilket indikerer at videoen på siden kan legges til i Presearch-spillelisten.";
 
 /* Title for playlist menu badge option */
 "playlist.menuBadgeOptionTitle" = "Vis menyvarselmerke";
@@ -389,7 +389,7 @@
 "playlist.movePlaylistShareActionMenuTitle" = "Flytt …";
 
 /* Detail Text when there are no items in the playlist */
-"playList.noItemLabelDetailLabel" = "Du kan legge til elementer i Brave-spillelisten din inne i nettleseren";
+"playList.noItemLabelDetailLabel" = "Du kan legge til elementer i Presearch-spillelisten din inne i nettleseren";
 
 /* Text when there are no items in the playlist */
 "playList.noItemLabelTitle" = "Ingen tilgjengelige elementer";
@@ -488,16 +488,16 @@
 "playlist.playlistWebCompatibilityTitle" = "Nettkompatibilitet";
 
 /* Body of the popover that shows when you tap on the 'Add to Playlist' button in the URL bar */
-"playlist.popoverAddBody" = "Brave-spillelister støtter frakoblet avspilling, bilde-i-bilde, kontinuerlig avspilling og gjentagelsesmoduser.";
+"playlist.popoverAddBody" = "Presearch-spillelister støtter frakoblet avspilling, bilde-i-bilde, kontinuerlig avspilling og gjentagelsesmoduser.";
 
 /* Title of the popover that shows when you already have the current media item in your playlist and you tap on the 'Add to Playlist' button in the URL bar */
-"playlist.popoverAddedTitle" = "Denne videoen er i Brave-spillelisten din";
+"playlist.popoverAddedTitle" = "Denne videoen er i Presearch-spillelisten din";
 
 /* Title of the popover that shows when you tap on the 'Add to Playlist' button in the URL bar */
 "playlist.popoverAddTitle" = "Vil du legge til denne videoen i spillelisten din?";
 
 /* Button title in the popover when an item is already in your playlist and you tap the 'Add to Playlist' button in the URL bar */
-"playlist.popoverOpenInBravePlaylist" = "Åpne i Brave-spilleliste";
+"playlist.popoverOpenInBravePlaylist" = "Åpne i Presearch-spilleliste";
 
 /* Button title in the popover when an item is already in your playlist and you tap the 'Add to Playlist' button in the URL bar */
 "playlist.popoverRemoveFromBravePlaylist" = "Fjern";
@@ -533,7 +533,7 @@
 "playlist.sharePlaylistActionDetailsTitle" = "Du kan åpne det gjeldende elementet i en ny fane, eller dele det via systemdelingsmenyen";
 
 /* Title of the ActionSheet/Alert when sharing a playlist item from the Swipe-Action */
-"playlist.sharePlaylistActionTitle" = "Brave-spillelistemeny";
+"playlist.sharePlaylistActionTitle" = "Presearch-spillelistemeny";
 
 /* Button Title of the ActionSheet/Alert Button when sharing a playlist item from the Swipe-Action */
 "playlist.sharePlaylistOpenInNewPrivateTabTitle" = "Åpne i privat fane";
@@ -548,19 +548,19 @@
 "playList.sorryAlertTitle" = "Beklager";
 
 /* The title for the toast that shows up on a page containing a playlist item that was added to playlist */
-"playList.toastAddedToPlaylistTitle" = "Lagt til i Brave-spilleliste";
+"playList.toastAddedToPlaylistTitle" = "Lagt til i Presearch-spilleliste";
 
 /* The title for the toast button when an item was added to playlist */
 "playList.toastAddToPlaylistOpenButton" = "Åpne";
 
 /* The title for the toast that shows up on a page containing a playlist item */
-"playList.toastAddToPlaylistTitle" = "Legg til i Brave Playlist";
+"playList.toastAddToPlaylistTitle" = "Legg til i Playlist";
 
 /* The title for the toast that shows up on a page when an item that has already been added, was updated. */
-"playList.toastExitingItemPlaylistTitle" = "Vis i Brave Playlist";
+"playList.toastExitingItemPlaylistTitle" = "Vis i Playlist";
 
 /* Footer for option to disable URL-Bar button */
-"playlist.urlBarButtonOptionFooter" = "Legger til en spilleliste-knapp (den ser ut som 4 linjer med et +-symbol) ved siden av adresselinjen i Brave-nettleseren. Denne knappen gir deg rask tilgang til å åpne spillelisten, eller legge til eller fjerne medier.";
+"playlist.urlBarButtonOptionFooter" = "Legger til en spilleliste-knapp (den ser ut som 4 linjer med et +-symbol) ved siden av adresselinjen i Presearch-nettleseren. Denne knappen gir deg rask tilgang til å åpne spillelisten, eller legge til eller fjerne medier.";
 
 /* Title for option to disable URL-Bar button */
 "playlist.urlBarButtonOptionTitle" = "Aktiver hurtigtilgangsknapp";
@@ -589,7 +589,7 @@
 /* The title of the screen where the user will move an item from one folder to another folder. */
 "playlistFolders.moveFolderScreenTitle" = "Flytt";
 
-/* %@ Should NOT be localized. It is a placeholder. Example: Brave Folder and 1 more item. */
+/* %@ Should NOT be localized. It is a placeholder. Example: Folder and 1 more item. */
 "playlistFolders.moveItemDescription" = "%@ og 1 element til";
 
 /* %lld is a placeholder and should not be localized. Sometimes items can have no name. So this is a generic title to use */
@@ -598,7 +598,7 @@
 /* Sometimes an item can have no name. So this is a generic title to use */
 "playlistFolders.moveItemWithNoNameTitle" = "1 element";
 
-/* %@ and %lld Should NOT be localized. They are placeholders. Example: Brave Folder and 3 more items. Music and 2 more items. */
+/* %@ and %lld Should NOT be localized. They are placeholders. Example: Folder and 3 more items. Music and 2 more items. */
 "playlistFolders.moveMultipleItemDescription" = "%1$@ og %2$lld flere enheter";
 
 /* The title of the button to create a new folder */
@@ -634,7 +634,7 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "Lukk kontekstmenyen";
 
-/* Description for closing the `Brave Shields` popover menu that is displayed. */
+/* Description for closing the `Shields` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "Lukk Skjold-menyen";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
@@ -643,7 +643,7 @@
 /* Header text, under it we show items blocked by our ad blocker. 'All  time' sentence context is like 'All time items blocked by our ad blocker. */
 "privacyHub.allTimeListsHeader" = "Totalt";
 
-/* Title of a section to show total count of trackers blocked by Brave */
+/* Title of a section to show total count of trackers blocked by */
 "privacyHub.allTimeListsTrackersView" = "Sporere og annonser";
 
 /* Title of a section to show websites containing highest amount of trackers */
@@ -667,10 +667,10 @@
 /* Title under which we display a website on which there's the highest number of trackers or ads. */
 "privacyHub.allTimeWebsiteTitle" = "Nettsted";
 
-/* Text for a button to display a list of all alerts caught by the Brave VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
+/* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Alle varsler";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Brave Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Blokkert av";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -685,8 +685,8 @@
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "Siste uke";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Brave Shields on 42 sites' */
-"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** ble blokkert av Brave-skjold på **%2$lld** sider";
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
+"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** ble blokkert av Presearch-skjold på **%2$lld** sider";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
 "privacyHub.mostFrequentTrackerAndAdTitle" = "Vanligste sporer & annonse";
@@ -704,7 +704,7 @@
 "privacyHub.notificationCalloutButtonText" = "Slå på varsler";
 
 /* Message of a notification we show to the user, on tapping it, the Privacy Hub screen will open. */
-"privacyHub.notificationMessage" = "En oppsummering over hvordan Brave har beskyttet deg på nettet denne uken.";
+"privacyHub.notificationMessage" = "En oppsummering over hvordan har beskyttet deg på nettet denne uken.";
 
 /* Title of a notification we show to the user, on tapping it, the Privacy Hub screen will open. */
 "privacyHub.notificationTitle" = "Ukentlig personvernrapport";
@@ -715,7 +715,7 @@
 /* Text of a disclaimer that explains how the data for generating privacy reprots is stored. */
 "privacyHub.privacyReportsDisclaimer" = "Privacy Hub-data lagres lokalt og sendes aldri noen steder.";
 
-/* Title of main privacy hub screen. This screen shows various stats caught by Brave's ad blockers. */
+/* Title of main privacy hub screen. This screen shows various stats caught by Presearch's ad blockers. */
 "privacyHub.privacyReportsTitle" = "Privacy Hub";
 
 /* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which website had the most tracker per visit, example usage: 'example.com had an average of 10 trackers & ads blocked per visit ' */
@@ -724,22 +724,22 @@
 /* Title of a website that contained the most trackers per visit. */
 "privacyHub.riskiestWebsiteTitle" = "Den mest risikable nettsiden du besøkte";
 
-/* This text explains a setting that lets Brave monitor blocked network requests */
-"privacyHub.settingsEnableShieldsFooter" = "I Privacy Hub ser du et tall for hvor mange ting Brave-skjoldet har blokkert. Innstillingen påvirker ikke Skjold-telleren på nye faner, og Skjold-data telles ikke i private vinduer.";
+/* This text explains a setting that lets monitor blocked network requests */
+"privacyHub.settingsEnableShieldsFooter" = "I Privacy Hub ser du et tall for hvor mange ting Presearch-skjoldet har blokkert. Innstillingen påvirker ikke Skjold-telleren på nye faner, og Skjold-data telles ikke i private vinduer.";
 
-/* Title of a setting that lets Brave monitor blocked network requests */
+/* Title of a setting that lets monitor blocked network requests */
 "privacyHub.settingsEnableShieldsTitle" = "Vis Skjold-data";
 
-/* This text explains a setting that lets Brave monitor blocked network requests captured by Brave VPN */
+/* This text explains a setting that lets monitor blocked network requests captured by VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "Innstillingen gjelder bare hvis du har kjøpt et VPN-abonnement.";
 
-/* Title of a setting that lets Brave monitor blocked network requests captured by Brave VPN */
+/* Title of a setting that lets monitor blocked network requests captured by VPN */
 "privacyHub.settingsEnableVPNAlertsTitle" = "Vis VPN-varsler";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
 "privacyHub.settingsSlearDataFooter" = "Tilbakestiller tallet for alt Skjoldet har blokkert.";
 
-/* Button that lets user clear all blocked requests and vpn alerts data that Brave captured for them. */
+/* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
 "privacyHub.settingsSlearDataTitle" = "Slett Skjold-data";
 
 /* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
@@ -764,9 +764,9 @@
 "privacyHub.vpnAlertRegularTrackerTypeSingular" = "Sporer eller annonse";
 
 /* Section title, this section displays vpn alerts: items which the vpn managed to block on users behalf. */
-"privacyHub.vpnAlertsHeader" = "Brave Firewall + VPN-varsler";
+"privacyHub.vpnAlertsHeader" = "Firewall + VPN-varsler";
 
-/* This label says about Brave VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
+/* This label says about VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
 "privacyHub.vpnLabel" = "Firewall + VPN";
 
 /* It shows a total count of items blocked by our VPN shields */
@@ -833,7 +833,7 @@
 "ReportBrokenSiteBody1" = "Fortell Braves utviklere at dette nettstedet ikke funker ordentlig med Shields:";
 
 /* No comment provided by engineer. */
-"ReportBrokenSiteBody2" = "Merk: Denne nettadressen vil sendes inn med Brave-versjonsnummeret ditt og IP-adressen din (som ikke vil bli lagret).";
+"ReportBrokenSiteBody2" = "Merk: Denne nettadressen vil sendes inn med Presearch-versjonsnummeret ditt og IP-adressen din (som ikke vil bli lagret).";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Send inn";
@@ -844,13 +844,13 @@
 /* Name of folder where restored favorites are retrieved */
 "RestoredFavoritesFolderName" = "Gjenopprettede favoritter";
 
-/* Displayed when Brave Rewards is disabled */
+/* Displayed when Rewards is disabled */
 "rewards.disabledBody" = "Skru på for å støtte innholdsskapere";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Ved å bruke Brave Rewards støtter du innholdsskapere mens du er på nettet.";
+"rewards.disabledStatusBody" = "Ved å bruke Rewards støtter du innholdsskapere mens du er på nettet.";
 
-/* Displayed when Brave Rewards is enabled */
+/* Displayed when Rewards is enabled */
 "rewards.enabledBody" = "Du bidrar til å støtte innholdsskapere";
 
 /* Displayed in the status container when rewards is enabled but you're not currently supporting any publishers (0 AC count) */
@@ -875,7 +875,7 @@
 "rewards.legacyWalletTransferStatusButtonPendingTitle" = "Din overføring til Legacy-lommeboken venter";
 
 /* No comment provided by engineer. */
-"rewards.legacyWalletTransferStatusCompletedBody" = "Din overføring til Legacy-lommeboken er ferdig! Det kan fortsatt ta flere minutter før den eksisterende saldoen din vises i Brave Rewards-lommeboken på skrivebordet.";
+"rewards.legacyWalletTransferStatusCompletedBody" = "Din overføring til Legacy-lommeboken er ferdig! Det kan fortsatt ta flere minutter før den eksisterende saldoen din vises i Rewards-lommeboken på skrivebordet.";
 
 /* Title shown above body of text explaining that their transfer is completed */
 "rewards.legacyWalletTransferStatusCompletedTitle" = "Overføring fullført!";
@@ -923,13 +923,13 @@
 "rewards.legacyWalletTransferSubtitle" = "Engangsoverføring ut for eksisterende tokener";
 
 /* No comment provided by engineer. */
-"rewards.settingsFooterMessage" = "Brave Rewards-utbetalinger er midlertidig utilgjengelige på denne enheten. Overfør midler fra din eksisterende lommebok til en stasjonær lommebok for å beholde tokener.";
+"rewards.settingsFooterMessage" = "Rewards-utbetalinger er midlertidig utilgjengelige på denne enheten. Overfør midler fra din eksisterende lommebok til en stasjonær lommebok for å beholde tokener.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Støtt innholdsskapere og utgivere automatisk ved å aktivere Brave Private Ads. Brave Private Ads er annonser som respekterer personvern og som gir tilbake til innholdsskapere.";
+"rewards.settingsToggleMessage" = "Støtt innholdsskapere og utgivere automatisk ved å aktivere Private Ads. Private Ads er annonser som respekterer personvern og som gir tilbake til innholdsskapere.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "Aktiver Brave Rewards";
+"rewards.settingsToggleTitle" = "Aktiver Rewards";
 
 /* Displayed under verified publishers */
 "rewards.supportingPublisher" = "Du støtter innholdsskapere som denne.";
@@ -944,19 +944,19 @@
 "rewards.unverifiedPublisher" = "Denne skaperen har ikke blitt verifisert og vil ikke bli inkludert i skaperstøtten";
 
 /* A confirmation message shown to the user after completing a wallet transfer successfully */
-"rewards.walletTransferCompleteBody" = "Overføringen din har startet. En eksisterende BAT-saldo kan ta flere minutter før den vises på Brave Rewards-lommeboken din på skrivebordet. Sjekk Rewards-sammendraget ditt på skrivebordet for detaljer når overføringen er fullført.\n\nDu kan lukke dette vinduet og fortsette å bruke Brave mens overføringen pågår.";
+"rewards.walletTransferCompleteBody" = "Overføringen din har startet. En eksisterende BAT-saldo kan ta flere minutter før den vises på Rewards-lommeboken din på skrivebordet. Sjekk Rewards-sammendraget ditt på skrivebordet for detaljer når overføringen er fullført.\n\nDu kan lukke dette vinduet og fortsette å bruke mens overføringen pågår.";
 
 /* Title shown above the confirmation message after completing a wallet transfer successfully */
 "rewards.walletTransferCompleteTitle" = "Saldooverføring er igangsatt";
 
 /* Message on the alert presented if wallet transfer fails */
-"rewards.walletTransferFailureAlertMessage" = "Brave Rewards-serveren svarte ikke. Prøv igjen om et øyeblikk.";
+"rewards.walletTransferFailureAlertMessage" = "Rewards-serveren svarte ikke. Prøv igjen om et øyeblikk.";
 
 /* Title on the alert presented if wallet transfer fails */
 "rewards.walletTransferFailureAlertTitle" = "Kommunikasjonsfeil";
 
 /* Describes the steps for using wallet transfer */
-"rewards.walletTransferStepsBody" = "Brave Rewards-saldoen din kan overføres til en eksisterende stasjonær Brave Rewards-lommebok, én gang.\n\n1. Åpne Brave Browser på skrivebordet\n2. Gå til brave://rewards\n3. Klikk på “QR-kode”\n4. Skann QR-kode med enheten din";
+"rewards.walletTransferStepsBody" = "Rewards-saldoen din kan overføres til en eksisterende stasjonær Rewards-lommebok, én gang.\n\n1. Åpne Browser på skrivebordet\n2. Gå til brave://rewards\n3. Klikk på “QR-kode”\n4. Skann QR-kode med enheten din";
 
 /* Title above the steps to use wallet transfer */
 "rewards.walletTransferStepsTitle" = "Skann engangskode for overføring";
@@ -989,7 +989,7 @@
 "RewardsInternalsContributionAmount" = "Bidragsbeløp";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessorBraveTokens" = "Brave-tokener";
+"RewardsInternalsContributionProcessorBraveTokens" = "Presearch-tokener";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Ingen";
@@ -1141,7 +1141,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsShare" = "Del";
 
-/* 'Rewards' as in 'Brave Rewards' */
+/* 'Rewards' as in 'Rewards' */
 "RewardsInternalsShareInternalsTitle" = "Del Rewards Internals";
 
 /* No comment provided by engineer. */
@@ -1159,7 +1159,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsSupported" = "Støttet";
 
-/* 'Rewards' as in 'Brave Rewards' */
+/* 'Rewards' as in 'Rewards' */
 "RewardsInternalsTitle" = "Rewards Internals";
 
 /* No comment provided by engineer. */
@@ -1220,7 +1220,7 @@
 "shieldEducation.shareTheNewsTitle" = "Del nyhetene";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Brave Shields beskyttet nettopp personvernet ditt på nettet.";
+"shieldEducation.trackerAdWarningSubTitle" = "Shields beskyttet nettopp personvernet ditt på nettet.";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "Gratulerer. Du er noe for deg selv.";
@@ -1238,7 +1238,7 @@
 "ShieldsDownDisclaimer" = "Du surfer på dette nettstedet uten Braves personvernsbeskyttelse. Fungerer det ikke med Skjold oppe?";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeBraveNewsDescription" = "Åpne Brave News og sjekk dagens nyheter";
+"shortcuts.activityTypeBraveNewsDescription" = "Åpne News og sjekk dagens nyheter";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "Åpne nettleseren i en ny fane og slett den private nettleserens historikk";
@@ -1247,7 +1247,7 @@
 "shortcuts.activityTypeClearHistorySuggestedPhrase" = "Slett nettleserhistorikk";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeClearHistoryTitle" = "Slett Brave-nettleserhistorikk";
+"shortcuts.activityTypeClearHistoryTitle" = "Slett Presearch-nettleserhistorikk";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeEnableVPNDescription" = "Åpne nettleseren i en ny fane og aktiver VPN";
@@ -1256,7 +1256,7 @@
 "shortcuts.activityTypeEnableVPNSuggestedPhrase" = "Aktiver VPN";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeEnableVPNTitle" = "Åpne Brave-nettleseren og aktiver VPN";
+"shortcuts.activityTypeEnableVPNTitle" = "Åpne Presearch-nettleseren og aktiver VPN";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeNewPrivateTabSuggestedPhrase" = "Åpne en ny privat fane";
@@ -1271,10 +1271,10 @@
 "shortcuts.activityTypeNewTabTitle" = "Åpne en ny nettleserfane";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenBraveNewsTitle" = "Åpne Brave News";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "Åpne News";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Åpne Brave News";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Åpne News";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenPlaylistDescription" = "Begynn å spille av videoene i spillelisten";
@@ -1286,7 +1286,7 @@
 "shortcuts.activityTypeOpenPlaylistTitle" = "Åpne spilleliste";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeTabDescription" = "Begynn å søke på nettet på trygt vis med Brave";
+"shortcuts.activityTypeTabDescription" = "Begynn å søke på nettet på trygt vis med Presearch";
 
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenBookmarkSuggestedPhrase" = "Åpne det bokmerkede nettstedet";
@@ -1297,8 +1297,8 @@
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "Åpne nettsted";
 
-/* Description for opening Brave Settings for altering Siri shortcut. */
-"shortcuts.shortcutOpenApplicationSettingsDescription" = "Dette alternativet åpner Brave-innstillinger. For å endre forskjellige Siri-alternativer, kan du velge 'Siri og søk' i menyen og tilpasse valgene dine.";
+/* Description for opening Settings for altering Siri shortcut. */
+"shortcuts.shortcutOpenApplicationSettingsDescription" = "Dette alternativet åpner Presearch-innstillinger. For å endre forskjellige Siri-alternativer, kan du velge 'Siri og søk' i menyen og tilpasse valgene dine.";
 
 /* Button title that open application settings */
 "shortcuts.shortcutOpenApplicationSettingsTitle" = "Åpne innstillinger";
@@ -1310,16 +1310,16 @@
 "shortcuts.shortcutSettingsClearBrowserHistoryTitle" = "Slett nettleserhistorikk";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsEnableVPNDescription" = "Bruk snarveier for å aktivere Brave VPN via Siri – Stemmeassistent";
+"shortcuts.shortcutSettingsEnableVPNDescription" = "Bruk snarveier for å aktivere VPN via Siri – Stemmeassistent";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsEnableVPNTitle" = "Aktiver VPN";
 
-/* Description of Open Brave News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Bruk snarveier for å åpne en ny fane og vise Brave-nyhetsfeeden via Siri – Stemmeassistent";
+/* Description of Open News Siri Shortcut in Settings Screen */
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Bruk snarveier for å åpne en ny fane og vise Presearch-nyhetsfeeden via Siri – Stemmeassistent";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Åpne Brave News";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Åpne News";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenNewPrivateTabDescription" = "Bruk snarveier for å åpne en ny privat fane via Siri – Stemmeassistent";
@@ -1349,10 +1349,10 @@
 "SiteReportedTitle" = "Takk skal du ha";
 
 /* Title used when in warning pop-over when domain specific data save appears */
-"socialSharing.domainSpecificDataSavedTitle" = "Hver dag sparer jeg data ved å surfe på nettet med Brave.";
+"socialSharing.domainSpecificDataSavedTitle" = "Hver dag sparer jeg data ved å surfe på nettet med Presearch.";
 
-/* Text used for social sharing together with Brave Shield values */
-"socialSharing.shareDescriptionTitle" = "Hver dag lagrer jeg data ved å surfe på nettet med Brave.";
+/* Text used for social sharing together with Shield values */
+"socialSharing.shareDescriptionTitle" = "Hver dag lagrer jeg data ved å surfe på nettet med Presearch.";
 
 /* Title of the bookmark import popup. */
 "sync.bookmarksImportPopupErrorTitle" = "Bokmerker";
@@ -1363,8 +1363,8 @@
 /* Message of the popup if bookmark import succeeds. */
 "sync.bookmarksImportPopupSuccessMessage" = "Bokmerkene er importert";
 
-/* Text that informs a user about Brave Sync service deprecation. */
-"sync.syncV1DeprecationText" = "En ny versjon av Brave Sync er på vei, og dette vil påvirke oppsettet ditt. Gjør deg klar for oppgraderingen.";
+/* Text that informs a user about Sync service deprecation. */
+"sync.syncV1DeprecationText" = "En ny versjon av Sync er på vei, og dette vil påvirke oppsettet ditt. Gjør deg klar for oppgraderingen.";
 
 /* Bookmarks migration website page description */
 "sync.v2MigrationInterstitialPageDescription" = "Noen av bokmerkene dine kunne ikke flyttes. Du kan legge dem til igjen manuelt.";
@@ -1391,13 +1391,13 @@
 "today.addSourceNoFeedsFoundMessage" = "Beklager, den feed-adressen er uten innhold.";
 
 /* The action title displayed in the iOS share menu */
-"today.addSourceShareTitle" = "Legg til kilde i Brave News";
+"today.addSourceShareTitle" = "Legg til kilde i News";
 
 /* No comment provided by engineer. */
 "today.allSources" = "Alle kilder";
 
 /* The name of the feature */
-"today.braveToday" = "Brave News";
+"today.braveToday" = "News";
 
 /* No comment provided by engineer. */
 "today.contentAvailableButtonTitle" = "Nytt innhold tilgjengelig";
@@ -1411,13 +1411,13 @@
 /* No comment provided by engineer. */
 "today.disableAll" = "Deaktiver alle";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
-"today.disabledAlertBody" = "Brave News slutter å vise innhold fra %@";
+/* '%@' will turn into the name of a publisher (verbatim), for example: Blog */
+"today.disabledAlertBody" = "News slutter å vise innhold fra %@";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "Deaktivert";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Blog */
 "today.disablePublisherContent" = "Deaktiver innhold fra %@";
 
 /* No comment provided by engineer. */
@@ -1429,11 +1429,11 @@
 /* No comment provided by engineer. */
 "today.enableAll" = "Aktiver alle";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Blog */
 "today.enablePublisherContent" = "Aktiver innhold fra %@";
 
 /* No comment provided by engineer. */
-"today.errorGeneralBody" = "Brave News opplever for øyeblikket problemer. Prøv igjen.";
+"today.errorGeneralBody" = "News opplever for øyeblikket problemer. Prøv igjen.";
 
 /* No comment provided by engineer. */
 "today.errorGeneralTitle" = "Oops …";
@@ -1445,7 +1445,7 @@
 "today.insecureSourcesHeader" = "Usikre kilder – legg til på egen risiko";
 
 /* No comment provided by engineer. */
-"today.introCardBody" = "Brave News støttes av helt private og anonymiserte annonser som samsvarer med enheten din.";
+"today.introCardBody" = "News støttes av helt private og anonymiserte annonser som samsvarer med enheten din.";
 
 /* \"New\" as in a new feature being introduced, displayed above a body of text explaining said feature */
 "today.introCardNew" = "Ny";
@@ -1457,13 +1457,13 @@
 "today.introCardTitle" = "Dagens topphistorier i en helt privat feed, kun til deg.";
 
 /* No comment provided by engineer. */
-"today.isEnabledToggleLabel" = "Vis Brave News";
+"today.isEnabledToggleLabel" = "Vis News";
 
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "Lær mer om dataene dine";
 
-/* 'Brave Offers' is a product name */
-"today.moreBraveOffers" = "Flere tilbud fra Brave";
+/* 'Offers' is a product name */
+"today.moreBraveOffers" = "Flere tilbud fra Presearch";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Ingen Internett-tilkobling";
@@ -1496,7 +1496,7 @@
 "today.sourceSearchPlaceholder" = "Søk";
 
 /* No comment provided by engineer. */
-"today.turnOnBraveToday" = "Skru på Brave News";
+"today.turnOnBraveToday" = "Skru på News";
 
 /* The header above a list of the users RSS feed sources */
 "today.yourSources" = "Alle kilder";
@@ -1513,28 +1513,28 @@
 /* No comment provided by engineer. */
 "UserWalletGenericErrorTitle" = "Beklager, noe gikk galt";
 
-/* Button text to buy Brave VPN */
+/* Button text to buy VPN */
 "vpn.buyButton" = "Kjøp";
 
 /* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "Brave-brannmur + VPN";
+"vpn.buyVPNTitle" = "Presearch-brannmur + VPN";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.checkboxBlockAds" = "Blokkerer uønskede nettverkstilkoblinger";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.checkboxEncryption" = "Bruker VPN-tunnel trygt kryptert med IKEv2";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.checkboxFast" = "Støtter hastigheter på opptil 100 Mbit/s";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.checkboxGeoSelector" = "Velg geografisk beliggenhet/land";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.checkboxNoIPLog" = "Holder deg anonym på nettet";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.checkboxNoSellout" = "Vi vil aldri dele eller selge informasjonen din";
 
 /* AppStore Receipt field for customer support contact form. */
@@ -1598,9 +1598,9 @@
 "vpn.contactFormTimezone" = "iOS-tidssone";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "Problem med Brave-brannmur + VPN";
+"vpn.contactFormTitle" = "Problem med Presearch-brannmur + VPN";
 
-/* Button text to enable Brave VPN */
+/* Button text to enable VPN */
 "vpn.enableButton" = "Aktiver";
 
 /* Message for an alert when the VPN can't get prices from the App Store */
@@ -1625,15 +1625,15 @@
 "vpn.installProfileButtonText" = "Installer VPN-profil";
 
 /* No comment provided by engineer. */
-"vpn.installProfileTitle" = "Brave vil nå installere en VPN-profil.";
+"vpn.installProfileTitle" = "vil nå installere en VPN-profil.";
 
 /* Popup that shows after user installs the vpn for the first time. */
-"vpn.installSuccessPopup" = "Brave er nå aktivert";
+"vpn.installSuccessPopup" = "er nå aktivert";
 
 /* Title for screen to install the VPN. */
 "vpn.installTitle" = "Installer VPN";
 
-/* Button text to try free Brave VPN */
+/* Button text to try free VPN */
 "vpn.learnMore" = "Prøv GRATIS";
 
 /* Used in context: 'Monthly subscription, (it) renews monthly' */
@@ -1645,10 +1645,10 @@
 /* Text to show user when their vpn plan has expired */
 "vpn.planExpired" = "Utløpt";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.popupCheckmark247Support" = "Kundestøtte døgnet rundt";
 
-/* Text for a checkbox to present the user benefits for using Brave VPN */
+/* Text for a checkbox to present the user benefits for using VPN */
 "vpn.popupCheckmarkSecureConnections" = "Sikrer alle tilkoblinger";
 
 /* It is used in context: 'Powered by BRAND_NAME' */
@@ -1730,10 +1730,10 @@
 "vpn.settingsVPNExpired" = "Utløpt";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "Selv i bakgrunnen vil Brave fortsette å beskytte deg.";
+"vpn.vpnBackgroundNotificationBody" = "Selv i bakgrunnen vil fortsette å beskytte deg.";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "Brave-brannmur + VPN er PÅ";
+"vpn.vpnBackgroundNotificationTitle" = "Presearch-brannmur + VPN er PÅ";
 
 /* Message for an alert when the VPN can't be configured. */
 "vpn.vpnConfigGenericErrorBody" = "Det oppstod et problem med å initialisere VPN. Vennligst prøv igjen eller prøv å tilbakestille konfigurasjonen på VPN-innstillingssiden.";
@@ -1742,7 +1742,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "Feil";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "Brave-brannmur + VPN krever at det installeres en VPN-profil på enheten din for å fungere.";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "Presearch-brannmur + VPN krever at det installeres en VPN-profil på enheten din for å fungere.";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "Tillatelse nektet";
@@ -1754,10 +1754,10 @@
 "vpn.vpnErrorPurchaseFailedTitle" = "Feil";
 
 /* Disclaimer for user purchasing the VPN plan. */
-"vpn.vpnIAPBoilerPlate" = "Abonnementer belastes via iTunes-kontoen din.\n\nEnhver ubrukt del av den gratis prøveperioden, hvis den tilbys, går tapt når du kjøper et abonnement.\n\nAbonnementet ditt fornyes automatisk med mindre det blir kansellert minst 24 timer før inneværende periode utløper.\n\nDu kan administrere abonnementene dine i innstillingene.\n\nVed å bruke Brave godtar du bruksvilkårene og retningslinjene for personvern.";
+"vpn.vpnIAPBoilerPlate" = "Abonnementer belastes via iTunes-kontoen din.\n\nEnhver ubrukt del av den gratis prøveperioden, hvis den tilbys, går tapt når du kjøper et abonnement.\n\nAbonnementet ditt fornyes automatisk med mindre det blir kansellert minst 24 timer før inneværende periode utløper.\n\nDu kan administrere abonnementene dine i innstillingene.\n\nVed å bruke godtar du bruksvilkårene og retningslinjene for personvern.";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "Dette vil tilbakestille Brave-brannmuren + VPN-konfigurasjonen din og fikse eventuelle feil. Denne prosessen kan ta et øyeblikk.";
+"vpn.vpnResetAlertBody" = "Dette vil tilbakestille Presearch-brannmuren + VPN-konfigurasjonen din og fikse eventuelle feil. Denne prosessen kan ta et øyeblikk.";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "Tilbakestill konfigurasjon";
@@ -1817,15 +1817,15 @@
 "widgets.favoritesWidgetTitle" = "Favoritter";
 
 /* This shows when you add a widget but have no favorites added in your app */
-"widgets.noFavoritesFound" = "Åpne Brave for å se favorittene dine her";
+"widgets.noFavoritesFound" = "Åpne for å se favorittene dine her";
 
-/* Description for Brave Shields widget on 'add widget' screen. */
-"widgets.shieldStatsDescription" = "En oversikt over hvordan Brave beskytter deg på nettet og gjør at du sparer tid.";
+/* Description for Shields widget on 'add widget' screen. */
+"widgets.shieldStatsDescription" = "En oversikt over hvordan beskytter deg på nettet og gjør at du sparer tid.";
 
-/* Title for Brave Shields widget on 'add widget' screen. */
+/* Title for Shields widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "Personvernstatistikk";
 
-/* Title of Brave Shields widget shown above stat numbers. */
+/* Title of Shields widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "Personvernstatistikk";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1841,15 +1841,15 @@
 "widgets.shortcutsPrivateTabButton" = "Privat fane";
 
 /* Description for shortcuts widget on 'add widget' screen. */
-"widgets.shortcutsWidgetDescription" = "Rask tilgang til å søke på nettet eller åpne nettsider i Brave.";
+"widgets.shortcutsWidgetDescription" = "Rask tilgang til å søke på nettet eller åpne nettsider i Presearch.";
 
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "Snarveier";
 
-/* Description for Brave Shields single stat widget on 'add widget' screen. */
-"widgets.singleStatDescription" = "En oversikt over hvordan Brave beskytter deg på nettet.";
+/* Description for Shields single stat widget on 'add widget' screen. */
+"widgets.singleStatDescription" = "En oversikt over hvordan beskytter deg på nettet.";
 
-/* Title for Brave Shields single stat widget on 'add widget' screen. */
+/* Title for Shields single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "Personvernstatistikk";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

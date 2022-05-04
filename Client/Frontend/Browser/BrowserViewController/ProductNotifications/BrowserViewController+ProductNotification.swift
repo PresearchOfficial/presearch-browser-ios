@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -127,7 +127,7 @@ extension BrowserViewController {
       return
     }
 
-    // Step 2: Share Brave Benchmark Tiers
+    // Step 2: Share Presearch Benchmark Tiers
     let numOfTrackerAds = BraveGlobalShieldStats.shared.adblock + BraveGlobalShieldStats.shared.trackingProtection
     if numOfTrackerAds > benchmarkCurrentSessionAdCount + 20 {
       let existingTierList = BenchmarkTrackerCountTier.allCases.filter {

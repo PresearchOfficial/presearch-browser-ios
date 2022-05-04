@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "Varlıklar";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Brave Cüzdanı'nın otomatik olarak kilitlenmesi için beklemeniz dakika sayısı";
+"wallet.autoLockFooter" = "Presearch Cüzdanı'nın otomatik olarak kilitlenmesi için beklemeniz dakika sayısı";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Şu Süreden Sonra Otomatik Kilitle:";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "Biyometrik kilit açmanın etkinleştirilmesi başarısız.";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "Brave Cüzdanı'nın kilidini Face ID, Touch ID veya şifreyle açın.";
+"wallet.biometricsSetupTitle" = "Presearch Cüzdanı'nın kilidini Face ID, Touch ID veya şifreyle açın.";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Teklif, %@ tutarında bir Brave ücretini de içerir.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "Teklif, %@ tutarında bir Presearch ücretini de içerir.";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Brave Cüzdanı";
+"wallet.braveWallet" = "Presearch Cüzdanı";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "Satın Al";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "Kripto varlıklarınızı bir şifreyle güvenceye alın";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave Cüzdanı";
+"wallet.cryptoTitle" = "Presearch Cüzdanı";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "Blok gezgini URL'leri";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Özel";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Bu sayfa, Brave Cüzdanı'yla etkileşimde bulunmak istiyor";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Bu sayfa, Presearch Cüzdanı'yla etkileşimde bulunmak istiyor";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "Tümü";
@@ -518,10 +518,10 @@
 "wallet.primaryCryptoAccountsTitle" = "Ana Kripto Hesapları";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Uyarı: Özel anahtarınızın ekran görüntüsü bir bulut dosya hizmetine yedeklenebilir ve fotoğraflarınıza erişimi olan herhangi bir uygulama tarafından okunabilir. Brave, bu ekran görüntüsünü saklamamanızı ve mümkün olduğunca çabuk şekilde silmenizi önerir.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Uyarı: Özel anahtarınızın ekran görüntüsü bir bulut dosya hizmetine yedeklenebilir ve fotoğraflarınıza erişimi olan herhangi bir uygulama tarafından okunabilir. Presearch, bu ekran görüntüsünü saklamamanızı ve mümkün olduğunca çabuk şekilde silmenizi önerir.";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Uyarı: Kurtarma ifadenizin ekran görüntüsü bir bulut dosya hizmetine yedeklenebilir ve fotoğraflarınıza erişimi olan herhangi bir uygulama tarafından okunabilir. Brave, bu ekran görüntüsünü saklamamanızı ve mümkün olduğunca çabuk şekilde silmenizi önerir.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Uyarı: Kurtarma ifadenizin ekran görüntüsü bir bulut dosya hizmetine yedeklenebilir ve fotoğraflarınıza erişimi olan herhangi bir uygulama tarafından okunabilir. Presearch, bu ekran görüntüsünü saklamamanızı ve mümkün olduğunca çabuk şekilde silmenizi önerir.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Piyasa fiyatını yenileyin";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Cüzdanı Geri Yükleyin";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "Geri yükle";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "Eski sürüm Brave kripto cüzdanlarından içe aktarım yapmak istiyor musunuz?";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Eski sürüm Presearch kripto cüzdanlarından içe aktarım yapmak istiyor musunuz?";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Yeni Şifre";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "Kurtarma İfadesini Göster";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "Brave cüzdanı kripto hesabınızı geri yüklemek için kurtarma ifadenizi girin.";
+"wallet.restoreWalletSubtitle" = "Presearch cüzdanı kripto hesabınızı geri yüklemek için kurtarma ifadenizi girin.";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "Kripto Hesabınızı Geri Yükleyin";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Bu eylem geri alınamaz. Kurtarma ifadeniz, kripto varlıklarınıza yeniden erişim hakkını elde etmenin tek yoludur.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Brave Cüzdanı'nı sıfırlamak istediğinizden emin misiniz?";
+"wallet.settingsResetWalletAlertTitle" = "Presearch Cüzdanı'nı sıfırlamak istediğinizden emin misiniz?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Hoş geldiniz";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "Başlayın";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Kripto varlıklarınızı kontrolünüz altında tutun ve portföy performansınızı izleyin. Hepsi doğrudan Brave gizlilik tarayıcısında.";
+"wallet.setupCryptoSubtitle" = "Kripto varlıklarınızı kontrolünüz altında tutun ve portföy performansınızı izleyin. Hepsi doğrudan Presearch gizlilik tarayıcısında.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "Yeni Brave Cüzdanı'na hoş geldiniz";
+"wallet.setupCryptoTitle" = "Yeni Presearch Cüzdanı'na hoş geldiniz";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "Özel Anahtarı Göster";
@@ -722,7 +722,7 @@
 "wallet.swapCryptoToTitle" = "Şuna:";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Brave şu anda %@ ağında takası desteklemiyor. Lütfen desteklenen bir zincire geçin.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Presearch şu anda %@ ağında takası desteklemiyor. Lütfen desteklenen bir zincire geçin.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Desteklenmeyen zincir";
@@ -730,11 +730,11 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "Belirteç ve varlık takası yapın.";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x, bir işlemi gerçekleştirmek için (teklif alımları dahil) Ethereum adresini ve IP adresini işleyecektir. 0X, bu verileri SADECE işlemi gerçekleştirmek amacıyla kullanacaktır.";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave, bir DEX toplayıcısı olarak 0x platformunu kullanır.";
+"wallet.swapDexAggrigatorNote" = "Presearch, bir DEX toplayıcısı olarak 0x platformunu kullanır.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Limit";
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "Blok gezgininde görüntüle";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "Cüzdan";
 

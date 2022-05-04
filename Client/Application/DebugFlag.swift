@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -15,7 +15,7 @@ extension Preferences {
 
     static let skipOnboardingIntro = boolOrNil(for: "BRSkipOnboarding")
     static let skipEduPopups = boolOrNil(for: "BRSkipEduPopups")
-    /// Skips default browser, Brave VPN and other in-app callouts.
+    /// Skips default browser, Presearch VPN and other in-app callouts.
     static let skipNTPCallouts = boolOrNil(for: "BRSkipAppLaunchPopups")
 
     private static func boolOrNil(for key: String) -> Bool? {

@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -9,7 +9,7 @@ import BraveShared
 import SnapKit
 import Shared
 
-/// A set of feed related components that overlay the New Tab Page when Brave News is enabled
+/// A set of feed related components that overlay the New Tab Page when Presearch News is enabled
 class NewTabPageFeedOverlayView: UIView {
 
   let headerView = FeedSectionHeaderView().then {

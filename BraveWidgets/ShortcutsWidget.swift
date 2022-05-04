@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -126,7 +126,7 @@ private extension WidgetShortcut {
     case .downloads:
       return Strings.downloadsMenuItem
     case .playlist:
-      // We usually use `Brave Playlist` to describe this feature.
+      // We usually use `Presearch Playlist` to describe this feature.
       // Here we try to be more concise and use 'Playlist' word only.
       return Strings.Widgets.shortcutsPlaylistButton
     @unknown default:

@@ -140,7 +140,7 @@
 "ScanQRCodeInvalidDataErrorMessage" = "資料無效";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCodePermissionErrorMessage" = "請前往「設定」->「隱私」->「相機」，允許 Brave 存取您裝置的相機。";
+"ScanQRCodePermissionErrorMessage" = "請前往「設定」->「隱私」->「相機」，允許 Presearch 存取您裝置的相機。";
 
 /* Title for the QR code scanner view. */
 "ScanQRCodeViewTitle" = "掃描 QR 碼";
@@ -229,8 +229,8 @@
 /* Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet. */
 "UnableToAddPassErrorTitle" = "新增票卡失敗";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
-"UnableToOpenURLError" = "該頁面的網址無效，Brave 無法開啟頁面。";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Presearch, or any external app. */
+"UnableToOpenURLError" = "該頁面的網址無效，Presearch 無法開啟頁面。";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "UnableToOpenURLErrorTitle" = "無法開啟頁面";

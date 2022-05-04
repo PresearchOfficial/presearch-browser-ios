@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Это позволяет сохранять изображения в фотогалерее Camera Roll.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave нужен доступ к вашим фотографиям";
+"AccessPhotoDeniedAlertTitle" = "нужен доступ к вашим фотографиям";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Добавить закладку";
@@ -40,8 +40,8 @@
 /* Label for the Face ID/Passcode item in Settings */
 "AuthenticationFaceIDPasscodeSetting" = "Face ID и код доступа";
 
-/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "Так вы подтвердите, что именно вы выполняете вход в Brave.";
+/* Touch ID or PIN entry prompt subtitle when accessing with the Browser Lock feature enabled */
+"AuthenticationLoginsTouchReason" = "Так вы подтвердите, что именно вы выполняете вход в Presearch.";
 
 /* Label for the Passcode item in Settings */
 "AuthenticationPasscode" = "Код-пароль";
@@ -100,7 +100,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = " Статистика блокировок";
 
-/* Brave panel individual toggle title */
+/* panel individual toggle title */
 "BlockPhishing" = "Блокировать фишинг";
 
 /* No comment provided by engineer. */
@@ -146,13 +146,13 @@
 "BookmarkUrlPlaceholderText" = "Адрес";
 
 /* Button to show the brave panel */
-"BravePanel" = "Панель Brave";
+"BravePanel" = "Панель Presearch";
 
-/* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+/* Rewards settings title */
+"BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields и конфиденциальность";
+"BraveShieldsAndPrivacy" = "Shields и конфиденциальность";
 
 /* Sync page title */
 "BraveSync" = "Синхронизация";
@@ -161,13 +161,13 @@
 "BraveSyncInternalsTitle" = "Данные синхронизации";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Установите Brave на всех устройствах, которые хотите синхронизировать. Чтобы безопасно связать их между собой, создайте цепочку синхронизации.";
+"BraveSyncWelcome" = "Установите на всех устройствах, которые хотите синхронизировать. Чтобы безопасно связать их между собой, создайте цепочку синхронизации.";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "Блокировка браузера";
 
 /* No comment provided by engineer. */
-"BrowserLockDescription" = "Для разблокировки Brave используйте Touch ID, Face ID или системный код-пароль.";
+"BrowserLockDescription" = "Для разблокировки используйте Touch ID, Face ID или системный код-пароль.";
 
 /* A button title for the action to move to the next step of the browser lock migration process. */
 "browserLockMigrationContinueButtonTitle" = "Продолжить";
@@ -176,10 +176,10 @@
 "browserLockMigrationNoPasscodeSetup" = "Включите аутентификацию: откройте настройки устройства и выберите «%@».";
 
 /* Subtitle on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationSubtitle" = "Мы упростили разблокировку Brave. Теперь доступ к браузеру можно получить с помощью Touch ID, Face ID или кода-пароля для телефона.";
+"browserLockMigrationSubtitle" = "Мы упростили разблокировку Presearch. Теперь доступ к браузеру можно получить с помощью Touch ID, Face ID или кода-пароля для телефона.";
 
 /* Title on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationTitle" = "Открывайте Brave с помощью Face ID, Touch ID или кода-пароля";
+"browserLockMigrationTitle" = "Открывайте с помощью Face ID, Touch ID или кода-пароля";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "История просмотров";
@@ -188,19 +188,19 @@
 "Cache" = "Кеш";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "При открытии всех ссылок будут использоваться средства защиты конфиденциальности Brave.";
+"callout.defaultBrowserCalloutDescription" = "При открытии всех ссылок будут использоваться средства защиты конфиденциальности Presearch.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Сделать браузером по умолчанию";
 
 /* Description for secondary button in Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutSecondaryButtonDescription" = "Brave уже используется по умолчанию?";
+"callout.defaultBrowserCalloutSecondaryButtonDescription" = "уже используется по умолчанию?";
 
 /* Title for secondary button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutSecondaryButtonTitle" = "Пропустить";
 
 /* Title for Default Browser Full Screen Callout */
-"callout.defaultBrowserTitle" = "Сделайте Brave браузером по умолчанию";
+"callout.defaultBrowserTitle" = "Сделайте браузером по умолчанию";
 
 /* Button title for Playlist Onboarding View */
 "callout.playlistOnboardingViewButtonTitle" = "Смотреть видео";
@@ -212,7 +212,7 @@
 "callout.playlistOnboardingViewTitle" = "Добавьте видео в плейлист";
 
 /* Subtitle - Description for Privacy Everywhere Full Screen Callout */
-"callout.privacyEverywhereCalloutDescription" = "Установите Brave на компьютере или планшете и синхронизируйте закладки и расширения на всех устройствах.";
+"callout.privacyEverywhereCalloutDescription" = "Установите на компьютере или планшете и синхронизируйте закладки и расширения на всех устройствах.";
 
 /* Title for button in Default Browser Full Screen Callout */
 "callout.privacyEverywhereCalloutPrimaryButtonTitle" = "Синхронизировать";
@@ -326,24 +326,24 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Открыть настройки";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Для безопасности открывайте ссылки с помощью Brave";
+"defaultBrowserCallout.introPrimaryText" = "Для безопасности открывайте ссылки с помощью Presearch";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Пользуйтесь Интернетом без помех. Brave Shields блокирует рекламу и трекеры, а также защищает данные.";
+"defaultBrowserCallout.introSecondaryText" = "Пользуйтесь Интернетом без помех. Shields блокирует рекламу и трекеры, а также защищает данные.";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Откройте настройки, нажмите «Браузерное приложение по умолчанию» и выберите Brave.";
+"defaultBrowserCallout.introTertiaryText" = "Откройте настройки, нажмите «Браузерное приложение по умолчанию» и выберите Presearch.";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Оптимизировано под iOS %@. Сделайте Brave вашим браузером по умолчанию.";
+/* Notification body to promote setting app as default browser */
+"defaultBrowserCallout.notificationBody" = "Оптимизировано под iOS %@. Сделайте вашим браузером по умолчанию.";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Браузер Brave";
+/* Notification title to promote setting app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Браузер Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Закрыть сообщение о браузере по умолчанию";
 
-/* Name for default Brave theme. */
+/* Name for default theme. */
 "defaultThemeName" = "По умолчанию";
 
 /* No comment provided by engineer. */
@@ -490,10 +490,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "Разрешить переключение приложений с помощью ссылки?";
 
-/* Allow Brave to open the external app URL */
+/* Allow to open the external app URL */
 "ExternalAppURLAllow" = "Разрешить";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow to open the external app URL */
 "ExternalAppURLDontAllow" = "Не разрешать";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -554,10 +554,10 @@
 "HideLinkPreviewsActionTitle" = "Скрыть предварительный просмотр ссылок";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Скрыть значок Brave Rewards";
+"HideRewardsIcon" = "Скрыть значок Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Скрывает значок Brave Rewards, если сервис Brave Rewards не включен";
+"HideRewardsIconSubtitle" = "Скрывает значок Rewards, если сервис Rewards не включен";
 
 /* Title for history menu item */
 "HistortMenuItem" = "История";
@@ -724,14 +724,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "Вы ввели не все слова";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Служба поддержки Brave";
+/* Bookmark title for Support */
+"ntp.braveSupportFavoriteTitle" = "Служба поддержки Presearch";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Получить баллы";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Вы заработали %@, пользуясь Brave.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "Вы заработали %@, пользуясь Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Так держать!";
@@ -740,7 +740,7 @@
 "ntp.hideSponsoredImages" = "Не показывать спонсорские изображения";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Подробнее о Brave Rewards…";
+"ntp.learnMoreAboutRewards" = "Подробнее о Rewards…";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Подробнее о спонсорских изображениях…";
@@ -770,7 +770,7 @@
 "ntp.sponsoredImageDescription" = "Просматривая это спонсорское изображение, вы поддерживаете издателей и создателей контента.";
 
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
-"ntp.turnRewardsTos" = "Включая Brave Rewards, вы принимаете";
+"ntp.turnRewardsTos" = "Включая Rewards, вы принимаете";
 
 /* The description of the popover showing trackers that were blocked. */
 "onboarding.blockedAdsOnboardingPopoverDescriptionThree" = "Чтобы увидеть заблокированные трекеры, нажмите на значок щита на сайте.";
@@ -815,13 +815,13 @@
 "onboarding.searchViewEnterWebsiteRowTitle" = "Укажите сайт";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "Добро пожаловать в Brave!";
+"onboarding.welcomeScreenTitle" = "Добро пожаловать в Presearch!";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Открыть все (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Открыть настройки Brave Rewards";
+/* Button title for opening the Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Открыть настройки Rewards";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Не удалось открыть папку «Загрузки» в приложении «Файлы».";
@@ -841,35 +841,35 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "Открыть сайт";
 
-/* The subtitle description of menu item Brave News */
+/* The subtitle description of menu item News */
 "optionsMenu.braveNewsItemDescription" = "Главные новости дня в приватной ленте.";
 
-/* Brave News Item Menu title */
-"optionsMenu.braveNewsItemTitle" = "Brave Новости";
+/* News Item Menu title */
+"optionsMenu.braveNewsItemTitle" = "Новости";
 
-/* The subtitle description of menu item Brave Playlist */
+/* The subtitle description of menu item Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "Офлайн-доступ к видео и трансляциям в плейлисте.";
 
-/* Brave News Item Menu title */
-"optionsMenu.bravePlaylistItemTitle" = "Brave Плейлист";
+/* News Item Menu title */
+"optionsMenu.bravePlaylistItemTitle" = "Плейлист";
 
-/* The subtitle description of menu item Brave Talk */
+/* The subtitle description of menu item Talk */
 "optionsMenu.braveTalkItemDescription" = "Защищенные видеовстречи прямо в браузере.";
 
-/* Brave Talk Item Menu title */
-"optionsMenu.braveTalkItemTitle" = "Brave Разговоры";
+/* Talk Item Menu title */
+"optionsMenu.braveTalkItemTitle" = "Разговоры";
 
-/* The subtitle description of menu item Brave VPN */
+/* The subtitle description of menu item VPN */
 "optionsMenu.braveVPNItemDescription" = "Защита данных в Интернете.";
 
-/* Brave VPN Item Menu title */
-"optionsMenu.braveVPNItemTitle" = "Brave VPN";
+/* VPN Item Menu title */
+"optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item Brave Wallet */
+/* The subtitle description of menu item Wallet */
 "optionsMenu.braveWalletItemDescription" = "Защита криптокошелька без дополнительных расширений.";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Функции Brave";
+"optionsMenu.menuSectionTitle" = "Функции Presearch";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "Другие настройки конфиденциальности";
@@ -904,7 +904,7 @@
 /* Settings privacy section title */
 "Privacy" = "Конфиденциальность";
 
-/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "Политика конфиденциальности";
 
 /* Private button title */
@@ -920,10 +920,10 @@
 "PrivateBrowsingOnlyWarning" = "В режиме «Приватный просмотр» будут закрыты все открытые вкладки и будет выполнен выход со всех сайтов.";
 
 /* Private tab details */
-"PrivateTabBody" = "Вкладки инкогнито в браузере Brave не сохраняются, но это не дает вам полной анонимности в интернете. Посещаемые здесь сайты не отобразятся в истории браузера, а файлы cookie удалятся сразу после закрытия вкладки. Однако скачанные файлы останутся на устройстве.\nВаш мобильный оператор (или владелец сети Wi-Fi/провайдер VPN) сможет увидеть, какие сайты вы посещали, а у сайтов будет доступ к вашему внешнему IP-адресу, даже если вы открывали их во вкладках инкогнито.";
+"PrivateTabBody" = "Вкладки инкогнито в браузере не сохраняются, но это не дает вам полной анонимности в интернете. Посещаемые здесь сайты не отобразятся в истории браузера, а файлы cookie удалятся сразу после закрытия вкладки. Однако скачанные файлы останутся на устройстве.\nВаш мобильный оператор (или владелец сети Wi-Fi/провайдер VPN) сможет увидеть, какие сайты вы посещали, а у сайтов будет доступ к вашему внешнему IP-адресу, даже если вы открывали их во вкладках инкогнито.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Использование вкладки инкогнито влияет только на то, какую информацию браузер Brave сохраняет на вашем устройстве.\n\nСайты получают ваш IP-адрес автоматически, как только вы заходите на них. Исходя из этого, они часто могут определить ваше примерное местоположение — как правило, на уровне города. Иногда эти данные могут быть более точными. Кроме того, сайты сохраняют всю вводимую вами информацию, например поисковые запросы. При авторизации на сайте им станет известно, что вы являетесь владельцем этой учетной записи. При закрытии вкладок инкогнито вы автоматически выйдете из аккаунта, так как Brave удалит файлы cookie, необходимые для того, чтобы оставаться в системе.\n\nВаши действия в сети может отслеживать интернет-провайдер. Как правило, это оператор мобильной связи либо владелец сети Wi-Fi или VPN, в зависимости от того, кто предоставляет вам доступ к интернету. Интернет-провайдер сможет увидеть, какие сайты вы посещаете. Если сайты защищены соединением HTTPS, в таком случае можно лишь догадываться о ваших действиях на этих сайтах. Однако если поддерживается только протокол HTTP, интернет-провайдер сможет узнать всё: какие поисковые запросы вы вводили, какие страницы посещали, по каким ссылкам переходили\n\nЕсли работодатель управляет вашим устройством, он также может следить за тем, какие сайты вы посещаете. Даже использование вкладок инкогнито не поможет скрыть информацию. Те, у кого-то есть доступ к вашему устройству, могут установить программу, отслеживающую ваши действия — вкладки инкогнито не помогут и в этом случае.";
+"PrivateTabDetails" = "Использование вкладки инкогнито влияет только на то, какую информацию браузер сохраняет на вашем устройстве.\n\nСайты получают ваш IP-адрес автоматически, как только вы заходите на них. Исходя из этого, они часто могут определить ваше примерное местоположение — как правило, на уровне города. Иногда эти данные могут быть более точными. Кроме того, сайты сохраняют всю вводимую вами информацию, например поисковые запросы. При авторизации на сайте им станет известно, что вы являетесь владельцем этой учетной записи. При закрытии вкладок инкогнито вы автоматически выйдете из аккаунта, так как удалит файлы cookie, необходимые для того, чтобы оставаться в системе.\n\nВаши действия в сети может отслеживать интернет-провайдер. Как правило, это оператор мобильной связи либо владелец сети Wi-Fi или VPN, в зависимости от того, кто предоставляет вам доступ к интернету. Интернет-провайдер сможет увидеть, какие сайты вы посещаете. Если сайты защищены соединением HTTPS, в таком случае можно лишь догадываться о ваших действиях на этих сайтах. Однако если поддерживается только протокол HTTP, интернет-провайдер сможет узнать всё: какие поисковые запросы вы вводили, какие страницы посещали, по каким ссылкам переходили\n\nЕсли работодатель управляет вашим устройством, он также может следить за тем, какие сайты вы посещаете. Даже использование вкладок инкогнито не поможет скрыть информацию. Те, у кого-то есть доступ к вашему устройству, могут установить программу, отслеживающую ваши действия — вкладки инкогнито не помогут и в этом случае.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Подробнее о вкладках инкогнито…";
@@ -937,8 +937,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Быстрый поиск";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Оценить Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Оценить Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Увеличить текст";
@@ -967,13 +967,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "Изменение типа шрифта.";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "Загрузка…";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "Загрузить исходную страницу";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "Не удалось открыть страницу в режиме чтения.";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -1004,25 +1004,25 @@
 "RestoreTabNegativeButtonTitle" = "Нет";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "В Brave произошел сбой. Восстановить вкладки?";
+"RestoreTabOnCrashAlertMessage" = "В произошел сбой. Восстановить вкладки?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Приносим извинения";
 
-/* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "С Brave Rewards вы можете просматривать рекламу из Brave Ads без замедления работы и отслеживания активности. Ваши данные находятся под надежной защитой. ";
+/* Body for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInBody" = "С Rewards вы можете просматривать рекламу из Ads без замедления работы и отслеживания активности. Ваши данные находятся под надежной защитой. ";
 
-/* Title for Brave Talk rewards opt-in screen button */
-"rewards.braveTalkRewardsOptInButtonTitle" = "Включить Brave Rewards";
+/* Title for Talk rewards opt-in screen button */
+"rewards.braveTalkRewardsOptInButtonTitle" = "Включить Rewards";
 
-/* Body for successful Brave Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Чтобы открыть Brave Talk, нажмите на любое место экрана.";
+/* Body for successful Talk rewards opt-in */
+"rewards.braveTalkRewardsOptInSuccessBody" = "Чтобы открыть Talk, нажмите на любое место экрана.";
 
-/* Title for successful Brave Talk rewards opt-in */
+/* Title for successful Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "Теперь вам доступны бесплатные звонки";
 
-/* Title for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Чтобы начать бесплатный вызов, включите Brave Rewards";
+/* Title for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInTitle" = "Чтобы начать бесплатный вызов, включите Rewards";
 
 /* The placeholders say 'Terms of Service' and 'Privacy Policy'. So full sentence goes like: 'By clicking, you agree to the Terms of Service and Privacy Policy...' */
 "rewards.optInDisclaimer" = "Нажимая кнопку, вы принимаете следующие соглашения: %1$@ и %2$@. Вы можете в любое время изменить настройки.";
@@ -1112,7 +1112,7 @@
 "SearchSuggestionsSectionHeader" = "Подсказки при поиске";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "Искать в Brave";
+"SearchWithBrave" = "Искать в Presearch";
 
 /* Settings security section title */
 "Security" = "Безопасность";
@@ -1127,9 +1127,9 @@
 "SendReportButtonTitle" = "Отправить отчет";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Теперь можно установить Brave в качестве браузера по умолчанию для iOS. Нажмите, чтобы открыть настройки.";
+"setDefaultBrowserCalloutTitle" = "Теперь можно установить в качестве браузера по умолчанию для iOS. Нажмите, чтобы открыть настройки.";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Установить в качестве браузера по умолчанию";
 
 /* No comment provided by engineer. */
@@ -1151,7 +1151,7 @@
 "settings.autocloseTabsSetting" = "Закрывать вкладки";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "Brave будет автоматически закрывать вкладки, которые давно не просматривались.";
+"settings.autocloseTabsSettingFooter" = "будет автоматически закрывать вкладки, которые давно не просматривались.";
 
 /* Error message that is shown in settings when there was a problem loading */
 "SettingsContentLoadErrorMessage" = "Не удалось загрузить страницу.";
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "Поделиться…";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Общие настройки Brave Shields по умолчанию";
+"ShieldsDefaults" = "Общие настройки Shields по умолчанию";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Это настройки Brave Shields по умолчанию для новых сайтов. Их изменение не повлияет на уже заданные настройки для отдельных сайтов.";
+"ShieldsDefaultsFooter" = "Это настройки Shields по умолчанию для новых сайтов. Их изменение не повлияет на уже заданные настройки для отдельных сайтов.";
 
 /* shields overview message */
 "ShieldsOverview" = "Щиты сайтов Shields позволяют контролировать блокировку рекламы и трекеров для каждого сайта, на который вы заходите. Если вы хотите видеть рекламу только на определенных сайтах, включите эту функцию ниже.";
@@ -1225,7 +1225,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "Показать панель вкладок";
 
-/* Brave panel topmost title */
+/* panel topmost title */
 "SiteShieldSettings" = "Shields";
 
 /* Open search section of settings */
@@ -1256,7 +1256,7 @@
 "sync.v2MigrationErrorTitle" = "Ошибка";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "Чтобы воспользоваться новой системой Brave Sync, необходимо переместить имеющиеся закладки. При этом они не будут удалены.";
+"sync.v2MigrationMessage" = "Чтобы воспользоваться новой системой Sync, необходимо переместить имеющиеся закладки. При этом они не будут удалены.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Переместить";
@@ -1274,13 +1274,13 @@
 "SyncAddDeviceScan" = "QR-код цепочки синхронизации";
 
 /* Sync add device description */
-"SyncAddDeviceScanDescription" = "Запустите Brave на втором мобильном устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите «Сканировать код синхронизации». Отсканируйте QR-код ниже с помощью камеры.\n\nОтноситесь к этому коду как к паролю. Не показывайте его никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
+"SyncAddDeviceScanDescription" = "Запустите на втором мобильном устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите «Сканировать код синхронизации». Отсканируйте QR-код ниже с помощью камеры.\n\nОтноситесь к этому коду как к паролю. Не показывайте его никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
 
 /* Add device to sync with code words */
 "SyncAddDeviceWords" = "Введите код синхронизации";
 
 /* Sync add device description */
-"SyncAddDeviceWordsDescription" = "Запустите Brave на устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите кнопку «%@». Введите указанные ниже кодовые слова.\n\nОтноситесь к кодовым словам как к паролю. Не сообщайте их никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
+"SyncAddDeviceWordsDescription" = "Запустите на устройстве и откройте настройки. Перейдите в раздел «Синхронизация» и нажмите кнопку «%@». Введите указанные ниже кодовые слова.\n\nОтноситесь к кодовым словам как к паролю. Не сообщайте их никому, иначе другие пользователи смогут просматривать и изменять ваши синхронизированные данные.";
 
 /* Add device to sync with code words navigation title */
 "SyncAddDeviceWordsTitle" = "Введите кодовые слова";
@@ -1319,22 +1319,22 @@
 "SyncInitErrorTitle" = "Ошибка связи";
 
 /* Sync Error Description */
-"syncInsecureVersionError" = "Код синхронизации сгенерирован на устройстве с устаревшей версией браузера Brave. Обновите Brave на всех синхронизированных устройствах и повторите попытку.";
+"syncInsecureVersionError" = "Код синхронизации сгенерирован на устройстве с устаревшей версией браузера Presearch. Обновите на всех синхронизированных устройствах и повторите попытку.";
 
 /* Sync Error Description */
 "syncInvalidVersionError" = "Недопустимый формат.";
 
 /* Default name for a device */
-"syncJoinChainCameraWarning" = "Устройство, на котором был сгенерирован этот QR-код, получит доступ к данным браузера Brave, включая ваши пароли. Убедитесь, что оно принадлежит вам. Продолжить?";
+"syncJoinChainCameraWarning" = "Устройство, на котором был сгенерирован этот QR-код, получит доступ к данным браузера Presearch, включая ваши пароли. Убедитесь, что оно принадлежит вам. Продолжить?";
 
 /* Default name for a device */
-"syncJoinChainCodewordsWarning" = "Устройство, на котором были сгенерированы эти кодовые слова, получит доступ к данным браузера Brave, включая ваши пароли. Убедитесь, что оно принадлежит вам. Продолжить?";
+"syncJoinChainCodewordsWarning" = "Устройство, на котором были сгенерированы эти кодовые слова, получит доступ к данным браузера Presearch, включая ваши пароли. Убедитесь, что оно принадлежит вам. Продолжить?";
 
 /* Title for pairing sync device */
 "syncJoinChainWarningTitle" = "Внимание!";
 
 /* Sync Error Description */
-"syncNewerVersionError" = "Код синхронизации сгенерирован на устройстве с более новой версией браузера Brave. Обновите Brave на всех синхронизированных устройствах и повторите попытку.";
+"syncNewerVersionError" = "Код синхронизации сгенерирован на устройстве с более новой версией браузера Presearch. Обновите на всех синхронизированных устройствах и повторите попытку.";
 
 /* No internet connection alert body. */
 "SyncNoConnectionBody" = "Проверьте подключение к интернету и повторите попытку.";
@@ -1355,7 +1355,7 @@
 "SyncRemoveDeviceDefaultName" = "Устройство";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Данные, которые уже были синхронизированы, останутся на устройстве. Информация в кеше синхронизации Brave будет удалена. Чтобы снова синхронизировать сведения на устройстве, вам потребуется создать новую цепочку синхронизации.";
+"SyncRemoveLastDeviceMessage" = "Данные, которые уже были синхронизированы, останутся на устройстве. Информация в кеше синхронизации будет удалена. Чтобы снова синхронизировать сведения на устройстве, вам потребуется создать новую цепочку синхронизации.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Удалить цепочку";
@@ -1394,7 +1394,7 @@
 "SyncToDevice" = "Синхронизация с устройством";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "Запустите Brave на уже синхронизированном устройстве, откройте настройки и выберите «Синхронизация». Нажмите «Добавить устройство» и отсканируйте код на экране.";
+"SyncToDeviceDescription" = "Запустите на уже синхронизированном устройстве, откройте настройки и выберите «Синхронизация». Нажмите «Добавить устройство» и отсканируйте код на экране.";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "Не удается синхронизировать устройства.";
@@ -1486,14 +1486,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "Условия использования";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Условия использования";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "Поделиться…";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Расскажите о браузере Brave друзьям!";
+"themeQRCodeShareTitle" = "Расскажите о браузере друзьям!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Автоматически";
@@ -1537,7 +1537,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "Использовать синтаксис блокировщика рекламы на вашем языке";
 
-/* Version number of Brave shown in settings */
+/* Version number of shown in settings */
 "VersionTemplate" = "Версия %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

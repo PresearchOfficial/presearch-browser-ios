@@ -72,7 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     self.application = application
     self.launchOptions = launchOptions
 
-    // Brave Core Initialization
+    // Presearch Core Initialization
     BraveCoreMain.setLogHandler { severity, file, line, messageStartIndex, message in
       if !message.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
         let level: XCGLogger.Level = {
@@ -197,7 +197,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     SystemUtils.onFirstRun()
 
-    // Schedule Brave Core Priority Tasks
+    // Schedule Presearch Core Priority Tasks
     braveCore.scheduleLowPriorityStartupTasks()
 
     log.info("startApplication end")

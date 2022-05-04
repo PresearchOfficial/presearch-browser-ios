@@ -407,7 +407,7 @@ class BookmarksViewController: SiteTableViewController, ToolbarUrlActionsProtoco
         cell.imageView?.layer.borderColor = BraveUX.faviconBorderColor.cgColor
         cell.imageView?.layer.borderWidth = BraveUX.faviconBorderWidth
 
-        // Sets the favIcon of a cell's imageView from Brave-Core
+        // Sets the favIcon of a cell's imageView from Presearch-Core
         // If the icon does not exist, fallback to our FavIconFetcher
         let setFavIcon = { (cell: UITableViewCell, item: Bookmarkv2) in
           cell.imageView?.clearMonogramFavicon()
@@ -423,14 +423,14 @@ class BookmarksViewController: SiteTableViewController, ToolbarUrlActionsProtoco
           }
         }
 
-        // Brave-Core favIcons are async and notify an observer when changed..
+        // Presearch-Core favIcons are async and notify an observer when changed..
         bookmarkManager.addFavIconObserver(item) { [weak item] in
           guard let item = item else { return }
 
           setFavIcon(cell, item)
         }
 
-        // `item.icon` triggers a favIcon load on Brave-Core, then it will notify observers
+        // `item.icon` triggers a favIcon load on Presearch-Core, then it will notify observers
         // and update `item.isFavIconLoading` and `item.isFavIconLoaded` properties..
         // Order of this if-statement matters because of that logic!
         if (item.bookmarkNode.icon == nil && (item.bookmarkNode.isFavIconLoading || item.bookmarkNode.isFavIconLoaded))

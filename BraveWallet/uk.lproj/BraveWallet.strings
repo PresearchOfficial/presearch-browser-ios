@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "Активи";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Тривалість очікування в хвилинах до автоматичного блокування гаманця Brave";
+"wallet.autoLockFooter" = "Тривалість очікування в хвилинах до автоматичного блокування гаманця Presearch";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Автоматично блокувати за";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "Не вдалось увімкнути розблокування за біометричними даними.";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "Відкривайте гаманець Brave за допомогою Face ID, Touch ID або паролю.";
+"wallet.biometricsSetupTitle" = "Відкривайте гаманець Presearch за допомогою Face ID, Touch ID або паролю.";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Вартість передбачає комісію Brave розміром %@.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "Вартість передбачає комісію Presearch розміром %@.";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Гаманець Brave";
+"wallet.braveWallet" = "Гаманець Presearch";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "Придбати";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "Захистіть свої криптовалютні активи паролем";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Гаманець Brave";
+"wallet.cryptoTitle" = "Гаманець Presearch";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "URL-адреси оглядача блоків";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Користувацькі";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Ця сторінка хоче взаємодіяти з Brave Wallet";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Ця сторінка хоче взаємодіяти з Presearch Wallet";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "Усі";
@@ -518,10 +518,10 @@
 "wallet.primaryCryptoAccountsTitle" = "Основні криптовалютні рахунки";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Попередження: знімок екрана з вашим особистим ключем може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. Brave рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Попередження: знімок екрана з вашим особистим ключем може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. Presearch рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Попередження: знімок екрана з вашою фразою для відновлення може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. Brave рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Попередження: знімок екрана з вашою фразою для відновлення може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. Presearch рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Оновити ринкову ціну";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Відновити гаманець";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "Відновити";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "Імпортувати із застарілих криптовалютних гаманців Brave?";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Імпортувати із застарілих криптовалютних гаманців Presearch?";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Новий пароль";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "Показати фразу для відновлення";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "Уведіть свою фразу для відновлення, щоб відновити криптовалютний рахунок свого гаманця Brave.";
+"wallet.restoreWalletSubtitle" = "Уведіть свою фразу для відновлення, щоб відновити криптовалютний рахунок свого гаманця Presearch.";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "Відновити криптовалютний рахунок";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Цю дію неможливо буде скасувати. Ваша фраза для відновлення — це єдиний спосіб відновлення доступу до ваших криптовалютних активів.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Дійсно скинути налаштування гаманця Brave?";
+"wallet.settingsResetWalletAlertTitle" = "Дійсно скинути налаштування гаманця Presearch?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Ласкаво просимо";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "Почати";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Тримайте криптовалютні активи в безпеці й відстежуйте продуктивність портфеля. Конфіденційний браузер Brave дасть можливість це зробити.";
+"wallet.setupCryptoSubtitle" = "Тримайте криптовалютні активи в безпеці й відстежуйте продуктивність портфеля. Конфіденційний браузер Presearch дасть можливість це зробити.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "Вітаємо в новому гаманці Brave!";
+"wallet.setupCryptoTitle" = "Вітаємо в новому гаманці Presearch!";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "Показати закритий ключ";
@@ -722,7 +722,7 @@
 "wallet.swapCryptoToTitle" = "Кому";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Наразі Brave не підтримує свопи в %@. Перейдіть на підтримуваний блокчейн.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Наразі Presearch не підтримує свопи в %@. Перейдіть на підтримуваний блокчейн.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Непідтримуваний блокчейн.";
@@ -730,11 +730,11 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "Обмін токенів і активів.";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x опрацьовує адресу Ethereum і IP-адресу для транзакції (зокрема, отримання цін). 0x використовуватиме ці дані ЛИШЕ для проведення транзакцій.";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave використовує 0x як агрегатор DEX.";
+"wallet.swapDexAggrigatorNote" = "Presearch використовує 0x як агрегатор DEX.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Ліміт";
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "Переглянути в оглядачі блоків";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "Гаманець";
 

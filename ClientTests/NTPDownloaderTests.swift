@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -98,8 +98,8 @@ class NTPDownloaderTests: XCTestCase {
         "schemaVersion": 1,
         "logo": {
             "imageUrl": "logo.png",
-            "alt": "Visit Brave.com",
-            "companyName": "Brave",
+            "alt": "Visit Presearch.com",
+            "companyName": "Presearch",
             "destinationUrl": "https://brave.com"
         },
         "wallpapers": []
@@ -114,15 +114,15 @@ class NTPDownloaderTests: XCTestCase {
     }
     """
 
-  // Taken from an old campaign, brand replaced with Brave.
+  // Taken from an old campaign, brand replaced with Presearch.
   private let validSuperReferralJson =
     """
     {
         "schemaVersion": 1,
         "logo": {
             "imageUrl": "logo.png",
-            "alt": "Visit Brave.com",
-            "companyName": "Brave",
+            "alt": "Visit Presearch.com",
+            "companyName": "Presearch",
             "destinationUrl": "https://brave.com"
         },
         "wallpapers": [
@@ -154,15 +154,15 @@ class NTPDownloaderTests: XCTestCase {
     }
     """
 
-  // Taken from an old campaign, brand replaced with Brave.
+  // Taken from an old campaign, brand replaced with Presearch.
   private let validWallpapersJson =
     """
     {
         "schemaVersion": 1,
         "logo": {
             "imageUrl": "logo.png",
-            "alt": "Visit Brave.com",
-            "companyName": "Brave",
+            "alt": "Visit Presearch.com",
+            "companyName": "Presearch",
             "destinationUrl": "https://brave.com"
         },
         "wallpapers": [
@@ -194,7 +194,7 @@ class NTPDownloaderTests: XCTestCase {
     }
     """
 
-  // Taken from an old campaign, brand replaced with Brave.
+  // Taken from an old campaign, brand replaced with Presearch.
   private let validCampaignsJson =
     """
     {
@@ -203,9 +203,9 @@ class NTPDownloaderTests: XCTestCase {
             {
                 "logo": {
                     "imageUrl": "logo.png",
-                    "alt": "Visit Brave.com",
+                    "alt": "Visit Presearch.com",
                     "destinationUrl": "https://brave.com",
-                    "companyName": "Brave"
+                    "companyName": "Presearch"
                 },
                 "wallpapers": [
                     {
@@ -234,9 +234,9 @@ class NTPDownloaderTests: XCTestCase {
             {
                 "logo": {
                     "imageUrl": "logo.png",
-                    "alt": "Visit Brave.com",
+                    "alt": "Visit Presearch.com",
                     "destinationUrl": "https://brave.com",
-                    "companyName": "Brave"
+                    "companyName": "Presearch"
                 },
                 "wallpapers": [
                     {
@@ -250,9 +250,9 @@ class NTPDownloaderTests: XCTestCase {
                         "imageUrl": "background-5.jpg",
                         "logo": {
                             "imageUrl": "logo.png",
-                            "alt": "Visit Brave.com",
+                            "alt": "Visit Presearch.com",
                             "destinationUrl": "https://brave.com",
-                            "companyName": "Brave"
+                            "companyName": "Presearch"
                         },
                         "creativeInstanceId": "54774092-04bf-45fd-86e3-9098ec418f6b"
                     }
@@ -262,15 +262,15 @@ class NTPDownloaderTests: XCTestCase {
     }
     """
 
-  // Taken from an old campaign, brand replaced with Brave.
+  // Taken from an old campaign, brand replaced with Presearch.
   private let validWallpapersAndCampaignsJson =
     """
     {
         "schemaVersion": 1,
         "logo": {
             "imageUrl": "logo.png",
-            "alt": "Visit Brave.com",
-            "companyName": "Brave",
+            "alt": "Visit Presearch.com",
+            "companyName": "Presearch",
             "destinationUrl": "https://brave.com"
         },
         "wallpapers": [
@@ -303,9 +303,9 @@ class NTPDownloaderTests: XCTestCase {
             {
                 "logo": {
                     "imageUrl": "logo.png",
-                    "alt": "Visit Brave.com",
+                    "alt": "Visit Presearch.com",
                     "destinationUrl": "https://brave.com",
-                    "companyName": "Brave"
+                    "companyName": "Presearch"
                 },
                 "wallpapers": [
                     {
@@ -334,9 +334,9 @@ class NTPDownloaderTests: XCTestCase {
             {
                 "logo": {
                     "imageUrl": "logo.png",
-                    "alt": "Visit Brave.com",
+                    "alt": "Visit Presearch.com",
                     "destinationUrl": "https://brave.com",
-                    "companyName": "Brave"
+                    "companyName": "Presearch"
                 },
                 "wallpapers": [
                     {
@@ -350,9 +350,9 @@ class NTPDownloaderTests: XCTestCase {
                         "imageUrl": "background-5.jpg",
                         "logo": {
                             "imageUrl": "logo.png",
-                            "alt": "Visit Brave.com",
+                            "alt": "Visit Presearch.com",
                             "destinationUrl": "https://brave.com",
-                            "companyName": "Brave"
+                            "companyName": "Presearch"
                         },
                         "creativeInstanceId": "54774092-04bf-45fd-86e3-9098ec418f6b"
                     }

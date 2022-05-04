@@ -43,7 +43,7 @@ public class UserReferralProgram {
         for: UserReferralProgram.apiKeyPlistKey)?
         .trimmingCharacters(in: .whitespacesAndNewlines)
     else {
-      log.error("Urp init error, failed to get values from Brave.plist.")
+      log.error("Urp init error, failed to get values from Presearch.plist.")
       return nil
     }
 

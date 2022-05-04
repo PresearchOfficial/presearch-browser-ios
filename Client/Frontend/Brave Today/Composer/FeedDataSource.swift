@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -14,7 +14,7 @@ import BraveCore
 // Named `logger` because we are using math function `log`
 private let logger = Logger.browserLogger
 
-/// Powers the Brave News feed.
+/// Powers the Presearch News feed.
 class FeedDataSource {
   /// The current view state of the data source
   enum State {
@@ -54,7 +54,7 @@ class FeedDataSource {
   private(set) var sources: [FeedItem.Source] = []
   private var items: [FeedItem.Content] = []
 
-  /// An ads object to handle inserting Inline Content Ads within the Brave News sequence
+  /// An ads object to handle inserting Inline Content Ads within the Presearch News sequence
   var rewards: BraveRewards?
 
   /// Add a closure that will execute when `state` is changed.
@@ -109,14 +109,14 @@ class FeedDataSource {
     return decoder
   }()
 
-  /// A Brave News environment
+  /// A Presearch News environment
   enum Environment: String, CaseIterable {
     case dev = "brave.software"
     case staging = "bravesoftware.com"
     case production = "brave.com"
   }
 
-  /// The current Brave News environment.
+  /// The current Presearch News environment.
   ///
   /// Updating the environment automatically clears the current cached items if any exist.
   ///
@@ -190,7 +190,7 @@ class FeedDataSource {
     )
   }
 
-  /// Get the full name of a file for a given Brave News resource, taking into account whether
+  /// Get the full name of a file for a given Presearch News resource, taking into account whether
   /// or not the resource can be localized for supported languages
   private func resourceFilename(for resource: NewsResource) -> String {
     // "en" is the default language and thus does not get the language code inserted into the
@@ -218,7 +218,7 @@ class FeedDataSource {
     return true
   }
 
-  /// A set of Brave News specific errors that could occur outside of JSON decoding or network errors
+  /// A set of Presearch News specific errors that could occur outside of JSON decoding or network errors
   enum BraveNewsError: Error {
     /// The resource data that was loaded was empty after parsing
     case resourceEmpty
@@ -246,7 +246,7 @@ class FeedDataSource {
     }
   }
 
-  /// Get a cached Brave News resource file, optionally allowing expired data to be returned
+  /// Get a cached Presearch News resource file, optionally allowing expired data to be returned
   @MainActor private func cachedResource(_ resource: NewsResource, loadExpiredData: Bool = false) async -> Data? {
     let name = resourceFilename(for: resource)
     let fileManager = FileManager.default
@@ -261,7 +261,7 @@ class FeedDataSource {
     return nil
   }
 
-  /// Load a Brave News resource either from a file cache or the web
+  /// Load a Presearch News resource either from a file cache or the web
   ///
   /// The `filename` provided will be appended as a path component to the request URL, and be used to
   /// fetch the cache and save the response so it should include the full path for the endpoint (For
@@ -336,7 +336,7 @@ class FeedDataSource {
     return items.compactMap(\.wrappedValue)
   }
 
-  /// Describes a single RSS feed's loaded data set converted into Brave News based data
+  /// Describes a single RSS feed's loaded data set converted into Presearch News based data
   private struct RSSDataFeed {
     var source: FeedItem.Source
     var items: [FeedItem.Content]
@@ -408,7 +408,7 @@ class FeedDataSource {
     }
   }
 
-  /// Scores RSS items similar to how the backend scores regular Brave News sources
+  /// Scores RSS items similar to how the backend scores regular Presearch News sources
   private func scored(rssItems: [FeedItem.Content]) -> [FeedItem.Content] {
     var varianceBySource: [String: Double] = [:]
     return rssItems.map {
@@ -445,7 +445,7 @@ class FeedDataSource {
     isResourceExpired(.sources)
   }
 
-  /// Loads Brave News resources and generates cards for the loaded data. The result will be placed in
+  /// Loads Presearch News resources and generates cards for the loaded data. The result will be placed in
   /// the `state` property.
   ///
   /// Resources are loaded either from cache (if the cache is valid for said resource) or from the web,
@@ -836,7 +836,7 @@ extension FeedDataSource {
     case sponsor
     /// Display a headline from a list of partnered items
     case partner
-    /// Displays a Brave ad from the ads catalog
+    /// Displays a Presearch ad from the ads catalog
     case braveAd
     /// Displays a horizontal list of deals with the content type of `brave_offers`
     case deals

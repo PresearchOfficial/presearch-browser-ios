@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -13,7 +13,7 @@
     NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"https://housekeeping.sudosecuritygroup.com%@", apiEndpoint]];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
     
-    [request setValue:@"GRD-Brave-Build" forHTTPHeaderField:@"X-Guardian-Build"];
+    [request setValue:@"GRD-Presearch-Build" forHTTPHeaderField:@"X-Guardian-Build"];
     
     NSString *receiptPathString = [[[NSBundle mainBundle] appStoreReceiptURL] path];
     if ([receiptPathString containsString:@"sandboxReceipt"] || [receiptPathString containsString:@"CoreSimulator"]) {
@@ -42,7 +42,7 @@
     [request setHTTPBody:postData];
     [request setHTTPMethod:@"POST"];
     [request setCachePolicy:NSURLRequestReloadIgnoringCacheData];
-    [request setValue:@"1" forHTTPHeaderField:@"GRD-Brave-Build"];
+    [request setValue:@"1" forHTTPHeaderField:@"GRD-Presearch-Build"];
     
     NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error != nil) {

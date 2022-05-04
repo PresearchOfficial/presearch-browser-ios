@@ -40,7 +40,7 @@ extension Strings {
   public static let loginsHelperDontUpdateButtonTitle = NSLocalizedString("LoginsHelperDontUpdateButtonTitle", bundle: Bundle.shared, value: "Don’t Update", comment: "Button to not update the user's password")
 }
 
-// Brave Logins
+// Presearch Logins
 extension Strings {
   public static let saveLoginUsernamePrompt = NSLocalizedString("SaveLoginUsernamePrompt", bundle: Bundle.shared, value: "Save login %@ for %@?", comment: "Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.")
   public static let saveLoginPrompt = NSLocalizedString("SaveLoginPrompt", bundle: Bundle.shared, value: "Save password for %@?", comment: "Prompt for saving a password with no username. The parameter is the hostname of the site.")
@@ -64,7 +64,7 @@ extension Strings {
   public static let showHistoryTitle = NSLocalizedString("showHistoryTitle", bundle: Bundle.braveShared, value: "Show History", comment: "Label to display in the Discoverability overlay for keyboard shortcuts")
   public static let showDownloadsTitle = NSLocalizedString("showDownloadsTitle", bundle: Bundle.braveShared, value: "Show Downloads", comment: "Label to display in the Discoverability overlay for keyboard shortcuts")
   public static let showBookmarksTitle = NSLocalizedString("showBookmarksTitle", bundle: Bundle.shared, value: "Show Bookmarks", comment: "Label to display in the Discoverability overlay for keyboard shortcuts")
-  public static let showShieldsTitle = NSLocalizedString("showShieldsTitle", bundle: Bundle.shared, value: "Open Brave Shields", comment: "Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields")
+  public static let showShieldsTitle = NSLocalizedString("showShieldsTitle", bundle: Bundle.shared, value: "Open Presearch Shields", comment: "Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Presearch Shields")
   public static let addBookmarkTitle = NSLocalizedString("addBookmarkTitle", bundle: Bundle.braveShared, value: "Add Bookmark", comment: "Label to display in the Discoverability overlay for keyboard shortcuts")
   public static let addFavouritesTitle = NSLocalizedString("addFavouritesTitle", bundle: Bundle.braveShared, value: "Add to Favourites", comment: "Label to display in the Discoverability overlay for keyboard shortcuts")
   public static let findInPageTitle = NSLocalizedString("findInPageTitle", bundle: Bundle.braveShared, value: "Find in Page", comment: "Label to display in the Discoverability overlay for keyboard shortcuts")
@@ -92,12 +92,12 @@ extension Strings {
 
 extension Strings {
   // Settings.AdvanceAccount.SectionName
-  // Label used as an item in Settings. When touched it will open a dialog to setup advance Brave account settings.
+  // Label used as an item in Settings. When touched it will open a dialog to setup advance Presearch account settings.
   public static let settingsAdvanceAccountSectionName = "Account Settings"
 
   // Settings.AdvanceAccount.SectionFooter
-  // Details for using custom Brave Account service.
-  public static let settingsAdvanceAccountSectionFooter = "To use a custom Brave Account and sync servers, specify the root Url of the Brave Account site. This will download the configuration and setup this device to use the new service. After the new service has been set, you will need to create a new Brave Account or login with an existing one."
+  // Details for using custom Presearch Account service.
+  public static let settingsAdvanceAccountSectionFooter = "To use a custom Presearch Account and sync servers, specify the root Url of the Presearch Account site. This will download the configuration and setup this device to use the new service. After the new service has been set, you will need to create a new Presearch Account or login with an existing one."
 
   // Settings.AdvanceAccount.SectionName
   // Title displayed in header of the setting panel.
@@ -109,7 +109,7 @@ extension Strings {
 
   // Settings.AdvanceAccount.UpdatedAlertMessage
   // Messaged displayed when sync service has been successfully set.
-  public static let settingsAdvanceAccountUrlUpdatedAlertMessage = "Brave account service updated. To begin using custom server, please log out and re-login."
+  public static let settingsAdvanceAccountUrlUpdatedAlertMessage = "Presearch account service updated. To begin using custom server, please log out and re-login."
 
   // Settings.AdvanceAccount.UpdatedAlertOk
   // Ok button on custom sync service updated alert
@@ -121,7 +121,7 @@ extension Strings {
 
   // Settings.AdvanceAccount.ErrorAlertMessage
   // Messaged displayed when sync service has an error setting a custom sync url.
-  public static let settingsAdvanceAccountUrlErrorAlertMessage = "There was an error while attempting to parse the url. Please make sure that it is a valid Brave Account root url."
+  public static let settingsAdvanceAccountUrlErrorAlertMessage = "There was an error while attempting to parse the url. Please make sure that it is a valid Presearch Account root url."
 
   // Settings.AdvanceAccount.ErrorAlertOk
   // Ok button on custom sync service error alert.
@@ -153,7 +153,7 @@ extension Strings {
   public static let unableToAddPassErrorTitle = NSLocalizedString("UnableToAddPassErrorTitle", bundle: Bundle.shared, value: "Failed to Add Pass", comment: "Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.")
   public static let unableToAddPassErrorMessage = NSLocalizedString("UnableToAddPassErrorMessage", bundle: Bundle.shared, value: "An error occurred while adding the pass to Wallet. Please try again later.", comment: "Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.")
   public static let unableToAddPassErrorDismiss = NSLocalizedString("UnableToAddPassErrorDismiss", bundle: Bundle.shared, value: "OK", comment: "Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.")
-  public static let unableToOpenURLError = NSLocalizedString("UnableToOpenURLError", bundle: Bundle.shared, value: "Brave cannot open the page because it has an invalid address.", comment: "The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app.")
+  public static let unableToOpenURLError = NSLocalizedString("UnableToOpenURLError", bundle: Bundle.shared, value: "Presearch cannot open the page because it has an invalid address.", comment: "The message displayed to a user when they try to open a URL that cannot be handled by Presearch, or any external app.")
   public static let unableToOpenURLErrorTitle = NSLocalizedString("UnableToOpenURLErrorTitle", bundle: Bundle.shared, value: "Cannot Open Page", comment: "Title of the message shown when the user attempts to navigate to an invalid link.")
 }
 
@@ -188,7 +188,7 @@ extension Strings {
   public static let scanQRCodeViewTitle = NSLocalizedString("ScanQRCodeViewTitle", bundle: Bundle.shared, value: "Scan QR Code", comment: "Title for the QR code scanner view.")
   public static let scanQRCodeInstructionsLabel = NSLocalizedString("ScanQRCodeInstructionsLabel", bundle: Bundle.shared, value: "Align QR code within frame to scan", comment: "Text for the instructions label, displayed in the QR scanner view")
   public static let scanQRCodeInvalidDataErrorMessage = NSLocalizedString("ScanQRCodeInvalidDataErrorMessage", bundle: Bundle.shared, value: "The data is invalid", comment: "Text of the prompt that is shown to the user when the data is invalid")
-  public static let scanQRCodePermissionErrorMessage = NSLocalizedString("ScanQRCodePermissionErrorMessage", bundle: Bundle.shared, value: "Please allow Brave to access your device’s camera in ‘Settings’ -> ‘Privacy’ -> ‘Camera’.", comment: "Text of the prompt user to setup the camera authorization.")
+  public static let scanQRCodePermissionErrorMessage = NSLocalizedString("ScanQRCodePermissionErrorMessage", bundle: Bundle.shared, value: "Please allow Presearch to access your device’s camera in ‘Settings’ -> ‘Privacy’ -> ‘Camera’.", comment: "Text of the prompt user to setup the camera authorization.")
   public static let scanQRCodeErrorOKButton = NSLocalizedString("ScanQRCodeErrorOKButton", bundle: Bundle.shared, value: "OK", comment: "OK button to dismiss the error prompt.")
 }
 

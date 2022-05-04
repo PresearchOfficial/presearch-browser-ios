@@ -10959,6 +10959,7 @@
 					"$(PROJECT_DIR)/ThirdParty/sqlcipher",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
+				MOZ_BUNDLE_DISPLAY_NAME = PresearchEnt;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -14424,6 +14425,7 @@
 					"$(PROJECT_DIR)/ThirdParty/sqlcipher",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
+				MOZ_BUNDLE_DISPLAY_NAME = PresearchDev;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -14728,6 +14730,7 @@
 					"$(PROJECT_DIR)/ThirdParty/sqlcipher",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
+				MOZ_BUNDLE_DISPLAY_NAME = PresearchBeta;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",

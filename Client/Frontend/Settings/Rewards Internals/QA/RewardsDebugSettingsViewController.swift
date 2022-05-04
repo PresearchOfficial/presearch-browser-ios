@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -201,7 +201,7 @@ class RewardsDebugSettingsViewController: TableViewController {
           Row(text: "Default", detailText: isDefaultEnvironmentProd ? "Prod" : "Staging"),
           Row(text: "Override", accessory: .view(segmentedControl)),
         ],
-        footer: .title("Changing the environment automatically resets Brave Rewards.\n\nThe app must be force-quit after rewards is reset")
+        footer: .title("Changing the environment automatically resets Presearch Rewards.\n\nThe app must be force-quit after rewards is reset")
       ),
       Section(
         header: .title("Wallet"),
@@ -407,7 +407,7 @@ class RewardsDebugSettingsViewController: TableViewController {
   private func showResetRewardsAlert() {
     let alert = UIAlertController(
       title: "Rewards Reset",
-      message: "Brave must be restarted to ensure expected Rewards behavior",
+      message: "Presearch must be restarted to ensure expected Rewards behavior",
       preferredStyle: .alert
     )
     alert.addAction(
@@ -449,7 +449,7 @@ extension RewardsDebugSettingsViewController: UIDocumentPickerDelegate {
       }
       let alert = UIAlertController(
         title: "Database Imported",
-        message: "Brave must be restarted after importing a database for data to be read from it correctly.",
+        message: "Presearch must be restarted after importing a database for data to be read from it correctly.",
         preferredStyle: .alert
       )
       alert.addAction(

@@ -16,7 +16,7 @@ private class LoaderLayer: CALayer {
   }
 }
 
-/// A Brave styled activity indicator view
+/// A Presearch styled activity indicator view
 public class LoaderView: UIView {
   /// The size of the indicator
   public enum Size {

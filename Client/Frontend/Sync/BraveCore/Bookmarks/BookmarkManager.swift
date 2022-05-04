@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -226,7 +226,7 @@ class BookmarkManager {
 
       // Notify the delegate that items did move..
       // This is already done automatically in `Bookmarkv2Fetcher` listener.
-      // However, the Brave-Core delegate is being called before the move is actually complete OR too quickly
+      // However, the Presearch-Core delegate is being called before the move is actually complete OR too quickly
       // So to fix it, we reload here AFTER the move is done so the UI can update accordingly.
       frc.delegate?.controllerDidReloadContents(frc)
     }
@@ -304,7 +304,7 @@ class BookmarkManager {
   }
 }
 
-// MARK: Brave-Core Only
+// MARK: Presearch-Core Only
 
 extension BookmarkManager {
 

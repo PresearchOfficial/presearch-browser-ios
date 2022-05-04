@@ -71,7 +71,7 @@
 "wallet.assetsTitle" = "資產";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "自動鎖定 Brave 錢包前的等候分鐘數";
+"wallet.autoLockFooter" = "自動鎖定 Presearch 錢包前的等候分鐘數";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "自動鎖定等候時間";
@@ -122,13 +122,13 @@
 "wallet.biometricsSetupErrorTitle" = "無法啟用生物辨識解鎖功能。";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock */
-"wallet.biometricsSetupTitle" = "以您的 Face ID、Touch ID 或密碼解鎖 Brave 錢包。";
+"wallet.biometricsSetupTitle" = "以您的 Face ID、Touch ID 或密碼解鎖 Presearch 錢包。";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "報價含 %@ Brave 費用。";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Presearch fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Presearch fee' */
+"wallet.braveSwapFeeDisclaimer" = "報價含 %@ Presearch 費用。";
 
 /* The title shown on the wallet settings page. */
-"wallet.braveWallet" = "Brave 錢包";
+"wallet.braveWallet" = "Presearch 錢包";
 
 /* As in buying cryptocurrency */
 "wallet.buy" = "購買";
@@ -200,7 +200,7 @@
 "wallet.createWalletTitle" = "使用密碼保護您的加密資產";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave 錢包";
+"wallet.cryptoTitle" = "Presearch 錢包";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "封鎖總管 URL";
@@ -265,8 +265,8 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "自訂";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "此頁面想使用 Brave 錢包";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Presearch Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "此頁面想使用 Presearch 錢包";
 
 /* Describes what range of data to show on the graph (all data available) */
 "wallet.dateIntervalAll" = "全部";
@@ -518,10 +518,10 @@
 "wallet.primaryCryptoAccountsTitle" = "主要加密帳戶";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "警告：有心人士可能會將私密金鑰的螢幕擷取畫面備份至雲端檔案服務，而任何取得照片存取權限的應用程式都能加以讀取。Brave 建議您不要儲存該螢幕擷取畫面，並且儘快刪除。";
+"wallet.privateKeyScreenshotDetectedMessage" = "警告：有心人士可能會將私密金鑰的螢幕擷取畫面備份至雲端檔案服務，而任何取得照片存取權限的應用程式都能加以讀取。Presearch 建議您不要儲存該螢幕擷取畫面，並且儘快刪除。";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "警告：有心人士可能會將復原詞句的螢幕擷取畫面備份至雲端檔案服務，而任何取得照片存取權限的應用程式都能加以讀取。Brave 建議您不要儲存該螢幕擷取畫面，並且儘快刪除。";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "警告：有心人士可能會將復原詞句的螢幕擷取畫面備份至雲端檔案服務，而任何取得照片存取權限的應用程式都能加以讀取。Presearch 建議您不要儲存該螢幕擷取畫面，並且儘快刪除。";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "重新整理市場價格";
@@ -547,11 +547,11 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "還原帳戶";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Presearch */
 "wallet.restoreWalletButtonTitle" = "還原";
 
-/* A toggle label to ask the user if their 24-word phrase is a legacy Brave crypto wallet */
-"wallet.restoreWalletImportFromLegacyBraveWallet" = "從舊版 Brave 加密錢包匯入？";
+/* A toggle label to ask the user if their 24-word phrase is a legacy Presearch crypto wallet */
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "從舊版 Presearch 加密錢包匯入？";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "新密碼";
@@ -566,7 +566,7 @@
 "wallet.restoreWalletShowRecoveryPhrase" = "顯示復原詞句";
 
 /* The subtitle on the restore wallet screen. */
-"wallet.restoreWalletSubtitle" = "輸入復原詞句以還原您的 Brave 錢包加密帳戶。";
+"wallet.restoreWalletSubtitle" = "輸入復原詞句以還原您的 Presearch 錢包加密帳戶。";
 
 /* The title on the restore wallet screen. */
 "wallet.restoreWalletTitle" = "還原加密帳戶";
@@ -677,7 +677,7 @@
 "wallet.settingsResetWalletAlertMessage" = "此動作無法回復。您只能使用復原詞句重新取得帳戶存取權，以使用您的加密資產。";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "您確定要重設 Brave 錢包嗎？";
+"wallet.settingsResetWalletAlertTitle" = "您確定要重設 Presearch 錢包嗎？";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "歡迎";
@@ -686,10 +686,10 @@
 "wallet.setupCryptoButtonTitle" = "開始使用";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "保管加密資產，並追蹤投資組合表現。所有權利來自 Brave 隱私瀏覽器。";
+"wallet.setupCryptoSubtitle" = "保管加密資產，並追蹤投資組合表現。所有權利來自 Presearch 隱私瀏覽器。";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "歡迎使用全新 Brave 錢包";
+"wallet.setupCryptoTitle" = "歡迎使用全新 Presearch 錢包";
 
 /* A button title that will make a private key visible on the screen */
 "wallet.showPrivateKeyButtonTitle" = "顯示私密金鑰";
@@ -722,7 +722,7 @@
 "wallet.swapCryptoToTitle" = "目的地";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Brave 目前不支援透過 %@ 進行交換。請切換至支援的測試網路。";
+"wallet.swapCryptoUnsupportNetworkBody" = "Presearch 目前不支援透過 %@ 進行交換。請切換至支援的測試網路。";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "不支援的測試網路";
@@ -730,11 +730,11 @@
 /* The description of a swap button on the buy/send/swap modal */
 "wallet.swapDescription" = "交換代幣和資產。";
 
-/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Presearch for swap transactions. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of 0x's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "0x 將處理以太坊網址和 IP 位址，以履行交易 (包括取得報價)。0x 只會使用此資料來處理交易，不會用於其他用途。";
 
 /* A disclaimer note shown on the Swap screen. '0x' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave 使用 0x 作為 DEX 聚合器。";
+"wallet.swapDexAggrigatorNote" = "Presearch 使用 0x 作為 DEX 聚合器。";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "限定";
@@ -871,6 +871,6 @@
 /* A button title to view a given transaction on the block explorer for the current network/chain. */
 "wallet.viewOnBlockExplorer" = "在區塊總管上檢視";
 
-/* The title shown on the menu to access Brave Wallet */
+/* The title shown on the menu to access Presearch Wallet */
 "wallet.wallet" = "錢包";
 

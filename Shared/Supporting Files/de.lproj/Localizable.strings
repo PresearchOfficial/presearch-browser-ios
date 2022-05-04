@@ -140,7 +140,7 @@
 "ScanQRCodeInvalidDataErrorMessage" = "Die Daten sind ungültig.";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCodePermissionErrorMessage" = "Bitte erlauben Sie Brave, auf die Kamera Ihres Geräts zuzugreifen. Gehen Sie dazu zu „Einstellungen“ -> „Datenschutz“ -> „Kamera“.";
+"ScanQRCodePermissionErrorMessage" = "Bitte erlauben Sie Presearch, auf die Kamera Ihres Geräts zuzugreifen. Gehen Sie dazu zu „Einstellungen“ -> „Datenschutz“ -> „Kamera“.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCodeViewTitle" = "QR-Code scannen";
@@ -229,8 +229,8 @@
 /* Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet. */
 "UnableToAddPassErrorTitle" = "Pass konnte nicht hinzugefügt werden";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
-"UnableToOpenURLError" = "Brave kann die Seite nicht öffnen, da die Adresse ungültig ist.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Presearch, or any external app. */
+"UnableToOpenURLError" = "Presearch kann die Seite nicht öffnen, da die Adresse ungültig ist.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "UnableToOpenURLErrorTitle" = "Seite kann nicht geöffnet werden";

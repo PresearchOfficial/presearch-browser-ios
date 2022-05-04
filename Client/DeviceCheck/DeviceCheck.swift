@@ -10,7 +10,7 @@ import Shared
 
 private let log = Logger.browserLogger
 
-/// A structure used to register a device for Brave's DeviceCheck enrollment
+/// A structure used to register a device for Presearch's DeviceCheck enrollment
 public struct DeviceCheckRegistration: Codable {
   // The enrollment blob is a Base64 Encoded `DeviceCheckEnrollment` structure
   let enrollmentBlob: DeviceCheckEnrollment
@@ -52,7 +52,7 @@ public struct DeviceCheckRegistration: Codable {
 }
 
 public struct DeviceCheckEnrollment: Codable {
-  // The payment Id from Brave Rewards in UUIDv4 Format.
+  // The payment Id from Presearch Rewards in UUIDv4 Format.
   let paymentId: String
 
   // The public key in ASN.1 DER, PEM PKCS#8 Format.
@@ -126,7 +126,7 @@ public struct Attestation: Codable {
   // The public key hash is a SHA-256 FingerPrint of the PublicKey in ASN.1 DER format
   let publicKeyHash: String
 
-  // The payment Id from Brave Rewards in UUIDv4 Format.
+  // The payment Id from Presearch Rewards in UUIDv4 Format.
   let paymentId: String
 }
 

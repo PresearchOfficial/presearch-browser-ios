@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -10,7 +10,7 @@ import Shared
 
 /// Displays a list of sources that may be optionally filtered down to a specific category
 class FeedSourceListViewController: UITableViewController {
-  /// The Brave News feed data source
+  /// The Presearch News feed data source
   let dataSource: FeedDataSource
   /// A category to filter the list of sources down to
   let category: String?

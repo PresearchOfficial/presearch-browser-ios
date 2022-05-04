@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -11,11 +11,11 @@ import WebKit
 
 private let log = Logger.browserLogger
 
-// A helper class to handle Brave Search fallback needs.
+// A helper class to handle Presearch Search fallback needs.
 class BraveSearchManager: NSObject {
   private let fallbackProviderURLString = "https://www.google.com/search"
 
-  /// Brave Search query details which are passed to the fallback provider.
+  /// Presearch Search query details which are passed to the fallback provider.
   struct BackupQuery: Codable {
     let found: Bool
     let country: String?
@@ -23,10 +23,10 @@ class BraveSearchManager: NSObject {
     let safesearch: String?
   }
 
-  /// URL of the Brave Search request we performed.
+  /// URL of the Presearch Search request we performed.
   /// Contains a query and endpoint(prod or staging)
   private let url: URL
-  /// What did we search for using Brave Search
+  /// What did we search for using Presearch Search
   private let query: String
   /// BraveSearch cookies are used to pass search settings we saved on the website
   /// such as whether to use search fallback, should safe search be performed etc.
@@ -81,7 +81,7 @@ class BraveSearchManager: NSObject {
     }
   }
 
-  /// A call is made to the Brave Search api with query we performed.
+  /// A call is made to the Presearch Search api with query we performed.
   /// It returns  details that are used in call to the fallback search engine.
   func shouldUseFallback(completion: @escaping (BackupQuery?) -> Void) {
     guard
@@ -120,7 +120,7 @@ class BraveSearchManager: NSObject {
 
     var timer: PerformanceTimer?
     if callbackLog != nil {
-      timer = PerformanceTimer(label: "Brave Search Debug can answer api call")
+      timer = PerformanceTimer(label: "Presearch Search Debug can answer api call")
     }
 
     // Important, URLSessionDelegate must have been implemented here
@@ -199,7 +199,7 @@ class BraveSearchManager: NSObject {
 
     var timer: PerformanceTimer?
     if callbackLog != nil {
-      timer = PerformanceTimer(label: "Brave Search Debug fallback results call")
+      timer = PerformanceTimer(label: "Presearch Search Debug fallback results call")
     }
 
     let session = URLSession(configuration: .ephemeral)

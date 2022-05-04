@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -10,7 +10,7 @@ import Combine
 
 class BraveRewards: NSObject {
 
-  /// Whether or not Brave Rewards is available/can be enabled
+  /// Whether or not Presearch Rewards is available/can be enabled
   public static var isAvailable: Bool {
     #if MOZ_CHANNEL_DEBUG
     return true

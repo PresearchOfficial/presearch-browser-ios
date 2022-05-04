@@ -94,7 +94,7 @@ public class URIFixup {
       // The host is a valid IPv4 or IPv6 address
       if isValidIPAddressURL(trimmed) {
         // IP Addresses do NOT require a Scheme.
-        // However, Brave requires that URLs have a scheme.
+        // However, Presearch requires that URLs have a scheme.
         return URL(string: "http://\(escaped)")
       } else {
         // If host is NOT an IP-Address, it should never contain a colon

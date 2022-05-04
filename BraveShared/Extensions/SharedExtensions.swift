@@ -3,7 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /*
- * Shared module is to be as unmodified as possible by Brave.
+ * Shared module is to be as unmodified as possible by Presearch.
  *
  * This file is more of a catch-all for adding functionality that would traditionally be added into the Shared framework.
  * This allows easy merging at a later point, or even the ability to abstract to a separate framework.

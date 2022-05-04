@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -20,7 +20,7 @@ class EnableVPNSettingHeader: UIView {
 
   private let titleLabel = UILabel().then {
     // This string should not be translated
-    $0.text = "Brave VPN"
+    $0.text = "Presearch VPN"
     $0.textColor = .white
     $0.font = UIFont.systemFont(ofSize: 19, weight: .semibold)
   }

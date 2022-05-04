@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -37,7 +37,7 @@ struct BraveSyncQRCodeModel: Codable {
   /// 2021-11-02T00:00:00+0000 [yyyy-MM-dd'T'hh:mm:ssZ]
   static let braveSyncEpoch = 1635811200
 
-  /// TimeInterval of Brave Sync Sunset
+  /// TimeInterval of Presearch Sync Sunset
   /// 2022-01-01T00:00:00+0000 [yyyy-MM-dd'T'hh:mm:ssZ]
   static let sunsetDate = 1640995200
 

@@ -229,7 +229,7 @@
 /* Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet. */
 "UnableToAddPassErrorTitle" = "패스 추가 실패";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Presearch, or any external app. */
 "UnableToOpenURLError" = "주소가 유효하지 않으므로 Brave에서 페이지를 열 수 없습니다.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */

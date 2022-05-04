@@ -204,14 +204,6 @@ class TabLocationView: UIView {
     return button
   }()
 
-  lazy var rewardsButton: RewardsButton = {
-    let button = RewardsButton()
-    button.addTarget(self, action: #selector(didClickBraveRewardsButton), for: .touchUpInside)
-    let longPressGestureRewardsButton = UILongPressGestureRecognizer(target: self, action: #selector(didLongPressRewardsButton(_:)))
-    button.addGestureRecognizer(longPressGestureRewardsButton)
-    return button
-  }()
-
   lazy var separatorLine: UIView = CustomSeparatorView(lineSize: .init(width: 1, height: 26), cornerRadius: 2).then {
     $0.isUserInteractionEnabled = false
     $0.backgroundColor = .braveSeparator
@@ -236,7 +228,7 @@ class TabLocationView: UIView {
     addGestureRecognizer(longPressRecognizer)
     addGestureRecognizer(tapRecognizer)
     
-    let optionSubviews = [readerModeButton, walletButton, playlistButton, reloadButton, separatorLine, shieldsButton, rewardsButton]
+    let optionSubviews = [readerModeButton, walletButton, playlistButton, reloadButton, separatorLine, shieldsButton]
     optionSubviews.forEach {
       ($0 as? UIButton)?.contentEdgeInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
       $0.setContentCompressionResistancePriority(.defaultHigh, for: .horizontal)

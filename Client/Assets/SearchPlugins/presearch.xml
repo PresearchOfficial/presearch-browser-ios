@@ -1,0 +1,25 @@
+@@ -0,0 +1,24 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Presearch</ShortName>
+<Image width="16" height="16">data:image/jpeg;base64,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</Image>
+<Url type="application/x-suggestions+json" template="https://www.bing.com/osjson.aspx">
+  <Param name="query" value="{searchTerms}"/>
+  <Param name="language" value="{moz:locale}"/>
+</Url>
+<!-- this is effectively x-moz-phonesearch, but search service expects a text/html entry -->
+<Url type="text/html" method="GET" template="https://engine.presearch.org/search">
+  <Param name="q" value="{searchTerms}" />
+<!--  <Param name="pc" value="MOZB" />-->
+<!--  <Param name="form" value="MOZMBA" />-->
+</Url>
+<Url type="application/x-moz-tabletsearch" method="GET" template="https://engine.presearch.org/search">
+  <Param name="q" value="{searchTerms}" />
+<!--  <Param name="pc" value="MOZA" />-->
+<!--  <Param name="form" value="MOZAT" />-->
+</Url>
+<SearchForm>https://presearch.org</SearchForm>
+</SearchPlugin>

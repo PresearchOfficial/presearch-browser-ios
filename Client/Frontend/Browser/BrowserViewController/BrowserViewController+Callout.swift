@@ -1,4 +1,4 @@
-// Copyright 2021 The Brave Authors. All rights reserved.
+// Copyright 2021 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -70,7 +70,7 @@ extension BrowserViewController {
 
     let onboardingController = WelcomeViewController(
       profile: nil,
-      rewards: nil,
+//      rewards: nil,
       state: WelcomeViewCalloutState.defaultBrowserCallout(
         info: WelcomeViewCalloutState.WelcomeViewDefaultBrowserDetails(
           title: Strings.Callout.defaultBrowserCalloutTitle,
@@ -98,46 +98,10 @@ extension BrowserViewController {
   }
 
   func presentBraveRewardsScreenCallout() {
-    if Preferences.DebugFlag.skipNTPCallouts == true || isOnboardingOrFullScreenCalloutPresented { return }
-
-    if presentedViewController != nil || !FullScreenCalloutManager.shouldShowDefaultBrowserCallout(calloutType: .rewards) {
-      return
-    }
-
-    if BraveRewards.isAvailable, !Preferences.Rewards.rewardsToggledOnce.value {
-      let controller = OnboardingRewardsAgreementViewController(profile: profile, rewards: rewards)
-      controller.onOnboardingStateChanged = { [weak self] controller, state in
-        self?.completeOnboarding(controller)
-      }
-      present(controller, animated: true)
-      isOnboardingOrFullScreenCalloutPresented = true
-
-    }
+    return
   }
 
   func presentSyncAlertCallout() {
-    if Preferences.DebugFlag.skipNTPCallouts == true || isOnboardingOrFullScreenCalloutPresented { return }
-
-    if presentedViewController != nil || !FullScreenCalloutManager.shouldShowDefaultBrowserCallout(calloutType: .sync) {
-      return
-    }
-
-    if !braveCore.syncAPI.isInSyncGroup {
-      var privacyEverywhereView = PrivacyEverywhereView()
-      privacyEverywhereView.dismiss = { [weak self] in
-        self?.dismiss(animated: true)
-      }
-
-      privacyEverywhereView.syncNow = { [weak self] in
-        guard let self = self else { return }
-        self.dismiss(animated: true) {
-          self.openInsideSettingsNavigation(with: SyncWelcomeViewController(syncAPI: self.braveCore.syncAPI))
-        }
-      }
-
-      let controller = PopupViewController(rootView: privacyEverywhereView)
-      present(controller, animated: true, completion: nil)
-      isOnboardingOrFullScreenCalloutPresented = true
-    }
+    return
   }
 }

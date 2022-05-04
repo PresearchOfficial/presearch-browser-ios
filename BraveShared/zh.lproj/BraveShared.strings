@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "这允许您将图像保存到您的手机相册中";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave 想访问您的相册";
+"AccessPhotoDeniedAlertTitle" = "想访问您的相册";
 
 /* Button to add a bookmark */
 "AddBookmark" = "添加书签";
@@ -40,8 +40,8 @@
 /* Label for the Face ID/Passcode item in Settings */
 "AuthenticationFaceIDPasscodeSetting" = "Face ID 和密码";
 
-/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "这将证明您获有对 Brave 的访问权";
+/* Touch ID or PIN entry prompt subtitle when accessing with the Browser Lock feature enabled */
+"AuthenticationLoginsTouchReason" = "这将证明您获有对 的访问权";
 
 /* Label for the Passcode item in Settings */
 "AuthenticationPasscode" = "密码";
@@ -100,7 +100,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "正在拦截监视器";
 
-/* Brave panel individual toggle title */
+/* panel individual toggle title */
 "BlockPhishing" = "拦截钓鱼网站";
 
 /* No comment provided by engineer. */
@@ -146,13 +146,13 @@
 "BookmarkUrlPlaceholderText" = "地址";
 
 /* Button to show the brave panel */
-"BravePanel" = "Brave 面板";
+"BravePanel" = "面板";
 
-/* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+/* Rewards settings title */
+"BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields 与隐私";
+"BraveShieldsAndPrivacy" = "Shields 与隐私";
 
 /* Sync page title */
 "BraveSync" = "同步";
@@ -161,13 +161,13 @@
 "BraveSyncInternalsTitle" = "内部同步";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "首先，您需要在所有计划同步的设备上安装 Brave。要将它们链接在一起，请启动同步链，您将使用该同步链将所有设备安全地链接在一起。";
+"BraveSyncWelcome" = "首先，您需要在所有计划同步的设备上安装 Presearch。要将它们链接在一起，请启动同步链，您将使用该同步链将所有设备安全地链接在一起。";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "浏览器锁定";
 
 /* No comment provided by engineer. */
-"BrowserLockDescription" = "用 Touch ID、Face ID 或系统密码解锁 Brave。";
+"BrowserLockDescription" = "用 Touch ID、Face ID 或系统密码解锁 Presearch。";
 
 /* A button title for the action to move to the next step of the browser lock migration process. */
 "browserLockMigrationContinueButtonTitle" = "继续";
@@ -176,10 +176,10 @@
 "browserLockMigrationNoPasscodeSetup" = "还没有设置 ID 或密码？打开设置，然后点击 \"%@\"即可设置。";
 
 /* Subtitle on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationSubtitle" = "我们简化了 Brave 的密码。现在您用您在手机上使用的 ID 或密码就可以访问 Brave 了 。";
+"browserLockMigrationSubtitle" = "我们简化了 的密码。现在您用您在手机上使用的 ID 或密码就可以访问 了 。";
 
 /* Title on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationTitle" = "用您的 Apple Face ID、Touch ID 或密码打开 Brave";
+"browserLockMigrationTitle" = "用您的 Apple Face ID、Touch ID 或密码打开 Presearch";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "浏览历史";
@@ -188,7 +188,7 @@
 "Cache" = "高速缓存";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "将 Brave 设置为默认浏览器，您单击的每个链接都会在 Brave 的隐私保护下开启。";
+"callout.defaultBrowserCalloutDescription" = "将 设置为默认浏览器，您单击的每个链接都会在 的隐私保护下开启。";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "设置为默认浏览器";
@@ -200,7 +200,7 @@
 "callout.defaultBrowserCalloutSecondaryButtonTitle" = "跳过此步骤";
 
 /* Title for Default Browser Full Screen Callout */
-"callout.defaultBrowserTitle" = "将 Brave 设置为默认浏览器";
+"callout.defaultBrowserTitle" = "将 设置为默认浏览器";
 
 /* Button title for Playlist Onboarding View */
 "callout.playlistOnboardingViewButtonTitle" = "观看视频";
@@ -212,7 +212,7 @@
 "callout.playlistOnboardingViewTitle" = "将视频添加至播放列表...";
 
 /* Subtitle - Description for Privacy Everywhere Full Screen Callout */
-"callout.privacyEverywhereCalloutDescription" = "在您的计算机或平板电脑上体验 Brave 隐私保护，在设备间同步书签和扩展部件。";
+"callout.privacyEverywhereCalloutDescription" = "在您的计算机或平板电脑上体验 隐私保护，在设备间同步书签和扩展部件。";
 
 /* Title for button in Default Browser Full Screen Callout */
 "callout.privacyEverywhereCalloutPrimaryButtonTitle" = "立即同步";
@@ -326,25 +326,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "打开设置";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "用 Brave 打开所有链接以保护您的隐私";
+"defaultBrowserCallout.introPrimaryText" = "用 打开所有链接以保护您的隐私";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields 可屏蔽跟踪器和广告、保存数据，并节省您访问每个网站的时间";
+"defaultBrowserCallout.introSecondaryText" = "Shields 可屏蔽跟踪器和广告、保存数据，并节省您访问每个网站的时间";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "打开设置、点击默认浏览器应用，然后选择 Brave。";
+"defaultBrowserCallout.introTertiaryText" = "打开设置、点击默认浏览器应用，然后选择 Presearch。";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "针对 iOS %@ 进行了优化。立即将 Brave 设为您的默认浏览器。";
+/* Notification body to promote setting app as default browser */
+"defaultBrowserCallout.notificationBody" = "针对 iOS %@ 进行了优化。立即将 设为您的默认浏览器。";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Brave 网页浏览器";
+/* Notification title to promote setting app as default browser */
+"defaultBrowserCallout.notificationTitle" = "网页浏览器";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "关闭默认浏览器标注";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Brave 默认";
+/* Name for default theme. */
+"defaultThemeName" = "默认";
 
 /* No comment provided by engineer. */
 "Delete" = "删除";
@@ -490,10 +490,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "允许链接切换应用吗？";
 
-/* Allow Brave to open the external app URL */
+/* Allow to open the external app URL */
 "ExternalAppURLAllow" = "允许";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow to open the external app URL */
 "ExternalAppURLDontAllow" = "不允许";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -554,10 +554,10 @@
 "HideLinkPreviewsActionTitle" = "隐藏链接预览";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "隐藏 Brave Rewards 图标";
+"HideRewardsIcon" = "隐藏 Rewards 图标";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "未启用“Brave Rewards”时隐藏“Brave Rewards”图标";
+"HideRewardsIconSubtitle" = "未启用“Rewards”时隐藏“Rewards”图标";
 
 /* Title for history menu item */
 "HistortMenuItem" = "历史记录";
@@ -724,14 +724,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "字数不足";
 
-/* Bookmark title for Brave Support */
-"ntp.braveSupportFavoriteTitle" = "Brave 支持";
+/* Bookmark title for Support */
+"ntp.braveSupportFavoriteTitle" = "支持";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "领取代币";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "您通过用 Brave 进行浏览赚取了 %@。";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "您通过用 进行浏览赚取了 %@。";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "太棒了！";
@@ -740,7 +740,7 @@
 "ntp.hideSponsoredImages" = "隐藏赞助图片";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "了解更多有关 Brave Rewards 的内容";
+"ntp.learnMoreAboutRewards" = "了解更多有关 Rewards 的内容";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "了解更多有关赞助图片的内容";
@@ -776,13 +776,13 @@
 "onboarding.blockedAdsOnboardingPopoverDescriptionThree" = "点击任何站点上的盾牌，查看屏蔽的所有内容。";
 
 /* The alternate description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "Brave 在以下站点屏蔽了 %1$@：%2$@。";
+"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "在以下站点屏蔽了 %1$@：%2$@。";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "Brave 在以下站点屏蔽了 %1$@ 和另外 %2$d 个跟踪程序：%3$@。";
+"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "在以下站点屏蔽了 %1$@ 和另外 %2$d 个跟踪程序：%3$@。";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "Brave 在以下站点屏蔽了 %1$@ 和另外 %2$d 个跟踪程序：%3$@。";
+"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "在以下站点屏蔽了 %1$@ 和另外 %2$d 个跟踪程序：%3$@。";
 
 /* DEscription for the NTP pop-over that describes the onboarding is done */
 "onboarding.ntpOnboardingPopoverDoneDescription" = "查看设置菜单，了解更多优秀的隐私功能！";
@@ -815,13 +815,13 @@
 "onboarding.searchViewEnterWebsiteRowTitle" = "输入网站";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "欢迎使用 Brave！";
+"onboarding.welcomeScreenTitle" = "欢迎使用 Presearch！";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "打开所有（%i）";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "打开 Brave Rewards 设置";
+/* Button title for opening the Rewards panel to settings */
+"OpenBraveRewardsSettings" = "打开 Rewards 设置";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "在“文件”应用中打开“下载”文件夹时出现未知错误。";
@@ -841,35 +841,35 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "开启网站";
 
-/* The subtitle description of menu item Brave News */
+/* The subtitle description of menu item News */
 "optionsMenu.braveNewsItemDescription" = "私密新闻订阅源中的今日头条新闻";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "新闻";
 
-/* The subtitle description of menu item Brave Playlist */
+/* The subtitle description of menu item Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "保留任何视频/流媒体的离线播放列表";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "播放列表";
 
-/* The subtitle description of menu item Brave Talk */
+/* The subtitle description of menu item Talk */
 "optionsMenu.braveTalkItemDescription" = "直接在浏览器中完成私密视频通话";
 
-/* Brave Talk Item Menu title */
+/* Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "Talk";
 
-/* The subtitle description of menu item Brave VPN */
+/* The subtitle description of menu item VPN */
 "optionsMenu.braveVPNItemDescription" = "在线保护您的完整设备";
 
-/* Brave VPN Item Menu title */
+/* VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item Brave Wallet */
+/* The subtitle description of menu item Wallet */
 "optionsMenu.braveWalletItemDescription" = "安全加密货币钱包，无需扩展程序";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Brave 功能";
+"optionsMenu.menuSectionTitle" = "功能";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "其他隐私设置";
@@ -904,7 +904,7 @@
 /* Settings privacy section title */
 "Privacy" = "隐私";
 
-/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "隐私政策";
 
 /* Private button title */
@@ -920,10 +920,10 @@
 "PrivateBrowsingOnlyWarning" = "“仅私人浏览”模式会关闭所有当前选项卡，而且还会将你退出所有站点。";
 
 /* Private tab details */
-"PrivateTabBody" = "私人标签未保存在 Brave 上，但它们不会让您在线匿名。您在私人标签中访问的网站将不会在您的历史记录中显示，并且当您关闭那些网站时，其 Cookie 总是会消失，而不会在Brave  中留下任何痕迹。但是，下载会被保存。\n您的移动运营商（或您所连接的 WiFi 网络或 VPN  的所有者）可以看到您访问了哪些网站，而那些网站会指导您的公共 IP 地址（即使在私人标签中也是如此）。";
+"PrivateTabBody" = "私人标签未保存在 上，但它们不会让您在线匿名。您在私人标签中访问的网站将不会在您的历史记录中显示，并且当您关闭那些网站时，其 Cookie 总是会消失，而不会在Brave  中留下任何痕迹。但是，下载会被保存。\n您的移动运营商（或您所连接的 WiFi 网络或 VPN  的所有者）可以看到您访问了哪些网站，而那些网站会指导您的公共 IP 地址（即使在私人标签中也是如此）。";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "使用私人标签只会更改 Brave 在您设备上的操作，不会更改其他应用在您设备上的操作。\n\n当您访问网站时，网站会随时知晓您的 IP 地址。由此地址，他们通常可以大致猜测您的位置（通常是您所在的城市）。有时，对于位置的猜测可能更加具体。网站也会知晓您明确告诉他们的所有内容，例如您的搜索条件。如果您登录某个网站，他们就会知晓您是该帐户的所有者。当您关闭私人标签时，您仍然会被迫退出，因为 Brave 会删除辅助您随时登录的 cookie。\n\n为您连网（您的 ISP）的任何人都可以看到您所有的网络活动。通常是您的移动运营商。如果您连接到 WiFi 网络，则是该网络的所有者，如果您在使用 VPN，则是运行该 VPN 的人。您的 ISP 可以在您访问时查看您访问的网站。如果这些网站使用 HTTPS，它们只能对您在这些网站上所进行的操作进行合理的猜测。但是，如果某个网站仅使用 HTTP，那么您的 ISP 可以查看所有内容：您的搜索条件，您所阅读的页面以及您关注的链接。\n\n如果雇主管理您的设备，他们也可能会跟踪您的设备。使用私人标签可能不会阻止他们知晓您访问过哪些网站。有权访问您设备的其他人也可能安装了监控您活动的软件，而私人标签 也无法保护您不受此影响。";
+"PrivateTabDetails" = "使用私人标签只会更改 在您设备上的操作，不会更改其他应用在您设备上的操作。\n\n当您访问网站时，网站会随时知晓您的 IP 地址。由此地址，他们通常可以大致猜测您的位置（通常是您所在的城市）。有时，对于位置的猜测可能更加具体。网站也会知晓您明确告诉他们的所有内容，例如您的搜索条件。如果您登录某个网站，他们就会知晓您是该帐户的所有者。当您关闭私人标签时，您仍然会被迫退出，因为 会删除辅助您随时登录的 cookie。\n\n为您连网（您的 ISP）的任何人都可以看到您所有的网络活动。通常是您的移动运营商。如果您连接到 WiFi 网络，则是该网络的所有者，如果您在使用 VPN，则是运行该 VPN 的人。您的 ISP 可以在您访问时查看您访问的网站。如果这些网站使用 HTTPS，它们只能对您在这些网站上所进行的操作进行合理的猜测。但是，如果某个网站仅使用 HTTP，那么您的 ISP 可以查看所有内容：您的搜索条件，您所阅读的页面以及您关注的链接。\n\n如果雇主管理您的设备，他们也可能会跟踪您的设备。使用私人标签可能不会阻止他们知晓您访问过哪些网站。有权访问您设备的其他人也可能安装了监控您活动的软件，而私人标签 也无法保护您不受此影响。";
 
 /* Private tab information link */
 "PrivateTabLink" = "了解私人标签";
@@ -937,8 +937,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "快速搜索引擎";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "对 Brave 评分";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "对 评分";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "增大字体";
@@ -967,13 +967,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "更改字体。";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "正在加载内容…";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "加载原始页面";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "该页面无法在阅读器视图中显示。";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -1004,25 +1004,25 @@
 "RestoreTabNegativeButtonTitle" = "不";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "看起来 Brave 先前崩溃了。您想恢复标签吗？";
+"RestoreTabOnCrashAlertMessage" = "看起来 先前崩溃了。您想恢复标签吗？";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "这很尴尬。";
 
-/* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "借助 Brave Rewards，您可以查看来自 Brave Ads 网络的隐私保护广告。无需跟踪器，无需减速，而您的数据绝对安全。";
+/* Body for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInBody" = "借助 Rewards，您可以查看来自 Ads 网络的隐私保护广告。无需跟踪器，无需减速，而您的数据绝对安全。";
 
-/* Title for Brave Talk rewards opt-in screen button */
+/* Title for Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "开启 Rewards";
 
-/* Body for successful Brave Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "点击屏幕上的任意位置即可继续 Brave Talk。";
+/* Body for successful Talk rewards opt-in */
+"rewards.braveTalkRewardsOptInSuccessBody" = "点击屏幕上的任意位置即可继续 Talk。";
 
-/* Title for successful Brave Talk rewards opt-in */
+/* Title for successful Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "您现在可以开始免费通话了";
 
-/* Title for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "要开始免费通话，开启 Brave Rewards";
+/* Title for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInTitle" = "要开始免费通话，开启 Rewards";
 
 /* The placeholders say 'Terms of Service' and 'Privacy Policy'. So full sentence goes like: 'By clicking, you agree to the Terms of Service and Privacy Policy...' */
 "rewards.optInDisclaimer" = "点击即表示您同意 %1$@ 和 %2$@。随时可在“设置”中禁用。";
@@ -1112,24 +1112,24 @@
 "SearchSuggestionsSectionHeader" = "搜索建议";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "使用 Brave 搜寻";
+"SearchWithBrave" = "使用 搜寻";
 
 /* Settings security section title */
 "Security" = "安全";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "发送崩溃报告，Brave 可以修复问题？";
+"SendCrashReportAlertMessage" = "发送崩溃报告，可以修复问题？";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "糟糕！Brave 崩溃了";
+"SendCrashReportAlertTitle" = "糟糕！崩溃了";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "发送报告";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "现在，您可将 Brave 设置为您的 iOS 默认浏览器。点击此处打开设置。";
+"setDefaultBrowserCalloutTitle" = "现在，您可将 设置为您的 iOS 默认浏览器。点击此处打开设置。";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "设为默认浏览器";
 
 /* No comment provided by engineer. */
@@ -1151,7 +1151,7 @@
 "settings.autocloseTabsSetting" = "关闭标签";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "允许 Brave 自动关闭最近未查看的标签。";
+"settings.autocloseTabsSettingFooter" = "允许 自动关闭最近未查看的标签。";
 
 /* Error message that is shown in settings when there was a problem loading */
 "SettingsContentLoadErrorMessage" = "无法加载页面。";
@@ -1169,7 +1169,7 @@
 "ShareWithMenuItem" = "分享对象...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Brave Shields 全局默认";
+"ShieldsDefaults" = "Shields 全局默认";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "这些是新站点的默认 Shields 设置。更改这些设置不会影响您现有的每个站点的设置。";
@@ -1225,7 +1225,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "显示标签栏";
 
-/* Brave panel topmost title */
+/* panel topmost title */
 "SiteShieldSettings" = "屏蔽";
 
 /* Open search section of settings */
@@ -1256,7 +1256,7 @@
 "sync.v2MigrationErrorTitle" = "错误";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "要使用 Brave Sync，必须先迁移现有的书签才能使用新系统。此操作不会删除您的书签。";
+"sync.v2MigrationMessage" = "要使用 Sync，必须先迁移现有的书签才能使用新系统。此操作不会删除您的书签。";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "迁移";
@@ -1319,22 +1319,22 @@
 "SyncInitErrorTitle" = "同步通信错误";
 
 /* Sync Error Description */
-"syncInsecureVersionError" = "这是由其他设备上已过期版本的 Brave 生成的同步码。请在所有同步的设备上更新 Brave，然后重试。";
+"syncInsecureVersionError" = "这是由其他设备上已过期版本的 生成的同步码。请在所有同步的设备上更新 Presearch，然后重试。";
 
 /* Sync Error Description */
 "syncInvalidVersionError" = "无效格式";
 
 /* Default name for a device */
-"syncJoinChainCameraWarning" = "这样会与生成此二维码的设备分享您的 Brave 数据，可能包括您的密码。请再次确认此二维码是由您所拥有的设备生成的。确定要这么做吗？";
+"syncJoinChainCameraWarning" = "这样会与生成此二维码的设备分享您的 数据，可能包括您的密码。请再次确认此二维码是由您所拥有的设备生成的。确定要这么做吗？";
 
 /* Default name for a device */
-"syncJoinChainCodewordsWarning" = "这样会与生成这些代码的设备分享您的 Brave 数据，可能包括您的密码。请再次确认这些代码是由您所拥有的设备生成的。确定要这么做吗？";
+"syncJoinChainCodewordsWarning" = "这样会与生成这些代码的设备分享您的 数据，可能包括您的密码。请再次确认这些代码是由您所拥有的设备生成的。确定要这么做吗？";
 
 /* Title for pairing sync device */
 "syncJoinChainWarningTitle" = "警告";
 
 /* Sync Error Description */
-"syncNewerVersionError" = "这是由其他设备上更新版本的 Brave 生成的同步码。请在所有同步的设备上更新 Brave，然后重试。";
+"syncNewerVersionError" = "这是由其他设备上更新版本的 生成的同步码。请在所有同步的设备上更新 Presearch，然后重试。";
 
 /* No internet connection alert body. */
 "SyncNoConnectionBody" = "检查您的网络连接并重试。";
@@ -1355,7 +1355,7 @@
 "SyncRemoveDeviceDefaultName" = "设备";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "当前同步的数据将保留，但 Brave 的同步缓存中的所有数据将删除。您将需要启动一个新的同步链来再次同步设备数据。";
+"SyncRemoveLastDeviceMessage" = "当前同步的数据将保留，但 的同步缓存中的所有数据将删除。您将需要启动一个新的同步链来再次同步设备数据。";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "删除同步链";
@@ -1394,7 +1394,7 @@
 "SyncToDevice" = "同步到设备";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "使用现有已同步设备打开 Brave 设置，并浏览至“设置”>“同步”。选择“添加设备”，然后扫描屏幕上显示的码。";
+"SyncToDeviceDescription" = "使用现有已同步设备打开 设置，并浏览至“设置”>“同步”。选择“添加设备”，然后扫描屏幕上显示的码。";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "无法同步此设备";
@@ -1486,14 +1486,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "服务条款";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "使用条款";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "分享...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "与你的朋友分享 Brave 吧！";
+"themeQRCodeShareTitle" = "与你的朋友分享 吧！";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "自动";
@@ -1537,7 +1537,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "使用地区广告拦截";
 
-/* Version number of Brave shown in settings */
+/* Version number of shown in settings */
 "VersionTemplate" = "版本 %1$@ （%2$@）";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

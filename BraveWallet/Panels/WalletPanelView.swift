@@ -1,4 +1,4 @@
-// Copyright 2022 The Brave Authors. All rights reserved.
+// Copyright 2022 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -69,7 +69,7 @@ public struct WalletPanelContainerView: View {
     ScrollView(.vertical) {
       VStack(spacing: 36) {
         VStack(spacing: 4) {
-          Text("Brave Wallet")
+          Text("Presearch Wallet")
             .foregroundColor(Color(.bravePrimary))
             .font(.headline)
           Text("Use this panel to securely access web3 and all your crypto assets.")
@@ -189,7 +189,7 @@ struct WalletPanelView: View {
   var body: some View {
     ScrollView(.vertical, showsIndicators: false) {
       VStack(spacing: 0) {
-        Text("Brave Wallet")
+        Text("Presearch Wallet")
           .font(.headline)
           .padding(16)
           .frame(maxWidth: .infinity)

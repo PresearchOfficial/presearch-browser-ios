@@ -1,11 +1,11 @@
-/* Copyright 2021 The Brave Authors. All rights reserved.
+/* Copyright 2021 The Presearch Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import SwiftUI
 
-/// Styles a SwiftUI `TextField` to use some of the aspects from Brave's design system.
+/// Styles a SwiftUI `TextField` to use some of the aspects from Presearch's design system.
 ///
 /// We cannot style the placeholder unfortunately.
 ///
@@ -21,7 +21,7 @@ public struct BraveTextFieldStyle: TextFieldStyle {
   }
 }
 
-/// Styles a SwiftUI `TextField` to use some of the aspects from Brave's design system which can display
+/// Styles a SwiftUI `TextField` to use some of the aspects from Presearch's design system which can display
 /// an error below it.
 ///
 /// We cannot style the placeholder unfortunately.

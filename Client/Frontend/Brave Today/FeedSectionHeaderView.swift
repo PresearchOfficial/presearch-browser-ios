@@ -1,4 +1,4 @@
-// Copyright 2020 The Brave Authors. All rights reserved.
+// Copyright 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -7,7 +7,7 @@ import UIKit
 import BraveUI
 import Shared
 
-/// The header which is shown when the user scrolls down into the Brave News feed
+/// The header which is shown when the user scrolls down into the Presearch News feed
 class FeedSectionHeaderView: UIView {
   private let backgroundView: UIVisualEffectView
   private let label = UILabel().then {

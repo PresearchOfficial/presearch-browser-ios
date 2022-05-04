@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Ini membolehkan anda menyimpan imej ke Gulungan Kamera anda.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "Brave ingin mengakses Foto anda";
+"AccessPhotoDeniedAlertTitle" = "ingin mengakses Foto anda";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Tambah Penanda Buku";
@@ -40,8 +40,8 @@
 /* Label for the Face ID/Passcode item in Settings */
 "AuthenticationFaceIDPasscodeSetting" = "ID Muka & Kod Laluan";
 
-/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "Ini mengesahkan akses anda ke Brave";
+/* Touch ID or PIN entry prompt subtitle when accessing with the Browser Lock feature enabled */
+"AuthenticationLoginsTouchReason" = "Ini mengesahkan akses anda ke Presearch";
 
 /* Label for the Passcode item in Settings */
 "AuthenticationPasscode" = "Kod laluan";
@@ -100,7 +100,7 @@
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Pemantau Penyekatan";
 
-/* Brave panel individual toggle title */
+/* panel individual toggle title */
 "BlockPhishing" = "Sekat Pemalsuan";
 
 /* No comment provided by engineer. */
@@ -146,13 +146,13 @@
 "BookmarkUrlPlaceholderText" = "Alamat";
 
 /* Button to show the brave panel */
-"BravePanel" = "Panel Brave";
+"BravePanel" = "Panel Presearch";
 
-/* Brave Rewards settings title */
-"BraveRewardsTitle" = "Brave Rewards";
+/* Rewards settings title */
+"BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Brave Shields & Privasi";
+"BraveShieldsAndPrivacy" = "Shields & Privasi";
 
 /* Sync page title */
 "BraveSync" = "Segerak";
@@ -161,13 +161,13 @@
 "BraveSyncInternalsTitle" = "Segerak Dalaman";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Untuk bermula, anda perlu memasangkan Brave pada semua peranti yang anda ingin segerakkan. Untuk menghubungkan mereka bersama-sama, mulakan rantaian penyegerakan yang anda akan gunakan untuk menghubungkan semua peranti anda dengan selamat.";
+"BraveSyncWelcome" = "Untuk bermula, anda perlu memasangkan pada semua peranti yang anda ingin segerakkan. Untuk menghubungkan mereka bersama-sama, mulakan rantaian penyegerakan yang anda akan gunakan untuk menghubungkan semua peranti anda dengan selamat.";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "Kunci Pelayar";
 
 /* No comment provided by engineer. */
-"BrowserLockDescription" = "Buka kunci Brave menggunakan Touch ID, Face ID atau kod laluan sistem.";
+"BrowserLockDescription" = "Buka kunci menggunakan Touch ID, Face ID atau kod laluan sistem.";
 
 /* A button title for the action to move to the next step of the browser lock migration process. */
 "browserLockMigrationContinueButtonTitle" = "Teruskan";
@@ -176,10 +176,10 @@
 "browserLockMigrationNoPasscodeSetup" = "Belum menetapkan ID atau kod laluan? Buka Tetapan, kemudian ketik \"%@\"";
 
 /* Subtitle on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationSubtitle" = "Kami telah mempermudahkan Kod Laluan Brave. Anda kini boleh mengakses Brave menggunakan ID atau kod laluan yang sama yang anda gunakan pada telefon anda.";
+"browserLockMigrationSubtitle" = "Kami telah mempermudahkan Kod Laluan Presearch. Anda kini boleh mengakses menggunakan ID atau kod laluan yang sama yang anda gunakan pada telefon anda.";
 
 /* Title on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationTitle" = "Buka Brave menggunakan Apple Face ID, Touch ID, atau kod laluan anda";
+"browserLockMigrationTitle" = "Buka menggunakan Apple Face ID, Touch ID, atau kod laluan anda";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "Menyemak Imbas Sejarah";
@@ -188,7 +188,7 @@
 "Cache" = "Cache";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Apabila Brave ditetapkan sebagai lalai, setiap pautan yang anda klik akan dibuka dengan perlindungan privasi Brave.";
+"callout.defaultBrowserCalloutDescription" = "Apabila ditetapkan sebagai lalai, setiap pautan yang anda klik akan dibuka dengan perlindungan privasi Presearch.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Tetapkan sebagai lalai";
@@ -200,7 +200,7 @@
 "callout.defaultBrowserCalloutSecondaryButtonTitle" = "Langkau langkah ini";
 
 /* Title for Default Browser Full Screen Callout */
-"callout.defaultBrowserTitle" = "Tetapkan Brave sebagai pelayar lalai anda";
+"callout.defaultBrowserTitle" = "Tetapkan sebagai pelayar lalai anda";
 
 /* Button title for Playlist Onboarding View */
 "callout.playlistOnboardingViewButtonTitle" = "Tonton video";
@@ -212,7 +212,7 @@
 "callout.playlistOnboardingViewTitle" = "Tambahkan video pada Senarai Main…";
 
 /* Subtitle - Description for Privacy Everywhere Full Screen Callout */
-"callout.privacyEverywhereCalloutDescription" = "Dapatkan ciri privasi Brave pada komputer atau tablet anda, dan segerakkan penanda halaman & sambungan antara peranti.";
+"callout.privacyEverywhereCalloutDescription" = "Dapatkan ciri privasi pada komputer atau tablet anda, dan segerakkan penanda halaman & sambungan antara peranti.";
 
 /* Title for button in Default Browser Full Screen Callout */
 "callout.privacyEverywhereCalloutPrimaryButtonTitle" = "Segerakkan sekarang";
@@ -326,25 +326,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Buka Tetapan";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan Brave untuk melindungi privasi anda  ";
+"defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan untuk melindungi privasi anda  ";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Brave Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
+"defaultBrowserCallout.introSecondaryText" = "Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih Brave.  ";
+"defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih Presearch.  ";
 
-/* Notification body to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationBody" = "Dioptimumkan untuk iOS %@. Jadikan Brave sebagai penyemak imbas lalai anda hari ini.";
+/* Notification body to promote setting app as default browser */
+"defaultBrowserCallout.notificationBody" = "Dioptimumkan untuk iOS %@. Jadikan sebagai penyemak imbas lalai anda hari ini.";
 
-/* Notification title to promote setting Brave app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Penyemk Imbas Web Brave";
+/* Notification title to promote setting app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Penyemk Imbas Web Presearch";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Tutup timbul penyemak imbas lalai";
 
-/* Name for default Brave theme. */
-"defaultThemeName" = "Brave gagal";
+/* Name for default theme. */
+"defaultThemeName" = "gagal";
 
 /* No comment provided by engineer. */
 "Delete" = "Padam";
@@ -490,10 +490,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "Benarkan pautan untuk menukar apl?";
 
-/* Allow Brave to open the external app URL */
+/* Allow to open the external app URL */
 "ExternalAppURLAllow" = "Benarkan";
 
-/* Don't allow Brave to open the external app URL */
+/* Don't allow to open the external app URL */
 "ExternalAppURLDontAllow" = "Tidak Benarkan";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -554,10 +554,10 @@
 "HideLinkPreviewsActionTitle" = "Sembunyikan Pratonton Pautan";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Sembunyikan Ikon Brave Rewards";
+"HideRewardsIcon" = "Sembunyikan Ikon Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Sembunyikan ikon Brave Rewards apabila Brave Rewards tidak didayakan";
+"HideRewardsIconSubtitle" = "Sembunyikan ikon Rewards apabila Rewards tidak didayakan";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Sejarah";
@@ -724,14 +724,14 @@
 /* Sync Alert */
 "NotEnoughWordsTitle" = "Perkataan Tidak Cukup";
 
-/* Bookmark title for Brave Support */
+/* Bookmark title for Support */
 "ntp.braveSupportFavoriteTitle" = "Sokongan Berani";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Tuntut Token";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
-"ntp.earningsReport" = "Anda mendapat %@ dengan menyemak lalu dengan Brave.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
+"ntp.earningsReport" = "Anda mendapat %@ dengan menyemak lalu dengan Presearch.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Begitu caranya!";
@@ -740,7 +740,7 @@
 "ntp.hideSponsoredImages" = "Sembunyikan imej tajaan";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Ketahui lebih lanjut tentang Brave Rewards";
+"ntp.learnMoreAboutRewards" = "Ketahui lebih lanjut tentang Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Ketahui lebih lanjut tentang imej tajaan";
@@ -776,13 +776,13 @@
 "onboarding.blockedAdsOnboardingPopoverDescriptionThree" = "Ketik Shield daripada mana-mana laman untuk melihat semua bahan yang kami sekat.";
 
 /* The alternate description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "Brave menyekat %1$@ pada: %2$@.";
+"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "menyekat %1$@ pada: %2$@.";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "Brave menyekat %1$@ dan %2$d penjejak yang lain pada: %3$@.";
+"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "menyekat %1$@ dan %2$d penjejak yang lain pada: %3$@.";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "Brave menyekat %1$@ dan %2$d penjejak yang lain pada: %3$@.";
+"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "menyekat %1$@ dan %2$d penjejak yang lain pada: %3$@.";
 
 /* DEscription for the NTP pop-over that describes the onboarding is done */
 "onboarding.ntpOnboardingPopoverDoneDescription" = "Semak menu untuk tetapan dan pelbagai lagi ciri privasi yang menarik!";
@@ -815,13 +815,13 @@
 "onboarding.searchViewEnterWebsiteRowTitle" = "Layari laman web";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "Selamat datang ke Brave!";
+"onboarding.welcomeScreenTitle" = "Selamat datang ke Presearch!";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Buka Semua (%i)";
 
-/* Button title for opening the Brave Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Buka Tetapan Brave Rewards";
+/* Button title for opening the Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Buka Tetapan Rewards";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Ralat tidak diketahui telah berlaku semasa membuka folder Downloads dalam apl Files.";
@@ -841,35 +841,35 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "Buka Laman Web";
 
-/* The subtitle description of menu item Brave News */
+/* The subtitle description of menu item News */
 "optionsMenu.braveNewsItemDescription" = "Kisah teratas hari ini dalam suapan berita peribadi";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "Berita";
 
-/* The subtitle description of menu item Brave Playlist */
+/* The subtitle description of menu item Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "Simpan senarai main luar talian untuk sebarang video/strim";
 
-/* Brave News Item Menu title */
+/* News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "Senarai main";
 
-/* The subtitle description of menu item Brave Talk */
+/* The subtitle description of menu item Talk */
 "optionsMenu.braveTalkItemDescription" = "Panggilan video peribadi, terus daripada pelayar anda";
 
-/* Brave Talk Item Menu title */
+/* Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "Cakap";
 
-/* The subtitle description of menu item Brave VPN */
+/* The subtitle description of menu item VPN */
 "optionsMenu.braveVPNItemDescription" = "Lindungi seluruh peranti anda dalam talian";
 
-/* Brave VPN Item Menu title */
+/* VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item Brave Wallet */
+/* The subtitle description of menu item Wallet */
 "optionsMenu.braveWalletItemDescription" = "Dompet kripto yang selamat, tidak memerlukan sambungan";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Ciri Brave";
+"optionsMenu.menuSectionTitle" = "Ciri Presearch";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "Tetapan Privasi Lain";
@@ -904,7 +904,7 @@
 /* Settings privacy section title */
 "Privacy" = "Privasi";
 
-/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "Dasar Privasi";
 
 /* Private button title */
@@ -920,10 +920,10 @@
 "PrivateBrowsingOnlyWarning" = "Mod Penyemakan Imbas Peribadi Sahaja akan menutup semua tab semasa anda dan mengelog anda keluar daripada semua tapak.";
 
 /* Private tab details */
-"PrivateTabBody" = "Tab Peribadi tidak disimpan di dalam Brave, tetapi ia tidak menjadikan anda tanpa nama dalam talian. Tapak yang anda lawati dalam tab peribadi tidak akan muncul dalam sejarah anda dan kukinya sentiasa hilang apabila anda menutupnya — tidak akan ada sebarang jejak yang tinggal di dalam Brave. Walau bagaimanapun, muat turun akan disimpan.\nPembawa mudah alih anda (atau pemilik rangkaian Wi-Fi atau VPN yang anda disambungkan) boleh melihat tapak mana yang anda lawati dan tapak tersebut akan mengetahui alamat IP awam anda, walaupun di dalam Tab Peribadi.";
+"PrivateTabBody" = "Tab Peribadi tidak disimpan di dalam Presearch, tetapi ia tidak menjadikan anda tanpa nama dalam talian. Tapak yang anda lawati dalam tab peribadi tidak akan muncul dalam sejarah anda dan kukinya sentiasa hilang apabila anda menutupnya — tidak akan ada sebarang jejak yang tinggal di dalam Presearch. Walau bagaimanapun, muat turun akan disimpan.\nPembawa mudah alih anda (atau pemilik rangkaian Wi-Fi atau VPN yang anda disambungkan) boleh melihat tapak mana yang anda lawati dan tapak tersebut akan mengetahui alamat IP awam anda, walaupun di dalam Tab Peribadi.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Menggunakan Tab Peribadi hanya mengubah tindakan Brave pada peranti anda, ia tidak mengubah tingkah laku orang lain.\n\nTapak sentiasa mengetahui alamat IP anda apabila anda melawatnya. Dari sini, ia sering dapat meneka secara kasar di mana anda berada — biasanya bandar anda. Kadangkala tekaan lokasi boleh jauh lebih spesifik. Tapak juga mengetahui semua yang anda sampaikan secara khusus, seperti istilah carian. Sekiranya anda log masuk ke sesuatu tapak, ia akan mengetahui bahawa anda pemilik akaun tersebut. Anda akan masih akan dilog keluar apabila anda menutup Tab Peribadi kerana Brave akan membuang kuki yang membuatkan anda kekal dilog masuk.\n\nSesiapa yang menyambungkan anda ke Internet (ISP anda) boleh melihat semua aktiviti rangkaian anda. Selalunya, ini adalah pembawa mudah alih anda. Sekiranya anda disambungkan ke rangkaian Wi-Fi, ini adalah pemilik rangkaian tersebut, dan jika anda menggunakan VPN, maka ia siapa saja yang menjalankan VPN tersebut. ISP anda dapat melihat tapak mana yang anda lawati semasa anda mengunjunginya. Sekiranya tapak tersebut menggunakan HTTPS, ia tidak boleh membuat lebih daripada sekadar tekaan bijak mengenai apa yang anda lakukan di tapak tersebut. Tetapi jika tapak hanya menggunakan HTTP, ISP anda dapat melihat semuanya: istilah carian anda, halaman mana yang anda baca, dan pautan mana yang anda ikuti.\n\nSekiranya majikan menguruskan peranti anda, mereka mungkin juga memantau apa yang anda lakukan dengannya. Menggunakan Tab Peribadi mungkin tidak akan menghalang mereka untuk mengetahui tapak mana yang telah anda lawati. Orang lain yang mempunyai akses ke peranti anda juga boleh memasang perisian yang memantau aktiviti anda, dan Tab Peribadi tidak akan melindungi anda daripada ini juga.";
+"PrivateTabDetails" = "Menggunakan Tab Peribadi hanya mengubah tindakan pada peranti anda, ia tidak mengubah tingkah laku orang lain.\n\nTapak sentiasa mengetahui alamat IP anda apabila anda melawatnya. Dari sini, ia sering dapat meneka secara kasar di mana anda berada — biasanya bandar anda. Kadangkala tekaan lokasi boleh jauh lebih spesifik. Tapak juga mengetahui semua yang anda sampaikan secara khusus, seperti istilah carian. Sekiranya anda log masuk ke sesuatu tapak, ia akan mengetahui bahawa anda pemilik akaun tersebut. Anda akan masih akan dilog keluar apabila anda menutup Tab Peribadi kerana akan membuang kuki yang membuatkan anda kekal dilog masuk.\n\nSesiapa yang menyambungkan anda ke Internet (ISP anda) boleh melihat semua aktiviti rangkaian anda. Selalunya, ini adalah pembawa mudah alih anda. Sekiranya anda disambungkan ke rangkaian Wi-Fi, ini adalah pemilik rangkaian tersebut, dan jika anda menggunakan VPN, maka ia siapa saja yang menjalankan VPN tersebut. ISP anda dapat melihat tapak mana yang anda lawati semasa anda mengunjunginya. Sekiranya tapak tersebut menggunakan HTTPS, ia tidak boleh membuat lebih daripada sekadar tekaan bijak mengenai apa yang anda lakukan di tapak tersebut. Tetapi jika tapak hanya menggunakan HTTP, ISP anda dapat melihat semuanya: istilah carian anda, halaman mana yang anda baca, dan pautan mana yang anda ikuti.\n\nSekiranya majikan menguruskan peranti anda, mereka mungkin juga memantau apa yang anda lakukan dengannya. Menggunakan Tab Peribadi mungkin tidak akan menghalang mereka untuk mengetahui tapak mana yang telah anda lawati. Orang lain yang mempunyai akses ke peranti anda juga boleh memasang perisian yang memantau aktiviti anda, dan Tab Peribadi tidak akan melindungi anda daripada ini juga.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Ketahui tentang Tab Peribadi.";
@@ -937,8 +937,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Enjin Carian Pantas";
 
-/* Open the App Store to rate Brave. */
-"RateBrave" = "Berikan penarafan kepada Brave";
+/* Open the App Store to rate Presearch. */
+"RateBrave" = "Berikan penarafan kepada Presearch";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Tingkatkan saiz teks";
@@ -967,13 +967,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "Mengubah jenis fon.";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "Memuatkan kandungan...";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "Muatkan halaman asal";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "Halaman ini tidak dapat dipaparkan dalam Paparan Pembaca.";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -1004,25 +1004,25 @@
 "RestoreTabNegativeButtonTitle" = "Tidak";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "Nampaknya Brave telah rosak sebelumnya. Adakah anda ingin memulihkan tab anda?";
+"RestoreTabOnCrashAlertMessage" = "Nampaknya telah rosak sebelumnya. Adakah anda ingin memulihkan tab anda?";
 
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "Aduh, ini memalukan.";
 
-/* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Dengan Brave Rewards, anda boleh melihat iklan yang menjaga privasi daripada rangkaian Brave Ads. Tiada penjejak. Tiada kelewatan. Data anda selamat sepenuhnya.";
+/* Body for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInBody" = "Dengan Rewards, anda boleh melihat iklan yang menjaga privasi daripada rangkaian Ads. Tiada penjejak. Tiada kelewatan. Data anda selamat sepenuhnya.";
 
-/* Title for Brave Talk rewards opt-in screen button */
+/* Title for Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Hidupkan Rewards";
 
-/* Body for successful Brave Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Klik di mana sahaja di skrin untuk meneruskan ke Brave Talk.";
+/* Body for successful Talk rewards opt-in */
+"rewards.braveTalkRewardsOptInSuccessBody" = "Klik di mana sahaja di skrin untuk meneruskan ke Talk.";
 
-/* Title for successful Brave Talk rewards opt-in */
+/* Title for successful Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "Anda kini boleh memulakan panggilan percuma";
 
-/* Title for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Untuk memulakan panggilan percuma, hidupkan Brave Rewards";
+/* Title for Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInTitle" = "Untuk memulakan panggilan percuma, hidupkan Rewards";
 
 /* The placeholders say 'Terms of Service' and 'Privacy Policy'. So full sentence goes like: 'By clicking, you agree to the Terms of Service and Privacy Policy...' */
 "rewards.optInDisclaimer" = "Dengan mengklik, anda bersetuju dengan %1$@ dan %2$@. Nyahdayakan bila-bila masa dalam Tetapan.";
@@ -1112,24 +1112,24 @@
 "SearchSuggestionsSectionHeader" = "Cadangan Carian";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "Buat carian melalui Brave";
+"SearchWithBrave" = "Buat carian melalui Presearch";
 
 /* Settings security section title */
 "Security" = "Sekuriti";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Hantar laporan rosak supaya Brave boleh menyelesaikan masalah?";
+"SendCrashReportAlertMessage" = "Hantar laporan rosak supaya boleh menyelesaikan masalah?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "Aduh! Brave rosak";
+"SendCrashReportAlertTitle" = "Aduh! rosak";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Hantar Laporan";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Brave kini boleh ditetapkan sebagai penyemak imbas lalai anda di iOS. Ketik di sini untuk membuka tetapan.";
+"setDefaultBrowserCalloutTitle" = "kini boleh ditetapkan sebagai penyemak imbas lalai anda di iOS. Ketik di sini untuk membuka tetapan.";
 
-/* Settings item to set the Brave as a default browser on the iOS device. */
+/* Settings item to set the as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Tetapkan sebagai Penyemak Imbas Lalai";
 
 /* No comment provided by engineer. */
@@ -1151,7 +1151,7 @@
 "settings.autocloseTabsSetting" = "Tutup Tab";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "Benarkan Brave menutup tab secara automatik yang belum dilihat baru-baru ini.";
+"settings.autocloseTabsSettingFooter" = "Benarkan menutup tab secara automatik yang belum dilihat baru-baru ini.";
 
 /* Error message that is shown in settings when there was a problem loading */
 "SettingsContentLoadErrorMessage" = "Tidak dapat memuat halaman.";
@@ -1169,7 +1169,7 @@
 "ShareWithMenuItem" = "Kongsi dengan...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Lalai Global Brave Shields";
+"ShieldsDefaults" = "Lalai Global Shields";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Ini adalah tetapan Shields lalai untuk tapak baharu. Mengubah ini tidak akan menjejaskan tetapan setiap tapak sedia ada anda.";
@@ -1225,7 +1225,7 @@
 /* Setting to show/hide the tabs bar */
 "ShowTabsBar" = "Tunjuk Bar Tab";
 
-/* Brave panel topmost title */
+/* panel topmost title */
 "SiteShieldSettings" = "Perisai";
 
 /* Open search section of settings */
@@ -1256,7 +1256,7 @@
 "sync.v2MigrationErrorTitle" = "Ralat";
 
 /* Message for popup to inform the user that bookmarks migration is required for sync */
-"sync.v2MigrationMessage" = "Untuk menggunakan Brave Sync, penanda buku yang ada mesti dipindahkan untuk menggunakan sistem baharu. Operasi ini tidak akan memadam penanda buku anda.";
+"sync.v2MigrationMessage" = "Untuk menggunakan Sync, penanda buku yang ada mesti dipindahkan untuk menggunakan sistem baharu. Operasi ini tidak akan memadam penanda buku anda.";
 
 /* Button to perform bookmarks migration in order to support sync */
 "sync.v2MigrationOKButton" = "Pindah";
@@ -1319,22 +1319,22 @@
 "SyncInitErrorTitle" = "Ralat Komunikasi Segerak";
 
 /* Sync Error Description */
-"syncInsecureVersionError" = "Kod segerak ini dijana oleh versi Brave yang sudah lapuk pada peranti lain. Sila kemas kini Brave pada semua peranti yang disegerakkan dan cuba lagi.";
+"syncInsecureVersionError" = "Kod segerak ini dijana oleh versi yang sudah lapuk pada peranti lain. Sila kemas kini pada semua peranti yang disegerakkan dan cuba lagi.";
 
 /* Sync Error Description */
 "syncInvalidVersionError" = "Format Tidak Sah";
 
 /* Default name for a device */
-"syncJoinChainCameraWarning" = "Langkah ini akan mengongsikan data Brave anda, termasuk kemungkinan kata laluan anda, dengan peranti yang menjana kod QR ini. Sila semak sekali lagi sama ada kod QR ini dijana oleh peranti milik anda. Betulkah anda mahu mengambil langkah ini?";
+"syncJoinChainCameraWarning" = "Langkah ini akan mengongsikan data anda, termasuk kemungkinan kata laluan anda, dengan peranti yang menjana kod QR ini. Sila semak sekali lagi sama ada kod QR ini dijana oleh peranti milik anda. Betulkah anda mahu mengambil langkah ini?";
 
 /* Default name for a device */
-"syncJoinChainCodewordsWarning" = "Langkah ini akan mengongsikan data Brave anda, termasuk kemungkinan kata laluan anda, dengan peranti yang menjana kata kod ini. Sila semak sekali lagi sama ada kata kod ini dijana oleh peranti milik anda. Betulkah anda mahu mengambil langkah ini?";
+"syncJoinChainCodewordsWarning" = "Langkah ini akan mengongsikan data anda, termasuk kemungkinan kata laluan anda, dengan peranti yang menjana kata kod ini. Sila semak sekali lagi sama ada kata kod ini dijana oleh peranti milik anda. Betulkah anda mahu mengambil langkah ini?";
 
 /* Title for pairing sync device */
 "syncJoinChainWarningTitle" = "Amaran";
 
 /* Sync Error Description */
-"syncNewerVersionError" = "Kod segerak ini dijana oleh versi Brave yang terkini pada peranti lain. Sila kemas kini Brave pada semua peranti yang disegerakkan dan cuba lagi.";
+"syncNewerVersionError" = "Kod segerak ini dijana oleh versi yang terkini pada peranti lain. Sila kemas kini pada semua peranti yang disegerakkan dan cuba lagi.";
 
 /* No internet connection alert body. */
 "SyncNoConnectionBody" = "Semak sambungan internet anda dan cuba lagi.";
@@ -1355,7 +1355,7 @@
 "SyncRemoveDeviceDefaultName" = "Peranti";
 
 /* Message for removing last device from Sync */
-"SyncRemoveLastDeviceMessage" = "Data yang kini disegerakkan akan disimpan, namun semua data dalam cache Segerak Brave akan dipadamkan. Anda perlu memulakan rantaian penyegerakan baru untuk menyegerakkan semula data peranti.";
+"SyncRemoveLastDeviceMessage" = "Data yang kini disegerakkan akan disimpan, namun semua data dalam cache Segerak akan dipadamkan. Anda perlu memulakan rantaian penyegerakan baru untuk menyegerakkan semula data peranti.";
 
 /* Button name for removing last device from Sync */
 "SyncRemoveLastDeviceRemoveButtonName" = "Padamkan Rantaian Penyegerakan";
@@ -1394,7 +1394,7 @@
 "SyncToDevice" = "Segerakkan kepada peranti";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "Dengan menggunakan peranti disegerakkan yang sedia ada, buka Tetapan Brave dan navigasi kepada Tetapan -> Penyegerakan. Pilih \"Tambah Peranti\" dan imbas kod yang dipaparkan pada skrin.";
+"SyncToDeviceDescription" = "Dengan menggunakan peranti disegerakkan yang sedia ada, buka Tetapan dan navigasi kepada Tetapan -> Penyegerakan. Pilih \"Tambah Peranti\" dan imbas kod yang dipaparkan pada skrin.";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "Tidak dapat menyegerakkan peranti ini";
@@ -1486,14 +1486,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "Terma Perkhidmatan";
 
-/* Show Brave Browser TOS page from the Privacy section in the settings. */
+/* Show Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Terma Penggunaan";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "Kongsi...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Kongsi Brave dengan rakan anda!";
+"themeQRCodeShareTitle" = "Kongsi dengan rakan anda!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automatik";
@@ -1537,7 +1537,7 @@
 /* Setting to allow user in non-english locale to use adblock rules specifc to their language */
 "UseRegionalAdblock" = "Gunakan penyekat iklan serantau";
 
-/* Version number of Brave shown in settings */
+/* Version number of shown in settings */
 "VersionTemplate" = "Versi %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

@@ -4,7 +4,7 @@
 
 import Foundation
 
-/// A set of attributes that are used to customized the Brave app.
+/// A set of attributes that are used to customized the Presearch app.
 struct CustomTheme: Codable, NTPThemeable {
   private enum CodingKeys: String, CodingKey {
     case wallpapers, logo, topSites, themeName

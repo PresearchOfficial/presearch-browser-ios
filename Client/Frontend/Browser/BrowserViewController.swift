@@ -173,7 +173,7 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
   /// So user will not be introduced with a pop-over directly
   let benchmarkCurrentSessionAdCount = BraveGlobalShieldStats.shared.adblock + BraveGlobalShieldStats.shared.trackingProtection
 
-  /// Navigation Helper used for Brave Widgets
+  /// Navigation Helper used for Presearch Widgets
   private(set) lazy var navigationHelper = BrowserNavigationHelper(self)
 
   /// Boolean tracking  if Tab Tray is active on the screen
@@ -2179,7 +2179,7 @@ extension BrowserViewController: TabDelegate {
     findInPageBar?.text = selectedText
   }
 
-  /// Triggered when "Search with Brave" is selected on selected web text
+  /// Triggered when "Search with Presearch" is selected on selected web text
   func tab(_ tab: Tab, didSelectSearchWithBraveFor selectedText: String) {
     let engine = profile.searchEngines.defaultEngine()
 
@@ -2202,7 +2202,7 @@ extension BrowserViewController: TabDelegate {
   func showRequestRewardsPanel(_ tab: Tab) {
     let vc = BraveTalkRewardsOptInViewController()
 
-    // Edge case: user disabled Rewards button and wants to access free Brave Talk
+    // Edge case: user disabled Rewards button and wants to access free Presearch Talk
     // We re-enable the button again. It can be disabled in settings later.
     Preferences.Rewards.hideRewardsIcon.value = false
 
@@ -2210,7 +2210,6 @@ extension BrowserViewController: TabDelegate {
       contentController: vc,
       contentSizeBehavior: .preferredContentSize)
     popover.addsConvenientDismissalMargins = false
-    popover.present(from: topToolbar.locationView.rewardsButton, on: self)
     popover.popoverDidDismiss = { _ in
       // This gets called if popover is dismissed by user gesture
       // This does not conflict with 'Enable Rewards' button.
@@ -2222,12 +2221,6 @@ extension BrowserViewController: TabDelegate {
 
       self.rewards.isEnabled = true
       tab.rewardsEnabledCallback?(true)
-
-      let vc2 = BraveTalkOptInSuccessViewController()
-      let popover2 = PopoverController(
-        contentController: vc2,
-        contentSizeBehavior: .preferredContentSize)
-      popover2.present(from: self.topToolbar.locationView.rewardsButton, on: self)
     }
 
     vc.linkTapped = { [unowned self] request in

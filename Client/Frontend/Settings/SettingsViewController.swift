@@ -386,10 +386,10 @@ class SettingsViewController: TableViewController {
         title: Strings.showBookmarkButtonInTopToolbar,
         option: Preferences.General.showBookmarkToolbarShortcut,
         image: #imageLiteral(resourceName: "settings-bookmarks-shortcut").template),
-      .boolRow(
-        title: Strings.hideRewardsIcon,
-        option: Preferences.Rewards.hideRewardsIcon,
-        image: #imageLiteral(resourceName: "settings-rewards-icon").template),
+//      .boolRow(
+//        title: Strings.hideRewardsIcon,
+//        option: Preferences.Rewards.hideRewardsIcon,
+//        image: #imageLiteral(resourceName: "settings-rewards-icon").template),
     ])
 
     return display
@@ -472,7 +472,7 @@ class SettingsViewController: TableViewController {
           text: Strings.rateBrave,
           selection: { [unowned self] in
             // Rate Presearch
-            guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id1052879175?action=write-review")
+            guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id1565192485?action=write-review")
             else { return }
             UIApplication.shared.open(writeReviewURL)
             self.dismiss(animated: true)
@@ -526,14 +526,14 @@ class SettingsViewController: TableViewController {
             self.navigationController?.pushViewController(toc, animated: true)
           },
           accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
-        Row(
-          text: Strings.settingsLicenses,
-          selection: { [unowned self] in
-            let licenses = SettingsContentViewController().then {
-              $0.url = URL(string: "\(InternalURL.baseUrl)/\(AboutLicenseHandler.path)")
-            }
-            self.navigationController?.pushViewController(licenses, animated: true)
-          }, accessory: .disclosureIndicator),
+//        Row(
+//          text: Strings.settingsLicenses,
+//          selection: { [unowned self] in
+//            let licenses = SettingsContentViewController().then {
+//              $0.url = URL(string: "\(InternalURL.baseUrl)/\(AboutLicenseHandler.path)")
+//            }
+//            self.navigationController?.pushViewController(licenses, animated: true)
+//          }, accessory: .disclosureIndicator),
       ]
     )
   }()

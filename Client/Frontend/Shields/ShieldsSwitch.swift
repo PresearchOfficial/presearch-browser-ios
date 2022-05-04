@@ -203,12 +203,12 @@ class ShieldsSwitch: UIControl {
   }
 
   private let steps: [AnimationStep] = [
-    .init(colors: [0xFFA73B, 0xFF7654], shadow: 0xFF7654),
-    .init(colors: [0xFF7654, 0xFB542B], shadow: 0xFB542B),
-    .init(colors: [0xFB542B, 0xF7241C], shadow: 0xF7241C),
-    .init(colors: [0xF7241C, 0xFC4F82], shadow: 0xFC4F82),
-    .init(colors: [0xFC4F82, 0xFFA73B], shadow: 0xFFA73B),
-    .init(colors: [0xFFA73B, 0xFF7654], shadow: 0xFF7654),
+    .init(colors: [0xABD2FF, 0x6CB0FF], shadow: 0x6CB0FF),
+    .init(colors: [0x6CB0FF, 0x2D8EFF], shadow: 0x2D8EFF),
+    .init(colors: [0x2D8EFF, 0x1F63B3], shadow: 0x1F63B3),
+    .init(colors: [0x1F63B3, 0x123966], shadow: 0x123966),
+    .init(colors: [0x123966, 0xABD2FF], shadow: 0xABD2FF),
+    .init(colors: [0xABD2FF, 0x6CB0FF], shadow: 0x6CB0FF)
   ]
 
   private func beginGradientAnimations() {

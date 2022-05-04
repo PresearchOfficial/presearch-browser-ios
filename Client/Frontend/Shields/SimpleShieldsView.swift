@@ -71,8 +71,6 @@ class SimpleShieldsView: UIView {
 
     let infoStackView = ShieldsStackView(edgeInsets: UX.iconEdgeInset)
 
-    let shareStackView = ShieldsStackView(edgeInsets: UX.iconEdgeInset)
-
     let countLabel = UILabel().then {
       $0.font = .systemFont(ofSize: 36)
       $0.setContentHuggingPriority(.required, for: .horizontal)
@@ -132,14 +130,12 @@ class SimpleShieldsView: UIView {
 
       descriptionStackView.addBackground(color: .secondaryBraveBackground, cornerRadius: 6.0)
       infoStackView.addBackground(color: .secondaryBraveBackground, cornerRadius: 6.0)
-      shareStackView.addBackground(color: .secondaryBraveBackground, cornerRadius: 6.0)
 
       addSubview(contentStackView)
 
       contentStackView.addStackViewItems(
         .view(descriptionStackView),
-        .view(infoStackView),
-        .view(shareStackView)
+        .view(infoStackView)
       )
 
       descriptionStackView.addStackViewItems(
@@ -148,7 +144,6 @@ class SimpleShieldsView: UIView {
       )
 
       infoStackView.addArrangedSubview(infoButton)
-      shareStackView.addArrangedSubview(shareButton)
 
       contentStackView.snp.makeConstraints {
         $0.edges.equalToSuperview()

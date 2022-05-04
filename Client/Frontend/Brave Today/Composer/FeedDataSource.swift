@@ -312,6 +312,11 @@ class FeedDataSource {
             .compactMap(\.wrappedValue)
         }
         self.sources = decodedResource
+        // Mamy - 04/05/2022
+        self.sources = self.sources.filter({ (source) -> Bool in
+          !source.name.lowercased().contains("brave")
+        })
+        // End
       } catch {
         // Could be a source type change, so may not be a big issue. If the user goes to download
         // updated lists and it still fails it will show an error on the feed
@@ -682,11 +687,11 @@ class FeedDataSource {
           [
             .headline(paired: false)
           ]),
-        .fillUsing(
-          dealsCategoryFillStrategy,
-          [
-            .deals
-          ]),
+//        .fillUsing(
+//          dealsCategoryFillStrategy,
+//          [
+//            .deals
+//          ]),
         .fillUsing(
           RandomizedFillStrategy(isIncluded: { Date().timeIntervalSince($0.content.publishTime) < 48.hours }),
           [

@@ -479,6 +479,48 @@ class SettingsViewController: TableViewController {
           },
           image: #imageLiteral(resourceName: "settings-rate").template,
           cellClass: MultilineValue1Cell.self),
+        // Mamy - 04/05/20212
+          Row(text: Strings.twitterPresearch,
+              selection: { [unowned self] in
+                // Twitter Presearch
+                guard let writeReviewURL = URL(string: "https://twitter.com/presearchnews")
+                else { return }
+                UIApplication.shared.open(writeReviewURL)
+                self.dismiss(animated: true)
+              },
+              image: #imageLiteral(resourceName: "settings-twitter").template,
+              cellClass: MultilineValue1Cell.self),
+        Row(text: Strings.telegramPresearch,
+            selection: { [unowned self] in
+              // Telegran Presearch
+              guard let writeReviewURL = URL(string: "https://t.me/presearch")
+              else { return }
+              UIApplication.shared.open(writeReviewURL)
+              self.dismiss(animated: true)
+            },
+            image: #imageLiteral(resourceName: "settings-telegram").template,
+            cellClass: MultilineValue1Cell.self),
+        Row(text: Strings.nodesPresearch,
+            selection: { [unowned self] in
+              // Nodes Presearch
+              guard let writeReviewURL = URL(string: "https://nodes.presearch.org")
+              else { return }
+              UIApplication.shared.open(writeReviewURL)
+              self.dismiss(animated: true)
+            },
+            image: #imageLiteral(resourceName: "settings-node").template,
+            cellClass: MultilineValue1Cell.self),
+        Row(text: Strings.keywordAdPresearch,
+            selection: { [unowned self] in
+              // Keyword Advertising Presearch
+              guard let writeReviewURL = URL(string: "https://keywords.presearch.org")
+              else { return }
+              UIApplication.shared.open(writeReviewURL)
+              self.dismiss(animated: true)
+            },
+            image: #imageLiteral(resourceName: "settings-keyboard-ad").template,
+            cellClass: MultilineValue1Cell.self)
+        // End
       ]
     )
   }()
@@ -510,14 +552,14 @@ class SettingsViewController: TableViewController {
             actionSheet.addAction(UIAlertAction(title: Strings.cancelButtonTitle, style: .cancel, handler: nil))
             self.navigationController?.present(actionSheet, animated: true, completion: nil)
           }, cellClass: MultilineValue1Cell.self),
-        Row(
-          text: Strings.privacyPolicy,
-          selection: { [unowned self] in
-            // Show privacy policy
-            let privacy = SettingsContentViewController().then { $0.url = BraveUX.bravePrivacyURL }
-            self.navigationController?.pushViewController(privacy, animated: true)
-          },
-          accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
+//        Row(
+//          text: Strings.privacyPolicy,
+//          selection: { [unowned self] in
+//            // Show privacy policy
+//            let privacy = SettingsContentViewController().then { $0.url = BraveUX.bravePrivacyURL }
+//            self.navigationController?.pushViewController(privacy, animated: true)
+//          },
+//          accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
         Row(
           text: Strings.termsOfUse,
           selection: { [unowned self] in

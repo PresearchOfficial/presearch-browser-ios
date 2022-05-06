@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Annonser och spårare";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "Spårare och annonser blockerade";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "Blockerade \nannonser";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields och sekretess";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker och sekretess";
 
 /* Sync page title */
 "BraveSync" = "Synkronisera";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Öppna alla länkar med för att skydda din integritet";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shields blockerar spårare och annonser, sparar data och sparar tid på alla webbplats du besöker";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker blockerar spårare och annonser, sparar data och sparar tid på alla webbplats du besöker";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Öppna Inställningar, tryck på Standardwebbläsare och välj Presearch.";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "Fortsätt till %@ (inte säkert)";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "Uppskattad tid \nsparad";
 
 /* %@ will launch an external application */
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "Dela med …";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Globala standardinställningar för Shields";
+"ShieldsDefaults" = "Globala standardinställningar för Presearch Ad Blocker";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Dessa är Shields standardinställningar för nya webbplatser. Om du ändrar dessa påverkas inte dina befintliga inställningar per webbplats.";
+"ShieldsDefaultsFooter" = "Dessa är Presearch Ad Blocker standardinställningar för nya webbplatser. Om du ändrar dessa påverkas inte dina befintliga inställningar per webbplats.";
 
 /* shields overview message */
 "ShieldsOverview" = "Sköldarna låter dig styra när annonser och spårare blockeras för varje webbplats du besöker. Om du föredrar att se annonser på en viss webbplats kan du aktivera dem här.";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "Idag";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "Blockerade \nspårare";
 
 /* Sync Alert */

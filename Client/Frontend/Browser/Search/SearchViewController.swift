@@ -227,6 +227,7 @@ class SearchViewController: SiteTableViewController, LoaderListener {
 
     view.addSubview(searchEngineScrollView)
     searchEngineScrollView.addSubview(searchEngineScrollViewContent)
+    searchEngineScrollView.isHidden = true
 
     layoutSearchEngineScrollView()
     layoutTable()

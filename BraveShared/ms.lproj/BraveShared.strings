@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Iklan dan Penjejak";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "Penjejak & iklan disekat";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "Iklan \nDisekat";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields & Privasi";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker & Privasi";
 
 /* Sync page title */
 "BraveSync" = "Segerak";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan untuk melindungi privasi anda  ";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih Presearch.  ";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "Teruskan ke %@ (tidak selamat)";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "Masa Jangkaan\nDisimpan";
 
 /* %@ will launch an external application */
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "Kongsi dengan...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Lalai Global Shields";
+"ShieldsDefaults" = "Lalai Global Presearch Ad Blocker";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Ini adalah tetapan Shields lalai untuk tapak baharu. Mengubah ini tidak akan menjejaskan tetapan setiap tapak sedia ada anda.";
+"ShieldsDefaultsFooter" = "Ini adalah tetapan Presearch Ad Blocker lalai untuk tapak baharu. Mengubah ini tidak akan menjejaskan tetapan setiap tapak sedia ada anda.";
 
 /* shields overview message */
 "ShieldsOverview" = "Perisai Tapak membenarkan anda mengawal bila iklan dan penjejak disekat untuk setiap tapak yang anda lawati. Jika anda suka melihat iklan di sesuatu tapak khusus, anda boleh mendayakannya di sini.";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "Hari Ini";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "Penjejak\nDisekat";
 
 /* Sync Alert */

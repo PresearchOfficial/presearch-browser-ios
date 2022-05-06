@@ -1,7 +1,7 @@
-/* The title of the screen explaining Shields */
+/* The title of the screen explaining Presearch Ad Blocker */
 "AboutBraveShields" = "Mengenai Pelindung Presearch";
 
-/* The body of the screen explaining Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "Laman sering termasuk kuki dan skrip yang cuba mengenal pasti anda dan peranti anda. Laman ingin mengetahui anda dan mengikuti anda sepanjang web — menjejaki perkara yang anda lakukan pada setiap laman.\n\nBrave menyekat semua hal ini supaya anda boleh melayari laman tanpa diikuti.";
 
 /* No comment provided by engineer. */
@@ -28,17 +28,17 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "Jika laman ini kelihatan rosak, cubalah Pelindung di bawah";
 
-/* Context: 'Shields Up' or 'Shields Down' */
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusTitle" = "Menahan Pelindung";
 
-/* Context: The 'Down' in 'Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "Bawah";
 
-/* Context: The 'Up' in 'Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "Atas";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Ketik dua kali untuk togol Shields";
+"BraveShieldsToggleHint" = "Ketik dua kali untuk togol Presearch Ad Blocker";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "Talk";
@@ -634,8 +634,8 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "Tutup Menu Konteks";
 
-/* Description for closing the `Shields` popover menu that is displayed. */
-"PopoverShieldsMenuClose" = "Tutup Menu Shields";
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
+"PopoverShieldsMenuClose" = "Tutup Menu Presearch Ad Blocker";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
 "privacyHub.allTimeListsButtonText" = "Senarai sepanjang masa";
@@ -670,7 +670,7 @@
 /* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Semua makluman";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Disekat oleh";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -680,13 +680,13 @@
 "privacyHub.clearAllDataAccessibility" = "Kosongkan Data Hab Privasi";
 
 /* A prompt message we show to the user if they want to clear all data gathered by the Privacy Reports Feature */
-"privacyHub.clearAllDataPrompt" = "Kosongkan semua data Shields?";
+"privacyHub.clearAllDataPrompt" = "Kosongkan semua data Presearch Ad Blocker?";
 
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "Minggu lepas";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
-"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** telah disekat oleh Shields pada tapak **%2$lld**";
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites' */
+"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** telah disekat oleh Presearch Ad Blocker pada tapak **%2$lld**";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
 "privacyHub.mostFrequentTrackerAndAdTitle" = "Penjejak & Iklan Paling Kerap";
@@ -725,10 +725,10 @@
 "privacyHub.riskiestWebsiteTitle" = "Laman web paling berisiko yang anda lawati";
 
 /* This text explains a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsFooter" = "Hab Privasi memaparkan jumlah laman yang disekat oleh Shields. Tetapan tidak akan mempengaruhi bilangan Shields pada halaman tab baharu. Data Shields tidak dikira dalam tetingkap peribadi.";
+"privacyHub.settingsEnableShieldsFooter" = "Hab Privasi memaparkan jumlah laman yang disekat oleh Presearch Ad Blocker. Tetapan tidak akan mempengaruhi bilangan Presearch Ad Blocker pada halaman tab baharu. Data Presearch Ad Blocker tidak dikira dalam tetingkap peribadi.";
 
 /* Title of a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsTitle" = "Paparkan Data Shields";
+"privacyHub.settingsEnableShieldsTitle" = "Paparkan Data Presearch Ad Blocker";
 
 /* This text explains a setting that lets monitor blocked network requests captured by VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "Tetapan hanya dikenakan jika anda sudah membeli langganan VPN.";
@@ -737,12 +737,12 @@
 "privacyHub.settingsEnableVPNAlertsTitle" = "Paparkan Makluman VPN";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
-"privacyHub.settingsSlearDataFooter" = "Menetapkan semula kiraan semua laman yang telah disekat oleh Shields.";
+"privacyHub.settingsSlearDataFooter" = "Menetapkan semula kiraan semua laman yang telah disekat oleh Presearch Ad Blocker.";
 
 /* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
-"privacyHub.settingsSlearDataTitle" = "Kosongkan Data Shields";
+"privacyHub.settingsSlearDataTitle" = "Kosongkan Data Presearch Ad Blocker";
 
-/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
+/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker' */
 "privacyHub.shieldsLabel" = "Perisai";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
@@ -830,7 +830,7 @@
 "ReportABrokenSite" = "Laporkan laman web yang rosak";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Beritahu pembangun bahawa tapak ini tidak berfungsi dengan betul dengan Shields:";
+"ReportBrokenSiteBody1" = "Beritahu pembangun bahawa tapak ini tidak berfungsi dengan betul dengan Presearch Ad Blocker:";
 
 /* No comment provided by engineer. */
 "ReportBrokenSiteBody2" = "Nota: Alamat tapak ini akan diserahkan bersama nombor versi anda dan alamat IP anda (yang tidak akan disimpan).";
@@ -1220,7 +1220,7 @@
 "shieldEducation.shareTheNewsTitle" = "Kongsi berita";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Shields baru sahaja melindungi privasi dalam talian anda. ";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker baru sahaja melindungi privasi dalam talian anda. ";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "Tahniah. Anda agak istimewa.";
@@ -1819,13 +1819,13 @@
 /* This shows when you add a widget but have no favorites added in your app */
 "widgets.noFavoritesFound" = "Sila buka untuk melihat kegemaran anda di sini";
 
-/* Description for Shields widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsDescription" = "Ringkasan tentang cara menjimatkan masa anda dan melindungi anda dalam talian.";
 
-/* Title for Shields widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "Statistik Privasi";
 
-/* Title of Shields widget shown above stat numbers. */
+/* Title of Presearch Ad Blocker widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "Statistik Privasi";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1846,10 +1846,10 @@
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "Pintasan";
 
-/* Description for Shields single stat widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatDescription" = "Ringkasan tentang cara telah melindungi anda dalam talian.";
 
-/* Title for Shields single stat widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "Statistik Privasi";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

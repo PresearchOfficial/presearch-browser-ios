@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Реклама и трекеры";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "Трекеров и объявлений заблокировано";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "Реклам\nзаблокировано";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields и конфиденциальность";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker и конфиденциальность";
 
 /* Sync page title */
 "BraveSync" = "Синхронизация";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Для безопасности открывайте ссылки с помощью Presearch";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Пользуйтесь Интернетом без помех. Shields блокирует рекламу и трекеры, а также защищает данные.";
+"defaultBrowserCallout.introSecondaryText" = "Пользуйтесь Интернетом без помех. Presearch Ad Blocker блокирует рекламу и трекеры, а также защищает данные.";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Откройте настройки, нажмите «Браузерное приложение по умолчанию» и выберите Presearch.";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "Перейти на сайт %@ (небезопасно)";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "Времени\nсэкономлено";
 
 /* %@ will launch an external application */
@@ -1169,13 +1169,13 @@
 "ShareWithMenuItem" = "Поделиться…";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Общие настройки Shields по умолчанию";
+"ShieldsDefaults" = "Общие настройки Presearch Ad Blocker по умолчанию";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Это настройки Shields по умолчанию для новых сайтов. Их изменение не повлияет на уже заданные настройки для отдельных сайтов.";
+"ShieldsDefaultsFooter" = "Это настройки Presearch Ad Blocker по умолчанию для новых сайтов. Их изменение не повлияет на уже заданные настройки для отдельных сайтов.";
 
 /* shields overview message */
-"ShieldsOverview" = "Щиты сайтов Shields позволяют контролировать блокировку рекламы и трекеров для каждого сайта, на который вы заходите. Если вы хотите видеть рекламу только на определенных сайтах, включите эту функцию ниже.";
+"ShieldsOverview" = "Щиты сайтов Presearch Ad Blocker позволяют контролировать блокировку рекламы и трекеров для каждого сайта, на который вы заходите. Если вы хотите видеть рекламу только на определенных сайтах, включите эту функцию ниже.";
 
 /* shields overview footer message */
 "ShieldsOverviewFooter" = "Примечание. Поскольку некоторым сайтам для работы необходимы скрипты, эта функция по умолчанию отключена.";
@@ -1226,7 +1226,7 @@
 "ShowTabsBar" = "Показать панель вкладок";
 
 /* panel topmost title */
-"SiteShieldSettings" = "Shields";
+"SiteShieldSettings" = "Presearch Ad Blocker";
 
 /* Open search section of settings */
 "StandardTabSearch" = "Обычная вкладка";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "Сегодня";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "Трекеров\nзаблокировано";
 
 /* Sync Alert */

@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Iklan dan Pelacak";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "Pelacak & iklan diblokir";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "Iklan \nDiblokir";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields & Privasi";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker & Privasi";
 
 /* Sync page title */
 "BraveSync" = "Sinkronisasi";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Buka semua tautan dengan untuk menjaga privasi Anda";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shields dirancang untuk memblokir pelacak & iklan, menghemat data dan waktu Anda di setiap situs yang Anda kunjungi";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker dirancang untuk memblokir pelacak & iklan, menghemat data dan waktu Anda di setiap situs yang Anda kunjungi";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Buka pengaturan, ketuk Default Browser App, dan pilih Presearch.";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "Melanjutkan ke %@ (tidak aman)";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "Perkiraan Waktu \nDisimpan";
 
 /* %@ will launch an external application */
@@ -1172,7 +1172,7 @@
 "ShieldsDefaults" = "Default Global Perisai Presearch";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Ini adalah pengaturan Shields default untuk situs baru. Mengubah nilai ini tidak akan memengaruhi pengaturan masing-masing situs yang telah ada.";
+"ShieldsDefaultsFooter" = "Ini adalah pengaturan Presearch Ad Blocker default untuk situs baru. Mengubah nilai ini tidak akan memengaruhi pengaturan masing-masing situs yang telah ada.";
 
 /* shields overview message */
 "ShieldsOverview" = "Perisai Situs memungkinkan Anda mengontrol saat iklan dan pelacak diblokir untuk setiap situs yang dikunjungi. Jika memilih untuk melihat iklan pada situs tertentu, Anda dapat mengaktifkannya di sini.";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "Hari Ini";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "Pelacak \nDiblokir";
 
 /* Sync Alert */

@@ -1,7 +1,7 @@
-/* The title of the screen explaining Shields */
-"AboutBraveShields" = "Shields 정보";
+/* The title of the screen explaining Presearch Ad Blocker */
+"AboutBraveShields" = "Presearch Ad Blocker 정보";
 
-/* The body of the screen explaining Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "사이트에는 방문자와 방문자의 기기를 식별하기 위한 쿠키 및 스크립트가 포함되어 있을 수 있습니다. 이러한 요소는 방문자를 식별하고 방문자가 방문하는 웹사이트를 따라다니며 모든 사이트에서의 방문자 행동 패턴을 추적합니다.\n\nBrave는 이러한 요소를 차단하므로 추적되지 않고 브라우징을 즐길 수 있습니다.";
 
 /* No comment provided by engineer. */
@@ -20,25 +20,25 @@
 "BraveShieldsBlockedInfoButtonAccessibilityLabel" = "자세히 알아보기";
 
 /* No comment provided by engineer. */
-"BraveShieldsGlobalChangeButton" = "글로벌 Shields 기본값 변경";
+"BraveShieldsGlobalChangeButton" = "글로벌 Presearch Ad Blocker 기본값 변경";
 
 /* No comment provided by engineer. */
 "BraveShieldsGlobalControls" = "글로벌 컨트롤";
 
 /* No comment provided by engineer. */
-"BraveShieldsSiteBroken" = "사이트가 깨진 것으로 표시되면 Shields 해제 권장";
+"BraveShieldsSiteBroken" = "사이트가 깨진 것으로 표시되면 Presearch Ad Blocker 해제 권장";
 
-/* Context: 'Shields Up' or 'Shields Down' */
-"BraveShieldsStatusTitle" = "Shields";
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
-/* Context: The 'Down' in 'Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "해제";
 
-/* Context: The 'Up' in 'Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "사용";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "두 번 탭하여 Shields 토글";
+"BraveShieldsToggleHint" = "두 번 탭하여 Presearch Ad Blocker 토글";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "Talk";
@@ -634,8 +634,8 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "맥락 메뉴 닫기";
 
-/* Description for closing the `Shields` popover menu that is displayed. */
-"PopoverShieldsMenuClose" = "Shields 메뉴 닫기";
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
+"PopoverShieldsMenuClose" = "Presearch Ad Blocker 메뉴 닫기";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
 "privacyHub.allTimeListsButtonText" = "올타임 목록";
@@ -670,7 +670,7 @@
 /* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "모든 경고";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "차단됨 -";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -680,12 +680,12 @@
 "privacyHub.clearAllDataAccessibility" = "프라이버시 허브 데이터 지우기";
 
 /* A prompt message we show to the user if they want to clear all data gathered by the Privacy Reports Feature */
-"privacyHub.clearAllDataPrompt" = "모든 Shields 데이터를 지우시겠습니까?";
+"privacyHub.clearAllDataPrompt" = "모든 Presearch Ad Blocker 데이터를 지우시겠습니까?";
 
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "지난주";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites' */
 "privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@**이(가) Shields에 의해 **%2$lld**개 사이트에서 차단됨";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
@@ -725,10 +725,10 @@
 "privacyHub.riskiestWebsiteTitle" = "방문한 웹사이트 중 가장 위험한 곳";
 
 /* This text explains a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsFooter" = "프라이버시 허브에는 Shields의 차단 횟수가 표시됩니다. 설정은 새 탭 페이지의 Shields 카운터에 영향을 주지 않습니다. 비공개 창에서는 Shields 데이터가 집계되지 않습니다.";
+"privacyHub.settingsEnableShieldsFooter" = "프라이버시 허브에는 Shields의 차단 횟수가 표시됩니다. 설정은 새 탭 페이지의 Presearch Ad Blocker 카운터에 영향을 주지 않습니다. 비공개 창에서는 Presearch Ad Blocker 데이터가 집계되지 않습니다.";
 
 /* Title of a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsTitle" = "Shields 데이터 표시";
+"privacyHub.settingsEnableShieldsTitle" = "Presearch Ad Blocker 데이터 표시";
 
 /* This text explains a setting that lets monitor blocked network requests captured by VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "VPN 구독 구매 시에만 설정이 적용됩니다.";
@@ -737,12 +737,12 @@
 "privacyHub.settingsEnableVPNAlertsTitle" = "VPN 경고 표시";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
-"privacyHub.settingsSlearDataFooter" = "Shields 차단 개수 기록을 초기화합니다.";
+"privacyHub.settingsSlearDataFooter" = "Presearch Ad Blocker 차단 개수 기록을 초기화합니다.";
 
 /* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
-"privacyHub.settingsSlearDataTitle" = "Shields 데이터 지우기";
+"privacyHub.settingsSlearDataTitle" = "Presearch Ad Blocker 데이터 지우기";
 
-/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
+/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker' */
 "privacyHub.shieldsLabel" = "차단";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
@@ -1235,7 +1235,7 @@
 "shieldEducation.videoAdBlockTitle" = "이 웹사이트에서 동영상을 시청하는 동안 광고가 차단되었습니다.";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "Brave의 개인정보 보호 없이 이 사이트를 브라우징하고 계십니다. Shields 사용 시 제대로 작동하지 않나요?";
+"ShieldsDownDisclaimer" = "Brave의 개인정보 보호 없이 이 사이트를 브라우징하고 계십니다. Presearch Ad Blocker 사용 시 제대로 작동하지 않나요?";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeBraveNewsDescription" = "News를 열고 오늘의 인기 스토리 확인";
@@ -1819,13 +1819,13 @@
 /* This shows when you add a widget but have no favorites added in your app */
 "widgets.noFavoritesFound" = "여기서 즐겨찾기를 보려면 Brave를 여세요.";
 
-/* Description for Shields widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsDescription" = "Brave가 어떻게 시간을 절약하고 온라인 프라이버시를 보호하는지에 대한 개요가 제공됩니다.";
 
-/* Title for Shields widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "프라이버시 통계";
 
-/* Title of Shields widget shown above stat numbers. */
+/* Title of Presearch Ad Blocker widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "프라이버시 통계";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1846,10 +1846,10 @@
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "바로가기";
 
-/* Description for Shields single stat widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatDescription" = "Brave가 어떻게 온라인 프라이버시를 보호하는지에 대한 개요가 제공됩니다.";
 
-/* Title for Shields single stat widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "프라이버시 통계";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

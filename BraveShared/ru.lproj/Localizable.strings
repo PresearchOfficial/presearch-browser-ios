@@ -1,7 +1,7 @@
-/* The title of the screen explaining Shields */
+/* The title of the screen explaining Presearch Ad Blocker */
 "AboutBraveShields" = "О щитах Presearch";
 
-/* The body of the screen explaining Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "Чтобы распознавать пользователей и их устройства, сайты используют файлы cookie и скрипты. Это значит, что действия в Интернете могут отслеживаться.\n\nBrave защищает вашу конфиденциальность, поэтому блокирует скрипты и файлы cookie.";
 
 /* No comment provided by engineer. */
@@ -28,17 +28,17 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "Проблемы с сайтом? Попробуйте выключить щиты.";
 
-/* Context: 'Shields Up' or 'Shields Down' */
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusTitle" = "Щиты Presearch";
 
-/* Context: The 'Down' in 'Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "выключены";
 
-/* Context: The 'Up' in 'Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "включены";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Shields: чтобы переключить, нажмите дважды";
+"BraveShieldsToggleHint" = "Presearch Ad Blocker: чтобы переключить, нажмите дважды";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "Разговоры";
@@ -634,7 +634,7 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "Закрыть контекстное меню";
 
-/* Description for closing the `Shields` popover menu that is displayed. */
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "Закрыть меню «Щиты»";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
@@ -670,7 +670,7 @@
 /* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Все оповещения";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Блокировщик:";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -685,7 +685,7 @@
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "За неделю";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites' */
 "privacyHub.mostFrequentTrackerAndAdBody" = "Сайтов, на которых Щит заблокировал **%1$@**: **%2$lld**";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
@@ -742,8 +742,8 @@
 /* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
 "privacyHub.settingsSlearDataTitle" = "Удалить данные Щита";
 
-/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
-"privacyHub.shieldsLabel" = "Shields";
+/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker' */
+"privacyHub.shieldsLabel" = "Presearch Ad Blocker";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
 "privacyHub.vpnAlertEmailTrackerTypePlural" = "Трекеры электронной почты";
@@ -830,7 +830,7 @@
 "ReportABrokenSite" = "Пожаловаться на проблемы с сайтом";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Сообщите разработчикам Presearch, что этот сайт некорректно работает с системой Shields:";
+"ReportBrokenSiteBody1" = "Сообщите разработчикам Presearch, что этот сайт некорректно работает с системой Presearch Ad Blocker:";
 
 /* No comment provided by engineer. */
 "ReportBrokenSiteBody2" = "Примечание. Разработчикам будет отправлен адрес этого сайта, а также номер вашей версии и ваш IP-адрес (эти данные не будут храниться).";
@@ -1220,7 +1220,7 @@
 "shieldEducation.shareTheNewsTitle" = "Поделиться новостями";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Shields защищает вашу конфиденциальность.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker защищает вашу конфиденциальность.";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "Поздравляем! Отличный результат!";
@@ -1819,13 +1819,13 @@
 /* This shows when you add a widget but have no favorites added in your app */
 "widgets.noFavoritesFound" = "Откройте Presearch, чтобы добавить сюда избранные сайты.";
 
-/* Description for Shields widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsDescription" = "Информация о том, как экономит ваше время и обеспечивает конфиденциальность в Интернете.";
 
-/* Title for Shields widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "Показатели";
 
-/* Title of Shields widget shown above stat numbers. */
+/* Title of Presearch Ad Blocker widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "Показатели";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1846,10 +1846,10 @@
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "Ярлыки";
 
-/* Description for Shields single stat widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatDescription" = "Информация о том, как обеспечивает вашу безопасность в Интернете.";
 
-/* Title for Shields single stat widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "Конфиденциальность";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

@@ -1,7 +1,7 @@
-/* The title of the screen explaining Shields */
-"AboutBraveShields" = "关于 Shields";
+/* The title of the screen explaining Presearch Ad Blocker */
+"AboutBraveShields" = "关于 Presearch Ad Blocker";
 
-/* The body of the screen explaining Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "网站通常包含试图识别您和您的设备的 cookie 和脚本。它们想弄清楚您是谁，并在网上跟踪您，即跟踪您在每个站点上所执行的操作。\n\nBrave 会屏蔽这些操作，这样您就可以随意浏览，而不会被跟踪。";
 
 /* No comment provided by engineer. */
@@ -26,19 +26,19 @@
 "BraveShieldsGlobalControls" = "全局控件";
 
 /* No comment provided by engineer. */
-"BraveShieldsSiteBroken" = "如果此站点显示为已损坏，请尝试关闭 Shields。";
+"BraveShieldsSiteBroken" = "如果此站点显示为已损坏，请尝试关闭 Presearch Ad Blocker。";
 
-/* Context: 'Shields Up' or 'Shields Down' */
-"BraveShieldsStatusTitle" = "Shields";
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
-/* Context: The 'Down' in 'Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "关闭";
 
-/* Context: The 'Up' in 'Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "开启";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "轻击两次即可切换 Shields";
+"BraveShieldsToggleHint" = "轻击两次即可切换 Presearch Ad Blocker";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "通话";
@@ -634,8 +634,8 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "关闭 Context 菜单";
 
-/* Description for closing the `Shields` popover menu that is displayed. */
-"PopoverShieldsMenuClose" = "关闭 Shields 菜单";
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
+"PopoverShieldsMenuClose" = "关闭 Presearch Ad Blocker 菜单";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
 "privacyHub.allTimeListsButtonText" = "所有时间列表";
@@ -670,7 +670,7 @@
 /* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "所有警报";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "被以下项阻止：";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -680,13 +680,13 @@
 "privacyHub.clearAllDataAccessibility" = "清除隐私中心的数据";
 
 /* A prompt message we show to the user if they want to clear all data gathered by the Privacy Reports Feature */
-"privacyHub.clearAllDataPrompt" = "要清除所有 Shields 数据？";
+"privacyHub.clearAllDataPrompt" = "要清除所有 Presearch Ad Blocker 数据？";
 
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "上周";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
-"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** 在 **%2$lld** 网站上被 Shields 阻止";
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites' */
+"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** 在 **%2$lld** 网站上被 Presearch Ad Blocker 阻止";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
 "privacyHub.mostFrequentTrackerAndAdTitle" = "最常见的跟踪器和广告";
@@ -725,10 +725,10 @@
 "privacyHub.riskiestWebsiteTitle" = "您访问过的风险最高的网站";
 
 /* This text explains a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsFooter" = "隐私中心显示 Shields 阻止的内容的计数。设置不会影响新标签页上的 Shields 计数器。Shields 数据不计入私人窗口。";
+"privacyHub.settingsEnableShieldsFooter" = "隐私中心显示 Presearch Ad Blocker 阻止的内容的计数。设置不会影响新标签页上的 Presearch Ad Blocker 计数器。Presearch Ad Blocker 数据不计入私人窗口。";
 
 /* Title of a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsTitle" = "显示 Shields 数据";
+"privacyHub.settingsEnableShieldsTitle" = "显示 Presearch Ad Blocker 数据";
 
 /* This text explains a setting that lets monitor blocked network requests captured by VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "设置仅适用于您已购买 VPN 订阅的情况。";
@@ -737,12 +737,12 @@
 "privacyHub.settingsEnableVPNAlertsTitle" = "显示 VPN 警报";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
-"privacyHub.settingsSlearDataFooter" = "重置 Shields 已阻止的所有内容的计数。";
+"privacyHub.settingsSlearDataFooter" = "重置 Presearch Ad Blocker 已阻止的所有内容的计数。";
 
 /* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
-"privacyHub.settingsSlearDataTitle" = "清除 Shields 数据";
+"privacyHub.settingsSlearDataTitle" = "清除 Presearch Ad Blocker 数据";
 
-/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
+/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker' */
 "privacyHub.shieldsLabel" = "屏蔽";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
@@ -830,7 +830,7 @@
 "ReportABrokenSite" = "报告损坏的网站";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "让 的开发人员知道此网站无法与 Shields 一起正常使用：";
+"ReportBrokenSiteBody1" = "让 的开发人员知道此网站无法与 Presearch Ad Blocker 一起正常使用：";
 
 /* No comment provided by engineer. */
 "ReportBrokenSiteBody2" = "注意：该站点地址将与您使用的 的版本号和 IP 地址（不会存储）一起被提交。";
@@ -1220,7 +1220,7 @@
 "shieldEducation.shareTheNewsTitle" = "分享消息";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Shields 只是保护了您的在线隐私。";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker 只是保护了您的在线隐私。";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "您很特别。恭喜您！";
@@ -1235,7 +1235,7 @@
 "shieldEducation.videoAdBlockTitle" = "在此网站上观看视频时，广告被屏蔽。";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "你正在没有 隐私保护的情况下浏览本网站。Shields 处于开启状态时无法正常工作吗？";
+"ShieldsDownDisclaimer" = "你正在没有 隐私保护的情况下浏览本网站。Presearch Ad Blocker 处于开启状态时无法正常工作吗？";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeBraveNewsDescription" = "打开 新闻并查看今日头条";
@@ -1819,13 +1819,13 @@
 /* This shows when you add a widget but have no favorites added in your app */
 "widgets.noFavoritesFound" = "请打开 Presearch，在此查看您的收藏夹";
 
-/* Description for Shields widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsDescription" = "一览 是如何节省时间以及提供在线保护的。";
 
-/* Title for Shields widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "隐私统计数据";
 
-/* Title of Shields widget shown above stat numbers. */
+/* Title of Presearch Ad Blocker widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "隐私统计数据";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1846,10 +1846,10 @@
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "快捷方式";
 
-/* Description for Shields single stat widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatDescription" = "一览 是如何提供在线保护的。";
 
-/* Title for Shields single stat widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "隐私统计数据";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

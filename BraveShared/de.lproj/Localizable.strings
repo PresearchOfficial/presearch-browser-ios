@@ -1,7 +1,7 @@
-/* The title of the screen explaining Shields */
-"AboutBraveShields" = "Über Shields";
+/* The title of the screen explaining Presearch Ad Blocker */
+"AboutBraveShields" = "Über Presearch Ad Blocker";
 
-/* The body of the screen explaining Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "Websites nutzen häufig Cookies und Skripte, mit denen man Sie und Ihr Gerät erkennen kann. Das Ziel ist dabei, Ihre Identität zu ermitteln und Ihre Aktivitäten im Internet auf jeder der von Ihnen besuchten Websites zu verfolgen.\n\nBrave blockiert dieses Tracking, damit Sie surfen können, ohne im Web beobachtet zu werden.";
 
 /* No comment provided by engineer. */
@@ -20,25 +20,25 @@
 "BraveShieldsBlockedInfoButtonAccessibilityLabel" = "Mehr erfahren";
 
 /* No comment provided by engineer. */
-"BraveShieldsGlobalChangeButton" = "Standardeinstellungen für globale Shields ändern";
+"BraveShieldsGlobalChangeButton" = "Standardeinstellungen für globale Presearch Ad Blocker ändern";
 
 /* No comment provided by engineer. */
 "BraveShieldsGlobalControls" = "Globale Steuerelemente";
 
 /* No comment provided by engineer. */
-"BraveShieldsSiteBroken" = "Wenn diese Website defekt erscheint, versuchen Sie es mit Shields down";
+"BraveShieldsSiteBroken" = "Wenn diese Website defekt erscheint, versuchen Sie es mit Presearch Ad Blocker down";
 
-/* Context: 'Shields Up' or 'Shields Down' */
-"BraveShieldsStatusTitle" = "Shields";
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
+"BraveShieldsStatusTitle" = "Presearch Ad Blocker";
 
-/* Context: The 'Down' in 'Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "Down";
 
-/* Context: The 'Up' in 'Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "Online";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Zum Umschalten von Shields doppeltippen";
+"BraveShieldsToggleHint" = "Zum Umschalten von Presearch Ad Blocker doppeltippen";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "Presearch-Gespräche";
@@ -634,8 +634,8 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "Kontextmenü schließen";
 
-/* Description for closing the `Shields` popover menu that is displayed. */
-"PopoverShieldsMenuClose" = "Shields-Menü schließen";
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
+"PopoverShieldsMenuClose" = "Presearch Ad Blocker-Menü schließen";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
 "privacyHub.allTimeListsButtonText" = "Gesamtliste";
@@ -670,7 +670,7 @@
 /* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Alle Benachrichtigungen";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Blockiert von";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -685,7 +685,7 @@
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "Letzte Woche";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites' */
 "privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** wurde vom Presearch-Schutz auf **%2$lld** Websites blockiert";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
@@ -742,7 +742,7 @@
 /* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
 "privacyHub.settingsSlearDataTitle" = "Schutz-Daten löschen";
 
-/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
+/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker' */
 "privacyHub.shieldsLabel" = "Schutz";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
@@ -830,7 +830,7 @@
 "ReportABrokenSite" = "Eine defekte Website melden";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Teilen Sie den Entwicklern von mit, dass diese Seite nicht mit Shields funktioniert:";
+"ReportBrokenSiteBody1" = "Teilen Sie den Entwicklern von mit, dass diese Seite nicht mit Presearch Ad Blocker funktioniert:";
 
 /* No comment provided by engineer. */
 "ReportBrokenSiteBody2" = "Hinweis: Die Adresse dieser Seite wird gemeinsam mit Ihrer Presearch-Versionsnummer und Ihrer IP-Adresse (wird nicht gespeichert) übermittelt.";
@@ -1220,7 +1220,7 @@
 "shieldEducation.shareTheNewsTitle" = "Teilen Sie die Nachrichten";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Shields hat soeben Ihre Online-Privatsphäre geschützt.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker hat soeben Ihre Online-Privatsphäre geschützt.";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "Glückwunsch. Sie sind etwas Besonderes.";
@@ -1235,7 +1235,7 @@
 "shieldEducation.videoAdBlockTitle" = "Während des Abspielens von Videos auf dieser Website wurden Anzeigen blockiert.";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "Sie surfen auf dieser Website ohne den Datenschutz von Presearch. Funktioniert es nicht richtig mit Shields?";
+"ShieldsDownDisclaimer" = "Sie surfen auf dieser Website ohne den Datenschutz von Presearch. Funktioniert es nicht richtig mit Presearch Ad Blocker?";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeBraveNewsDescription" = "News öffnen und die wichtigsten Nachrichten von heute lesen";
@@ -1819,13 +1819,13 @@
 /* This shows when you add a widget but have no favorites added in your app */
 "widgets.noFavoritesFound" = "Bitte öffnen Sie Presearch, um hier Ihre Favoriten anzuzeigen.";
 
-/* Description for Shields widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsDescription" = "Eine Zusammenfassung davon, wie Sie mit Zeit sparen können und online geschützt werden.";
 
-/* Title for Shields widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "Datenschutzstatistik";
 
-/* Title of Shields widget shown above stat numbers. */
+/* Title of Presearch Ad Blocker widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "Datenschutzstatistik";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1846,10 +1846,10 @@
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "Verknüpfungen";
 
-/* Description for Shields single stat widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatDescription" = "Eine Zusammenfassung davon, wie Sie online geschützt hat.";
 
-/* Title for Shields single stat widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "Datenschutzstatistik";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

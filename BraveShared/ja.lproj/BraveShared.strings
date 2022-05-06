@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "広告とトラッカー";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "ブロック済みのトラッカー&広告数";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "ブロック済の\n広告";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields & プライバシー";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker & プライバシー";
 
 /* Sync page title */
 "BraveSync" = "Sync";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "%@ （安全ではありません）に進む";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "節約できた\n時間(推定)";
 
 /* %@ will launch an external application */
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "今日";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "ブロック済の\nトラッカー";
 
 /* Sync Alert */

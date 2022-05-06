@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Реклама і трекери";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "Трекери й рекламу заблоковано";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "Реклами\nзаблоковано";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields і конфіденційність";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker і конфіденційність";
 
 /* Sync page title */
 "BraveSync" = "Синхронізація";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Відкривайте всі посилання у Presearch, щоб захистити свою конфіденційність";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shields блокує трекери та рекламу, а також дозволяє заощадити дані й час під час перегляду вебсайтів";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker блокує трекери та рекламу, а також дозволяє заощадити дані й час під час перегляду вебсайтів";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Відкрийте меню «Параметри», торкніться пункту «Програма браузера за замовчуванням» і виберіть Presearch.";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "Перейти на %@ (небезпечно)";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "Заощаджено\nчасу (приблизно)";
 
 /* %@ will launch an external application */
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "Поділитися з…";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Глобальні налаштування Shields за замовчуванням";
+"ShieldsDefaults" = "Глобальні налаштування Presearch Ad Blocker за замовчуванням";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Це налаштування Shields за замовчуванням для нових вебсайтів. Якщо ви їх зміните, це не вплине на ваші налаштування для окремих вебсайтів.";
+"ShieldsDefaultsFooter" = "Це налаштування Presearch Ad Blocker за замовчуванням для нових вебсайтів. Якщо ви їх зміните, це не вплине на ваші налаштування для окремих вебсайтів.";
 
 /* shields overview message */
 "ShieldsOverview" = "Екрани дозволяють керувати блокуванням реклами або трекерів на кожному сайті, який ви переглядаєте. Для перегляду реклами на сайті увімкніть цей параметр тут.";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "Сьогодні";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "Трекерів\nзаблоковано";
 
 /* Sync Alert */

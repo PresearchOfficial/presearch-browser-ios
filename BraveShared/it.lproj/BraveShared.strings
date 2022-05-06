@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Annunci e sistemi di tracciamento";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "Tracker e annunci bloccati";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "Annunci \nbloccati";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields e privacy";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker e privacy";
 
 /* Sync page title */
 "BraveSync" = "Sincronizza";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Per difendere la tua privacy apri tutti i link con Presearch";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shields blocca i tracker e gli annunci pubblicitari, tutela i dati e ti fa risparmiare tempo ogni volta che visiti un sito";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker blocca i tracker e gli annunci pubblicitari, tutela i dati e ti fa risparmiare tempo ogni volta che visiti un sito";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Apri Impostazioni, seleziona App per il browser di default, poi scegli Presearch.";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "Continua su %@ (non sicuro)";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "Tempo \nrisparmiato";
 
 /* %@ will launch an external application */
@@ -1169,13 +1169,13 @@
 "ShareWithMenuItem" = "Condividi con...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Impostazioni predefinite globali Shields";
+"ShieldsDefaults" = "Impostazioni predefinite globali Presearch Ad Blocker";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "Queste sono le impostazioni predefinite di Shields per i nuovi siti. La loro modifica non influirà sulle impostazioni esistenti per i singoli siti.";
+"ShieldsDefaultsFooter" = "Queste sono le impostazioni predefinite di Presearch Ad Blocker per i nuovi siti. La loro modifica non influirà sulle impostazioni esistenti per i singoli siti.";
 
 /* shields overview message */
-"ShieldsOverview" = "Con Shields decidi se bloccare gli annunci pubblicitari e i sistemi di tracciamento, per tutti i siti che visiti. Se su un sito specifico vuoi vedere gli annunci, puoi attivarli qui.";
+"ShieldsOverview" = "Con Presearch Ad Blocker decidi se bloccare gli annunci pubblicitari e i sistemi di tracciamento, per tutti i siti che visiti. Se su un sito specifico vuoi vedere gli annunci, puoi attivarli qui.";
 
 /* shields overview footer message */
 "ShieldsOverviewFooter" = "Nota: alcuni siti potrebbero richiedere il funzionamento corretto degli script; pertanto questa protezione viene disattivata per impostazione predefinita.";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "Oggi";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "Tracker \nbloccati";
 
 /* Sync Alert */

@@ -22,10 +22,10 @@
 /* individual blocking statistic title */
 "AdsAndTrackers" = "广告和跟踪器";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsAndTrackersrBlocked" = "跟踪器和被屏蔽的广告";
 
-/* Shields Ads Stat */
+/* Presearch Ad Blocker Ads Stat */
 "AdsrBlocked" = "广告被拦截";
 
 /* Setting to always request the desktop version of a website. */
@@ -152,7 +152,7 @@
 "BraveRewardsTitle" = "Rewards";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "Shields 与隐私";
+"BraveShieldsAndPrivacy" = "Presearch Ad Blocker 与隐私";
 
 /* Sync page title */
 "BraveSync" = "同步";
@@ -329,7 +329,7 @@
 "defaultBrowserCallout.introPrimaryText" = "用 打开所有链接以保护您的隐私";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shields 可屏蔽跟踪器和广告、保存数据，并节省您访问每个网站的时间";
+"defaultBrowserCallout.introSecondaryText" = "Presearch Ad Blocker 可屏蔽跟踪器和广告、保存数据，并节省您访问每个网站的时间";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "打开设置、点击默认浏览器应用，然后选择 Presearch。";
@@ -481,7 +481,7 @@
 /* Button label to temporarily continue to the site from the certificate error page */
 "ErrorPagesProceedAnywayButton" = "继续前往 %@（不安全）";
 
-/* Shields Time Saved Stat */
+/* Presearch Ad Blocker Time Saved Stat */
 "EstTimerSaved" = "预计时间 \n已保存";
 
 /* %@ will launch an external application */
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "分享对象...";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Shields 全局默认";
+"ShieldsDefaults" = "Presearch Ad Blocker 全局默认";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "这些是新站点的默认 Shields 设置。更改这些设置不会影响您现有的每个站点的设置。";
+"ShieldsDefaultsFooter" = "这些是新站点的默认 Presearch Ad Blocker 设置。更改这些设置不会影响您现有的每个站点的设置。";
 
 /* shields overview message */
 "ShieldsOverview" = "利用网站屏幕，您在访问每个网站时可以控制是否拦截广告和跟踪程序。如果您希望查看某个特定网站的广告，则可以在此处启用这些广告。";
@@ -1519,7 +1519,7 @@
 /* History tableview section header */
 "Today" = "今天";
 
-/* Shields Trackers Stat */
+/* Presearch Ad Blocker Trackers Stat */
 "TrackersrBlocked" = "拦截器 \n被拦截";
 
 /* Sync Alert */

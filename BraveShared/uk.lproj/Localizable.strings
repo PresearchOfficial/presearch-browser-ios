@@ -1,7 +1,7 @@
-/* The title of the screen explaining Shields */
+/* The title of the screen explaining Presearch Ad Blocker */
 "AboutBraveShields" = "Про щити Presearch";
 
-/* The body of the screen explaining Shields */
+/* The body of the screen explaining Presearch Ad Blocker */
 "AboutBraveShieldsBody" = "Вебсайти зазвичай містять файли cookie та скрипти, що використовуються для ідентифікації вашої особи й пристрою з метою визначення ваших вподобань і відстеження дій на інших сайтах.\n\nБраузер блокує ці засоби відстеження, щоб ви могли безпечно переглядати вміст у Інтернеті.";
 
 /* No comment provided by engineer. */
@@ -28,17 +28,17 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "Якщо вебсайт не працює, спробуйте вимкнути щити";
 
-/* Context: 'Shields Up' or 'Shields Down' */
+/* Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusTitle" = "Щити Presearch";
 
-/* Context: The 'Down' in 'Shields Down' */
+/* Context: The 'Down' in 'Presearch Ad Blocker Down' */
 "BraveShieldsStatusValueDown" = "Вимкн.";
 
-/* Context: The 'Up' in 'Shields Up' */
+/* Context: The 'Up' in 'Presearch Ad Blocker Up' */
 "BraveShieldsStatusValueUp" = "Увімкн.";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Торкніться двічі, щоб увімкнути Shields";
+"BraveShieldsToggleHint" = "Торкніться двічі, щоб увімкнути Presearch Ad Blocker";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "Talk";
@@ -634,8 +634,8 @@
 /* Description for closing a popover menu that is displayed. */
 "PopoverDefaultClose" = "Закрити контекстне меню";
 
-/* Description for closing the `Shields` popover menu that is displayed. */
-"PopoverShieldsMenuClose" = "Закрити меню Shields";
+/* Description for closing the `Presearch Ad Blocker` popover menu that is displayed. */
+"PopoverShieldsMenuClose" = "Закрити меню Presearch Ad Blocker";
 
 /* Button text that takes user to a list of all trackers and ads we blocked. 'All time lists' refer to list of blocked trackers or websites which have the most trackers */
 "privacyHub.allTimeListsButtonText" = "Списки за весь час";
@@ -670,7 +670,7 @@
 /* Text for a button to display a list of all alerts caught by the VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Усі сповіщення";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Заблоковано:";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -680,13 +680,13 @@
 "privacyHub.clearAllDataAccessibility" = "Очистити дані центру приватності";
 
 /* A prompt message we show to the user if they want to clear all data gathered by the Privacy Reports Feature */
-"privacyHub.clearAllDataPrompt" = "Очистити всі дані Shields?";
+"privacyHub.clearAllDataPrompt" = "Очистити всі дані Presearch Ad Blocker?";
 
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "Останній  тиждень";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites' */
-"privacyHub.mostFrequentTrackerAndAdBody" = "Сервіс Shields заблокував **%1$@** на сайтах (**%2$lld**)";
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites' */
+"privacyHub.mostFrequentTrackerAndAdBody" = "Сервіс Presearch Ad Blocker заблокував **%1$@** на сайтах (**%2$lld**)";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
 "privacyHub.mostFrequentTrackerAndAdTitle" = "Найчастіший трекер і реклама";
@@ -725,10 +725,10 @@
 "privacyHub.riskiestWebsiteTitle" = "Відвідані вами вебсайти з найбільшим ризиком";
 
 /* This text explains a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsFooter" = "У центрі конфіденційності показано, скільки й чого заблоковано за допомогою Shields. Налаштування не вплинуть на лічильник Shields на сторінці нової вкладки. Дані Shields не враховуються у приватних вікнах.";
+"privacyHub.settingsEnableShieldsFooter" = "У центрі конфіденційності показано, скільки й чого заблоковано за допомогою Presearch Ad Blocker. Налаштування не вплинуть на лічильник Presearch Ad Blocker на сторінці нової вкладки. Дані Presearch Ad Blocker не враховуються у приватних вікнах.";
 
 /* Title of a setting that lets monitor blocked network requests */
-"privacyHub.settingsEnableShieldsTitle" = "Показати дані Shields";
+"privacyHub.settingsEnableShieldsTitle" = "Показати дані Presearch Ad Blocker";
 
 /* This text explains a setting that lets monitor blocked network requests captured by VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "Налаштування застосовується, лише якщо ви придбали підписку VPN.";
@@ -737,13 +737,13 @@
 "privacyHub.settingsEnableVPNAlertsTitle" = "Показати оповіщення щодо VPN";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
-"privacyHub.settingsSlearDataFooter" = "Скидає кількість заблокованих елементів у Shields.";
+"privacyHub.settingsSlearDataFooter" = "Скидає кількість заблокованих елементів у Presearch Ad Blocker.";
 
 /* Button that lets user clear all blocked requests and vpn alerts data that captured for them. */
-"privacyHub.settingsSlearDataTitle" = "Очистити дані Shields";
+"privacyHub.settingsSlearDataTitle" = "Очистити дані Presearch Ad Blocker";
 
-/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
-"privacyHub.shieldsLabel" = "Shields";
+/* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker' */
+"privacyHub.shieldsLabel" = "Presearch Ad Blocker";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
 "privacyHub.vpnAlertEmailTrackerTypePlural" = "Трекери ел. адреси";
@@ -830,7 +830,7 @@
 "ReportABrokenSite" = "Повідомити про помилки в роботі вебсайту";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Повідомте розробників Presearch, що за ввімкненої функції Shields вебсайт працює неправильно:";
+"ReportBrokenSiteBody1" = "Повідомте розробників Presearch, що за ввімкненої функції Presearch Ad Blocker вебсайт працює неправильно:";
 
 /* No comment provided by engineer. */
 "ReportBrokenSiteBody2" = "Примітка. Адресу цього вебсайту буде надіслано з номером версії і вашою IP-адресою (яка не зберігатиметься).";
@@ -1220,7 +1220,7 @@
 "shieldEducation.shareTheNewsTitle" = "Поділитися новинами";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "Shields захищає вашу конфіденційність онлайн.";
+"shieldEducation.trackerAdWarningSubTitle" = "Presearch Ad Blocker захищає вашу конфіденційність онлайн.";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "Вітаємо! Неперевершеність — ваше друге ім’я.";
@@ -1819,13 +1819,13 @@
 /* This shows when you add a widget but have no favorites added in your app */
 "widgets.noFavoritesFound" = "Відкрийте Presearch, щоб переглянути свій перелік вибраного";
 
-/* Description for Shields widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsDescription" = "Короткий опис того, як заощаджує ваш час і захищає вас в Інтернеті.";
 
-/* Title for Shields widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker widget on 'add widget' screen. */
 "widgets.shieldStatsTitle" = "Звіти про конфіденційність";
 
-/* Title of Shields widget shown above stat numbers. */
+/* Title of Presearch Ad Blocker widget shown above stat numbers. */
 "widgets.shieldStatsWidgetTitle" = "Звіти про конфіденційність";
 
 /* Button to the browser and enter URL or make a search query there. */
@@ -1846,10 +1846,10 @@
 /* Title for shortcuts widget on 'add widget' screen. */
 "widgets.shortcutsWidgetTitle" = "Ярлики швидкого доступу";
 
-/* Description for Shields single stat widget on 'add widget' screen. */
+/* Description for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatDescription" = "Короткий опис того, як захищає вас в Інтернеті.";
 
-/* Title for Shields single stat widget on 'add widget' screen. */
+/* Title for Presearch Ad Blocker single stat widget on 'add widget' screen. */
 "widgets.singleStatTitle" = "Звіт про конфіденційність";
 
 /* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */

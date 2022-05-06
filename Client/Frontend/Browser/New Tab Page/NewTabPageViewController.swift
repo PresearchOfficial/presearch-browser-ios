@@ -163,20 +163,20 @@ class NewTabPageViewController: UIViewController {
       sections.insert(NTPDefaultBrowserCalloutProvider(), at: 0)
     }
 
-    #if !NO_BRAVE_NEWS
-    if !PrivateBrowsingManager.shared.isPrivateBrowsing {
-      sections.append(
-        BraveNewsSectionProvider(
-          dataSource: feedDataSource,
-          rewards: rewards,
-          actionHandler: { [weak self] in
-            self?.handleBraveNewsAction($0)
-          }
-        )
-      )
-      layout.braveNewsSection = sections.firstIndex(where: { $0 is BraveNewsSectionProvider })
-    }
-    #endif
+//    #if !NO_BRAVE_NEWS
+//    if !PrivateBrowsingManager.shared.isPrivateBrowsing {
+//      sections.append(
+//        BraveNewsSectionProvider(
+//          dataSource: feedDataSource,
+//          rewards: rewards,
+//          actionHandler: { [weak self] in
+//            self?.handleBraveNewsAction($0)
+//          }
+//        )
+//      )
+//      layout.braveNewsSection = sections.firstIndex(where: { $0 is BraveNewsSectionProvider })
+//    }
+//    #endif
 
     collectionView.do {
       $0.delegate = self

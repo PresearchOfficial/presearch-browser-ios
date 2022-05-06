@@ -212,25 +212,25 @@ class SettingsViewController: TableViewController {
       uuid: featureSectionUUID.uuidString
     )
 
-    #if !NO_BRAVE_NEWS
-    section.rows.append(
-      Row(
-        text: Strings.BraveNews.braveNews,
-        selection: {
-          let todaySettings = BraveNewsSettingsViewController(dataSource: self.feedDataSource, rewards: self.rewards)
-          self.navigationController?.pushViewController(todaySettings, animated: true)
-        }, image: #imageLiteral(resourceName: "settings-brave-today").template, accessory: .disclosureIndicator)
-    )
-    #endif
+//    #if !NO_BRAVE_NEWS
+//    section.rows.append(
+//      Row(
+//        text: Strings.BraveNews.braveNews,
+//        selection: {
+//          let todaySettings = BraveNewsSettingsViewController(dataSource: self.feedDataSource, rewards: self.rewards)
+//          self.navigationController?.pushViewController(todaySettings, animated: true)
+//        }, image: #imageLiteral(resourceName: "settings-brave-today").template, accessory: .disclosureIndicator)
+//    )
+//    #endif
 
-    section.rows.append(
-      Row(
-        text: Strings.PlayList.playListSectionTitle,
-        selection: { [unowned self] in
-          let playlistSettings = PlaylistSettingsViewController()
-          self.navigationController?.pushViewController(playlistSettings, animated: true)
-        }, image: #imageLiteral(resourceName: "settings-playlist").template, accessory: .disclosureIndicator)
-    )
+//    section.rows.append(
+//      Row(
+//        text: Strings.PlayList.playListSectionTitle,
+//        selection: { [unowned self] in
+//          let playlistSettings = PlaylistSettingsViewController()
+//          self.navigationController?.pushViewController(playlistSettings, animated: true)
+//        }, image: #imageLiteral(resourceName: "settings-playlist").template, accessory: .disclosureIndicator)
+//    )
 
     return section
   }()

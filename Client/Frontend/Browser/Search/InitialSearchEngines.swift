@@ -10,20 +10,21 @@ import Foundation
 class InitialSearchEngines {
   /// Type of search engine available to the user.
   enum SearchEngineID: String {
-    case google, braveSearch, bing, duckduckgo, yandex, qwant, startpage, ecosia, presearch
+    case presearch, google, bing, duckduckgo, yandex, qwant, startpage, yahoo, ecosia
 
     /// Open Search Reference  for default search Engines
     var openSearchReference: String {
       switch self {
       case .presearch: return "presearch.org"
       case .google: return "google.com"
-      case .braveSearch: return "search.brave"
+//      case .braveSearch: return "search.brave"
       case .bing: return "bing.com"
       case .duckduckgo: return "duckduckgo.com/opensearch"
       case .yandex: return "yandex.com/search"
       case .qwant: return "qwant.com/opensearch"
       case .startpage: return "startpage.com/en/opensearch"
       case .ecosia: return "ecosia.org/opensearch"
+      case .yahoo: return "yahoo.com"
       }
     }
 
@@ -38,10 +39,12 @@ class InitialSearchEngines {
 
     func excludedFromOnboarding(for locale: Locale) -> Bool {
       switch self {
-      case .braveSearch: return true
+      case .presearch, .google, .bing, .duckduckgo, .yandex, .qwant, .startpage, .ecosia:
+        return false
       // In general we want all engines to be pickable,
       // hence using default clause here instead of picking engines one by one
-      default: return false
+      case .yahoo:
+        return true
       }
     }
   }
@@ -119,7 +122,7 @@ class InitialSearchEngines {
     // Default order and available search engines, applies to all locales
     engines = [
       .init(id: .presearch),
-      .init(id: .braveSearch),
+//      .init(id: .braveSearch),
       .init(id: .google),
       .init(id: .bing),
       .init(id: .duckduckgo),
@@ -154,7 +157,7 @@ class InitialSearchEngines {
     }
 
     if Self.braveSearchDefaultRegions.contains(region) {
-      defaultSearchEngine = .braveSearch
+      defaultSearchEngine = .presearch
     }
   }
 

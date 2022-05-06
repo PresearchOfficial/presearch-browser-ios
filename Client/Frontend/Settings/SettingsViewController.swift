@@ -552,14 +552,13 @@ class SettingsViewController: TableViewController {
             actionSheet.addAction(UIAlertAction(title: Strings.cancelButtonTitle, style: .cancel, handler: nil))
             self.navigationController?.present(actionSheet, animated: true, completion: nil)
           }, cellClass: MultilineValue1Cell.self),
-//        Row(
-//          text: Strings.privacyPolicy,
-//          selection: { [unowned self] in
-//            // Show privacy policy
-//            let privacy = SettingsContentViewController().then { $0.url = BraveUX.bravePrivacyURL }
-//            self.navigationController?.pushViewController(privacy, animated: true)
-//          },
-//          accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
+        Row(text: Strings.privacyPolicy,
+            selection: { [unowned self] in
+              // Show privacy policy
+              let privacy = SettingsContentViewController().then { $0.url = BraveUX.bravePrivacyURL }
+              self.navigationController?.pushViewController(privacy, animated: true)
+            },
+            accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
         Row(
           text: Strings.termsOfUse,
           selection: { [unowned self] in
@@ -568,14 +567,14 @@ class SettingsViewController: TableViewController {
             self.navigationController?.pushViewController(toc, animated: true)
           },
           accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
-//        Row(
-//          text: Strings.settingsLicenses,
-//          selection: { [unowned self] in
-//            let licenses = SettingsContentViewController().then {
-//              $0.url = URL(string: "\(InternalURL.baseUrl)/\(AboutLicenseHandler.path)")
-//            }
-//            self.navigationController?.pushViewController(licenses, animated: true)
-//          }, accessory: .disclosureIndicator),
+        Row(
+          text: Strings.settingsLicenses,
+          selection: { [unowned self] in
+            let licenses = SettingsContentViewController().then {
+              $0.url = URL(string: "\(InternalURL.baseUrl)/\(AboutLicenseHandler.path)")
+            }
+            self.navigationController?.pushViewController(licenses, animated: true)
+          }, accessory: .disclosureIndicator),
       ]
     )
   }()

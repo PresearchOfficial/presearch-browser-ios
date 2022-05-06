@@ -220,7 +220,7 @@ class SimpleShieldsView: UIView {
       $0.edges.equalTo(self)
     }
 
-    [shieldsDownDisclaimerLabel, reportSiteButton].forEach(shieldsDownStackView.addArrangedSubview)
+    [shieldsDownDisclaimerLabel].forEach(shieldsDownStackView.addArrangedSubview)
 
     stackView.addStackViewItems(
       .view(

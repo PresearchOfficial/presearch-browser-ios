@@ -140,7 +140,7 @@ class SettingsViewController: TableViewController {
     var list = [
       defaultBrowserSection,
       featuresSection,
-//      generalSection,
+      generalSection,
       displaySection,
       securitySection,
       supportSection,
@@ -245,22 +245,22 @@ class SettingsViewController: TableViewController {
             let viewController = SearchSettingsTableViewController(profile: self.profile)
             self.navigationController?.pushViewController(viewController, animated: true)
           }, image: #imageLiteral(resourceName: "settings-search").template, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
-        Row(
-          text: Strings.sync,
-          selection: { [unowned self] in
-            if syncAPI.isInSyncGroup {
-              if !DeviceInfo.hasConnectivity() {
-                self.present(SyncAlerts.noConnection, animated: true)
-                return
-              }
-
-              self.navigationController?
-                .pushViewController(SyncSettingsTableViewController(syncAPI: syncAPI), animated: true)
-            } else {
-              self.navigationController?.pushViewController(SyncWelcomeViewController(syncAPI: syncAPI), animated: true)
-            }
-          }, image: #imageLiteral(resourceName: "settings-sync").template, accessory: .disclosureIndicator,
-          cellClass: MultilineValue1Cell.self),
+//        Row(
+//          text: Strings.sync,
+//          selection: { [unowned self] in
+//            if syncAPI.isInSyncGroup {
+//              if !DeviceInfo.hasConnectivity() {
+//                self.present(SyncAlerts.noConnection, animated: true)
+//                return
+//              }
+//
+//              self.navigationController?
+//                .pushViewController(SyncSettingsTableViewController(syncAPI: syncAPI), animated: true)
+//            } else {
+//              self.navigationController?.pushViewController(SyncWelcomeViewController(syncAPI: syncAPI), animated: true)
+//            }
+//          }, image: #imageLiteral(resourceName: "settings-sync").template, accessory: .disclosureIndicator,
+//          cellClass: MultilineValue1Cell.self),
         .boolRow(title: Strings.bookmarksLastVisitedFolderTitle, option: Preferences.General.showLastVisitedBookmarksFolder, image: #imageLiteral(resourceName: "menu_folder_open").template),
         Row(
           text: Strings.Shortcuts.shortcutSettingsTitle,

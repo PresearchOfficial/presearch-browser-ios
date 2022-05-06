@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var shutdownWebServer: Timer?
 
   /// Object used to handle server pings
-  private(set) lazy var dau = DAU(braveCoreStats: braveCore.braveStats)
+//  private(set) lazy var dau = DAU(braveCoreStats: braveCore.braveStats)
 
   /// Must be added at launch according to Apple's documentation.
   let iapObserver = IAPObserver()
@@ -275,14 +275,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       sceneInfo?.profile.searchEngines.migrateDefaultYahooSearchEngines()
     }
 
-    if isFirstLaunch {
-      Preferences.DAU.installationDate.value = Date()
+//    if isFirstLaunch {
+//      Preferences.DAU.installationDate.value = Date()
 
       // VPN credentials are kept in keychain and persist between app reinstalls.
       // To avoid unexpected problems we clear all vpn keychain items.
       // New set of keychain items will be created on purchase or iap restoration.
-      BraveVPN.clearCredentials()
-    }
+//      BraveVPN.clearCredentials()
+//    }
 
     if UserReferralProgram.shared != nil {
       if Preferences.URP.referralLookupOutstanding.value == nil {

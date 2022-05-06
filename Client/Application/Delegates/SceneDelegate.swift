@@ -175,9 +175,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // We try to send DAU ping each time the app goes to foreground to work around network edge cases
     // (offline, bad connection etc.).
     // Also send the ping only after the URP lookup has processed.
-    if Preferences.URP.referralLookupOutstanding.value == false {
-      appDelegate.dau.sendPingToServer()
-    }
+//    if Preferences.URP.referralLookupOutstanding.value == false {
+//      appDelegate.dau.sendPingToServer()
+//    }
   }
 
   func sceneWillResignActive(_ scene: UIScene) {
@@ -414,7 +414,7 @@ extension BrowserViewController {
       urp.referralLookup() { referralCode, offerUrl in
         // Attempting to send ping after first urp lookup.
         // This way we can grab the referral code if it exists, see issue #2586.
-        (UIApplication.shared.delegate as? AppDelegate)?.dau.sendPingToServer()
+        // (UIApplication.shared.delegate as? AppDelegate)?.dau.sendPingToServer()
         if let code = referralCode {
           let retryTime = AppConstants.buildChannel.isPublic ? 1.days : 10.minutes
           let retryDeadline = Date() + retryTime

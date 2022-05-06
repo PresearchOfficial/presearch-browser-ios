@@ -142,9 +142,9 @@ class BraveShieldsAndPrivacySettingsController: TableViewController {
         (RecentSearchClearable(), true),
       ]
 
-    #if !NO_BRAVE_NEWS
-    alwaysVisible.append((BraveNewsClearable(feedDataSource: self.feedDataSource), true))
-    #endif
+//    #if !NO_BRAVE_NEWS
+//    alwaysVisible.append((BraveNewsClearable(feedDataSource: self.feedDataSource), true))
+//    #endif
 
     alwaysVisible.append(contentsOf: others)
 

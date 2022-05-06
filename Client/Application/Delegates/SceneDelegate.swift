@@ -232,7 +232,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     if let url = userActivity.webpageURL {
       switch UniversalLinkManager.universalLinkType(for: url, checkPath: false) {
       case .buyVPN:
-        scene.browserViewController?.presentCorrespondingVPNViewController()
+//        scene.browserViewController?.presentCorrespondingVPNViewController()
         return
       case .none:
         break

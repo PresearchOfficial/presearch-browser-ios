@@ -81,24 +81,24 @@ class BraveVPNSettingsViewController: TableViewController {
 
     fetchRegionList()
 
-    let switchView = SwitchAccessoryView(
-      initialValue: BraveVPN.isConnected,
-      valueChange: { vpnOn in
-        if vpnOn {
-          BraveVPN.reconnect()
-        } else {
-          BraveVPN.disconnect()
-        }
-      })
+//    let switchView = SwitchAccessoryView(
+//      initialValue: BraveVPN.isConnected,
+//      valueChange: { vpnOn in
+//        if vpnOn {
+//          BraveVPN.reconnect()
+//        } else {
+//          BraveVPN.disconnect()
+//        }
+//      })
 
-    self.vpnConnectionStatusSwitch = switchView
-
-    let vpnStatusSection = Section(
-      rows: [
-        Row(
-          text: Strings.VPN.settingsVPNEnabled,
-          accessory: .view(switchView), uuid: vpnStatusSectionCellId)
-      ], uuid: vpnStatusSectionCellId)
+//    self.vpnConnectionStatusSwitch = switchView
+//
+//    let vpnStatusSection = Section(
+//      rows: [
+//        Row(
+//          text: Strings.VPN.settingsVPNEnabled,
+//          accessory: .view(switchView), uuid: vpnStatusSectionCellId)
+//      ], uuid: vpnStatusSectionCellId)
 
     let subscriptionStatus = BraveVPN.hasExpired == true ? Strings.VPN.subscriptionStatusExpired : BraveVPN.subscriptionName
 
@@ -165,7 +165,7 @@ class BraveVPNSettingsViewController: TableViewController {
     ])
 
     dataSource.sections = [
-      vpnStatusSection,
+//      vpnStatusSection,
       subscriptionSection,
       serverSection,
       techSupportSection,

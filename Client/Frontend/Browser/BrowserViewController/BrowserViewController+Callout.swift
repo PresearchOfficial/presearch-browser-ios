@@ -52,9 +52,9 @@ extension BrowserViewController {
       $0.modalPresentationStyle = .overFullScreen
     }
 
-    popup.enableVPNTapped = { [weak self] in
-      self?.presentCorrespondingVPNViewController()
-    }
+//    popup.enableVPNTapped = { [weak self] in
+//      self?.presentCorrespondingVPNViewController()
+//    }
 
     present(popup, animated: false)
     isOnboardingOrFullScreenCalloutPresented = true

@@ -687,9 +687,9 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
       $0.addObserver(
         self, selector: #selector(resetNTPNotification),
         name: .adsOrRewardsToggledInSettings, object: nil)
-      $0.addObserver(
-        self, selector: #selector(vpnConfigChanged),
-        name: .NEVPNConfigurationChange, object: nil)
+//      $0.addObserver(
+//        self, selector: #selector(vpnConfigChanged),
+//        name: .NEVPNConfigurationChange, object: nil)
       $0.addObserver(
         self, selector: #selector(updateShieldNotifications),
         name: NSNotification.Name(rawValue: BraveGlobalShieldStats.didUpdateNotification), object: nil)
@@ -783,7 +783,7 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
     }
 
     vpnProductInfo.load()
-    BraveVPN.initialize()
+//    BraveVPN.initialize()
 
     showWalletTransferExpiryPanelIfNeeded()
 
@@ -1197,18 +1197,18 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
   }
 
   /// Shows a vpn screen based on vpn state.
-  func presentCorrespondingVPNViewController() {
-    guard let vc = BraveVPN.vpnState.enableVPNDestinationVC else { return }
-    let nav = SettingsNavigationController(rootViewController: vc)
-    nav.navigationBar.topItem?.leftBarButtonItem =
-      .init(barButtonSystemItem: .cancel, target: nav, action: #selector(nav.done))
-    let idiom = UIDevice.current.userInterfaceIdiom
-
-    UIDevice.current.forcePortraitIfIphone(for: UIApplication.shared)
-
-    nav.modalPresentationStyle = idiom == .phone ? .pageSheet : .formSheet
-    present(nav, animated: true)
-  }
+//  func presentCorrespondingVPNViewController() {
+//    guard let vc = BraveVPN.vpnState.enableVPNDestinationVC else { return }
+//    let nav = SettingsNavigationController(rootViewController: vc)
+//    nav.navigationBar.topItem?.leftBarButtonItem =
+//      .init(barButtonSystemItem: .cancel, target: nav, action: #selector(nav.done))
+//    let idiom = UIDevice.current.userInterfaceIdiom
+//
+//    UIDevice.current.forcePortraitIfIphone(for: UIApplication.shared)
+//
+//    nav.modalPresentationStyle = idiom == .phone ? .pageSheet : .formSheet
+//    present(nav, animated: true)
+//  }
 
   func updateInContentHomePanel(_ url: URL?) {
     let isAboutHomeURL = { () -> Bool in

@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, GRDVPNHelperStatusCode) {
 + (void)setIsPayingUser:(BOOL)isPaying;
 + (void)clearVpnConfiguration;
 + (void)saveAllInOneBoxHostname:(NSString *)host;
-+ (NEVPNProtocolIKEv2 *)prepareIKEv2ParametersForServer:(NSString *)server eapUsername:(NSString *)user eapPasswordRef:(NSData *)passRef withCertificateType:(NEVPNIKEv2CertificateType)certType;
+//+ (NEVPNProtocolIKEv2 *)prepareIKEv2ParametersForServer:(NSString *)server eapUsername:(NSString *)user eapPasswordRef:(NSData *)passRef withCertificateType:(NEVPNIKEv2CertificateType)certType;
 
 - (void)configureAndConnectVPNWithCompletion:(void (^_Nullable)(NSString *_Nullable message, GRDVPNHelperStatusCode status))completion;
 - (void)disconnectVPN;

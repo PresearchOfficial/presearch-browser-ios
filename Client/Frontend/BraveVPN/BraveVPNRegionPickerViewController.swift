@@ -82,9 +82,9 @@ class BraveVPNRegionPickerViewController: UIViewController {
     tableView.dataSource = self
     tableView.register(VPNRegionCell.self)
 
-    NotificationCenter.default.addObserver(
-      self, selector: #selector(vpnConfigChanged(notification:)),
-      name: .NEVPNStatusDidChange, object: nil)
+//    NotificationCenter.default.addObserver(
+//      self, selector: #selector(vpnConfigChanged(notification:)),
+//      name: .NEVPNStatusDidChange, object: nil)
 
     view.addSubview(tableView)
     tableView.snp.makeConstraints {
@@ -92,15 +92,15 @@ class BraveVPNRegionPickerViewController: UIViewController {
     }
   }
 
-  @objc private func vpnConfigChanged(notification: NSNotification) {
-    guard let connection = notification.object as? NEVPNConnection else { return }
-
-    if connection.status == .connected {
-      dispatchGroup?.leave()
-      self.vpnRegionChangeSuccess = true
-      dispatchGroup = nil
-    }
-  }
+//  @objc private func vpnConfigChanged(notification: NSNotification) {
+//    guard let connection = notification.object as? NEVPNConnection else { return }
+//
+//    if connection.status == .connected {
+//      dispatchGroup?.leave()
+//      self.vpnRegionChangeSuccess = true
+//      dispatchGroup = nil
+//    }
+//  }
 
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)

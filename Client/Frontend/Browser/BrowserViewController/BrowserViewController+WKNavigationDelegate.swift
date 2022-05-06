@@ -148,7 +148,7 @@ extension BrowserViewController: WKNavigationDelegate {
       let universalLink = UniversalLinkManager.universalLinkType(for: mainDocURL, checkPath: true) {
       switch universalLink {
       case .buyVPN:
-        presentCorrespondingVPNViewController()
+//        presentCorrespondingVPNViewController()
         decisionHandler(.cancel, preferences)
         return
       }

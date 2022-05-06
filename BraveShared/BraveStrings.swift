@@ -925,11 +925,11 @@ extension Strings {
   public static let saveLogins = NSLocalizedString("SaveLogins", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Save Logins", comment: "Setting to enable the built-in password manager")
   public static let showBookmarkButtonInTopToolbar = NSLocalizedString("ShowBookmarkButtonInTopToolbar", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Show Bookmarks Shortcut", comment: "Setting to show a bookmark button on the top level menu that triggers a panel of the user's bookmarks.")
   public static let alwaysRequestDesktopSite = NSLocalizedString("AlwaysRequestDesktopSite", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Always Request Desktop Site", comment: "Setting to always request the desktop version of a website.")
-  public static let shieldsAdStats = NSLocalizedString("AdsrBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Ads \nBlocked", comment: "Presearch Ad Blocker Ads Stat")
-  public static let shieldsAdAndTrackerStats = NSLocalizedString("AdsAndTrackersrBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Trackers & ads blocked", comment: "Presearch Ad Blocker Ads Stat")
-  public static let shieldsTrackerStats = NSLocalizedString("TrackersrBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Trackers \nBlocked", comment: "Presearch Ad Blocker Trackers Stat")
+  public static let shieldsAdStats = NSLocalizedString("AdsrBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Ads \nBlocked", comment: "Shields Ads Stat")
+  public static let shieldsAdAndTrackerStats = NSLocalizedString("AdsAndTrackersrBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Trackers & ads blocked", comment: "Shields Ads Stat")
+  public static let shieldsTrackerStats = NSLocalizedString("TrackersrBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Trackers \nBlocked", comment: "Shields Trackers Stat")
   public static let dataSavedStat = NSLocalizedString("DataSavedStat", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Est. Data \nSaved", comment: "Data Saved Shield Stat")
-  public static let shieldsTimeStats = NSLocalizedString("EstTimerSaved", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Est. Time \nSaved", comment: "Presearch Ad Blocker Time Saved Stat")
+  public static let shieldsTimeStats = NSLocalizedString("EstTimerSaved", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Est. Time \nSaved", comment: "Shields Time Saved Stat")
   public static let shieldsTimeStatsHour = NSLocalizedString("ShieldsTimeStatsHour", tableName: "BraveShared", bundle: Bundle.braveShared, value: "h", comment: "Time Saved Hours")
   public static let shieldsTimeStatsMinutes = NSLocalizedString("ShieldsTimeStatsMinutes", tableName: "BraveShared", bundle: Bundle.braveShared, value: "min", comment: "Time Saved Minutes")
   public static let shieldsTimeStatsSeconds = NSLocalizedString("ShieldsTimeStatsSeconds", tableName: "BraveShared", bundle: Bundle.braveShared, value: "s", comment: "Time Saved Seconds")
@@ -991,7 +991,7 @@ extension Strings {
   public static let showTabsBar = NSLocalizedString("ShowTabsBar", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Show Tabs Bar", comment: "Setting to show/hide the tabs bar")
   public static let privateBrowsingOnly = NSLocalizedString("PrivateBrowsingOnly", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Private Browsing Only", comment: "Setting to keep app in private mode")
   public static let shieldsDefaults = NSLocalizedString("ShieldsDefaults", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Presearch Ad Blocker Global Defaults", comment: "Section title for adbblock, tracking protection, HTTPS-E, and cookies")
-  public static let shieldsDefaultsFooter = NSLocalizedString("ShieldsDefaultsFooter", tableName: "BraveShared", bundle: Bundle.braveShared, value: "These are the default Presearch Ad Blocker settings for new sites. Changing these won't affect your existing per-site settings.", comment: "Section footer for global shields defaults")
+  public static let shieldsDefaultsFooter = NSLocalizedString("ShieldsDefaultsFooter", tableName: "BraveShared", bundle: Bundle.braveShared, value: "These are the default Shields settings for new sites. Changing these won't affect your existing per-site settings.", comment: "Section footer for global shields defaults")
   public static let blockAdsAndTracking = NSLocalizedString("BlockAdsAndTracking", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Block Cross-Site Trackers", comment: "")
   public static let blockAdsAndTrackingDescription = NSLocalizedString("BlockAdsAndTrackingDescription", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Prevents ads, popups, and trackers from loading.", comment: "")
   public static let HTTPSEverywhere = NSLocalizedString("HTTPSEverywhere", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Upgrade Connections to HTTPS", comment: "")
@@ -1042,13 +1042,13 @@ extension Strings {
   public static let rewardsPanel = NSLocalizedString("RewardsPanel", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Rewards Panel", comment: "Button to show the rewards panel")
   public static let individualControls = NSLocalizedString("IndividualControls", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Individual Controls", comment: "title for per-site shield toggles")
   public static let blockingMonitor = NSLocalizedString("BlockingMonitor", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Blocking Monitor", comment: "title for section showing page blocking statistics")
-  public static let siteShieldSettings = NSLocalizedString("SiteShieldSettings", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Presearch Ad Blocker", comment: "panel topmost title")
+  public static let siteShieldSettings = NSLocalizedString("SiteShieldSettings", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Shields", comment: "panel topmost title")
   public static let blockPhishing = NSLocalizedString("BlockPhishing", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Block Phishing", comment: "panel individual toggle title")
   public static let adsAndTrackers = NSLocalizedString("AdsAndTrackers", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Ads and Trackers", comment: "individual blocking statistic title")
   public static let HTTPSUpgrades = NSLocalizedString("HTTPSUpgrades", tableName: "BraveShared", bundle: Bundle.braveShared, value: "HTTPS Upgrades", comment: "individual blocking statistic title")
   public static let scriptsBlocked = NSLocalizedString("ScriptsBlocked", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Scripts Blocked", comment: "individual blocking statistic title")
   public static let fingerprintingMethods = NSLocalizedString("FingerprintingMethods", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Fingerprinting Methods", comment: "individual blocking statistic title")
-  public static let shieldsOverview = NSLocalizedString("ShieldsOverview", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Site Presearch Ad Blocker allow you to control when ads and trackers are blocked for each site that you visit. If you prefer to see ads on a specific site, you can enable them here.", comment: "shields overview message")
+  public static let shieldsOverview = NSLocalizedString("ShieldsOverview", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Site Shields allow you to control when ads and trackers are blocked for each site that you visit. If you prefer to see ads on a specific site, you can enable them here.", comment: "shields overview message")
   public static let shieldsOverviewFooter = NSLocalizedString("ShieldsOverviewFooter", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Note: Some sites may require scripts to work properly so this shield is turned off by default.", comment: "shields overview footer message")
   public static let useRegionalAdblock = NSLocalizedString("UseRegionalAdblock", tableName: "BraveShared", bundle: Bundle.braveShared, value: "Use regional adblock", comment: "Setting to allow user in non-english locale to use adblock rules specifc to their language")
   public static let newFolderDefaultName = NSLocalizedString("NewFolderDefaultName", tableName: "BraveShared", bundle: Bundle.braveShared, value: "New Folder", comment: "Default name for creating a new folder.")
@@ -1263,22 +1263,22 @@ extension Strings {
   }
 }
 
-// MARK: - Presearch Ad Blocker
+// MARK: - Shields
 extension Strings {
-  public struct Presearch Ad Blocker {
+  public struct Shields {
     public static let toggleHint = NSLocalizedString("BraveShieldsToggleHint", bundle: Bundle.braveShared, value: "Double-tap to toggle Presearch Ad Blocker", comment: "The accessibility hint spoken when focused on the main shields toggle")
     public static let statusTitle = NSLocalizedString("BraveShieldsStatusTitle", bundle: Bundle.braveShared, value: "Presearch Ad Blocker", comment: "Context: 'Presearch Ad Blocker Up' or 'Presearch Ad Blocker Down'")
     public static let statusValueUp = NSLocalizedString("BraveShieldsStatusValueUp", bundle: Bundle.braveShared, value: "Up", comment: "Context: The 'Up' in 'Presearch Ad Blocker Up'")
     public static let statusValueDown = NSLocalizedString("BraveShieldsStatusValueDown", bundle: Bundle.braveShared, value: "Down", comment: "Context: The 'Down' in 'Presearch Ad Blocker Down'")
     public static let blockedCountLabel = NSLocalizedString("BraveShieldsBlockedCountLabel", bundle: Bundle.braveShared, value: "Ads and other creepy things blocked", comment: "The number of ads and trackers blocked will be next to this")
     public static let blockedInfoButtonAccessibilityLabel = NSLocalizedString("BraveShieldsBlockedInfoButtonAccessibilityLabel", bundle: Bundle.braveShared, value: "Learn more", comment: "What the screen reader will read out when the user has VoiceOver on and taps on the question-mark info button on the shields panel")
-    public static let siteBroken = NSLocalizedString("BraveShieldsSiteBroken", bundle: Bundle.braveShared, value: "If this site appears broken, try Presearch Ad Blocker down", comment: "")
+    public static let siteBroken = NSLocalizedString("BraveShieldsSiteBroken", bundle: Bundle.braveShared, value: "If this site appears broken, try Shields down", comment: "")
     public static let advancedControls = NSLocalizedString("BraveShieldsAdvancedControls", bundle: Bundle.braveShared, value: "Advanced controls", comment: "")
     public static let aboutBraveShieldsTitle = NSLocalizedString("AboutBraveShields", bundle: Bundle.braveShared, value: "About Presearch Ad Blocker", comment: "The title of the screen explaining Presearch Ad Blocker")
     public static let aboutBraveShieldsBody = NSLocalizedString("AboutBraveShieldsBody", bundle: Bundle.braveShared, value: "Sites often include cookies and scripts which try to identify you and your device. They want to work out who you are and follow you across the web — tracking what you do on every site.\n\nPresearch blocks these things so that you can browse without being followed around.", comment: "The body of the screen explaining Presearch Ad Blocker")
     public static let shieldsDownDisclaimer = NSLocalizedString("ShieldsDownDisclaimer", bundle: Bundle.braveShared, value: "You're browsing this site without Presearch's privacy protections.", comment: "")
     public static let reportABrokenSite = NSLocalizedString("ReportABrokenSite", bundle: Bundle.braveShared, value: "Report a broken site", comment: "")
-    public static let reportBrokenSiteBody1 = NSLocalizedString("ReportBrokenSiteBody1", bundle: Bundle.braveShared, value: "Let Presearch's developers know that this site doesn't work properly with Presearch Ad Blocker:", comment: "First part of the report a broken site copy. After the colon is a new line and then a website address")
+    public static let reportBrokenSiteBody1 = NSLocalizedString("ReportBrokenSiteBody1", bundle: Bundle.braveShared, value: "Let Presearch's developers know that this site doesn't work properly with Shields:", comment: "First part of the report a broken site copy. After the colon is a new line and then a website address")
     public static let reportBrokenSiteBody2 = NSLocalizedString("ReportBrokenSiteBody2", bundle: Bundle.braveShared, value: "Note: This site address will be submitted with your version number and your IP address (which will not be stored).", comment: "")
     public static let reportBrokenSubmitButtonTitle = NSLocalizedString("ReportBrokenSubmitButtonTitle", bundle: Bundle.braveShared, value: "Submit", comment: "")
     public static let globalControls = NSLocalizedString("BraveShieldsGlobalControls", bundle: Bundle.braveShared, value: "Global Controls", comment: "")
@@ -4214,31 +4214,31 @@ extension Strings {
       "widgets.shieldStatsTitle",
       bundle: .braveShared,
       value: "Privacy Stats",
-      comment: "Title for Presearch Ad Blocker widget on 'add widget' screen.")
+      comment: "Title for Shields widget on 'add widget' screen.")
 
     public static let shieldStatsDescription = NSLocalizedString(
       "widgets.shieldStatsDescription",
       bundle: .braveShared,
       value: "A summary of how saves you time and protects you online.",
-      comment: "Description for Presearch Ad Blocker widget on 'add widget' screen.")
+      comment: "Description for Shields widget on 'add widget' screen.")
 
     public static let shieldStatsWidgetTitle = NSLocalizedString(
       "widgets.shieldStatsWidgetTitle",
       bundle: .braveShared,
       value: "Privacy Stats",
-      comment: "Title of Presearch Ad Blocker widget shown above stat numbers.")
+      comment: "Title of Shields widget shown above stat numbers.")
 
     public static let singleStatTitle = NSLocalizedString(
       "widgets.singleStatTitle",
       bundle: .braveShared,
       value: "Privacy Stat",
-      comment: "Title for Presearch Ad Blocker single stat widget on 'add widget' screen.")
+      comment: "Title for Shields single stat widget on 'add widget' screen.")
 
     public static let singleStatDescription = NSLocalizedString(
       "widgets.singleStatDescription",
       bundle: .braveShared,
       value: "A summary of how has protected you online.",
-      comment: "Description for Presearch Ad Blocker single stat widget on 'add widget' screen.")
+      comment: "Description for Shields single stat widget on 'add widget' screen.")
   }
 }
 
@@ -4385,8 +4385,8 @@ extension Strings {
     public static let mostFrequentTrackerAndAdBody = NSLocalizedString(
       "privacyHub.mostFrequentTrackerAndAdBody",
       bundle: .braveShared,
-      value: "**%@** was blocked by Presearch Ad Blocker on **%lld** sites",
-      comment: "Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Presearch Ad Blocker on 42 sites'"
+      value: "**%@** was blocked by Shields on **%lld** sites",
+      comment: "Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Shields on 42 sites'"
     )
     
     public static let noDataToShow = NSLocalizedString(
@@ -4484,7 +4484,7 @@ extension Strings {
       "privacyHub.blockedBy",
       bundle: .braveShared,
       value: "Blocked by",
-      comment: "Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Presearch Ad Blocker', 'Blocked by BraveVPN"
+      comment: "Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Shields', 'Blocked by BraveVPN"
     )
     
     public static let allTimeListTrackersHeaderTitle = NSLocalizedString(
@@ -4512,7 +4512,7 @@ extension Strings {
       "privacyHub.shieldsLabel",
       bundle: .braveShared,
       value: "Presearch Ad Blocker",
-      comment: "This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Presearch Ad Blocker'"
+      comment: "This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields'"
     )
     
     public static let vpnLabel = NSLocalizedString(
@@ -4588,14 +4588,14 @@ extension Strings {
     public static let settingsEnableShieldsTitle = NSLocalizedString(
       "privacyHub.settingsEnableShieldsTitle",
       bundle: .braveShared,
-      value: "Show Presearch Ad Blocker Data",
+      value: "Show Shields Data",
       comment: "Title of a setting that lets monitor blocked network requests"
     )
     
     public static let settingsEnableShieldsFooter = NSLocalizedString(
       "privacyHub.settingsEnableShieldsFooter",
       bundle: .braveShared,
-      value: "Privacy Hub shows a count of what Presearch Ad Blocker blocked. Setting will not affect Presearch Ad Blocker counter on new tab page. Presearch Ad Blocker data is not counted in private windows.",
+      value: "Privacy Hub shows a count of what Shields blocked. Setting will not affect Shields counter on new tab page. Shields data is not counted in private windows.",
       comment: "This text explains a setting that lets monitor blocked network requests"
     )
     
@@ -4616,21 +4616,21 @@ extension Strings {
     public static let settingsSlearDataTitle = NSLocalizedString(
       "privacyHub.settingsSlearDataTitle",
       bundle: .braveShared,
-      value: "Clear Presearch Ad Blocker Data",
+      value: "Clear Shields Data",
       comment: "Button that lets user clear all blocked requests and vpn alerts data that captured for them."
     )
     
     public static let settingsSlearDataFooter = NSLocalizedString(
       "privacyHub.settingsSlearDataFooter",
       bundle: .braveShared,
-      value: "Resets the count of everything Presearch Ad Blocker has blocked.",
+      value: "Resets the count of everything Shields has blocked.",
       comment: "This text explains what the button to clear datain the Privacy Hub is for."
     )
     
     public static let clearAllDataPrompt = NSLocalizedString(
       "privacyHub.clearAllDataPrompt",
       bundle: .braveShared,
-      value: "Clear all Presearch Ad Blocker data?",
+      value: "Clear all Shields data?",
       comment: "A prompt message we show to the user if they want to clear all data gathered by the Privacy Reports Feature"
     )
     

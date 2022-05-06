@@ -21,9 +21,9 @@
     return sharedAPI;
 }
 
-- (BOOL)isVPNConnected {
-    return ([[[NEVPNManager sharedManager] connection] status] == NEVPNStatusConnected);
-}
+//- (BOOL)isVPNConnected {
+//    return ([[[NEVPNManager sharedManager] connection] status] == NEVPNStatusConnected);
+//}
 
 - (void)stopHealthCheckTimer {
     if (self.healthCheckTimer != nil) {

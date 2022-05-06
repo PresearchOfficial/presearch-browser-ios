@@ -4,7 +4,6 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-"NFCReaderUsageDescription" = "Programmet behöver åtkomst till NFC läsning för att kommunicera med din Yubikey.";
 
 /* Privacy - Camera Usage Description */
 "NSCameraUsageDescription" = "Med det här kan du ta foton och ladda upp dem.";

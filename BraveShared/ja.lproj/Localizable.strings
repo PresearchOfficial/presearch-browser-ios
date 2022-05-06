@@ -38,7 +38,7 @@
 "BraveShieldsStatusValueUp" = "オン";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "ダブルタップでBrave Shieldを切り替える";
+"BraveShieldsToggleHint" = "ダブルタップでPresearch Shieldを切り替える";
 
 /* The name of the feature */
 "bravetalk.braveTalkTitle" = "Talk";
@@ -380,7 +380,7 @@
 "playList.loadResourcesErrorAlertDescription" = "リソースの読み込み中に問題が発生しました！";
 
 /* Description footer for playlist menu badge option */
-"playlist.menuBadgeOptionFooterText" = "有効にすると、閲覧中のページにあるメディアがBrave Playlistに追加された可能性があることを示すバッジが、メインメニューのアイコンに表示されます。";
+"playlist.menuBadgeOptionFooterText" = "有効にすると、閲覧中のページにあるメディアがPresearch Playlistに追加された可能性があることを示すバッジが、メインメニューのアイコンに表示されます。";
 
 /* Title for playlist menu badge option */
 "playlist.menuBadgeOptionTitle" = "メニューの通知バッジを表示する";
@@ -491,10 +491,10 @@
 "playlist.popoverAddBody" = "Playlistにより、オフライン再生、ピクチャー・イン・ピクチャー再生、連続再生、リピート再生ができるようになります。";
 
 /* Title of the popover that shows when you already have the current media item in your playlist and you tap on the 'Add to Playlist' button in the URL bar */
-"playlist.popoverAddedTitle" = "このメディアはBrave Playlistに追加されています。";
+"playlist.popoverAddedTitle" = "このメディアはPresearch Playlistに追加されています。";
 
 /* Title of the popover that shows when you tap on the 'Add to Playlist' button in the URL bar */
-"playlist.popoverAddTitle" = "このメディアをBrave Playlistに追加しますか？";
+"playlist.popoverAddTitle" = "このメディアをPresearch Playlistに追加しますか？";
 
 /* Button title in the popover when an item is already in your playlist and you tap the 'Add to Playlist' button in the URL bar */
 "playlist.popoverOpenInBravePlaylist" = "Playlistで開く";
@@ -875,7 +875,7 @@
 "rewards.legacyWalletTransferStatusButtonPendingTitle" = "旧ウォレットからの移行ステータスはペンディング中です";
 
 /* No comment provided by engineer. */
-"rewards.legacyWalletTransferStatusCompletedBody" = "旧ウォレットからの移行が完了しました！もともとあった残高がデスクトップのBrave Rewardsウォレットに表示されるまでは数分かかることがあります。";
+"rewards.legacyWalletTransferStatusCompletedBody" = "旧ウォレットからの移行が完了しました！もともとあった残高がデスクトップのPresearch Rewardsウォレットに表示されるまでは数分かかることがあります。";
 
 /* Title shown above body of text explaining that their transfer is completed */
 "rewards.legacyWalletTransferStatusCompletedTitle" = "移行が完了しました！";
@@ -1310,13 +1310,13 @@
 "shortcuts.shortcutSettingsClearBrowserHistoryTitle" = "Braveの履歴を消去する";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsEnableVPNDescription" = "Siri 音声アシスタントでBrave VPNを開くショートカットを利用する";
+"shortcuts.shortcutSettingsEnableVPNDescription" = "Siri 音声アシスタントでPresearch VPNを開くショートカットを利用する";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsEnableVPNTitle" = "VPNを有効化する";
 
 /* Description of Open News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Siri 音声アシスタントで、新しいタブを開きBrave Newsのフィードを表示するショートカットを利用";
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Siri 音声アシスタントで、新しいタブを開きPresearch Newsのフィードを表示するショートカットを利用";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Newsを開く";
@@ -1757,7 +1757,7 @@
 "vpn.vpnIAPBoilerPlate" = "サブスクリプションはiTunesアカウントを通じて課金されます。\n無料トライアルが提供されている場合、未使用の部分は、サブスクリプションを購入した時点で無効になります。\nサブスクリプションは、現在の期間終了の少なくとも24時間前にキャンセルされない限り、自動的に更新されます。\nサブスクリプションは「設定」で管理できます。\nBraveを使用することで、利用規約とプライバシーポリシーに同意したことになります。";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "この操作を実行するとBrave ファイアウォール+ VPNの構成はリセットされ、すべてのエラーが修正されます。このプロセスには1分かかる場合があります。";
+"vpn.vpnResetAlertBody" = "この操作を実行するとPresearch ファイアウォール+ VPNの構成はリセットされ、すべてのエラーが修正されます。このプロセスには1分かかる場合があります。";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "設定リセット";

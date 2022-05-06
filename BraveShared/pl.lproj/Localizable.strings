@@ -2,7 +2,7 @@
 "AboutBraveShields" = "Presearch Ad Blocker – informacje";
 
 /* The body of the screen explaining Presearch Ad Blocker */
-"AboutBraveShieldsBody" = "Witryny często wysyłają pliki cookie i skrypty, które próbują zidentyfikować Ciebie i Twoje urządzenie. Chcą dowiedzieć się, kim jesteś, śledząc Twoje działania w każdej witrynie.\n\nBrave blokuje te próby, tak aby możliwe było przeglądanie bez śledzenia.";
+"AboutBraveShieldsBody" = "Witryny często wysyłają pliki cookie i skrypty, które próbują zidentyfikować Ciebie i Twoje urządzenie. Chcą dowiedzieć się, kim jesteś, śledząc Twoje działania w każdej witrynie.\n\nPresearch blokuje te próby, tak aby możliwe było przeglądanie bez śledzenia.";
 
 /* No comment provided by engineer. */
 "BraveRewardsAdNotificationTitle" = "Rewards";

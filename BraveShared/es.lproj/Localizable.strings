@@ -2,7 +2,7 @@
 "AboutBraveShields" = "Acerca de los escudos de Presearch";
 
 /* The body of the screen explaining Presearch Ad Blocker */
-"AboutBraveShieldsBody" = "Los sitios web suelen usar cookies y scripts que tratan de identificarte a ti y a tu dispositivo. Su intención es averiguar quién eres y rastrear tus movimientos por la web para saber lo que haces en cada sitio.\n\nBrave bloquea estos elementos para que puedas navegar sin que te sigan.";
+"AboutBraveShieldsBody" = "Los sitios web suelen usar cookies y scripts que tratan de identificarte a ti y a tu dispositivo. Su intención es averiguar quién eres y rastrear tus movimientos por la web para saber lo que haces en cada sitio.\n\nPresearch bloquea estos elementos para que puedas navegar sin que te sigan.";
 
 /* No comment provided by engineer. */
 "BraveRewardsAdNotificationTitle" = "Rewards";

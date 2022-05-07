@@ -189,13 +189,13 @@ class NewTabPageViewController: UIViewController {
       self?.setupBackgroundImage()
     }
 
-    #if !NO_BRAVE_NEWS
-    Preferences.BraveNews.isEnabled.observe(from: self)
-    feedDataSource.observeState(from: self) { [weak self] in
-      self?.handleFeedStateChange($0, $1)
-    }
-    NotificationCenter.default.addObserver(self, selector: #selector(checkForUpdatedFeed), name: UIApplication.didBecomeActiveNotification, object: nil)
-    #endif
+//    #if !NO_BRAVE_NEWS
+//    Preferences.BraveNews.isEnabled.observe(from: self)
+//    feedDataSource.observeState(from: self) { [weak self] in
+//      self?.handleFeedStateChange($0, $1)
+//    }
+//    NotificationCenter.default.addObserver(self, selector: #selector(checkForUpdatedFeed), name: UIApplication.didBecomeActiveNotification, object: nil)
+//    #endif
   }
 
   @available(*, unavailable)

@@ -205,7 +205,7 @@ extension UIColor {
     .braveOrange
   }
   public static var statsDataSavedTint: UIColor {
-    .init(hex: 0xA0A5EB)
+    .init(hex: 0xB4D3F7)
   }
   public static var statsTimeSavedTint: UIColor {
     .white

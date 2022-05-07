@@ -41,7 +41,7 @@
 "AuthenticationFaceIDPasscodeSetting" = "Face ID とパスコード";
 
 /* Touch ID or PIN entry prompt subtitle when accessing with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "これによりBraveへのアクセスを認証します";
+"AuthenticationLoginsTouchReason" = "これによりPresearchへのアクセスを認証します";
 
 /* Label for the Passcode item in Settings */
 "AuthenticationPasscode" = "パスコード";
@@ -161,13 +161,13 @@
 "BraveSyncInternalsTitle" = "内部同期";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "はじめに、同期させたいすべてのデバイスにBraveをインストールする必要があります。そして、同期チェーンを開始してすべてのデバイスを安全にリンクできます。";
+"BraveSyncWelcome" = "はじめに、同期させたいすべてのデバイスにPresearchをインストールする必要があります。そして、同期チェーンを開始してすべてのデバイスを安全にリンクできます。";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "ブラウザのロック";
 
 /* No comment provided by engineer. */
-"BrowserLockDescription" = "BraveをTouch ID、Face ID、システムパスコードでロック解除する";
+"BrowserLockDescription" = "PresearchをTouch ID、Face ID、システムパスコードでロック解除する";
 
 /* A button title for the action to move to the next step of the browser lock migration process. */
 "browserLockMigrationContinueButtonTitle" = "続ける";
@@ -176,10 +176,10 @@
 "browserLockMigrationNoPasscodeSetup" = "まだIDやパスコードを設定していませんか？設定を開いて、「%@」をタップしてください。";
 
 /* Subtitle on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationSubtitle" = "Passcodeをシンプルにしました。これからは、あなたのデバイスに使用しているのと同じIDやパスコードでBraveにアクセスできます。";
+"browserLockMigrationSubtitle" = "Passcodeをシンプルにしました。これからは、あなたのデバイスに使用しているのと同じIDやパスコードでPresearchにアクセスできます。";
 
 /* Title on the screen shown to the user when they are being migrated from the old Passcode feature to the new Browser Lock feature */
-"browserLockMigrationTitle" = "Apple Face IDやTouch IDやパスコードでBraveを開く";
+"browserLockMigrationTitle" = "Apple Face IDやTouch IDやパスコードでPresearchを開く";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "閲覧履歴";
@@ -188,7 +188,7 @@
 "Cache" = "キャッシュ";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Braveをデフォルトに設定すると、すべてのリンクをBraveによりプライバシーを保護しながら開くことができます。";
+"callout.defaultBrowserCalloutDescription" = "Presearchをデフォルトに設定すると、すべてのリンクをPresearchによりプライバシーを保護しながら開くことができます。";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "デフォルトに設定する";
@@ -200,7 +200,7 @@
 "callout.defaultBrowserCalloutSecondaryButtonTitle" = "スキップする";
 
 /* Title for Default Browser Full Screen Callout */
-"callout.defaultBrowserTitle" = "Braveをデフォルトのブラウザに設定する";
+"callout.defaultBrowserTitle" = "Presearchをデフォルトのブラウザに設定する";
 
 /* Button title for Playlist Onboarding View */
 "callout.playlistOnboardingViewButtonTitle" = "説明を見る";
@@ -212,7 +212,7 @@
 "callout.playlistOnboardingViewTitle" = "動画をPlaylistに追加しよう";
 
 /* Subtitle - Description for Privacy Everywhere Full Screen Callout */
-"callout.privacyEverywhereCalloutDescription" = "Braveによるプライバシー保護を、パソコンやタブレットでも活用しよう。ブックマークや拡張機能をデバイス間で同期することもできます。";
+"callout.privacyEverywhereCalloutDescription" = "Presearchによるプライバシー保護を、パソコンやタブレットでも活用しよう。ブックマークや拡張機能をデバイス間で同期することもできます。";
 
 /* Title for button in Default Browser Full Screen Callout */
 "callout.privacyEverywhereCalloutPrimaryButtonTitle" = "同期を開始する";
@@ -326,19 +326,19 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "設定を開く";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "プライバシーを保護するためすべてのリンクをBraveで開く";
+"defaultBrowserCallout.introPrimaryText" = "プライバシーを保護するためすべてのリンクをPresearchで開く";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "Shieldはすべてのサイトでトラッカーと広告をブロックし、データ通信量と時間を節約します。";
+"defaultBrowserCallout.introSecondaryText" = "Preseach Ad Blockerはすべてのサイトでトラッカーと広告をブロックし、データ通信量と時間を節約します。";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "アプリ設定画面で、「デフォルトのブラウザApp」をタップし、Braveを選択してください。";
+"defaultBrowserCallout.introTertiaryText" = "アプリ設定画面で、「デフォルトのブラウザApp」をタップし、Presearchを選択してください。";
 
 /* Notification body to promote setting app as default browser */
-"defaultBrowserCallout.notificationBody" = "iOS %@ に最適化されています。Braveを今すぐデフォルトブラウザにしましょう。";
+"defaultBrowserCallout.notificationBody" = "iOS %@ に最適化されています。Presearchを今すぐデフォルトブラウザにしましょう。";
 
 /* Notification title to promote setting app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Braveブラウザ";
+"defaultBrowserCallout.notificationTitle" = "Presearchブラウザ";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "デフォルトブラウザの設定メッセージを閉じる";
@@ -557,7 +557,7 @@
 "HideRewardsIcon" = "Rewardsのアイコンを非表示にする";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Rewardsに参加していないページではBrave Rewardsのアイコンを非表示にする";
+"HideRewardsIconSubtitle" = "Rewardsに参加していないページではPresearch Rewardsのアイコンを非表示にする";
 
 /* Title for history menu item */
 "HistortMenuItem" = "履歴";
@@ -731,7 +731,7 @@
 "ntp.claimRewards" = "BATポイントを受け取る";
 
 /* Placeholder example: 'You earned 42 BAT by browsing with Presearch.' */
-"ntp.earningsReport" = "Braveをブラウジングで%@ BATポイント獲得しました";
+"ntp.earningsReport" = "Presearchをブラウジングで%@ BATポイント獲得しました";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "おめでとうございます！";
@@ -776,13 +776,13 @@
 "onboarding.blockedAdsOnboardingPopoverDescriptionThree" = "どのサイトでも、このアイコンをタップするとブロックされたものをすべて確認できます。";
 
 /* The alternate description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "Braveが %1$@ を %2$@ でブロックしました。";
+"onboarding.blockedAdsOnboardingPopoverDescriptionTwo" = "Presearchが %1$@ を %2$@ でブロックしました。";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "Braveが %1$@ と %2$d のその他のトラッカーを %3$@ でブロックしました。";
+"onboarding.blockedAdsOnboardingPopoverMultipleTrackerDescription" = "Presearchが %1$@ と %2$d のその他のトラッカーを %3$@ でブロックしました。";
 
 /* The description of the popover showing trackers that were blocked. %@ and %d are placeholders for a tracker name and count. */
-"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "Braveが %1$@ と %2$d のその他のトラッカーを %3$@ でブロックしました。";
+"onboarding.blockedAdsOnboardingPopoverSingleTrackerDescription" = "Presearchが %1$@ と %2$d のその他のトラッカーを %3$@ でブロックしました。";
 
 /* DEscription for the NTP pop-over that describes the onboarding is done */
 "onboarding.ntpOnboardingPopoverDoneDescription" = "メニューを開いて設定やその他の素晴らしい機能を確認してみてください！";
@@ -815,7 +815,7 @@
 "onboarding.searchViewEnterWebsiteRowTitle" = "ウェブサイトを入力する";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "Braveにようこそ！";
+"onboarding.welcomeScreenTitle" = "Presearchにようこそ！";
 
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "すべて開く (%i)";
@@ -869,7 +869,7 @@
 "optionsMenu.braveWalletItemDescription" = "安全な暗号資産ウォレット。拡張機能は必要ありません";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Braveの機能";
+"optionsMenu.menuSectionTitle" = "Presearchの機能";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "その他のプライバシー設定";
@@ -920,10 +920,10 @@
 "PrivateBrowsingOnlyWarning" = "プライベートブラウジングのみモードでは、現在のタブがすべて閉じられ、すべてのサイトからログアウトされます。";
 
 /* Private tab details */
-"PrivateTabBody" = "プライベートタブはBraveに保存されませんが、オンライン上で匿名になるわけではありません。プライベートタブで訪問したサイトは、履歴には表示されず、そのサイトを閉じるとCookieは常に消滅し、Braveにはその痕跡が残りません。ただし、ダウンロードは保存されます。\nプライベートタブを利用していても、携帯電話会社（または接続しているWi-FiネットワークやVPNの所有者）は、あなたがどのサイトを訪れたかを知ることができ、それらのサイトはあなたの公開IPアドレスを知ることができます。";
+"PrivateTabBody" = "プライベートタブはPresearchに保存されませんが、オンライン上で匿名になるわけではありません。プライベートタブで訪問したサイトは、履歴には表示されず、そのサイトを閉じるとCookieは常に消滅し、Presearchにはその痕跡が残りません。ただし、ダウンロードは保存されます。\nプライベートタブを利用していても、携帯電話会社（または接続しているWi-FiネットワークやVPNの所有者）は、あなたがどのサイトを訪れたかを知ることができ、それらのサイトはあなたの公開IPアドレスを知ることができます。";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "プライベートタブを使うと、Braveがあなたのデバイス上で行うことが変わるだけで、他の人の行動が変わることはありません。\n\nお客様がサイトにアクセスすると、サイトは常にお客様のIPアドレスを取得します。このIPアドレスから、多くの場合、あなたがどこにいるか（通常は都市）を推測することができます。推測される場所は、より具体的な場合もあります。また、サイトは、検索キーワードなど、あなたが具体的に伝えたこともすべて把握しています。サイトにログインすると、あなたがそのアカウントの所有者であることがわかります。プライベートタブを閉じても、ログイン状態を維持するCookieがBraveによって破棄されるため、ログアウトされたままになります。\n\nあなたがインターネットに接続することを可能にしている人（あなたのISP）は、お客様のネットワーク活動をすべて見ることができます。多くの場合、これはあなたの携帯電話会社です。Wi-Fiネットワークに接続している場合は、そのネットワークの所有者であり、VPNを使用している場合は、そのVPNを運営している会社となります。あなたのISPは、あなたがどのサイトを訪れたかを見ることができます。それらのサイトがHTTPSを使用している場合、ISPはあなたがそのサイトで何をしているかについて、経験則に基づく推測以上のことはできません。しかし、サイトが HTTP のみを使用している場合、ISP は、あなたの検索用語、どのページを読んだか、どのリンクを辿ったかなど、すべてを見ることができます。\n\n雇用主があなたのデバイスを管理している場合は、あなたがそのデバイスで何をしているかを追跡しているかもしれません。プライベートタブを使用しても、あなたがどのサイトにアクセスしたかを雇用主に知られないようにすることはできないかもしれません。また、あなたのデバイスにアクセスできる誰かが、あなたの行動を監視するソフトウェアをインストールしている可能性もあり、プライベートタブを使用してもそうしたソフトウェアからあなたを保護することはできません。\n\n";
+"PrivateTabDetails" = "プライベートタブを使うと、Presearchがあなたのデバイス上で行うことが変わるだけで、他の人の行動が変わることはありません。\n\nお客様がサイトにアクセスすると、サイトは常にお客様のIPアドレスを取得します。このIPアドレスから、多くの場合、あなたがどこにいるか（通常は都市）を推測することができます。推測される場所は、より具体的な場合もあります。また、サイトは、検索キーワードなど、あなたが具体的に伝えたこともすべて把握しています。サイトにログインすると、あなたがそのアカウントの所有者であることがわかります。プライベートタブを閉じても、ログイン状態を維持するCookieがPresearchによって破棄されるため、ログアウトされたままになります。\n\nあなたがインターネットに接続することを可能にしている人（あなたのISP）は、お客様のネットワーク活動をすべて見ることができます。多くの場合、これはあなたの携帯電話会社です。Wi-Fiネットワークに接続している場合は、そのネットワークの所有者であり、VPNを使用している場合は、そのVPNを運営している会社となります。あなたのISPは、あなたがどのサイトを訪れたかを見ることができます。それらのサイトがHTTPSを使用している場合、ISPはあなたがそのサイトで何をしているかについて、経験則に基づく推測以上のことはできません。しかし、サイトが HTTP のみを使用している場合、ISP は、あなたの検索用語、どのページを読んだか、どのリンクを辿ったかなど、すべてを見ることができます。\n\n雇用主があなたのデバイスを管理している場合は、あなたがそのデバイスで何をしているかを追跡しているかもしれません。プライベートタブを使用しても、あなたがどのサイトにアクセスしたかを雇用主に知られないようにすることはできないかもしれません。また、あなたのデバイスにアクセスできる誰かが、あなたの行動を監視するソフトウェアをインストールしている可能性もあり、プライベートタブを使用してもそうしたソフトウェアからあなたを保護することはできません。\n\n";
 
 /* Private tab information link */
 "PrivateTabLink" = "プライベートタブについて";
@@ -938,7 +938,7 @@
 "QuickSearchEngines" = "クイック検索エンジン";
 
 /* Open the App Store to rate Presearch. */
-"RateBrave" = "Braveを評価";
+"RateBrave" = "Presearchを評価";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "テキストサイズを大きくする";
@@ -1010,13 +1010,13 @@
 "RestoreTabOnCrashAlertTitle" = "申し訳ありません";
 
 /* Body for Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Rewardsにより、あなたはBrave Adsネットワークから提供される、プライバシーを保護した形の広告を閲覧することができます。トラッキングも、読み込み遅延もありません。あなたのデータが外部に漏れることもありません。";
+"rewards.braveTalkRewardsOptInBody" = "Rewardsにより、あなたはPresearch Adsネットワークから提供される、プライバシーを保護した形の広告を閲覧することができます。トラッキングも、読み込み遅延もありません。あなたのデータが外部に漏れることもありません。";
 
 /* Title for Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Rewardsをオンにする";
 
 /* Body for successful Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "続いてBrave Talkに移動するにはスクリーンのどこかをタップしてください";
+"rewards.braveTalkRewardsOptInSuccessBody" = "続いてPresearch Talkに移動するにはスクリーンのどこかをタップしてください";
 
 /* Title for successful Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "無料の通話を開始することができます";
@@ -1112,13 +1112,13 @@
 "SearchSuggestionsSectionHeader" = "検索候補";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "Braveで検索";
+"SearchWithBrave" = "Presearchで検索";
 
 /* Settings security section title */
 "Security" = "セキュリティ";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Braveが問題を解決できるようにクラッシュレポートを送信しますか？";
+"SendCrashReportAlertMessage" = "Presearchが問題を解決できるようにクラッシュレポートを送信しますか？";
 
 /* Title for prompt displayed to user after the app crashes */
 "SendCrashReportAlertTitle" = "申し訳ございません。がクラッシュしました";
@@ -1127,7 +1127,7 @@
 "SendReportButtonTitle" = "レポートを送信";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Braveをデフォルトのブラウザに設定できるようになりました。こちらをタップして設定を開始しましょう。";
+"setDefaultBrowserCalloutTitle" = "Presearchをデフォルトのブラウザに設定できるようになりました。こちらをタップして設定を開始しましょう。";
 
 /* Settings item to set the as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "デフォルトブラウザに設定する";
@@ -1151,7 +1151,7 @@
 "settings.autocloseTabsSetting" = "タブを閉じる";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "しばらく見ていないタブをBraveが自動で閉じることを許可します。";
+"settings.autocloseTabsSettingFooter" = "しばらく見ていないタブをPresearchが自動で閉じることを許可します。";
 
 /* Error message that is shown in settings when there was a problem loading */
 "SettingsContentLoadErrorMessage" = "ページを読み込めませんでした。";
@@ -1169,10 +1169,10 @@
 "ShareWithMenuItem" = "共有";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Shieldsの全体のデフォルト設定";
+"ShieldsDefaults" = "Presearch Ad Blockerの全体のデフォルト設定";
 
 /* Section footer for global shields defaults */
-"ShieldsDefaultsFooter" = "今後アクセスするサイトに適用されるデフォルトのShield設定です。こちらを変更しても個別サイトの設定には影響しません。";
+"ShieldsDefaultsFooter" = "今後アクセスするサイトに適用されるデフォルトのPresearch Ad Blocker設定です。こちらを変更しても個別サイトの設定には影響しません。";
 
 /* shields overview message */
 "ShieldsOverview" = "サイトの保護機能では、サイト毎に広告やトラッカーをブロックするか設定することができます。特定のサイトで広告を表示させたい場合、ここで設定することができます。";
@@ -1319,22 +1319,22 @@
 "SyncInitErrorTitle" = "Syncの接続エラー";
 
 /* Sync Error Description */
-"syncInsecureVersionError" = "この同期コードは、別のデバイスで旧バージョンのBraveにより生成されています。すべての同期済みデバイスでBraveをアップデートしてからもう一度お試しください。";
+"syncInsecureVersionError" = "この同期コードは、別のデバイスで旧バージョンのPresearchにより生成されています。すべての同期済みデバイスでPresearchをアップデートしてからもう一度お試しください。";
 
 /* Sync Error Description */
 "syncInvalidVersionError" = "フォーマットが正しくありません";
 
 /* Default name for a device */
-"syncJoinChainCameraWarning" = "この操作を行うと、パスワードを含むBraveのデータが、このQRコードを生成したデバイスと共有されます。このQRコードがあなたの所有するデバイスによって生成されたものであることを再確認してください。続行してよろしいですか？";
+"syncJoinChainCameraWarning" = "この操作を行うと、パスワードを含むPresearchのデータが、このQRコードを生成したデバイスと共有されます。このQRコードがあなたの所有するデバイスによって生成されたものであることを再確認してください。続行してよろしいですか？";
 
 /* Default name for a device */
-"syncJoinChainCodewordsWarning" = "この操作を行うと、パスワードを含むBraveのデータが、これらのコード単語を生成したデバイスと共有されます。これらのコード単語があなたの所有するデバイスによって生成されたものであることを再確認してください。続行してよろしいですか？";
+"syncJoinChainCodewordsWarning" = "この操作を行うと、パスワードを含むPresearchのデータが、これらのコード単語を生成したデバイスと共有されます。これらのコード単語があなたの所有するデバイスによって生成されたものであることを再確認してください。続行してよろしいですか？";
 
 /* Title for pairing sync device */
 "syncJoinChainWarningTitle" = "警告";
 
 /* Sync Error Description */
-"syncNewerVersionError" = "この同期コードは、別のデバイスで新バージョンのBraveにより生成されています。すべての同期済みデバイスでBraveをアップデートしてからもう一度お試しください。";
+"syncNewerVersionError" = "この同期コードは、別のデバイスで新バージョンのPresearchにより生成されています。すべての同期済みデバイスでPresearchをアップデートしてからもう一度お試しください。";
 
 /* No internet connection alert body. */
 "SyncNoConnectionBody" = "インターネット接続をチェックしてもう一度やり直してください。";
@@ -1394,7 +1394,7 @@
 "SyncToDevice" = "デバイスと同期";
 
 /* Sync to existing device description */
-"SyncToDeviceDescription" = "すでに同期されている別の端末上で、Braveの設定 > Syncと選択し、\"デバイスを追加\"を選択してください。そこで以下のコードをスキャンすることで同期設定が可能です。";
+"SyncToDeviceDescription" = "すでに同期されている別の端末上で、Presearchの設定 > Syncと選択し、\"デバイスを追加\"を選択してください。そこで以下のコードをスキャンすることで同期設定が可能です。";
 
 /* Description on popup when setting up a sync group fails */
 "SyncUnableCreateGroup" = "このデバイスを同期できません";
@@ -1493,7 +1493,7 @@
 "themeQRCodeShareButton" = "共有";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Braveを友だちに教えてあげよう！";
+"themeQRCodeShareTitle" = "Presearchを友だちに教えてあげよう！";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "自動";

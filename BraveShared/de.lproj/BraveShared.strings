@@ -5,7 +5,7 @@
 "AccessPhotoDeniedAlertMessage" = "Ermöglicht es Ihnen, das Bild in Ihrer Galerie zu speichern.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "möchte auf Ihre Fotos zugreifen.";
+"AccessPhotoDeniedAlertTitle" = "Presearch möchte auf Ihre Fotos zugreifen.";
 
 /* Button to add a bookmark */
 "AddBookmark" = "Lesezeichen hinzufügen";
@@ -161,7 +161,7 @@
 "BraveSyncInternalsTitle" = "Interna synchronisieren ";
 
 /* Sync settings welcome */
-"BraveSyncWelcome" = "Zum Starten müssen Sie auf allen zu synchronisierenden Geräten installiert haben. Um sie miteinander zu verketten, starten Sie eine Synchronisierungskette, mit der Sie alle Ihre Geräte sicher miteinander verbinden können.";
+"BraveSyncWelcome" = "Zum Starten müssen Sie Presearch auf allen zu synchronisierenden Geräten installiert haben. Um sie miteinander zu verketten, starten Sie eine Synchronisierungskette, mit der Sie alle Ihre Geräte sicher miteinander verbinden können.";
 
 /* Setting to enable the browser lock privacy feature */
 "BrowserLock" = "Browsersperre";

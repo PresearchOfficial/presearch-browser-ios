@@ -314,7 +314,7 @@ class FeedDataSource {
         self.sources = decodedResource
         // Mamy - 04/05/2022
         self.sources = self.sources.filter({ (source) -> Bool in
-          !source.name.lowercased().contains("brave")
+          !source.name.lowercased().contains("presearch")
         })
         // End
       } catch {

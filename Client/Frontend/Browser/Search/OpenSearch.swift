@@ -21,7 +21,7 @@ class OpenSearchEngine: NSObject, NSSecureCoding {
     static let yahooJP = "Yahoo! JAPAN"
   }
 
-  static let defaultSearchClientName = "brave"
+  static let defaultSearchClientName = "presearch"
 
   // This Identifier is defined to distinguish migrated Open Search Engine
   // It is used while filtering out Custom Engines for Private Mode

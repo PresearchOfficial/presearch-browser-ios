@@ -330,7 +330,7 @@ extension BrowserViewController: WKNavigationDelegate {
     // Standard schemes are handled in previous if-case.
     // This check handles custom app schemes to open external apps.
     // Our own 'brave' scheme does not require the switch-app prompt.
-    if url.scheme?.contains("brave") == false {
+    if url.scheme?.contains("presearch") == false {
       handleExternalURL(url) { didOpenURL in
         // Do not show error message for JS navigated links or redirect
         // as it's not the result of a user action.

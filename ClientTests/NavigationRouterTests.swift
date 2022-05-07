@@ -26,7 +26,7 @@ class NavigationRouterTests: XCTestCase {
     let urlTypes = Bundle.main.object(forInfoDictionaryKey: "CFBundleURLTypes") as! [AnyObject]
     let urlType = urlTypes.first as! [String: AnyObject]
     let urlSchemes = urlType["CFBundleURLSchemes"] as! [String]
-    return urlSchemes.first(where: { $0.hasPrefix("brave") })!
+    return urlSchemes.first(where: { $0.hasPrefix("presearch") })!
   }
 
   func testOpenURLScheme() {

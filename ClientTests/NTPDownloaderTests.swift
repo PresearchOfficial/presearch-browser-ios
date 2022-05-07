@@ -100,7 +100,7 @@ class NTPDownloaderTests: XCTestCase {
             "imageUrl": "logo.png",
             "alt": "Visit Presearch.com",
             "companyName": "Presearch",
-            "destinationUrl": "https://brave.com"
+            "destinationUrl": "https://presearch.com"
         },
         "wallpapers": []
     }
@@ -123,7 +123,7 @@ class NTPDownloaderTests: XCTestCase {
             "imageUrl": "logo.png",
             "alt": "Visit Presearch.com",
             "companyName": "Presearch",
-            "destinationUrl": "https://brave.com"
+            "destinationUrl": "https://presearch.com"
         },
         "wallpapers": [
             {

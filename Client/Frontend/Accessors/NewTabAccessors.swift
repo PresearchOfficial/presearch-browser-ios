@@ -8,7 +8,7 @@ import XCGLogger
 
 /// Accessors to find what a new tab should do when created without a URL.
 struct NewTabAccessors {
-  static let `default` = NewTabPage.topSites
+  static let `default` = NewTabPage.homePage
 
   static func getNewTabPage() -> NewTabPage {
     return `default`

@@ -15,23 +15,6 @@ class VPNProductInfo: NSObject {
   static var monthlySubProduct: SKProduct?
   static var yearlySubProduct: SKProduct?
 
-  /// Whether we have enough product info to present to the user.
-  /// If the user has bought the vpn already, it returns `true` since we do not need price details anymore.
-  static var isComplete: Bool {
-    switch BraveVPN.vpnState {
-    case .purchased, .installed:
-      return true
-    case .notPurchased, .expired:
-      guard let monthlyPlan = monthlySubProduct, let yearlyPlan = yearlySubProduct else {
-        return false
-      }
-
-      // Make sure the price can be displayed correctly.
-      return monthlyPlan.price.frontSymbolCurrencyFormatted(with: monthlyPlan.priceLocale) != nil
-        && yearlyPlan.price.frontSymbolCurrencyFormatted(with: yearlyPlan.priceLocale) != nil
-    }
-  }
-
   private let productRequest: SKProductsRequest
 
   /// These product ids work only on release channel.

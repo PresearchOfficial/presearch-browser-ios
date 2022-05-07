@@ -9,7 +9,7 @@ import BraveShared
 
 class EnableVPNSettingHeader: UIView {
 
-  var enableVPNTapped: (() -> Void)?
+//  var enableVPNTapped: (() -> Void)?
   var dismissHeaderTapped: (() -> Void)?
 
   private let mainStackView = UIStackView().then {
@@ -36,18 +36,18 @@ class EnableVPNSettingHeader: UIView {
 
   private let enableButton = RoundInterfaceButton(type: .roundedRect).then {
 
-    let title = { () -> String in
-      switch BraveVPN.vpnState {
-      case .notPurchased:
-        return Strings.VPN.tryForFreeButton
-      case .expired:
-        return Strings.learnMore
-      case .purchased, .installed:
-        return Strings.VPN.enableButton
-      }
-    }()
+//    let title = { () -> String in
+//      switch BraveVPN.vpnState {
+//      case .notPurchased:
+//        return Strings.VPN.tryForFreeButton
+//      case .expired:
+//        return Strings.learnMore
+//      case .purchased, .installed:
+//        return Strings.VPN.enableButton
+//      }
+//    }()
 
-    $0.setTitle(title, for: .normal)
+//    $0.setTitle(title, for: .normal)
     $0.backgroundColor = .braveOrange
     $0.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
     $0.setTitleColor(.white, for: .normal)
@@ -108,16 +108,16 @@ class EnableVPNSettingHeader: UIView {
       $0.size.equalTo(44)
     }
 
-    enableButton.addTarget(self, action: #selector(enableVPNAction), for: .touchUpInside)
+//    enableButton.addTarget(self, action: #selector(enableVPNAction), for: .touchUpInside)
     closeButton.addTarget(self, action: #selector(closeView), for: .touchUpInside)
   }
 
   @available(*, unavailable)
   required init(coder: NSCoder) { fatalError() }
 
-  @objc func enableVPNAction() {
-    enableVPNTapped?()
-  }
+//  @objc func enableVPNAction() {
+//    enableVPNTapped?()
+//  }
 
   @objc func closeView() {
     dismissHeaderTapped?()

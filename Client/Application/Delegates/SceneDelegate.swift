@@ -171,13 +171,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
       quickActions.launchedShortcutItem = nil
     }
-
-    // We try to send DAU ping each time the app goes to foreground to work around network edge cases
-    // (offline, bad connection etc.).
-    // Also send the ping only after the URP lookup has processed.
-//    if Preferences.URP.referralLookupOutstanding.value == false {
-//      appDelegate.dau.sendPingToServer()
-//    }
   }
 
   func sceneWillResignActive(_ scene: UIScene) {
@@ -204,7 +197,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     appDelegate.syncOnDidEnterBackground(application: UIApplication.shared)
-    BraveVPN.sendVPNWorksInBackgroundNotification()
   }
 
   func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {

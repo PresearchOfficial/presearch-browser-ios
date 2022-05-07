@@ -9,7 +9,7 @@ import BraveShared
 
 class EnableVPNPopupViewController: UIViewController {
 
-  var enableVPNTapped: (() -> Void)?
+//  var enableVPNTapped: (() -> Void)?
 
   private let contentView = ContentView()
 
@@ -24,7 +24,7 @@ class EnableVPNPopupViewController: UIViewController {
     backgroundView.snp.makeConstraints { $0.edges.equalToSuperview() }
 
     view.addSubview(contentView)
-    contentView.enableButton.addTarget(self, action: #selector(enableVPNAction), for: .touchUpInside)
+//    contentView.enableButton.addTarget(self, action: #selector(enableVPNAction), for: .touchUpInside)
     contentView.closeButton.addTarget(self, action: #selector(closeView), for: .touchUpInside)
 
     let tapGesture = UITapGestureRecognizer(target: self, action: #selector(backgroundTapped))
@@ -44,10 +44,10 @@ class EnableVPNPopupViewController: UIViewController {
     }
   }
 
-  @objc func enableVPNAction() {
-    dismiss(animated: false)
-    enableVPNTapped?()
-  }
+//  @objc func enableVPNAction() {
+//    dismiss(animated: false)
+//    enableVPNTapped?()
+//  }
 
   @objc func backgroundTapped() {
     dismiss(animated: false)

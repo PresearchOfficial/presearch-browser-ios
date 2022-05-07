@@ -33,12 +33,6 @@ struct VPNMenuButton: View {
   }
 
   private func toggleVPN(_ enabled: Bool) {
-    if !VPNProductInfo.isComplete {
-      isErrorShowing = true
-      // Reattempt to connect to the App Store to get VPN prices.
-      vpnProductInfo.load()
-      return
-    }
   }
 
   private var vpnToggle: some View {

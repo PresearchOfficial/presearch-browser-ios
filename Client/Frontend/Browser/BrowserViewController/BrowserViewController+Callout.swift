@@ -42,7 +42,7 @@ extension BrowserViewController {
 
     if onboardingNotCompleted
       || showedPopup.value
-      || !VPNProductInfo.isComplete {
+    {
       FullScreenCalloutManager.FullScreenCalloutType.vpn.preferenceValue.value = false
       return
     }
@@ -51,10 +51,6 @@ extension BrowserViewController {
       $0.isModalInPresentation = true
       $0.modalPresentationStyle = .overFullScreen
     }
-
-//    popup.enableVPNTapped = { [weak self] in
-//      self?.presentCorrespondingVPNViewController()
-//    }
 
     present(popup, animated: false)
     isOnboardingOrFullScreenCalloutPresented = true
@@ -70,7 +66,6 @@ extension BrowserViewController {
 
     let onboardingController = WelcomeViewController(
       profile: nil,
-//      rewards: nil,
       state: WelcomeViewCalloutState.defaultBrowserCallout(
         info: WelcomeViewCalloutState.WelcomeViewDefaultBrowserDetails(
           title: Strings.Callout.defaultBrowserCalloutTitle,

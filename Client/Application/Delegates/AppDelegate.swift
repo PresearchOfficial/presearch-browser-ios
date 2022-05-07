@@ -275,15 +275,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       sceneInfo?.profile.searchEngines.migrateDefaultYahooSearchEngines()
     }
 
-//    if isFirstLaunch {
-//      Preferences.DAU.installationDate.value = Date()
-
-      // VPN credentials are kept in keychain and persist between app reinstalls.
-      // To avoid unexpected problems we clear all vpn keychain items.
-      // New set of keychain items will be created on purchase or iap restoration.
-//      BraveVPN.clearCredentials()
-//    }
-
     if UserReferralProgram.shared != nil {
       if Preferences.URP.referralLookupOutstanding.value == nil {
         // This preference has never been set, and this means it is a new or upgraded user.

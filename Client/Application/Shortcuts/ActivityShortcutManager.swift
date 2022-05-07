@@ -133,17 +133,6 @@ class ActivityShortcutManager: NSObject {
     case .enableBraveVPN:
       bvc.openBlankNewTab(attemptLocationFieldFocus: false, isPrivate: PrivateBrowsingManager.shared.isPrivateBrowsing, isExternal: true)
       bvc.popToBVC()
-
-      switch BraveVPN.vpnState {
-      case .notPurchased, .purchased, .expired:
-        guard let enableVPNController = BraveVPN.vpnState.enableVPNDestinationVC else { return }
-
-        bvc.openInsideSettingsNavigation(with: enableVPNController)
-      case .installed(let connected):
-        if !connected {
-          BraveVPN.reconnect()
-        }
-      }
     case .openBraveNews:
       // Do nothing as browser when browser to PB only and Presearch News isn't available on private tabs
       guard !Preferences.Privacy.privateBrowsingOnly.value else {

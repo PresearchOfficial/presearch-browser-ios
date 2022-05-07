@@ -75,9 +75,9 @@ class BraveVPNSettingsViewController: TableViewController {
     super.viewDidLoad()
 
     title = Strings.VPN.vpnName
-    NotificationCenter.default.addObserver(
-      self, selector: #selector(vpnConfigChanged),
-      name: .NEVPNStatusDidChange, object: nil)
+//    NotificationCenter.default.addObserver(
+//      self, selector: #selector(vpnConfigChanged),
+//      name: .NEVPNStatusDidChange, object: nil)
 
     fetchRegionList()
 
@@ -317,7 +317,7 @@ class BraveVPNSettingsViewController: TableViewController {
     present(alert, animated: true)
   }
 
-  @objc func vpnConfigChanged() {
-    vpnConnectionStatusSwitch?.isOn = BraveVPN.isConnected
-  }
+//  @objc func vpnConfigChanged() {
+//    vpnConnectionStatusSwitch?.isOn = BraveVPN.isConnected
+//  }
 }

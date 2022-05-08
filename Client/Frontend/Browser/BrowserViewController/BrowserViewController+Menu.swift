@@ -63,13 +63,13 @@ extension BrowserViewController {
         }
       }
 
-      MenuItemButton(
-        icon: #imageLiteral(resourceName: "menu-crypto").template,
-        title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))",
-        subtitle: Strings.OptionsMenu.braveWalletItemDescription
-      ) { [unowned self] in
-        self.presentWallet()
-      }
+//      MenuItemButton(
+//        icon: #imageLiteral(resourceName: "menu-crypto").template,
+//        title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))",
+//        subtitle: Strings.OptionsMenu.braveWalletItemDescription
+//      ) { [unowned self] in
+//        self.presentWallet()
+//      }
     }
     .fixedSize(horizontal: false, vertical: true)
     .padding(.top, 10)
@@ -103,12 +103,12 @@ extension BrowserViewController {
         }
       }
       if isShownOnWebPage {
-        MenuItemButton(
-          icon: #imageLiteral(resourceName: "menu-crypto").template,
-          title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))"
-        ) { [unowned self] in
-          self.presentWallet()
-        }
+//        MenuItemButton(
+//          icon: #imageLiteral(resourceName: "menu-crypto").template,
+//          title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))"
+//        ) { [unowned self] in
+//          self.presentWallet()
+//        }
         MenuItemButton(icon: #imageLiteral(resourceName: "playlist_menu").template, title: Strings.playlistMenuItem) { [weak self] in
           guard let self = self else { return }
           self.presentPlaylistController()

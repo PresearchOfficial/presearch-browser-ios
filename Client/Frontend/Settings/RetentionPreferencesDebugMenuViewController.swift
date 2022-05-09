@@ -52,8 +52,7 @@ class RetentionPreferencesDebugMenuViewController: TableViewController {
           text: "Start Onboarding",
           selection: { [unowned self] in
             let onboardingController = WelcomeViewController(
-              profile: nil,
-              rewards: nil)
+              profile: nil)
             onboardingController.modalPresentationStyle = .fullScreen
             onboardingController.onAdsWebsiteSelected = { [weak self] url in
               self?.dismiss(animated: true)

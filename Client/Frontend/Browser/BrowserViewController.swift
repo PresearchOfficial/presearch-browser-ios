@@ -999,12 +999,12 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
     // Full Screen Callout Presentation
     // Priority: VPN - Default Browser - Rewards - Sync
     // TODO: Remove the dispatch after with a proper fix and fix calling present functions before super.viewDidAppear
-    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-      self.presentVPNAlertCallout()
-      self.presentDefaultBrowserScreenCallout()
-      self.presentBraveRewardsScreenCallout()
-      self.presentSyncAlertCallout()
-    }
+//    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+//      self.presentVPNAlertCallout()
+//      self.presentDefaultBrowserScreenCallout()
+//      self.presentBraveRewardsScreenCallout()
+//      self.presentSyncAlertCallout()
+//    }
 
     screenshotHelper.viewIsVisible = true
     screenshotHelper.takePendingScreenshots(tabManager.allTabs)

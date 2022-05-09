@@ -32,8 +32,7 @@ extension BrowserViewController {
     if Preferences.General.basicOnboardingCompleted.value != OnboardingState.completed.rawValue,
        Preferences.General.isNewRetentionUser.value == true {
       let onboardingController = WelcomeViewController(
-        profile: profile,
-        rewards: rewards)
+        profile: profile)
       onboardingController.modalPresentationStyle = .fullScreen
       onboardingController.onAdsWebsiteSelected = { [weak self] url in
         guard let self = self else { return }

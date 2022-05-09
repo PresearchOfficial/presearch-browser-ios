@@ -60,7 +60,7 @@ class WelcomeViewCallout: UIView {
 
   private let detailsLabel = UILabel().then {
     $0.textColor = .bravePrimary
-    $0.textAlignment = .left
+    $0.textAlignment = .center
     $0.numberOfLines = 0
     $0.minimumScaleFactor = 0.5
     $0.adjustsFontSizeToFitWidth = true
@@ -144,17 +144,17 @@ class WelcomeViewCallout: UIView {
     contentView.removeFromSuperview()
 
     if pointsUp {
-      addSubview(backgroundView)
-      addSubview(arrowView)
+//      addSubview(backgroundView)
+//      addSubview(arrowView)
       addSubview(contentView)
       arrowView.transform = .identity
 
-      arrowView.snp.makeConstraints {
-        $0.centerX.equalToSuperview()
-        $0.top.equalToSuperview().inset(8)
-        $0.width.equalTo(20.0)
-        $0.height.equalTo(13.0)
-      }
+//      arrowView.snp.makeConstraints {
+//        $0.centerX.equalToSuperview()
+//        $0.top.equalToSuperview().inset(8)
+//        $0.width.equalTo(20.0)
+//        $0.height.equalTo(13.0)
+//      }
 
       contentView.snp.makeConstraints {
         if traitCollection.horizontalSizeClass == .compact && traitCollection.verticalSizeClass == .regular {
@@ -164,14 +164,14 @@ class WelcomeViewCallout: UIView {
           $0.leading.trailing.equalToSuperview().priority(.high)
           $0.width.lessThanOrEqualTo(BraveUX.baseDimensionValue)
         }
-        $0.top.equalTo(arrowView.snp.bottom)
+//        $0.top.equalTo(arrowView.snp.bottom)
+        $0.top.equalToSuperview()
         $0.bottom.equalToSuperview()
       }
     } else {
-      addSubview(backgroundView)
       addSubview(contentView)
-      addSubview(arrowView)
-      arrowView.transform = CGAffineTransform(rotationAngle: .pi)
+//      addSubview(arrowView)
+//      arrowView.transform = CGAffineTransform(rotationAngle: .pi)
 
       contentView.snp.makeConstraints {
         if traitCollection.horizontalSizeClass == .compact && traitCollection.verticalSizeClass == .regular {
@@ -182,25 +182,25 @@ class WelcomeViewCallout: UIView {
           $0.width.lessThanOrEqualTo(BraveUX.baseDimensionValue)
         }
         $0.top.equalToSuperview()
-        $0.bottom.equalTo(arrowView.snp.top)
-      }
-
-      arrowView.snp.makeConstraints {
-        $0.centerX.equalToSuperview()
         $0.bottom.equalToSuperview().inset(8)
-        $0.width.equalTo(20.0)
-        $0.height.equalTo(13.0)
       }
+
+//      arrowView.snp.makeConstraints {
+//        $0.centerX.equalToSuperview()
+//        $0.bottom.equalToSuperview().inset(8)
+//        $0.width.equalTo(20.0)
+//        $0.height.equalTo(13.0)
+//      }
     }
 
-    backgroundView.snp.makeConstraints {
-      $0.edges.equalTo(contentView.snp.edges)
-    }
+//    backgroundView.snp.makeConstraints {
+//      $0.edges.equalTo(contentView.snp.edges)
+//    }
   }
 
   func animateFromCopy(view: WelcomeViewCallout, duration: TimeInterval, delay: TimeInterval) {
-    let views = [backgroundView, contentView, arrowView]
-    let otherViews = [view.backgroundView, view.contentView, view.arrowView]
+    let views = [backgroundView, contentView ]
+    let otherViews = [view.backgroundView, view.contentView ]
 
     for e in views.enumerated() {
       POPBasicAnimation(propertyNamed: kPOPViewFrame)?.do {
@@ -229,8 +229,8 @@ class WelcomeViewCallout: UIView {
         $0.text = title
         $0.textAlignment = .center
         $0.font = .preferredFont(for: .title1, weight: .semibold)
-        $0.alpha = 1.0
-        $0.isHidden = false
+        $0.alpha = 0.0
+        $0.isHidden = true
       }
 
       detailsLabel.do {
@@ -261,8 +261,7 @@ class WelcomeViewCallout: UIView {
     case .privacy(let title, let details, let buttonTitle, let action):
       titleLabel.do {
         $0.text = title
-        $0.textAlignment = .left
-        $0.font = .preferredFont(for: .title3, weight: .bold)
+        $0.font = .preferredFont(for: .title3, weight: .heavy)
         $0.alpha = 1.0
         $0.isHidden = false
       }

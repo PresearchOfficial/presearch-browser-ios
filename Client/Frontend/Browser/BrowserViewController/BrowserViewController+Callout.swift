@@ -28,75 +28,38 @@ extension BrowserViewController {
     }
   }
 
-  func presentVPNAlertCallout() {
-    if Preferences.DebugFlag.skipNTPCallouts == true || isOnboardingOrFullScreenCalloutPresented { return }
-
-    if presentedViewController != nil || !FullScreenCalloutManager.shouldShowDefaultBrowserCallout(calloutType: .vpn) {
-      return
-    }
-
-    let onboardingNotCompleted =
-      Preferences.General.basicOnboardingCompleted.value != OnboardingState.completed.rawValue
-
-    let showedPopup = Preferences.VPN.popupShowed
-
-    if onboardingNotCompleted
-      || showedPopup.value
-    {
-      FullScreenCalloutManager.FullScreenCalloutType.vpn.preferenceValue.value = false
-      return
-    }
-
-    let popup = EnableVPNPopupViewController().then {
-      $0.isModalInPresentation = true
-      $0.modalPresentationStyle = .overFullScreen
-    }
-
-    present(popup, animated: false)
-    isOnboardingOrFullScreenCalloutPresented = true
-    showedPopup.value = true
-  }
-
-  func presentDefaultBrowserScreenCallout() {
-    if Preferences.DebugFlag.skipNTPCallouts == true || isOnboardingOrFullScreenCalloutPresented { return }
-
-    if presentedViewController != nil || !FullScreenCalloutManager.shouldShowDefaultBrowserCallout(calloutType: .defaultBrowser) {
-      return
-    }
-
-    let onboardingController = WelcomeViewController(
-      profile: nil,
-      state: WelcomeViewCalloutState.defaultBrowserCallout(
-        info: WelcomeViewCalloutState.WelcomeViewDefaultBrowserDetails(
-          title: Strings.Callout.defaultBrowserCalloutTitle,
-          details: Strings.Callout.defaultBrowserCalloutDescription,
-          primaryButtonTitle: Strings.Callout.defaultBrowserCalloutPrimaryButtonTitle,
-          secondaryButtonTitle: Strings.Callout.defaultBrowserCalloutSecondaryButtonTitle,
-          primaryAction: { [weak self] in
-            guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
-              return
-            }
-
-            Preferences.General.defaultBrowserCalloutDismissed.value = true
-            UIApplication.shared.open(settingsUrl)
-            self?.dismiss(animated: false)
-          },
-          secondaryAction: { [weak self] in
-            self?.dismiss(animated: false)
-          }
-        )
-      )
-    )
-
-    present(onboardingController, animated: true)
-    isOnboardingOrFullScreenCalloutPresented = true
-  }
-
-  func presentBraveRewardsScreenCallout() {
-    return
-  }
-
-  func presentSyncAlertCallout() {
-    return
-  }
+//  func presentDefaultBrowserScreenCallout() {
+//    if Preferences.DebugFlag.skipNTPCallouts == true || isOnboardingOrFullScreenCalloutPresented { return }
+//
+//    if presentedViewController != nil || !FullScreenCalloutManager.shouldShowDefaultBrowserCallout(calloutType: .defaultBrowser) {
+//      return
+//    }
+//
+//    let onboardingController = WelcomeViewController(
+//      profile: nil,
+//      state: WelcomeViewCalloutState.defaultBrowserCallout(
+//        info: WelcomeViewCalloutState.WelcomeViewDefaultBrowserDetails(
+//          title: Strings.Callout.defaultBrowserCalloutTitle,
+//          details: Strings.Callout.defaultBrowserCalloutDescription,
+//          primaryButtonTitle: Strings.Callout.defaultBrowserCalloutPrimaryButtonTitle,
+//          secondaryButtonTitle: Strings.Callout.defaultBrowserCalloutSecondaryButtonTitle,
+//          primaryAction: { [weak self] in
+//            guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
+//              return
+//            }
+//
+//            Preferences.General.defaultBrowserCalloutDismissed.value = true
+//            UIApplication.shared.open(settingsUrl)
+//            self?.dismiss(animated: false)
+//          },
+//          secondaryAction: { [weak self] in
+//            self?.dismiss(animated: false)
+//          }
+//        )
+//      )
+//    )
+//
+//    present(onboardingController, animated: true)
+//    isOnboardingOrFullScreenCalloutPresented = true
+//  }
 }

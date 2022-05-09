@@ -671,22 +671,23 @@ class SettingsViewController: TableViewController {
           })
           if created, walletRowIndex == nil {
             settingsStore.addKeyringServiceObserver(self)
-            copyOfSections[featureSectionIndex].rows.append(
-              Row(
-                text: Strings.Wallet.braveWallet,
-                selection: { [unowned self] in
-                  let walletSettingsView = WalletSettingsView(
-                    settingsStore: settingsStore,
-                    networkStore: networkStore,
-                    keyringStore: keyringStore
-                  )
-                  let vc = UIHostingController(rootView: walletSettingsView)
-                  self.navigationController?.pushViewController(vc, animated: true)
-                },
-                image: #imageLiteral(resourceName: "menu-crypto").template,
-                accessory: .disclosureIndicator,
-                uuid: self.walletRowUUID.uuidString)
-            )
+//            Mamy - 2022
+//            copyOfSections[featureSectionIndex].rows.append(
+//              Row(
+//                text: Strings.Wallet.braveWallet,
+//                selection: { [unowned self] in
+//                  let walletSettingsView = WalletSettingsView(
+//                    settingsStore: settingsStore,
+//                    networkStore: networkStore,
+//                    keyringStore: keyringStore
+//                  )
+//                  let vc = UIHostingController(rootView: walletSettingsView)
+//                  self.navigationController?.pushViewController(vc, animated: true)
+//                },
+//                image: #imageLiteral(resourceName: "menu-crypto").template,
+//                accessory: .disclosureIndicator,
+//                uuid: self.walletRowUUID.uuidString)
+//            )
           } else if !created, let index = walletRowIndex {
             copyOfSections.remove(at: index)
           }

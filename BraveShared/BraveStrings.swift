@@ -278,17 +278,17 @@ extension Strings {
         tableName: "BraveShared", bundle: .braveShared,
         value: "Privacy made easy",
         comment: "Title for Privacy Screen in Onboarding")
-    public static let privacyScreenDescription =
+    public static let welcomeScreenDescription =
       NSLocalizedString(
         "onboarding.privacyScreenDescription",
         tableName: "BraveShared", bundle: .braveShared,
-        value: "You're just a step away from the best privacy online. Ready?",
-        comment: "Description for Privacy Screen in Onboarding")
+        value: "\nPresearch is a decentralized search engine powered by blockchain technology and distributed search nodes.\n\nBuilt by the community, for the community.",
+        comment: "Welcome Screen in Onboarding")
     public static let privacyScreenButtonTitle =
       NSLocalizedString(
         "onboarding.privacyScreenButtonTitle",
         tableName: "BraveShared", bundle: .braveShared,
-        value: "Let's go",
+        value: "Start searching",
         comment: "Button Title for Privacy Screen in Onboarding")
     public static let readyScreenTitle =
       NSLocalizedString(

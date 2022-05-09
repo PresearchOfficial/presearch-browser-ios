@@ -1,27 +1,27 @@
 {
   "images" : [
     {
-      "filename" : "background.png",
+      "filename" : "PresearchBg.jpeg",
       "idiom" : "iphone",
       "scale" : "1x"
     },
     {
-      "filename" : "background@2x.png",
+      "filename" : "PresearchBg@2x.jpeg",
       "idiom" : "iphone",
       "scale" : "2x"
     },
     {
-      "filename" : "background@3x.png",
+      "filename" : "PresearchBg@3x.jpeg",
       "idiom" : "iphone",
       "scale" : "3x"
     },
     {
-      "filename" : "background@2x-1.png",
+      "filename" : "PresearchBgIpad.jpeg",
       "idiom" : "ipad",
       "scale" : "1x"
     },
     {
-      "filename" : "background@3x-1.png",
+      "filename" : "PresearchBgIpad@2x.jpeg",
       "idiom" : "ipad",
       "scale" : "2x"
     }

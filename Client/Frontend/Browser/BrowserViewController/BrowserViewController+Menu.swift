@@ -62,7 +62,7 @@ extension BrowserViewController {
           self.finishEditingAndSubmit(url, visitType: .typed)
         }
       }
-
+//    Mamy - 2022
 //      MenuItemButton(
 //        icon: #imageLiteral(resourceName: "menu-crypto").template,
 //        title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))",
@@ -103,6 +103,7 @@ extension BrowserViewController {
         }
       }
       if isShownOnWebPage {
+//        Mamy - 2022
 //        MenuItemButton(
 //          icon: #imageLiteral(resourceName: "menu-crypto").template,
 //          title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))"

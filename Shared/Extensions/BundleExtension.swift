@@ -5,11 +5,11 @@
 import Foundation
 
 extension Bundle {
-  public static let shared: Bundle = Bundle(identifier: "com.brave.Shared")!
-  public static let data: Bundle = Bundle(identifier: "com.brave.Data")!
-  public static let braveShared: Bundle = Bundle(identifier: "com.brave.BraveShared")!
-  public static let braveWallet: Bundle = Bundle(identifier: "com.brave.BraveWallet")!
-  public static let storage: Bundle = Bundle(identifier: "com.brave.Storage")!
+  public static let shared: Bundle = Bundle(identifier: "com.presearch.Shared")!
+  public static let data: Bundle = Bundle(identifier: "com.presearch.Data")!
+  public static let braveShared: Bundle = Bundle(identifier: "com.presearch.BraveShared")!
+  public static let braveWallet: Bundle = Bundle(identifier: "com.presearch.BraveWallet")!
+  public static let storage: Bundle = Bundle(identifier: "com.presearch.Storage")!
 
   public func getPlistString(for key: String) -> String? {
     self.infoDictionary?[key] as? String
@@ -22,7 +22,7 @@ extension Bundle {
     guard let value = object(forInfoDictionaryKey: key) as? String else {
       if AppConstants.isRunningTest {
         /// Using dummy info dictionary while running tests, without host app set.
-        return "com.brave.tests"
+        return "com.presearch.tests"
       }
       fatalError("Could not find a string value in the Info dictionary with the key: \(key)")
     }

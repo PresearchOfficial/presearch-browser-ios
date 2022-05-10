@@ -5,7 +5,7 @@
 
 import Foundation
 import BraveCore
-import Data
+//import Data
 
 /// A permission request for a specific dapp
 public struct WebpagePermissionRequest: Equatable {
@@ -51,9 +51,9 @@ public class WalletProviderPermissionRequestsManager {
   ) -> WebpagePermissionRequest {
     let request = WebpagePermissionRequest(requestingOrigin: origin, coinType: coinType) { [weak self] decision in
       guard let self = self, let originURL = origin.url else { return }
-      if case .granted(let accounts) = decision {
-        Domain.setEthereumPermissions(forUrl: originURL, accounts: accounts, grant: true)
-      }
+//      if case .granted(let accounts) = decision {
+//        Domain.setEthereumPermissions(forUrl: originURL, accounts: accounts, grant: true)
+//      }
       self.requests.removeAll(where: { $0.requestingOrigin == origin && $0.coinType == coinType })
       completion?(decision)
     }

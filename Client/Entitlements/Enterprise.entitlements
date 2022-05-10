@@ -4,15 +4,15 @@
 <dict>
 	<key>aps-environment</key>
 	<string>production</string>
-	<key>com.apple.developer.associated-domains</key>
+	<key>com.apple.developer.nfc.readersession.formats</key>
 	<array>
-		<string>applinks:vpn.brave.com</string>
+		<string>TAG</string>
 	</array>
 	<key>com.apple.developer.siri</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.$(MOZ_BUNDLE_ID)</string>
+		<string>group.com.presearch.ios.browser</string>
 	</array>
 </dict>
 </plist>

@@ -13,7 +13,7 @@ BRAVE_API_KEY = key
 BRAVE_SERVICES_KEY = key
 
 DEVELOPMENT_TEAM = L6556KQ6XT
-CODE_SIGN_IDENTITY = iPhone Distribution: BRAVE SOFTWARE, INC.
+CODE_SIGN_IDENTITY = Apple Distribution: Presearch Software, Inc.
 CODE_SIGN_STYLE = Manual
 
 // Bundle Identifier

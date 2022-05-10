@@ -10927,6 +10927,7 @@
 				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
@@ -11608,6 +11609,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
@@ -14160,6 +14162,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
@@ -14393,6 +14396,7 @@
 				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
@@ -14702,6 +14706,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
@@ -14956,6 +14961,7 @@
 				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -14981,6 +14987,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ThirdParty/sqlcipher";
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
+				MOZ_BUNDLE_ID = "$(BASE_BUNDLE_ID).browser.debug";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (

@@ -13,7 +13,7 @@ BRAVE_API_KEY = key
 BRAVE_SERVICES_KEY = key
 
 // Bundle Identifier
-MOZ_BUNDLE_ID = $(BASE_BUNDLE_ID).BrowserBeta
+MOZ_BUNDLE_ID = $(BASE_BUNDLE_ID).dev
 
 // Flag to indicate if we want to include the debug settings bundle or not
 INCLUDE_SETTINGS_BUNDLE = YES

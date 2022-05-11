@@ -11008,6 +11008,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Enterprise;
+				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Enterprise.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11015,7 +11016,7 @@
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
+				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/node_modules/brave-core-ios",
@@ -11059,7 +11060,7 @@
 					"-framework",
 					CoreMedia,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.presearch.ios.enterprise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presearch.BrowseriOS.enterprise;
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -11716,6 +11717,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Release.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11724,7 +11726,7 @@
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
+				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/node_modules/brave-core-ios",
@@ -11752,6 +11754,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Presearch.BrowseriOS;
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -14319,6 +14322,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Release (AppStore).entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -14327,7 +14331,7 @@
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
+				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/node_modules/brave-core-ios",
@@ -14355,6 +14359,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Presearch.BrowseriOS;
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -14574,13 +14579,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Dev;
+				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Dev.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.3;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
+				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/node_modules/brave-core-ios",
@@ -14624,7 +14630,7 @@
 					"-framework",
 					CoreMedia,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.presearch.ios.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Presearch.BrowseriOS.dev;
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -14889,6 +14895,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Beta;
+				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Beta.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.3;
@@ -14896,7 +14903,7 @@
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
+				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/node_modules/brave-core-ios",
@@ -14926,6 +14933,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Presearch.BrowseriOS--com.Presearch.BrowseriOS.beta";
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -15152,12 +15160,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Local;
+				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.3;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_BASE_BUNDLE_ID = com.presearch;
+				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/node_modules/brave-core-ios",

@@ -8,7 +8,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.$(MOZ_BUNDLE_ID).unique</string>
+		<string>group.com.presearch.BrowseriOS.BrowserBeta.unique</string>
 	</array>
 </dict>
 </plist>

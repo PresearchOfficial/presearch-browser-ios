@@ -519,13 +519,11 @@ class Tab: NSObject {
         if url.isFileURL, request.isPrivileged {
           return webView.loadFileURL(url, allowingReadAccessTo: url)
         }
-
         /// Donate Custom Intent Open Website
         if url.isSecureWebPage(), !isPrivate {
           ActivityShortcutManager.shared.donateCustomIntent(for: .openWebsite, with: url.absoluteString)
         }
       }
-
       return webView.load(request)
     }
     return nil

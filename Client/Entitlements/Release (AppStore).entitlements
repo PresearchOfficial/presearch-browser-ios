@@ -6,10 +6,11 @@
 	<string>production</string>
 	<key>com.apple.developer.siri</key>
 	<true/>
+	<key>com.apple.developer.web-browser</key>
+	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
 		<string>group.com.Presearch.BrowseriOS</string>
-		<string>group.com.presearch.ios.browser</string>
 		<string>group.com.Presearch.BrowseriOS.beta</string>
 	</array>
 </dict>

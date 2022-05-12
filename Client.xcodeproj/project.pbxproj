@@ -11012,7 +11012,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Enterprise.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.3;
+				CURRENT_PROJECT_VERSION = 1.49.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -11039,7 +11039,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 10;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
@@ -11721,7 +11721,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Release.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.3;
+				CURRENT_PROJECT_VERSION = 1.49.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -11749,7 +11749,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 10;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
@@ -14326,7 +14326,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Release (AppStore).entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.3;
+				CURRENT_PROJECT_VERSION = 1.49.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -14354,7 +14354,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 10;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
@@ -14582,7 +14582,7 @@
 				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Dev.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.3;
+				CURRENT_PROJECT_VERSION = 1.49.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -14609,7 +14609,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 10;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
@@ -14898,7 +14898,7 @@
 				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Beta.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.3;
+				CURRENT_PROJECT_VERSION = 1.49.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -14928,7 +14928,7 @@
 				);
 				LOCAL_DEVELOPMENT_TEAM = HS6SS498VA;
 				"LOCAL_DEVELOPMENT_TEAM[arch=*]" = "";
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 10;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
@@ -15163,7 +15163,7 @@
 				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.3;
+				CURRENT_PROJECT_VERSION = 1.49.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;
@@ -15189,7 +15189,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 10;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",

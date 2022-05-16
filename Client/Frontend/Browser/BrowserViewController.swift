@@ -250,8 +250,9 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
     // Initialize TabManager
     self.tabManager = TabManager(
       prefs: profile.prefs,
-      imageStore: diskImageStore,
-      rewards: rewards)
+      imageStore: diskImageStore
+//      rewards: rewards
+    )
 
     // Setup ReaderMode Cache
     self.readerModeCache = ReaderMode.cache(for: tabManager.selectedTab)

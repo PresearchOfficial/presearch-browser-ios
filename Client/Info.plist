@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+	</array>
 	<key>API_KEY</key>
 	<string>$(BRAVE_API_KEY)</string>
 	<key>AdjustAppToken</key>
@@ -34,12 +38,12 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.presearch.ios</string>
+			<string>$(MOZ_BUNDLE_ID)</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>http</string>
 				<string>https</string>
-				<string>brave</string>
+				<string>presearch</string>
 			</array>
 		</dict>
 	</array>
@@ -72,8 +76,6 @@
 	<true/>
 	<key>MozDevelopmentTeam</key>
 	<string>$(DEVELOPMENT_TEAM)</string>
-	<key>NFCReaderUsageDescription</key>
-	<string>The application needs access to NFC reading to communicate with your Yubikey.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -96,7 +98,6 @@
 		<string>OpenWebsiteIntent</string>
 		<string>ShortcutsConfigurationIntent</string>
 		<string>StatsConfigurationIntent</string>
-		<string>org.mozilla.ios.firefox.browsing</string>
 	</array>
 	<key>SERVICES_KEY</key>
 	<string>$(BRAVE_SERVICES_KEY)</string>

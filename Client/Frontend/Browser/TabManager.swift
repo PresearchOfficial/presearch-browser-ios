@@ -81,16 +81,16 @@ class TabManager: NSObject {
   fileprivate let prefs: Prefs
   var selectedIndex: Int { return _selectedIndex }
   var tempTabs: [Tab]?
-  private weak var rewards: BraveRewards?
+//  private weak var rewards: BraveRewards?
   var makeWalletProvider: ((Tab) -> (BraveWalletBraveWalletProvider, js: String)?)?
 
-  init(prefs: Prefs, imageStore: DiskImageStore?, rewards: BraveRewards?) {
+  init(prefs: Prefs, imageStore: DiskImageStore?) {
     assert(Thread.isMainThread)
 
     self.prefs = prefs
     self.navDelegate = TabManagerNavDelegate()
     self.imageStore = imageStore
-    self.rewards = rewards
+//    self.rewards = rewards
     self.tabEventHandlers = TabEventHandlers.create(with: prefs)
     super.init()
 
@@ -304,22 +304,22 @@ class TabManager: NSObject {
 
     guard let newSelectedTab = tab, let previousTab = previous, let newTabUrl = newSelectedTab.url, let previousTabUrl = previousTab.url else { return }
 
-    if !PrivateBrowsingManager.shared.isPrivateBrowsing {
-      let previousFaviconURL = URL(string: previousTab.displayFavicon?.url ?? "")
-      if previousFaviconURL == nil && !previousTabUrl.isLocal {
-        rewardsLog.warning("No favicon found in \(previousTab) to report to rewards panel")
-      }
-      rewards?.reportTabUpdated(
-        Int(previousTab.rewardsId), url: previousTabUrl, faviconURL: previousFaviconURL, isSelected: false,
-        isPrivate: previousTab.isPrivate)
-      let faviconURL = URL(string: newSelectedTab.displayFavicon?.url ?? "")
-      if faviconURL == nil && !newTabUrl.isLocal {
-        rewardsLog.warning("No favicon found in \(newSelectedTab) to report to rewards panel")
-      }
-      rewards?.reportTabUpdated(
-        Int(newSelectedTab.rewardsId), url: newTabUrl, faviconURL: faviconURL, isSelected: true,
-        isPrivate: newSelectedTab.isPrivate)
-    }
+//    if !PrivateBrowsingManager.shared.isPrivateBrowsing {
+//      let previousFaviconURL = URL(string: previousTab.displayFavicon?.url ?? "")
+//      if previousFaviconURL == nil && !previousTabUrl.isLocal {
+//        rewardsLog.warning("No favicon found in \(previousTab) to report to rewards panel")
+//      }
+//      rewards?.reportTabUpdated(
+//        Int(previousTab.rewardsId), url: previousTabUrl, faviconURL: previousFaviconURL, isSelected: false,
+//        isPrivate: previousTab.isPrivate)
+//      let faviconURL = URL(string: newSelectedTab.displayFavicon?.url ?? "")
+//      if faviconURL == nil && !newTabUrl.isLocal {
+//        rewardsLog.warning("No favicon found in \(newSelectedTab) to report to rewards panel")
+//      }
+//      rewards?.reportTabUpdated(
+//        Int(newSelectedTab.rewardsId), url: newTabUrl, faviconURL: faviconURL, isSelected: true,
+//        isPrivate: newSelectedTab.isPrivate)
+//    }
   }
 
   // Called by other classes to signal that they are entering/exiting private mode

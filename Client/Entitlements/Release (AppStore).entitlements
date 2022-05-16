@@ -11,7 +11,6 @@
 	<key>com.apple.security.application-groups</key>
 	<array>
 		<string>group.com.Presearch.BrowseriOS</string>
-		<string>group.com.Presearch.BrowseriOS.beta</string>
 	</array>
 </dict>
 </plist>

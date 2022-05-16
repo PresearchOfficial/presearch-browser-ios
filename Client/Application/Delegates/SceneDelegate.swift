@@ -155,8 +155,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     profile.reopen()
     appDelegate.setUpWebServer(profile)
-
-    appDelegate.receivedURLs = nil
+    
+    scene.browserViewController?.batchOpen(appDelegate.receivedURLs)
+    
+    appDelegate.receivedURLs.removeAll()
     UIApplication.shared.applicationIconBadgeNumber = 0
 
     // handle quick actions is available
@@ -186,7 +188,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     DebouncingResourceDownloader.shared.startLoading()
 
     if let scene = scene as? UIWindowScene {
-      scene.browserViewController?.showWalletTransferExpiryPanelIfNeeded()
+//      scene.browserViewController?.showWalletTransferExpiryPanelIfNeeded()
       scene.browserViewController?.windowProtection = windowProtection
     }
   }
@@ -210,7 +212,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         log.debug("Invalid Navigation Path: \($0.url)")
         return
       }
-
       scene.browserViewController?.handleNavigationPath(path: routerpath)
     })
   }

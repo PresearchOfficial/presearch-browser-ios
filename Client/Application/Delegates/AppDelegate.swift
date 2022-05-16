@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   let appVersion = Bundle.main.infoDictionaryString(forKey: "CFBundleShortVersionString")
 
-  var receivedURLs: [URL]?
+  var receivedURLs = [URL]()
   var shutdownWebServer: Timer?
 
   /// Object used to handle server pings
@@ -179,21 +179,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       class_addMethod(clazz, MenuHelper.selectorFindInPage, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod))
     }
 
-    #if !NO_BRAVE_NEWS
-    if Preferences.BraveNews.isEnabled.value && !Preferences.BraveNews.userOptedIn.value {
-      // Opt-out any user that has not explicitly opted-in
-      Preferences.BraveNews.isEnabled.value = false
-      // User now has to explicitly opt-in
-      Preferences.BraveNews.isShowingOptIn.value = true
-    }
-
-    if !Preferences.BraveNews.languageChecked.value,
-      let languageCode = Locale.preferredLanguages.first?.prefix(2) {
-      Preferences.BraveNews.languageChecked.value = true
-      // Base opt-in visibility on whether or not the user's language is supported in BT
-      Preferences.BraveNews.isShowingOptIn.value = FeedDataSource.supportedLanguages.contains(String(languageCode))
-    }
-    #endif
+//    #if !NO_BRAVE_NEWS
+//    if Preferences.BraveNews.isEnabled.value && !Preferences.BraveNews.userOptedIn.value {
+//      // Opt-out any user that has not explicitly opted-in
+//      Preferences.BraveNews.isEnabled.value = false
+//      // User now has to explicitly opt-in
+//      Preferences.BraveNews.isShowingOptIn.value = true
+//    }
+//
+//    if !Preferences.BraveNews.languageChecked.value,
+//      let languageCode = Locale.preferredLanguages.first?.prefix(2) {
+//      Preferences.BraveNews.languageChecked.value = true
+//      // Base opt-in visibility on whether or not the user's language is supported in BT
+//      Preferences.BraveNews.isShowingOptIn.value = FeedDataSource.supportedLanguages.contains(String(languageCode))
+//    }
+//    #endif
 
     SystemUtils.onFirstRun()
 
@@ -217,9 +217,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     UIScrollView.doBadSwizzleStuff()
     applyAppearanceDefaults()
 
-    if Preferences.Rewards.isUsingBAP.value == nil {
-      Preferences.Rewards.isUsingBAP.value = Locale.current.regionCode == "JP"
-    }
+//    if Preferences.Rewards.isUsingBAP.value == nil {
+//      Preferences.Rewards.isUsingBAP.value = Locale.current.regionCode == "JP"
+//    }
 
     // Now roll logs.
     DispatchQueue.global(qos: DispatchQoS.background.qosClass).async {

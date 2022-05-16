@@ -430,7 +430,6 @@ class TabManager: NSObject {
 
   func configureTab(_ tab: Tab, request: URLRequest?, afterTab parent: Tab? = nil, flushToDisk: Bool, zombie: Bool, id: String? = nil, isPopup: Bool = false) {
     assert(Thread.isMainThread)
-
     let isPrivate = tab.type == .private
     if isPrivate {
       // Creating random tab id for private mode, as we don't want to save to database.

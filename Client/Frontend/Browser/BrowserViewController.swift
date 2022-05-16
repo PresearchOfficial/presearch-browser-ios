@@ -3174,9 +3174,13 @@ extension BrowserViewController {
   }
 
   func handleNavigationPath(path: NavigationPath) {
-//    postSetupTasks.append({
+    if !setupTasksCompleted {
+      postSetupTasks.append({
+        NavigationPath.handle(nav: path, with: self)
+      })
+    } else {
       NavigationPath.handle(nav: path, with: self)
-//    })
+    }
   }
 }
 

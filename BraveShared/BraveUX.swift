@@ -3,7 +3,7 @@
 public struct BraveUX {
   public static let braveCommunityURL = URL(string: "https://community.brave.com/")!
   public static let braveVPNFaqURL = URL(string: "https://support.brave.com/hc/en-us/articles/360045045952")!
-  public static let bravePrivacyURL = URL(string: "https://presearch.org/privacy")! //"https://brave.com/privacy/"
+  public static let bravePrivacyURL = URL(string: "https://presearch.org/privacy")!
   public static let braveNewsPrivacyURL = URL(string: "https://presearch.org/privacy")!
   public static let presearchLicense = URL(string: "https://github.com/PresearchOfficial/presearch-browser-ios")!
   public static let braveOffersURL = URL(string: "https://offers.brave.com/")!

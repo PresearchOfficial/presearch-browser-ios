@@ -5,7 +5,7 @@
 
 import Foundation
 import BraveCore
-//import Data
+// import Data
 
 /// A permission request for a specific dapp
 public struct WebpagePermissionRequest: Equatable {

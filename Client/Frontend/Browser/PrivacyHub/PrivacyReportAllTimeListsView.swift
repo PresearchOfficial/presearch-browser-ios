@@ -83,10 +83,11 @@ struct PrivacyReportAllTimeListsView: View {
     case .shields:
       PrivacyReportsView.BlockedByShieldsLabel()
     case .vpn:
-      PrivacyReportsView.BlockedByVPNLabel()
+      EmptyView()
+//      PrivacyReportsView.BlockedByVPNLabel()
     case .both:
       PrivacyReportsView.BlockedByShieldsLabel()
-      PrivacyReportsView.BlockedByVPNLabel()
+//      PrivacyReportsView.BlockedByVPNLabel()
     case .none:
       EmptyView()
     }

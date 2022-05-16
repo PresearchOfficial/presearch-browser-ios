@@ -34,7 +34,7 @@ struct PreloadedFavorites {
         list.append(FavoriteSite(url: url, title: "Reddit"))
       }
 
-      if let url = URL(string: "https://support.presearch.org/support/home") {
+      if let url = URL(string: "https://docs.presearch.org/") {
         list.append(FavoriteSite(url: url, title: Strings.NTP.braveSupportFavoriteTitle))
       }
 

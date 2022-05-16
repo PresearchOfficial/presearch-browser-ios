@@ -416,7 +416,7 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
     rewardsEnabledObserveration = rewards.observe(\.isEnabled, options: [.new]) { [weak self] _, _ in
       guard let self = self else { return }
       self.updateRewardsButtonState()
-      self.setupAdsNotificationHandler()
+//      self.setupAdsNotificationHandler()
     }
     Preferences.NewTabPage.selectedCustomTheme.observe(from: self)
     Preferences.Playlist.webMediaSourceCompatibility.observe(from: self)
@@ -441,12 +441,12 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
       log.debug("Content Blocker successfully compiled bundled lists")
     }
 
-    if rewards.ledger != nil {
-      // Ledger was started immediately due to user having ads enabled
-      setupLedger()
-    }
+//    if rewards.ledger != nil {
+//      // Ledger was started immediately due to user having ads enabled
+//      setupLedger()
+//    }
 
-    Preferences.NewTabPage.attemptToShowClaimRewardsNotification.value = true
+    Preferences.NewTabPage.attemptToShowClaimRewardsNotification.value = false
 
     backgroundDataSource.initializeFavorites = { sites in
       DispatchQueue.main.async {
@@ -467,7 +467,7 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
       }
     }
 
-    setupAdsNotificationHandler()
+//    setupAdsNotificationHandler()
     backgroundDataSource.replaceFavoritesIfNeeded = { sites in
       if Preferences.NewTabPage.initialFavoritesHaveBeenReplaced.value { return }
 

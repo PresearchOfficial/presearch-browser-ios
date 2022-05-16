@@ -1390,8 +1390,8 @@
   },
   {
     "title": "brave-support",
-    "url": "https://support.presearch.org/support/home",
-    "image_url": "brave-support.png",
+    "url": "https://docs.presearch.org/",
+    "image_url": "presearch-support.png",
     "background_color": "#495057",
     "domain": "presearch.org"
   }

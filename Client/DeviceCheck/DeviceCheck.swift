@@ -304,11 +304,11 @@ private extension DeviceCheckClient {
   private var baseURL: URL? {
     switch environment {
     case .development:
-      return URL(string: "https://grant.rewards.brave.software")
+      return nil
     case .staging:
-      return URL(string: "https://grant.rewards.bravesoftware.com")
+      return nil
     case .production:
-      return URL(string: "https://grant.rewards.brave.com")
+      return nil
     @unknown default:
       fatalError("Unknown Environment for Device Check")
     }

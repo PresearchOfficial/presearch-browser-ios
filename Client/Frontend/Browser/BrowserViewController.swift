@@ -2100,18 +2100,18 @@ extension BrowserViewController: TabDelegate {
     tab.addContentScript(FocusHelper(tab: tab), name: FocusHelper.name(), contentWorld: .defaultClient)
 
     tab.addContentScript(BraveGetUA(tab: tab), name: BraveGetUA.name(), contentWorld: .page)
-    tab.addContentScript(
-      BraveSearchScriptHandler(
-        tab: tab,
-        profile: profile,
-        rewards: rewards),
-      name: BraveSearchScriptHandler.name(), contentWorld: .page)
-
-    tab.addContentScript(
-      BraveTalkScriptHandler(
-        tab: tab,
-        rewards: rewards),
-      name: BraveTalkScriptHandler.name(), contentWorld: .page)
+//    tab.addContentScript(
+//      BraveSearchScriptHandler(
+//        tab: tab,
+//        profile: profile,
+//        rewards: rewards),
+//      name: BraveSearchScriptHandler.name(), contentWorld: .page)
+//
+//    tab.addContentScript(
+//      BraveTalkScriptHandler(
+//        tab: tab,
+//        rewards: rewards),
+//      name: BraveTalkScriptHandler.name(), contentWorld: .page)
 
     tab.addContentScript(ResourceDownloadManager(tab: tab), name: ResourceDownloadManager.name(), contentWorld: .defaultClient)
 

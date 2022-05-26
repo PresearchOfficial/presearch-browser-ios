@@ -17,8 +17,8 @@ public class UserReferralProgram {
   private static let apiKeyPlistKey = "API_KEY"
 
   struct HostUrl {
-    static let staging = "https://laptop-updates.bravesoftware.com"
-    static let prod = "https://laptop-updates.brave.com"
+    static let staging = ""
+    static let prod = ""
   }
 
   // In case of network problems when looking for referrral code

@@ -111,9 +111,9 @@ class FeedDataSource {
 
   /// A Presearch News environment
   enum Environment: String, CaseIterable {
-    case dev = "brave.software"
-    case staging = "bravesoftware.com"
-    case production = "brave.com"
+    case dev = "dev.presearch.io"
+    case staging = "staging.presearch.io"
+    case production = "presearch.io"
   }
 
   /// The current Presearch News environment.

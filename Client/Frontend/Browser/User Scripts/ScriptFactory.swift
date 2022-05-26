@@ -92,22 +92,6 @@ class ScriptFactory {
       case .archive:
         // No modifications needed
         break
-        
-      case .braveSearchHelper:
-        let securityToken = UserScriptManager.securityTokenString
-        let messageToken = "BSH\(UserScriptManager.messageHandlerTokenString)"
-        
-        source = source
-          .replacingOccurrences(of: "$<brave-search-helper>", with: messageToken, options: .literal)
-          .replacingOccurrences(of: "$<security_token>", with: securityToken)
-        
-      case .braveTalkHelper:
-        let securityToken = UserScriptManager.securityTokenString
-        let messageToken = "BT\(UserScriptManager.messageHandlerTokenString)"
-        
-        source = source
-          .replacingOccurrences(of: "$<brave-talk-helper>", with: messageToken, options: .literal)
-          .replacingOccurrences(of: "$<security_token>", with: securityToken)
       }
     }
     

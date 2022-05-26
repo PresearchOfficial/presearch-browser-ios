@@ -34,10 +34,9 @@ class BraveTalkScriptHandler: TabContentScript {
     replyHandler: (Any?, String?) -> Void
   ) {
     defer { replyHandler(nil, nil) }
-    let allowedHosts = DomainUserScript.braveTalkHelper.associatedDomains
 
     guard let requestHost = message.frameInfo.request.url?.host,
-      allowedHosts.contains(requestHost),
+      true,
       message.frameInfo.isMainFrame
     else {
       log.error("Backup search request called from disallowed host")

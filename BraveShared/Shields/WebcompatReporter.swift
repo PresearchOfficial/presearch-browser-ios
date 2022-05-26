@@ -10,8 +10,8 @@ private let log = Logger.browserLogger
 
 public class WebcompatReporter {
   private struct BaseURL {
-    static let staging = "laptop-updates.bravesoftware.com"
-    static let prod = "laptop-updates.brave.com"
+    static let staging = ""
+    static let prod = ""
   }
 
   private static let apiKeyPlistKey = "API_KEY"

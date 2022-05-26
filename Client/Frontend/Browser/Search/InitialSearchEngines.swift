@@ -15,7 +15,7 @@ class InitialSearchEngines {
     /// Open Search Reference  for default search Engines
     var openSearchReference: String {
       switch self {
-      case .presearch: return "presearch.org"
+      case .presearch: return "presearch.com"
       case .google: return "google.com"
 //      case .braveSearch: return "search.brave"
       case .bing: return "bing.com"

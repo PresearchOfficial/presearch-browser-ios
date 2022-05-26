@@ -20,7 +20,7 @@ class AdblockResourceDownloader {
 
   private let networkManager: NetworkManager
   private let locale: String
-
+ 
   static let folderName = "abp-data"
   private let servicesKeyName = "SERVICES_KEY"
   private let servicesKeyHeaderValue = "BraveServiceKey"
@@ -111,7 +111,7 @@ class AdblockResourceDownloader {
 
       url.appendPathComponent(resourceName)
       url.appendPathExtension(fileExtension)
-
+      
       var headers = [String: String]()
       if let servicesKeyValue = Bundle.main.getPlistString(for: self.servicesKeyName) {
         headers[self.servicesKeyHeaderValue] = servicesKeyValue
@@ -206,7 +206,6 @@ class AdblockResourceDownloader {
             data, fileName: lastModifiedFileName,
             folderName: folderName))
       }
-
     }
 
     // Returning true if all file saves completed succesfully

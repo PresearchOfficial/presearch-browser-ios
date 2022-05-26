@@ -354,7 +354,7 @@ class TabSessionTests: XCTestCase {
           })
 
         self.tabManager.addNavigationDelegate(webViewNavigationAdapter)
-        self.tabManager.addTabsForURLs([URL(string: "https://brave.com")!], zombie: false, isPrivate: true)
+        self.tabManager.addTabsForURLs([URL(string: "https://presearch.io")!], zombie: false, isPrivate: true)
         if self.tabManager.tabs(withType: .private).isEmpty {
           XCTFail("Error: Private tab not created")
           return dataStoreExpectation.fulfill()
@@ -522,7 +522,7 @@ class TabSessionTests: XCTestCase {
   }
 
   func testIsSecretTokenAvailable() {
-    let url = URL(string: "https://www.brave.com")!
+    let url = URL(string: "https://www.presearch.io")!
     let expectation = self.expectation(description: "No secret tokens found")
 
     var webViewNavigationAdapter = WebViewNavigationAdapter()

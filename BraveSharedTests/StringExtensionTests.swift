@@ -8,7 +8,7 @@ import BraveShared
 class StringExtensionTests: XCTestCase {
 
   func testFirstURL() {
-    let urlString = "https://brave.com"
+    let urlString = "https://presearch.io"
     let url = URL(string: urlString)!
     XCTAssertEqual(urlString, url.absoluteString)
 
@@ -24,7 +24,7 @@ class StringExtensionTests: XCTestCase {
     let stringWithNoURLs = "This one is just text"
     XCTAssertNil(stringWithNoURLs.firstURL)
 
-    let schemelessURL = "brave.com"
+    let schemelessURL = "presearch.io"
     XCTAssertNotNil(schemelessURL.firstURL)
   }
 

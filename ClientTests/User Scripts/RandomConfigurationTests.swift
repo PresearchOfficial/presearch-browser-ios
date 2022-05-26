@@ -40,7 +40,7 @@ class RandomConfigurationTests: XCTestCase {
     // Same session keys but different eTLD+1
     let sessionKey = SymmetricKey(size: .bits256)
     let firstRandomConfiguration = RandomConfiguration(etld: "example.com", sessionKey: sessionKey)
-    let secondRandomConfiguration = RandomConfiguration(etld: "brave.com", sessionKey: sessionKey)
+    let secondRandomConfiguration = RandomConfiguration(etld: "presearch.io", sessionKey: sessionKey)
 
     // Then
     // Nothing should equal

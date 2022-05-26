@@ -14,7 +14,7 @@ class HttpCookieExtensionTest: XCTestCase {
 
     let properties: [HTTPCookiePropertyKey: Any] = [
       HTTPCookiePropertyKey.name: "BraveCookieTest",
-      HTTPCookiePropertyKey.domain: "brave.com",
+      HTTPCookiePropertyKey.domain: "presearch.io",
       .path: "/",
       .value: "something",
       .secure: "TRUE",

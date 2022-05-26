@@ -1,4 +1,4 @@
-// Copyright 2021 The Presearch Authors. All rights reserved.
+// Copyright 2021 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -10,7 +10,7 @@ import CoreData
 class DataSavedTests: CoreDataTestCase {
 
   func testInsertWebsite() {
-    let savedUrl = URL(string: "https://brave.com")!
+    let savedUrl = URL(string: "https://presearch.io")!
     let amount = "1.25"
 
     let object = createAndWait(amount: amount, savedUrl: savedUrl)
@@ -22,7 +22,7 @@ class DataSavedTests: CoreDataTestCase {
 
   func testGetExisting() {
     let unsavedUrl = URL(string: "https://wrong.example.com")!
-    let savedUrl = URL(string: "https://brave.com")!
+    let savedUrl = URL(string: "https://presearch.io")!
 
     let amount = "1.25"
 
@@ -33,7 +33,7 @@ class DataSavedTests: CoreDataTestCase {
   }
 
   func testRemove() {
-    let savedUrl = URL(string: "https://brave.com")!
+    let savedUrl = URL(string: "https://presearch.io")!
     let amount = "1.25"
 
     createAndWait(amount: amount, savedUrl: savedUrl)

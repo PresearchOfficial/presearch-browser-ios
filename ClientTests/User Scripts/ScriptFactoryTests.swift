@@ -13,7 +13,7 @@ class ScriptFactoryTests: XCTestCase {
     // Given
     // Different ETLD+1s
     let etld = URL(string: "https://example.com")!.baseDomain!
-    let etld2 = URL(string: "https://brave.com")!.baseDomain!
+    let etld2 = URL(string: "https://presearch.io")!.baseDomain!
 
     // When
     // Making scripts from the different ETLD+1s

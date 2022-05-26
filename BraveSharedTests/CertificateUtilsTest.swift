@@ -139,7 +139,7 @@ class CertificateUtilsTest: XCTestCase {
   }
 
   func testCertificateInfo2() {
-    guard let model = BraveCertificateModel(certificate: certificate(named: "brave.com")) else {
+    guard let model = BraveCertificateModel(certificate: certificate(named: "presearch.io")) else {
       XCTAssert(false, "Cannot load Certificate")
       return
     }
@@ -154,7 +154,7 @@ class CertificateUtilsTest: XCTestCase {
     XCTAssertEqual(model.subjectName.locality, "")
     XCTAssertEqual(model.subjectName.organization, [])
     XCTAssertEqual(model.subjectName.organizationalUnit, [])
-    XCTAssertEqual(model.subjectName.commonName, "brave.com")
+    XCTAssertEqual(model.subjectName.commonName, "presearch.io")
     XCTAssertEqual(model.subjectName.streetAddress, [])
     XCTAssertEqual(model.subjectName.domainComponent, [])
     XCTAssertEqual(model.subjectName.userId, "")

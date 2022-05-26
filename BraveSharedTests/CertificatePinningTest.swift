@@ -107,7 +107,7 @@ class CertificatePinningTest: XCTestCase {
   func testSelfSignedRootAllowed() {
     let leaf = certificate(named: "self-signed")
 
-    let host = "unit-test.brave.com"
+    let host = "unit-test.presearch.io"
     let trust = self.trust(for: [leaf])
     let evaluator = PinningCertificateEvaluator(hosts: [host: leaf], options: [.default, .validateHost, .anchorSpecificTrustsOnly])
 
@@ -176,7 +176,7 @@ class CertificatePinningTest: XCTestCase {
 
   // Test whether or not pinning actually works on a live URL
   func testLivePinningFailure() {
-    let urls = ["https://brave.com"]
+    let urls = ["https://presearch.io"]
 
     var managers = [URLSession]()
     var expectations = [XCTestExpectation]()

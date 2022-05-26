@@ -151,7 +151,7 @@ extension RewardsNotification {
     let notification = AdNotification.customAd(
       title: Strings.Ads.myFirstAdTitle,
       body: Strings.Ads.myFirstAdBody,
-      url: "https://brave.com/my-first-ad"
+      url: ""
     )
     
     guard let targetURL = URL(string: notification.targetURL) else {

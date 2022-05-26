@@ -1,4 +1,4 @@
-// Copyright 2021 The Presearch Authors. All rights reserved.
+// Copyright 2021 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -36,7 +36,7 @@ class NTPDownloaderTests: XCTestCase {
     locales.forEach { locale in
       publicChannels.forEach {
         let type = NTPDownloader.ResourceType.sponsor.resourceBaseURL(for: $0, locale: locale)
-        XCTAssertEqual(type, URL(string: "https://mobile-data.s3.brave.com/\(locale.regionCode!)/ios"))
+        XCTAssertEqual(type, URL(string: "https://mobile-data.s3.presearch.io/\(locale.regionCode!)/ios"))
 
         let invalidLocaleType = NTPDownloader.ResourceType.sponsor
           .resourceBaseURL(for: $0, locale: .init(identifier: "bad locale region code"))
@@ -64,7 +64,7 @@ class NTPDownloaderTests: XCTestCase {
       locales.forEach { locale in
         publicChannels.forEach {
           let type = NTPDownloader.ResourceType.superReferral(code: code).resourceBaseURL(for: $0, locale: locale)
-          XCTAssertEqual(type, URL(string: "https://mobile-data.s3.brave.com/superreferrer/\(code)"))
+          XCTAssertEqual(type, URL(string: "https://mobile-data.s3.presearch.io/superreferrer/\(code)"))
         }
 
         privateChannels.forEach {
@@ -163,7 +163,7 @@ class NTPDownloaderTests: XCTestCase {
             "imageUrl": "logo.png",
             "alt": "Visit Presearch.com",
             "companyName": "Presearch",
-            "destinationUrl": "https://brave.com"
+            "destinationUrl": "https://presearch.io"
         },
         "wallpapers": [
             {
@@ -204,7 +204,7 @@ class NTPDownloaderTests: XCTestCase {
                 "logo": {
                     "imageUrl": "logo.png",
                     "alt": "Visit Presearch.com",
-                    "destinationUrl": "https://brave.com",
+                    "destinationUrl": "https://presearch.io",
                     "companyName": "Presearch"
                 },
                 "wallpapers": [
@@ -235,7 +235,7 @@ class NTPDownloaderTests: XCTestCase {
                 "logo": {
                     "imageUrl": "logo.png",
                     "alt": "Visit Presearch.com",
-                    "destinationUrl": "https://brave.com",
+                    "destinationUrl": "https://presearch.io",
                     "companyName": "Presearch"
                 },
                 "wallpapers": [
@@ -251,7 +251,7 @@ class NTPDownloaderTests: XCTestCase {
                         "logo": {
                             "imageUrl": "logo.png",
                             "alt": "Visit Presearch.com",
-                            "destinationUrl": "https://brave.com",
+                            "destinationUrl": "https://presearch.io",
                             "companyName": "Presearch"
                         },
                         "creativeInstanceId": "54774092-04bf-45fd-86e3-9098ec418f6b"
@@ -271,7 +271,7 @@ class NTPDownloaderTests: XCTestCase {
             "imageUrl": "logo.png",
             "alt": "Visit Presearch.com",
             "companyName": "Presearch",
-            "destinationUrl": "https://brave.com"
+            "destinationUrl": "https://presearch.io"
         },
         "wallpapers": [
             {
@@ -304,7 +304,7 @@ class NTPDownloaderTests: XCTestCase {
                 "logo": {
                     "imageUrl": "logo.png",
                     "alt": "Visit Presearch.com",
-                    "destinationUrl": "https://brave.com",
+                    "destinationUrl": "https://presearch.io",
                     "companyName": "Presearch"
                 },
                 "wallpapers": [
@@ -335,7 +335,7 @@ class NTPDownloaderTests: XCTestCase {
                 "logo": {
                     "imageUrl": "logo.png",
                     "alt": "Visit Presearch.com",
-                    "destinationUrl": "https://brave.com",
+                    "destinationUrl": "https://presearch.io",
                     "companyName": "Presearch"
                 },
                 "wallpapers": [
@@ -351,7 +351,7 @@ class NTPDownloaderTests: XCTestCase {
                         "logo": {
                             "imageUrl": "logo.png",
                             "alt": "Visit Presearch.com",
-                            "destinationUrl": "https://brave.com",
+                            "destinationUrl": "https://presearch.io",
                             "companyName": "Presearch"
                         },
                         "creativeInstanceId": "54774092-04bf-45fd-86e3-9098ec418f6b"

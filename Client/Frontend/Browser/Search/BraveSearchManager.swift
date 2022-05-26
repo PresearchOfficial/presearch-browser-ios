@@ -1,4 +1,4 @@
-// Copyright 2021 The Presearch Authors. All rights reserved.
+// Copyright 2021 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -50,7 +50,7 @@ class BraveSearchManager: NSObject {
   private var cancellables: Set<AnyCancellable> = []
   private static var cachedCredentials: URLCredential?
 
-  static let validDomains = ["search.brave.com", "search-dev.brave.com"]
+  static let validDomains = ["presearch.com"]
 
   static func isValidURL(_ url: URL) -> Bool {
     validDomains.contains(url.host ?? "")

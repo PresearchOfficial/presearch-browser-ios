@@ -1,4 +1,4 @@
-// Copyright 2021 The Presearch Authors. All rights reserved.
+// Copyright 2021 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -29,14 +29,14 @@ class PlaylistTests: XCTestCase {
 
   func testSchemelessURLNormalization() throws {
     let info = [
-      "https://brave.com": "https://brave.com/test.mp4",
-      "https://brave.com/": "https://brave.com/test.mp4",
-      "http://brave.com": "http://brave.com/test.mp4",
-      "http://brave.com/": "http://brave.com/test.mp4",
+      "https://presearch.io": "https://presearch.io/test.mp4",
+      "https://presearch.io/": "https://presearch.io/test.mp4",
+      "http://presearch.io": "http://presearch.io/test.mp4",
+      "http://presearch.io/": "http://presearch.io/test.mp4",
     ]
 
     info.forEach {
-      XCTAssertEqual(PlaylistInfo.fixSchemelessURLs(src: "//brave.com/test.mp4", pageSrc: $0.key), $0.value)
+      XCTAssertEqual(PlaylistInfo.fixSchemelessURLs(src: "//presearch.io/test.mp4", pageSrc: $0.key), $0.value)
       XCTAssertEqual(PlaylistInfo.fixSchemelessURLs(src: "/test.mp4", pageSrc: $0.key), $0.value)
     }
   }

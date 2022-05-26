@@ -23,22 +23,22 @@ class SafeBrowsingTests: XCTestCase {
   }
 
   func testShouldBlock() {
-    XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "http://brave.com")!))
-    XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://brave.com")!))
-    XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://www.brave.com")!))
+    XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "http://presearch.io")!))
+    XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://presearch.io")!))
+    XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://www.presearch.io")!))
     XCTAssert(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://example.com")!))
   }
 
   func testShouldBlockGlobalShieldOff() {
     Preferences.Shields.blockPhishingAndMalware.value = false
-    XCTAssertFalse(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://brave.com")!))
+    XCTAssertFalse(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://presearch.io")!))
     XCTAssertFalse(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://example.com")!))
     XCTAssertFalse(SafeBrowsing.isSafeBrowsingEnabledForURL(URL(string: "https://foo.com")!))
   }
 
   func testShouldBlockLocalShields() {
     let context = DataController.viewContext
-    let braveUrl = URL(string: "https://brave.com")!
+    let braveUrl = URL(string: "https://presearch.io")!
     let exampleUrl = URL(string: "https://example.com")!
 
     // Presearch domain will have safe browsing shield turned off.

@@ -584,9 +584,9 @@ class NSURLExtensionsTests: XCTestCase {
   }
 
   func testLocalQueryParamHandling() {
-    let urlA = URL(string: "http://brave.com?url=https://foo.com")
-    let urlB = URL(string: "http://brave.com/?url=https://foo.com")
-    let urlC = URL(string: "http://brave.com?url=https://foo.com/meh")
+    let urlA = URL(string: "http://presearch.io?url=https://foo.com")
+    let urlB = URL(string: "http://presearch.io/?url=https://foo.com")
+    let urlC = URL(string: "http://presearch.io?url=https://foo.com/meh")
     let urlD = URL(string: "http://localhost:\(AppConstants.webServerPort)/\(InternalURL.Path.errorpage)/foo.hmtl?url=https://foo.com")
     let urlE = URL(string: "http://localhost:\(AppConstants.webServerPort)/\(InternalURL.Path.errorpage)/foo.hmtl?url=https://foo.com/meh")
     let urlF = URL(string: "http://localhost\(InternalURL.Path.errorpage)/foo.html?url=https://foo.com/meh")
@@ -685,7 +685,7 @@ class NSURLExtensionsTests: XCTestCase {
     let goodURLs = [
       "javascript:",
       "javascript:void(window.close(self))",
-      "javascript:window.open('https://brave.com')",
+      "javascript:window.open('https://presearch.io')",
     ]
 
     let badURLs = [
@@ -706,7 +706,7 @@ class NSURLExtensionsTests: XCTestCase {
   func testIsBookmarkletURLComponent() {
     let goodURLs = [
       "javascript:void(window.close(self))",
-      "javascript:window.open('https://brave.com')",
+      "javascript:window.open('https://presearch.io')",
     ]
 
     let badURLs = [
@@ -758,9 +758,9 @@ class NSURLExtensionsTests: XCTestCase {
   func testTypedDisplayString() {
     let testURL1 = URL(string: "https://www.youtube.com")
     let testURL2 = URL(string: "http://google.com")
-    let testURL3 = URL(string: "www.brave.com")
-    let testURL4 = URL(string: "http://brave.com/foo/")
-    let testURL5 = URL(string: "http://brave.com/foo")
+    let testURL3 = URL(string: "www.presearch.io")
+    let testURL4 = URL(string: "http://presearch.io/foo/")
+    let testURL5 = URL(string: "http://presearch.io/foo")
 
     func checkDisplayURLString(testURL: URL?, displayString: String) {
       if let actual = testURL?.typedDisplayString {
@@ -772,9 +772,9 @@ class NSURLExtensionsTests: XCTestCase {
 
     checkDisplayURLString(testURL: testURL1, displayString: "www.youtube.com")
     checkDisplayURLString(testURL: testURL2, displayString: "google.com")
-    checkDisplayURLString(testURL: testURL3, displayString: "www.brave.com")
-    checkDisplayURLString(testURL: testURL4, displayString: "brave.com/foo")
-    checkDisplayURLString(testURL: testURL5, displayString: "brave.com/foo")
+    checkDisplayURLString(testURL: testURL3, displayString: "www.presearch.io")
+    checkDisplayURLString(testURL: testURL4, displayString: "presearch.io/foo")
+    checkDisplayURLString(testURL: testURL5, displayString: "presearch.io/foo")
 
   }
 }

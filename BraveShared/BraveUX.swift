@@ -1,21 +1,21 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 public struct BraveUX {
-  public static let braveCommunityURL = URL(string: "https://community.brave.com/")!
-  public static let braveVPNFaqURL = URL(string: "https://support.brave.com/hc/en-us/articles/360045045952")!
+  public static let braveCommunityURL = URL(string: "https://www.presearch.io/collaborate")!
+  public static let braveVPNFaqURL = URL(string: "https://support.presearch.org/support/home")!
   public static let bravePrivacyURL = URL(string: "https://presearch.org/privacy")!
   public static let braveNewsPrivacyURL = URL(string: "https://presearch.org/privacy")!
   public static let presearchLicense = URL(string: "https://github.com/PresearchOfficial/presearch-browser-ios")!
-  public static let braveOffersURL = URL(string: "https://offers.brave.com/")!
-  public static let bravePlaylistOnboardingURL = URL(string: "https://brave.com/playlist")!
-  public static let braveRewardsLearnMoreURL = URL(string: "https://brave.com/rewards-ios/")!
-  public static let braveRewardsUnverifiedPublisherLearnMoreURL = URL(string: "https://brave.com/faq-rewards/#unclaimed-funds")!
-  public static let braveNewsPartnersURL = URL(string: "https://brave.com/brave-news/")!
+  public static let braveOffersURL = URL(string: "")!
+  public static let bravePlaylistOnboardingURL = URL(string: "")!
+  public static let braveRewardsLearnMoreURL = URL(string: "")!
+  public static let braveRewardsUnverifiedPublisherLearnMoreURL = URL(string: "")!
+  public static let braveNewsPartnersURL = URL(string: "")!
   public static let braveTermsOfUseURL = URL(string: "https://www.presearch.org/terms")!
-  public static let batTermsOfUseURL = URL(string: "https://basicattentiontoken.org/user-terms-of-service/")!
-  public static let ntpTutorialPageURL = URL(string: "https://brave.com/ja/ntp-tutorial")
-  public static let privacyReportsURL = URL(string: "https://brave.com/privacy-features/")!
-  public static let braveWalletNetworkLearnMoreURL = URL(string: "https://support.brave.com")!
+  public static let batTermsOfUseURL = URL(string: "")!
+  public static let ntpTutorialPageURL = URL(string: "https://docs.presearch.org/")
+  public static let privacyReportsURL = URL(string: "")!
+  public static let braveWalletNetworkLearnMoreURL = URL(string: "https://support.presearch.org/support/home")!
 
   public static let textFieldCornerRadius: CGFloat = 8.0
 

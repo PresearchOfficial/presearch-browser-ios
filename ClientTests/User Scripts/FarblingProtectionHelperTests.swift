@@ -27,7 +27,7 @@ class FarblingProtectionHelperTests: XCTestCase {
     // Different random manager
     let sessionKey = SymmetricKey(size: .bits256)
     let firstRandomConfiguration = RandomConfiguration(etld: "example.com", sessionKey: sessionKey)
-    let secondRandomConfiguration = RandomConfiguration(etld: "brave.com", sessionKey: sessionKey)
+    let secondRandomConfiguration = RandomConfiguration(etld: "presearch.io", sessionKey: sessionKey)
 
     // Then
     // Different results

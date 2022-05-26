@@ -1,4 +1,4 @@
-// Copyright 2020 The Presearch Authors. All rights reserved.
+// Copyright 2020 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -175,7 +175,7 @@ extension FeedItem.Content {
   fileprivate static var mockArticle: FeedItem.Content {
     .init(
       publishTime: Date(timeIntervalSinceNow: -60),
-      url: URL(string: "https://brave.com/"),
+      url: URL(string: "https://presearch.io/"),
       imageURL: nil,
       title: "Test Title",
       description: "Test Description",
@@ -189,7 +189,7 @@ extension FeedItem.Content {
   fileprivate static var mockOffer: FeedItem.Content {
     .init(
       publishTime: Date(timeIntervalSinceNow: -60),
-      url: URL(string: "https://brave.com/"),
+      url: URL(string: "https://presearch.io/"),
       imageURL: nil,
       title: "Test Title",
       description: "Test Description",

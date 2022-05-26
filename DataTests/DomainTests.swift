@@ -14,8 +14,8 @@ class DomainTests: CoreDataTestCase {
   let url = URL(string: "http://example.com")!
   let urlHTTPS = URL(string: "https://example.com")!
 
-  let url2 = URL(string: "http://brave.com")!
-  let url2HTTPS = URL(string: "https://brave.com")!
+  let url2 = URL(string: "http://presearch.io")!
+  let url2HTTPS = URL(string: "https://presearch.io")!
 
   let compound = URL(string: "https://compound.finance")!
   let polygon = URL(string: "https://wallet.polygon.technology")!
@@ -44,8 +44,8 @@ class DomainTests: CoreDataTestCase {
     XCTAssertEqual(url.absoluteString, Domain.getOrCreate(forUrl: url, persistent: true).url)
     XCTAssertEqual(url2.absoluteString, Domain.getOrCreate(forUrl: url2, persistent: true).url)
 
-    let url3 = URL(string: "https://brave.com")!
-    let url4 = URL(string: "data://brave.com")!
+    let url3 = URL(string: "https://presearch.io")!
+    let url4 = URL(string: "data://presearch.io")!
     XCTAssertEqual(url3.absoluteString, Domain.getOrCreate(forUrl: url3, persistent: true).url)
     XCTAssertEqual(url4.absoluteString, Domain.getOrCreate(forUrl: url4, persistent: true).url)
     XCTAssertEqual(try! DataController.viewContext.count(for: fetchRequest), 4)

@@ -70,7 +70,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Terbitan";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or presearch.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Komponen Domain";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */

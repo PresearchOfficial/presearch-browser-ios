@@ -1,4 +1,4 @@
-// Copyright 2021 The Presearch Authors. All rights reserved.
+// Copyright 2021 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -50,26 +50,7 @@ extension BrowserViewController {
             newTabPageController.scrollToBraveNews()
           }
         }
-
-        MenuItemButton(
-          icon: #imageLiteral(resourceName: "menu-brave-talk").template,
-          title: Strings.OptionsMenu.braveTalkItemTitle,
-          subtitle: Strings.OptionsMenu.braveTalkItemDescription
-        ) { [weak self] in
-          guard let self = self, let url = URL(string: "https://talk.brave.com/") else { return }
-
-          self.popToBVC()
-          self.finishEditingAndSubmit(url, visitType: .typed)
-        }
       }
-//    Mamy - 2022
-//      MenuItemButton(
-//        icon: #imageLiteral(resourceName: "menu-crypto").template,
-//        title: "\(Strings.Wallet.wallet) (\(Strings.Wallet.betaLabel))",
-//        subtitle: Strings.OptionsMenu.braveWalletItemDescription
-//      ) { [unowned self] in
-//        self.presentWallet()
-//      }
     }
     .fixedSize(horizontal: false, vertical: true)
     .padding(.top, 10)

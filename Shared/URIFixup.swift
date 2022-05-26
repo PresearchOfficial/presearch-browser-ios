@@ -130,8 +130,8 @@ public class URIFixup {
     }
 
     // URL contains more than 1 dot, but is NOT a valid IP.
-    // IE: brave.com.com.com.com or 123.4.5 or "hello.world.whatever"
-    // However, a valid URL can be "brave.com" or "hello.world"
+    // IE: presearch.com.com.com.com or 123.4.5 or "hello.world.whatever"
+    // However, a valid URL can be "google.com" or "hello.world"
     if let url = URL(string: escaped),
       url.scheme == nil {
       let dotCount = escaped.reduce(0, { $1 == "." ? $0 + 1 : $0 })

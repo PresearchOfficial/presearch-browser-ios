@@ -52,10 +52,6 @@ struct PreloadedFavorites {
         list.append(FavoriteSite(url: url, title: "Yahoo! Japan"))
       }
 
-      if let url = URL(string: "https://brave.com/ja/ntp-tutorial") {
-        list.append(FavoriteSite(url: url, title: "Braveガイド"))
-      }
-
       if let url = URL(string: "https://mobile.twitter.com/") {
         list.append(FavoriteSite(url: url, title: "Twitter"))
       }

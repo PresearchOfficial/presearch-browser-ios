@@ -2270,7 +2270,7 @@ extension Strings {
         "certificateViewer.domainComponentTitle",
         bundle: .braveShared,
         value: "Domain Component",
-        comment: "Title of the section for the Domain Component such as: DNS or brave.com or a website's domain.")
+        comment: "Title of the section for the Domain Component such as: DNS or presearch.com or a website's domain.")
 
     public static let userIDTitle =
       NSLocalizedString(

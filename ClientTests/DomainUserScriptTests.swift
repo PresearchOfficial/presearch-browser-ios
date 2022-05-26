@@ -1,4 +1,4 @@
-// Copyright 2021 The Presearch Authors. All rights reserved.
+// Copyright 2021 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -35,13 +35,7 @@ class DomainUserScriptTests: XCTestCase {
 
   func testBraveTalkAPIAvailability() throws {
     let goodURLs = [
-      URL(string: "https://talk.brave.com"),
-      URL(string: "https://beta.talk.brave.com"),
-      URL(string: "https://talk.bravesoftware.com"),
-      URL(string: "https://beta.talk.bravesoftware.com"),
-      URL(string: "https://dev.talk.brave.software"),
-      URL(string: "https://beta.talk.brave.software"),
-      URL(string: "https://talk.brave.com/account"),
+      URL(string: "https://presearch.io"),
     ].compactMap { $0 }
 
     goodURLs.forEach {
@@ -49,13 +43,10 @@ class DomainUserScriptTests: XCTestCase {
     }
 
     let badURLs = [
-      URL(string: "https://search.brave.com"),
-      URL(string: "https://search-dev.brave.com"),
-      URL(string: "https://search.brave.com/custom/path"),
-      URL(string: "https://search-dev.brave.com/custom/path"),
-      URL(string: "https://community.brave.com"),
-      URL(string: "https://subdomain.brave.com"),
-      URL(string: "https://brave.com"),
+      URL(string: "https://presearch.com"),
+      URL(string: "https://community.presearch.com"),
+      URL(string: "https://subdomain.presearch.com"),
+      URL(string: "https://presearch.io"),
     ].compactMap { $0 }
 
     badURLs.forEach {

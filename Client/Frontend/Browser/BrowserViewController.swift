@@ -3154,11 +3154,6 @@ extension BrowserViewController: PreferencesObserver {
         tab: selectedTab,
         state: selectedTab?.playlistItemState ?? .none,
         item: selectedTab?.playlistItem)
-    case Preferences.PrivacyReports.captureShieldsData.key:
-      PrivacyReportsManager.scheduleProcessingBlockedRequests()
-      PrivacyReportsManager.scheduleNotification(debugMode: !AppConstants.buildChannel.isPublic)
-    case Preferences.PrivacyReports.captureVPNAlerts.key:
-      PrivacyReportsManager.scheduleVPNAlertsTask()
     default:
       log.debug("Received a preference change for an unknown key: \(key) on \(type(of: self))")
       break
@@ -3192,8 +3187,6 @@ extension BrowserViewController: UNUserNotificationCenterDelegate {
         return
       }
       UIApplication.shared.open(settingsUrl)
-    } else if response.notification.request.identifier == PrivacyReportsManager.notificationID {
-      openPrivacyReport()
     }
     completionHandler()
   }

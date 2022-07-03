@@ -11004,7 +11004,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Enterprise.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -11713,7 +11713,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Release.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -12666,7 +12666,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.presearch.ios.dev.BrowserIntents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Presearch.BrowseriOS.dev.BrowserIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -14318,7 +14318,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Release (AppStore).entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -14574,7 +14574,7 @@
 				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Dev.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -14890,7 +14890,7 @@
 				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Beta.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				DEVELOPMENT_TEAM = HS6SS498VA;
 				ENABLE_BITCODE = NO;
@@ -15155,7 +15155,7 @@
 				BASE_BUNDLE_ID = "$(FRAMEWORK_BASE_BUNDLE_ID).BrowseriOS\n\n";
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Client/Entitlements/Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "Client/Frontend/Preview\\ Content";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_BASE_BUNDLE_ID = com.Presearch;

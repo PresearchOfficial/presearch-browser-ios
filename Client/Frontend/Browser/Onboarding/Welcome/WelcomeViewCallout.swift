@@ -70,8 +70,8 @@ class WelcomeViewCallout: UIView {
   }
 
   private let primaryButton = RoundInterfaceButton(type: .custom).then {
-    $0.setTitleColor(.white, for: .normal)
-    $0.backgroundColor = .braveBlurple
+    $0.setTitleColor(.darkGray, for: .normal)
+    $0.backgroundColor = .white
     $0.titleLabel?.numberOfLines = 0
     $0.titleLabel?.minimumScaleFactor = 0.7
     $0.titleLabel?.adjustsFontSizeToFitWidth = true

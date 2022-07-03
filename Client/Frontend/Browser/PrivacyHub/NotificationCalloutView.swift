@@ -26,8 +26,8 @@ extension PrivacyReportsView {
         }
         
         DispatchQueue.main.async {
-          Preferences.PrivacyReports.shouldShowNotificationPermissionCallout.value = false
-          PrivacyReportsManager.scheduleNotification(debugMode: !AppConstants.buildChannel.isPublic)
+//          Preferences.PrivacyReports.shouldShowNotificationPermissionCallout.value = false
+//          PrivacyReportsManager.scheduleNotification(debugMode: !AppConstants.buildChannel.isPublic)
         }
       }
     }

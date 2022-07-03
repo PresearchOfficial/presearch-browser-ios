@@ -282,7 +282,7 @@ extension Strings {
       NSLocalizedString(
         "onboarding.privacyScreenDescription",
         tableName: "BraveShared", bundle: .braveShared,
-        value: "\nPresearch is a decentralized search engine powered by blockchain technology and distributed search nodes.\n\nBuilt by the community, for the community.",
+        value: "\nPresearch is a private, community-driven search engine powered by blockchain technology and thousands of decentralized user nodes.",
         comment: "Welcome Screen in Onboarding")
     public static let privacyScreenButtonTitle =
       NSLocalizedString(

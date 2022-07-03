@@ -147,36 +147,12 @@ class NewTabPageViewController: UIViewController {
         
         self?.present(host, animated: true)
       })
-//      ,
-//      FavoritesSectionProvider(action: { [weak self] bookmark, action in
-//        self?.handleFavoriteAction(favorite: bookmark, action: action)
-//      }, legacyLongPressAction: { [weak self] alertController in
-//        self?.present(alertController, animated: true)
-//      }),
-//      FavoritesOverflowSectionProvider(action: { [weak self] in
-//        self?.delegate?.focusURLBar()
-//      }),
     ]
 
     // This is a one-off view, adding it to the NTP only if necessary.
     if NTPDefaultBrowserCalloutProvider.shouldShowCallout {
       sections.insert(NTPDefaultBrowserCalloutProvider(), at: 0)
     }
-
-//    #if !NO_BRAVE_NEWS
-//    if !PrivateBrowsingManager.shared.isPrivateBrowsing {
-//      sections.append(
-//        BraveNewsSectionProvider(
-//          dataSource: feedDataSource,
-//          rewards: rewards,
-//          actionHandler: { [weak self] in
-//            self?.handleBraveNewsAction($0)
-//          }
-//        )
-//      )
-//      layout.braveNewsSection = sections.firstIndex(where: { $0 is BraveNewsSectionProvider })
-//    }
-//    #endif
 
     collectionView.do {
       $0.delegate = self
@@ -188,14 +164,6 @@ class NewTabPageViewController: UIViewController {
     background.changed = { [weak self] in
       self?.setupBackgroundImage()
     }
-
-//    #if !NO_BRAVE_NEWS
-//    Preferences.BraveNews.isEnabled.observe(from: self)
-//    feedDataSource.observeState(from: self) { [weak self] in
-//      self?.handleFeedStateChange($0, $1)
-//    }
-//    NotificationCenter.default.addObserver(self, selector: #selector(checkForUpdatedFeed), name: UIApplication.didBecomeActiveNotification, object: nil)
-//    #endif
   }
 
   @available(*, unavailable)

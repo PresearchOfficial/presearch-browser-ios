@@ -129,11 +129,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     if let shortcutItem = connectionOptions.shortcutItem {
       QuickActions.sharedInstance.launchedShortcutItem = shortcutItem
     }
-        
-//    PrivacyReportsManager.scheduleNotification(debugMode: !AppConstants.buildChannel.isPublic)
-//    PrivacyReportsManager.consolidateData()
-//    PrivacyReportsManager.scheduleProcessingBlockedRequests()
-//    PrivacyReportsManager.scheduleVPNAlertsTask()
   }
 
   func sceneDidDisconnect(_ scene: UIScene) {

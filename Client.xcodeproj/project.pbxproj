@@ -940,6 +940,7 @@
 		6B261B862826978900FEEEB4 /* andre-benz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B261B7E2826978900FEEEB4 /* andre-benz.jpg */; };
 		6B261B872826978900FEEEB4 /* alex-plesovskich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B261B7F2826978900FEEEB4 /* alex-plesovskich.jpg */; };
 		6B261B882826978900FEEEB4 /* corwin-prescott_canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B261B802826978900FEEEB4 /* corwin-prescott_canyon.jpg */; };
+		6B6BE9442871D386008C99EB /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6BE9432871D386008C99EB /* PassKit.framework */; };
 		744ED5611DBFEB8D00A2B5BE /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		7479B4EF1C5306A200DF000B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479B4ED1C5306A200DF000B /* Reachability.swift */; };
 		74821FFE1DB6D3AC00EEEA72 /* MailSchemes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74821FFD1DB6D3AC00EEEA72 /* MailSchemes.plist */; };
@@ -2959,6 +2960,7 @@
 		6B261B7E2826978900FEEEB4 /* andre-benz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "andre-benz.jpg"; sourceTree = "<group>"; };
 		6B261B7F2826978900FEEEB4 /* alex-plesovskich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alex-plesovskich.jpg"; sourceTree = "<group>"; };
 		6B261B802826978900FEEEB4 /* corwin-prescott_canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "corwin-prescott_canyon.jpg"; sourceTree = "<group>"; };
+		6B6BE9432871D386008C99EB /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailtoLinkHandler.swift; sourceTree = "<group>"; };
 		7479B4ED1C5306A200DF000B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		74821FFD1DB6D3AC00EEEA72 /* MailSchemes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MailSchemes.plist; sourceTree = "<group>"; };
@@ -3460,6 +3462,7 @@
 				288A2D9D1AB8B3260023ABC3 /* Shared.framework in Frameworks */,
 				5DE7689920B3456E00FF5533 /* BraveShared.framework in Frameworks */,
 				2FCAE2311ABB51F800877008 /* Storage.framework in Frameworks */,
+				6B6BE9442871D386008C99EB /* PassKit.framework in Frameworks */,
 				271F683C26EBD0E400AA2A50 /* BraveWallet.framework in Frameworks */,
 				5D1DC52820AC9AFB00905E5A /* Data.framework in Frameworks */,
 				0A1DF486244A2ECB00541FE4 /* NetworkExtension.framework in Frameworks */,
@@ -5887,6 +5890,7 @@
 		7B604FC11C496005006EEEC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6B6BE9432871D386008C99EB /* PassKit.framework */,
 				27AD20C226851C5400889AA7 /* BraveCore.xcframework */,
 				27B68DD625C48EE9002D0826 /* MaterialComponents.xcframework */,
 				0A1DF485244A2ECB00541FE4 /* NetworkExtension.framework */,

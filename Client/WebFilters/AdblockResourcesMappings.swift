@@ -8,7 +8,6 @@ struct AdblockResourcesMappings {
   static func generalAdblockName(for fileType: FileType) -> String? {
     switch fileType {
     case .dat, .json: return "latest"
-      // "latest"
     default: return nil
     }
   }

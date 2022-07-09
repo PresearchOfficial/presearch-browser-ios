@@ -25,8 +25,7 @@ class AdblockResourceDownloader {
   private let servicesKeyName = "SERVICES_KEY"
   private let servicesKeyHeaderValue = "BraveServiceKey"
 
-  static let endpoint = "https://raw.githubusercontent.com/brave/adblock-resources/master/dist"
-  // "https://adblock-data.s3.brave.com/ios"
+  static let endpoint = "https://adblock-data.s3.brave.com/ios"
 
   init(networkManager: NetworkManager = NetworkManager(), locale: String? = Locale.current.languageCode) {
     if locale == nil {

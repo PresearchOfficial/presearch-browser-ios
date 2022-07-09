@@ -34,23 +34,24 @@ extension BrowserViewController {
       }
 
       // Add Presearch Talk and News options only in normal browsing
-      if !PrivateBrowsingManager.shared.isPrivateBrowsing {
-        // Show Presearch News if it is first launch and after first launch If the new is enabled
-        if Preferences.General.isFirstLaunch.value || (!Preferences.General.isFirstLaunch.value && Preferences.BraveNews.isEnabled.value) {
-          MenuItemButton(
-            icon: #imageLiteral(resourceName: "menu_brave_news").template,
-            title: Strings.OptionsMenu.braveNewsItemTitle,
-            subtitle: Strings.OptionsMenu.braveNewsItemDescription
-          ) { [weak self] in
-            guard let self = self, let newTabPageController = self.tabManager.selectedTab?.newTabPageViewController else {
-              return
-            }
-
-            self.popToBVC()
-            newTabPageController.scrollToBraveNews()
-          }
-        }
-      }
+//      Mamy - 2022
+//      if !PrivateBrowsingManager.shared.isPrivateBrowsing {
+//        // Show Presearch News if it is first launch and after first launch If the new is enabled
+//        if Preferences.General.isFirstLaunch.value || (!Preferences.General.isFirstLaunch.value && Preferences.BraveNews.isEnabled.value) {
+//          MenuItemButton(
+//            icon: #imageLiteral(resourceName: "menu_brave_news").template,
+//            title: Strings.OptionsMenu.braveNewsItemTitle,
+//            subtitle: Strings.OptionsMenu.braveNewsItemDescription
+//          ) { [weak self] in
+//            guard let self = self, let newTabPageController = self.tabManager.selectedTab?.newTabPageViewController else {
+//              return
+//            }
+//
+//            self.popToBVC()
+//            newTabPageController.scrollToBraveNews()
+//          }
+//        }
+//      }
     }
     .fixedSize(horizontal: false, vertical: true)
     .padding(.top, 10)

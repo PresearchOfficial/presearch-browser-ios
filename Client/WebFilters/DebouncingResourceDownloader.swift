@@ -239,6 +239,7 @@ class DebouncingResourceDownloader {
     } else {
       return URL(string: "https://adblock-data-staging.s3.bravesoftware.com")!
     }
+    return URL(string: "#")!
   }()
 
   /// The complete url that hosts the debounce rules. A combination of `baseResourceURL`

@@ -235,9 +235,9 @@ class DebouncingResourceDownloader {
   /// Cannot be used as-is and must be combined with a path
   private lazy var baseResourceURL: URL = {
     if AppConstants.buildChannel.isPublic {
-      return URL(string: "https://adblock-data.s3.brave.com")!
+      return URL(string: "https://adblock-data.s3.presearch.com")!
     } else {
-      return URL(string: "https://adblock-data-staging.s3.bravesoftware.com")!
+      return URL(string: "https://adblock-data-staging.s3.presearch.com")!
     }
     return URL(string: "#")!
   }()

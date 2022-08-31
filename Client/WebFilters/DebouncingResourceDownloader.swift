@@ -234,12 +234,7 @@ class DebouncingResourceDownloader {
   /// The base s3 environment url that hosts the debouncing (and other) files.
   /// Cannot be used as-is and must be combined with a path
   private lazy var baseResourceURL: URL = {
-    if AppConstants.buildChannel.isPublic {
-      return URL(string: "https://adblock-data.s3.presearch.com")!
-    } else {
-      return URL(string: "https://adblock-data-staging.s3.presearch.com")!
-    }
-    return URL(string: "#")!
+      return URL(string: "https://ad-blocking-lists.presearch.com/ios")!
   }()
 
   /// The complete url that hosts the debounce rules. A combination of `baseResourceURL`
@@ -329,8 +324,8 @@ class DebouncingResourceDownloader {
         let resource = try await networkManager.downloadResource(
           with: resourceURL,
           resourceType: .cached(etag: etag),
-          checkLastServerSideModification: !AppConstants.buildChannel.isPublic,
-          customHeaders: customHeaders
+          checkLastServerSideModification: !AppConstants.buildChannel.isPublic
+//          customHeaders: customHeaders
         )
 
         guard !resource.data.isEmpty else {

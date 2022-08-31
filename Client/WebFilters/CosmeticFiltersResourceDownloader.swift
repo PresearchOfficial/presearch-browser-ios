@@ -34,23 +34,18 @@ private struct CosmeticFilterNetworkResource {
 }
 
 class CosmeticFiltersResourceDownloader {
-  private static let queue = DispatchQueue(label: "com.brave.cosmecitc-filters-dispatch-queue")
+  private static let queue = DispatchQueue(label: "com.presearch.cosmecitc-filters-dispatch-queue")
   static let shared = CosmeticFiltersResourceDownloader()
 
   private let networkManager: NetworkManager
 
   static let folderName = "cmf-data"
-  private let servicesKeyName = "SERVICES_KEY"
-  private let servicesKeyHeaderValue = "BraveServiceKey"
   private var engine = AdblockEngine()
   private var initialLoad: AnyCancellable?
   private var downloadTask: AnyCancellable?
 
   static let endpoint = { () -> String in
-    if !AppConstants.buildChannel.isPublic {
-      return "https://adblock-data-staging.s3.presearch.com/ios"
-    }
-    return "https://adblock-data.s3.presearch.com/ios"
+    return "https://ad-blocking-lists.presearch.com/ios"
   }()
 
   private init(networkManager: NetworkManager = NetworkManager()) {
@@ -205,18 +200,13 @@ class CosmeticFiltersResourceDownloader {
       url.appendPathComponent(resourceName)
       url.appendPathExtension(fileExtension)
 
-      var headers = [String: String]()
-      if let servicesKeyValue = Bundle.main.getPlistString(for: self.servicesKeyName) {
-        headers[self.servicesKeyHeaderValue] = servicesKeyValue
-      }
-
       let etag = self.fileFromDocumentsAsString("\(fileName).\(etagExtension)", inFolder: folderName)
 
       return nm.downloadResource(
         with: url,
         resourceType: .cached(etag: etag),
-        checkLastServerSideModification: !AppConstants.buildChannel.isPublic,
-        customHeaders: headers)
+        checkLastServerSideModification: !AppConstants.buildChannel.isPublic
+      )
         .compactMap({ resource in
           if resource.data.isEmpty {
             return nil

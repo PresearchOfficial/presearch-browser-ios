@@ -22,10 +22,7 @@ class AdblockResourceDownloader {
   private let locale: String
  
   static let folderName = "abp-data"
-  private let servicesKeyName = "SERVICES_KEY"
-  private let servicesKeyHeaderValue = "BraveServiceKey"
-
-  static let endpoint = "https://adblock-data.s3.presearch.com/ios"
+  static let endpoint = "https://ad-blocking-lists.presearch.com/ios"
 
   init(networkManager: NetworkManager = NetworkManager(), locale: String? = Locale.current.languageCode) {
     if locale == nil {
@@ -111,18 +108,13 @@ class AdblockResourceDownloader {
 
       url.appendPathComponent(resourceName)
       url.appendPathExtension(fileExtension)
-      
-      var headers = [String: String]()
-      if let servicesKeyValue = Bundle.main.getPlistString(for: self.servicesKeyName) {
-        headers[self.servicesKeyHeaderValue] = servicesKeyValue
-      }
 
       let etag = self.fileFromDocumentsAsString("\(fileName).\(etagExtension)", inFolder: folderName)
       return nm.downloadResource(
         with: url,
         resourceType: .cached(etag: etag),
-        checkLastServerSideModification: !AppConstants.buildChannel.isPublic,
-        customHeaders: headers)
+        checkLastServerSideModification: !AppConstants.buildChannel.isPublic
+      )
         .compactMap({ resource in
           if resource.data.isEmpty {
             return nil

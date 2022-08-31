@@ -45,7 +45,7 @@ class CosmeticFiltersResourceDownloader {
   private var downloadTask: AnyCancellable?
 
   static let endpoint = { () -> String in
-    return "https://presearch-ad-blocking-lists-prod.s3.amazonaws.com/ios"
+    return "https://ad-blocking-lists.presearch.com/ios"
   }()
 
   private init(networkManager: NetworkManager = NetworkManager()) {

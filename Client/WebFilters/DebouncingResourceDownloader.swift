@@ -234,7 +234,7 @@ class DebouncingResourceDownloader {
   /// The base s3 environment url that hosts the debouncing (and other) files.
   /// Cannot be used as-is and must be combined with a path
   private lazy var baseResourceURL: URL = {
-      return URL(string: "https://presearch-ad-blocking-lists-prod.s3.amazonaws.com/ios")!
+      return URL(string: "https://ad-blocking-lists.presearch.com/ios")!
   }()
 
   /// The complete url that hosts the debounce rules. A combination of `baseResourceURL`

@@ -22,7 +22,7 @@ class AdblockResourceDownloader {
   private let locale: String
  
   static let folderName = "abp-data"
-  static let endpoint = "https://presearch-ad-blocking-lists-prod.s3.amazonaws.com/ios"
+  static let endpoint = "https://ad-blocking-lists.presearch.com/ios"
 
   init(networkManager: NetworkManager = NetworkManager(), locale: String? = Locale.current.languageCode) {
     if locale == nil {

@@ -180,7 +180,7 @@ private struct ShortcutsView: View {
     VStack(spacing: 8) {
       // TODO: Would be nice to export handling this url to `BraveShared`.
       // Now it's hardcoded here and in `NavigationRouter`.
-      if let url = URL(string: "brave://shortcut?path=0"),
+      if let url = URL(string: "presearch://shortcut?path=0"),
         let image = UIImage(named: "brave-logo-no-bg-small") {
         Link(
           destination: url,
@@ -198,7 +198,7 @@ private struct ShortcutsView: View {
       HStack(spacing: 8) {
         ForEach(slots, id: \.self) { shortcut in
           ShortcutLink(
-            url: "brave://shortcut?path=\(shortcut.rawValue)",
+            url: "presearch://shortcut?path=\(shortcut.rawValue)",
             text: shortcut.displayString,
             image: {
               shortcut.image

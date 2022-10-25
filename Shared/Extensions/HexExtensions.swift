@@ -40,18 +40,30 @@ extension String {
 private let HexDigits: [String] = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
 
 extension Data {
+//  public var hexEncodedString: String {
+//    var result = String()
+//    result.reserveCapacity(count * 2)
+//    withUnsafeBytes {
+//      for i in 0..<count {
+//        result.append(HexDigits[Int(($0[i] & 0xf0) >> 4)])
+//        result.append(HexDigits[Int($0[i] & 0x0f)])
+//      }
+//    }
+//
+//    return String(result)
+//  }
+  
   public var hexEncodedString: String {
-    var result = String()
-    result.reserveCapacity(count * 2)
-    withUnsafeBytes {
-      for i in 0..<count {
-        result.append(HexDigits[Int(($0[i] & 0xf0) >> 4)])
-        result.append(HexDigits[Int($0[i] & 0x0f)])
+          var result = String()
+          result.reserveCapacity(count * 2)
+          withUnsafeBytes { (p: UnsafeRawBufferPointer) in
+              for i in 0..<count {
+                  result.append(HexDigits[Int((p[i] & 0xf0) >> 4)])
+                  result.append(HexDigits[Int(p[i] & 0x0f)])
+              }
+          }
+          return String(result)
       }
-    }
-
-    return String(result)
-  }
 }
 
 extension Data {

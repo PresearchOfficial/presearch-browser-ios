@@ -37,7 +37,7 @@ public struct UserAgentBuilder {
       AppleWebKit/\(webkitVersion) (KHTML, like Gecko) \
       Version/\(safariVersion) \
       Mobile/\(kernelVersion) \
-      Safari/\(safariBuildNumber)
+      Safari/\(safariBuildNumber) Pre
       """
   }
 
@@ -51,7 +51,7 @@ public struct UserAgentBuilder {
       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) \
       AppleWebKit/605.1.15 (KHTML, like Gecko) \
       Version/15.0 \
-      Safari/605.1.15
+      Safari/605.1.15 Pre
       """
 
     // Taken from Safari 14.6
@@ -60,7 +60,7 @@ public struct UserAgentBuilder {
       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) \
       AppleWebKit/605.1.15 (KHTML, like Gecko) \
       Version/14.1.1 \
-      Safari/605.1.15
+      Safari/605.1.15 Pre
       """
 
     // Taken from Safari 13.4
@@ -69,7 +69,7 @@ public struct UserAgentBuilder {
       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) \
       AppleWebKit/605.1.15 (KHTML, like Gecko) \
       Version/13.1 \
-      Safari/605.1.15
+      Safari/605.1.15 Pre
       """
 
     switch os.majorVersion {

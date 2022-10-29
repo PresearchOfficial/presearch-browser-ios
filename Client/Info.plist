@@ -38,7 +38,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>$(MOZ_BUNDLE_ID)</string>
+			<string>com.Presearch.BrowseriOS</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>http</string>
@@ -48,25 +48,11 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>$(BRAVE_BUILD_ID)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>firefox-focus</string>
-		<string>firefox-klar</string>
-		<string>ymail</string>
-		<string>ms-outlook</string>
-		<string>airmail</string>
-		<string>italiaonline-mailto</string>
-		<string>mailru-mailto</string>
-		<string>mymail-mailto</string>
-		<string>readdle-spark</string>
-		<string>itms-books</string>
-		<string>org-appextension-feature-password-management</string>
-		<string>googlegmail</string>
-		<string>inbox-gmail</string>
-		<string>whatsapp</string>
 		<string>http</string>
 		<string>https</string>
 	</array>
@@ -94,10 +80,12 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>OpenBookmarkWebsiteIntent</string>
+		<string>LockScreenFavoriteConfigurationIntent</string>
 		<string>OpenHistoryWebsiteIntent</string>
 		<string>OpenWebsiteIntent</string>
 		<string>ShortcutsConfigurationIntent</string>
 		<string>StatsConfigurationIntent</string>
+		<string>com.Presearch.BrowseriOS.browsing</string>
 	</array>
 	<key>SERVICES_KEY</key>
 	<string>$(BRAVE_SERVICES_KEY)</string>

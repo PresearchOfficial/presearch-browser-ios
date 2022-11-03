@@ -78,7 +78,7 @@ public struct AppConstants {
       return "unknown"
     }
 
-    let scheme = identifier.replacingOccurrences(of: "com.brave.ios.", with: "")
+    let scheme = identifier.replacingOccurrences(of: "com.Presearch.BrowseriOS.", with: "")
     if scheme == "FirefoxNightly.enterprise" {
       return "FirefoxNightly"
     }

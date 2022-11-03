@@ -157,7 +157,7 @@ private class HLSThumbnailGenerator {
   private var observer: NSKeyValueObservation?
   private var state: State = .loading
   private let completion: (UIImage?, Error?) -> Void
-  private let queue = DispatchQueue(label: "com.brave.hls-thumbnail-generator")
+  private let queue = DispatchQueue(label: "com.Presearch.hls-thumbnail-generator")
 
   init(url: URL, time: TimeInterval, completion: @escaping (UIImage?, Error?) -> Void) {
     self.asset = AVAsset(url: url)

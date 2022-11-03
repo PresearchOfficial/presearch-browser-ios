@@ -4,23 +4,15 @@
 <dict>
 	<key>aps-environment</key>
 	<string>production</string>
-	<key>com.apple.developer.applesignin</key>
-	<array>
-		<string></string>
-	</array>
 	<key>com.apple.developer.pass-type-identifiers</key>
 	<array>
 		<string>$(TeamIdentifierPrefix)*</string>
 	</array>
 	<key>com.apple.developer.siri</key>
 	<true/>
-	<key>com.apple.developer.ubiquity-container-identifiers</key>
-	<string></string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.Presearch.BrowseriOS</string>
-		<string>group.com.presearch.ios.browser</string>
-		<string>group.com.Presearch.BrowseriOS.beta</string>
+		<string>group.$(MOZ_BUNDLE_ID)</string>
 	</array>
 </dict>
 </plist>

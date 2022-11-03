@@ -1,5 +1,5 @@
 {
-  "name": "brave-ios",
+  "name": "presearch-ios",
   "version": "2.0.0",
   "description": "Presearch for iOS",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-ios.git"
+    "url": "git+https://github.com/PresearchOfficial/presearch-browser-ios.git"
   },
   "license": "MPL-2.0",
   "dependencies": {

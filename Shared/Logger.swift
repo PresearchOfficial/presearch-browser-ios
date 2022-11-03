@@ -35,7 +35,7 @@ public extension Logger {
       logger.destinations.removeAll(where: { ($0 is ConsoleDestination) })
 
       // Create a destination for the system console log (via NSLog)
-      let systemDestination = AppleSystemLogDestination(identifier: "com.brave.ios.logs")
+      let systemDestination = AppleSystemLogDestination(identifier: "com.Presearch.BrowseriOS.logs")
 
       systemDestination.outputLevel = .debug
       systemDestination.showLogIdentifier = true

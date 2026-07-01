@@ -26,7 +26,7 @@ class UserAgentTests: XCTestCase {
       ? "\\(iPhone; CPU iPhone OS [0-9_]+ like Mac OS X\\)"
       : "\\(iPad; CPU OS [0-9_]+ like Mac OS X\\)"
 
-    let range = ua.range(of: "^Mozilla/5\\.0 \(cpuPart) AppleWebKit/[0-9\\.]+ \\(KHTML, like Gecko\\) Version/[0-9\\.]+ Mobile/[A-Za-z0-9]+ Safari/[0-9\\.]+$", options: .regularExpression)
+    let range = ua.range(of: "^Mozilla/5\\.0 \(cpuPart) AppleWebKit/[0-9\\.]+ \\(KHTML, like Gecko\\) Version/[0-9\\.]+ Mobile/[A-Za-z0-9]+ Safari/[0-9\\.]+ Pre $", options: .regularExpression)
     return range != nil
   }
 

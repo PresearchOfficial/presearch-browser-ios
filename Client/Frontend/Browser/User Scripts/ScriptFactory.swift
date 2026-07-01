@@ -92,6 +92,9 @@ class ScriptFactory {
       case .archive:
         // No modifications needed
         break
+      case .presearchNSFWHide:
+        // No modifications needed
+        break
       }
     }
     

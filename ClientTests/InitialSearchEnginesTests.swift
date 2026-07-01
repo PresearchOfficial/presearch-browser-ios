@@ -17,15 +17,15 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       engines,
       [
+        .presearch,
         .google,
-        .braveSearch,
         .bing,
         .duckduckgo,
         .qwant,
         .startpage,
       ])
 
-    XCTAssertEqual(unknownLocaleSE.defaultSearchEngine, .google)
+    XCTAssertEqual(unknownLocaleSE.defaultSearchEngine, .presearch)
     XCTAssertNil(unknownLocaleSE.priorityEngine)
 
     unknownLocaleSE.engines.forEach {
@@ -52,7 +52,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       availableEngines,
       [
-        .braveSearch,
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -65,6 +65,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       onboardingEngines,
       [
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -73,7 +74,7 @@ class InitialSearchEnginesTests: XCTestCase {
         .ecosia,
       ])
 
-    XCTAssertEqual(localeSE.defaultSearchEngine, .braveSearch)
+    XCTAssertEqual(localeSE.defaultSearchEngine, .presearch)
     XCTAssertNil(localeSE.priorityEngine)
   }
 
@@ -84,8 +85,8 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       availableEngines,
       [
+        .presearch,
         .google,
-        .braveSearch,
         .bing,
         .duckduckgo,
         .qwant,
@@ -96,6 +97,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       onboardingEngines,
       [
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -103,7 +105,7 @@ class InitialSearchEnginesTests: XCTestCase {
         .startpage,
       ])
 
-    XCTAssertEqual(localeSE.defaultSearchEngine, .google)
+    XCTAssertEqual(localeSE.defaultSearchEngine, .presearch)
     XCTAssertNil(localeSE.priorityEngine)
   }
 
@@ -113,7 +115,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       availableEngines,
       [
-        .braveSearch,
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -126,6 +128,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       onboardingEngines,
       [
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -134,7 +137,7 @@ class InitialSearchEnginesTests: XCTestCase {
         .ecosia,
       ])
 
-    XCTAssertEqual(localeSE.defaultSearchEngine, .braveSearch)
+    XCTAssertEqual(localeSE.defaultSearchEngine, .presearch)
     XCTAssertNil(localeSE.priorityEngine)
   }
 
@@ -145,7 +148,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       availableEngines,
       [
-        .braveSearch,
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -158,6 +161,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       onboardingEngines,
       [
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -166,7 +170,7 @@ class InitialSearchEnginesTests: XCTestCase {
         .ecosia,
       ])
 
-    XCTAssertEqual(localeSE.defaultSearchEngine, .braveSearch)
+    XCTAssertEqual(localeSE.defaultSearchEngine, .presearch)
     XCTAssertNil(localeSE.priorityEngine)
   }
 
@@ -177,7 +181,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       availableEngines,
       [
-        .braveSearch,
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -190,6 +194,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       onboardingEngines,
       [
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -198,7 +203,7 @@ class InitialSearchEnginesTests: XCTestCase {
         .ecosia,
       ])
 
-    XCTAssertEqual(localeSE.defaultSearchEngine, .braveSearch)
+    XCTAssertEqual(localeSE.defaultSearchEngine, .presearch)
     XCTAssertNil(localeSE.priorityEngine)
   }
 
@@ -209,8 +214,8 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       availableEngines,
       [
+        .presearch,
         .google,
-        .braveSearch,
         .bing,
         .duckduckgo,
         .qwant,
@@ -221,6 +226,7 @@ class InitialSearchEnginesTests: XCTestCase {
     XCTAssertEqual(
       onboardingEngines,
       [
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -228,7 +234,7 @@ class InitialSearchEnginesTests: XCTestCase {
         .startpage,
       ])
 
-    XCTAssertEqual(unknownLocaleSE.defaultSearchEngine, .google)
+    XCTAssertEqual(unknownLocaleSE.defaultSearchEngine, .presearch)
     XCTAssertNil(unknownLocaleSE.priorityEngine)
   }
 
@@ -240,7 +246,7 @@ class InitialSearchEnginesTests: XCTestCase {
       availableEngines,
       [
         .yandex,
-        .braveSearch,
+        .presearch,
         .google,
         .bing,
         .duckduckgo,
@@ -253,6 +259,7 @@ class InitialSearchEnginesTests: XCTestCase {
       onboardingEngines,
       [
         .yandex,
+        .presearch,
         .google,
         .bing,
         .duckduckgo,

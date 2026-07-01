@@ -18,6 +18,7 @@ enum ScriptSourceType {
     /// A YouTube ad blocking script
     case youtubeAdBlock
     case archive
+    case presearchNSFWHide
     case braveSearchHelper
     case braveTalkHelper
 
@@ -27,6 +28,7 @@ enum ScriptSourceType {
         case .farblingProtection: return "FarblingProtection"
         case .youtubeAdBlock: return "YoutubeAdblock"
         case .archive: return "ArchiveIsCompat"
+        case .presearchNSFWHide: return "PresearchNSFWHide"
         case .braveSearchHelper: return "BraveSearchHelper"
         case .braveTalkHelper: return "BraveTalkHelper"
         }

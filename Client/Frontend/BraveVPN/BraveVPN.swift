@@ -6,7 +6,6 @@
 import UIKit
 import Shared
 import BraveShared
-import NetworkExtension
 import Data
 
 private let log = Logger.browserLogger
@@ -95,9 +94,9 @@ class BraveVPN {
   }
 
   /// Returns true if the user is connected to Presearch's vpn at the moment.
-  /// This will return true if the user is connected to other VPN.
+  /// VPN functionality has been removed; always returns false.
   static var isConnected: Bool {
-    NEVPNManager.shared().connection.status == .connected
+    return false
   }
 
   /// Returns the last used hostname for the vpn configuration.

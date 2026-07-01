@@ -134,6 +134,13 @@ extension Strings {
   // Settings.AdvanceAccount.UrlEmptyErrorAlertMessage
   // No custom service set.
   public static let settingsAdvanceAccountEmptyUrlErrorAlertMessage = "Please enter a custom account url before enabling."
+
+  // MARK: - Account Deletion
+  public static let deleteAccount = "Delete Account"
+  public static let deleteAccountAlertTitle = "Delete Account?"
+  public static let deleteAccountAlertMessage = "This will permanently delete your Presearch account and remove all associated data from this device. This action cannot be undone."
+  public static let deleteAccountAlertConfirm = "Delete"
+  public static let deleteAccountAlertCancel = "Cancel"
 }
 
 // Tabs Delete All Undo Toast

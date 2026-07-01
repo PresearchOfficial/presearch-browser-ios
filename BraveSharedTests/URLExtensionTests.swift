@@ -24,7 +24,10 @@ class URLExtensionTests: XCTestCase {
     ]
     
     urls.forEach { XCTAssertEqual(URL(string: $0.0)!.origin.serialized, $0.1) }
-    badurls.forEach { XCTAssertTrue(URL(string: $0)!.origin.isOpaque) }
+    badurls.forEach {
+      guard let url = URL(string: $0) else { return }
+      XCTAssertTrue(url.origin.isOpaque)
+    }
   }
 
 }

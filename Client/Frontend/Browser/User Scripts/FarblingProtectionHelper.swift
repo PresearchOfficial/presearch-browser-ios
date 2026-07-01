@@ -79,6 +79,7 @@ class FarblingProtectionHelper {
     )
 
     let encoder = JSONEncoder()
+    encoder.outputFormatting = [.sortedKeys]
     let data = try encoder.encode(farblingData)
     return String(data: data, encoding: .utf8)!
   }

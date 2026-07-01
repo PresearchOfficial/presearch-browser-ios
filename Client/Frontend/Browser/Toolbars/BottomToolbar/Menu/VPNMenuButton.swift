@@ -78,9 +78,5 @@ struct VPNMenuButton: View {
         dismissButton: .default(Text(verbatim: Strings.OKString))
       )
     }
-    .onReceive(NotificationCenter.default.publisher(for: .NEVPNStatusDidChange)) { _ in
-      isVPNEnabled = BraveVPN.isConnected
-      isVPNStatusChanging = BraveVPN.reconnectPending
-    }
   }
 }

@@ -145,6 +145,7 @@ class SettingsViewController: TableViewController {
       securitySection,
       supportSection,
       aboutSection,
+      accountSection,
     ]
 
     if let debugSection = debugSection {
@@ -575,6 +576,34 @@ class SettingsViewController: TableViewController {
             }
             self.navigationController?.pushViewController(licenses, animated: true)
           }, accessory: .disclosureIndicator),
+      ]
+    )
+  }()
+
+  private lazy var accountSection: Static.Section = {
+    return Static.Section(
+      header: .title(Strings.settingsAdvanceAccountSectionName),
+      rows: [
+        Row(
+          text: Strings.deleteAccount,
+          selection: { [unowned self] in
+            let alert = UIAlertController(
+              title: Strings.deleteAccountAlertTitle,
+              message: Strings.deleteAccountAlertMessage,
+              preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: Strings.deleteAccountAlertCancel, style: .cancel))
+            alert.addAction(UIAlertAction(title: Strings.deleteAccountAlertConfirm, style: .destructive) { _ in
+              // Clear local credentials
+              BraveVPN.clearCredentials()
+
+              // Open account deletion form
+              if let url = URL(string: "https://forms.gle/fdvHmmQELz8jk2Bg9") {
+                UIApplication.shared.open(url)
+              }
+            })
+            self.present(alert, animated: true)
+          },
+          cellClass: DestructiveButtonCell.self)
       ]
     )
   }()

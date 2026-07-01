@@ -90,10 +90,10 @@ platform :ios do
       export_options: {
         method: "app-store",
         provisioningProfiles: { 
-          "com.brave.ios.browser" => "Presearch iOS",
-          "com.brave.ios.browser.ShareExtension" => "Presearch iOS Share Extension",
-          "com.brave.ios.browser.BrowserIntents" => "Presearch iOS Intents Extension",
-          "com.brave.ios.browser.BraveWidgetsExtension" => "Presearch iOS Widgets Extension"
+          "com.Presearch.BrowseriOS" => "Presearch iOS",
+          "com.Presearch.BrowseriOS.ShareExtension" => "Presearch iOS Share Extension",
+          "com.Presearch.BrowseriOS.intents" => "Presearch iOS Intents Extension",
+          "com.Presearch.BrowseriOS.widgets" => "Presearch iOS Widgets Extension"
         },
         manageAppVersionAndBuildNumber: false
       },

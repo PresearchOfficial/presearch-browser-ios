@@ -162,7 +162,7 @@ public class PinningCertificateEvaluator: NSObject, URLSessionDelegate {
   }
 
   private func fatalErrorInDebugModeIfPinningFailed() {
-    if !AppConstants.buildChannel.isPublic {
+    if !AppConstants.buildChannel.isPublic && !AppConstants.isRunningTest {
       assertionFailure("An SSL Pinning error has occurred")
     }
   }

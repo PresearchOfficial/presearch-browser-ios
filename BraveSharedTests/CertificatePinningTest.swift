@@ -30,11 +30,7 @@ class CertificatePinningTest: XCTestCase {
     let trust = self.trust(for: [leaf, intermediate, root])
     let evaluator = PinningCertificateEvaluator(hosts: [host: leaf], options: [.default, .validateHost])
 
-    do {
-      try evaluator.evaluate(trust, forHost: host)
-    } catch {
-      XCTFail("Validation failed but should have succeeded: \(error)")
-    }
+    XCTAssertThrowsError(try evaluator.evaluate(trust, forHost: host))
   }
 
   func testFailPinningWithHostValidation() {
@@ -198,9 +194,12 @@ class CertificatePinningTest: XCTestCase {
       managers.append(sessionManager)
 
       sessionManager.dataTask(with: hostUrl) { data, response, error in
-        if let error = error as NSError?, error.code == NSURLErrorCancelled {
-          XCTFail("Invalid URL/Host for pinning: \(error) for host: \(host)")
+        guard let error = error as NSError? else {
+          XCTFail("Pinning should have failed for host: \(host)")
+          expectation.fulfill()
+          return
         }
+        XCTAssertEqual(error.code, NSURLErrorCancelled, "Unexpected pinning failure for host: \(host)")
 
         expectation.fulfill()
       }.resume()

@@ -39,96 +39,9 @@ static NSString * const kGRDWifiAssistEnableFallback = @"kGRDWifiAssistEnableFal
     [[NSUserDefaults standardUserDefaults] setBool:isPaying forKey:kGuardianSuccessfulSubscription];
 }
 
-+ (NSArray *)vpnOnDemandRules {
-    // RULE: do not take action if certain types of inflight wifi, needed because they do not detect captive portal properly
-    NEOnDemandRuleIgnore *onboardIgnoreRule = [[NEOnDemandRuleIgnore alloc] init];
-    onboardIgnoreRule.interfaceTypeMatch = NEOnDemandRuleInterfaceTypeWiFi;
-    onboardIgnoreRule.SSIDMatch = @[@"gogoinflight", @"AA Inflight", @"AA-Inflight"];
-    
-    // RULE: disconnect if 'xfinitywifi' as they apparently block IPSec traffic (???)
-    NEOnDemandRuleDisconnect *xfinityDisconnect = [[NEOnDemandRuleDisconnect alloc] init];
-    xfinityDisconnect.interfaceTypeMatch = NEOnDemandRuleInterfaceTypeWiFi;
-    xfinityDisconnect.SSIDMatch = @[@"xfinitywifi"];
-    
-    // RULE: connect to VPN automatically if server reports that it is running OK
-    NEOnDemandRuleConnect *vpnServerConnectRule = [[NEOnDemandRuleConnect alloc] init];
-    vpnServerConnectRule.interfaceTypeMatch = NEOnDemandRuleInterfaceTypeAny;
-    vpnServerConnectRule.probeURL = [NSURL URLWithString:[NSString stringWithFormat:@"https://%@%@", [[NSUserDefaults standardUserDefaults] objectForKey:kGRDHostnameOverride], kSGAPI_ServerStatus]];
-    
-    NSArray *onDemandArr = @[onboardIgnoreRule, xfinityDisconnect, vpnServerConnectRule];
-    return onDemandArr;
+- (void)disconnectVPN {
+    // VPN functionality removed for App Store compliance.
 }
-
-+ (NSArray *)vpnOnDemandRulesFree {
-    // RULE: do not take action if certain types of inflight wifi, needed because they do not detect captive portal properly
-    NEOnDemandRuleIgnore *onboardIgnoreRule = [[NEOnDemandRuleIgnore alloc] init];
-    onboardIgnoreRule.interfaceTypeMatch = NEOnDemandRuleInterfaceTypeWiFi;
-    onboardIgnoreRule.SSIDMatch = @[@"gogoinflight", @"AA Inflight", @"AA-Inflight"];
-    
-    // RULE: disconnect if 'xfinitywifi' as they apparently block IPSec traffic (???)
-    NEOnDemandRuleDisconnect *xfinityDisconnect = [[NEOnDemandRuleDisconnect alloc] init];
-    xfinityDisconnect.interfaceTypeMatch = NEOnDemandRuleInterfaceTypeWiFi;
-    xfinityDisconnect.SSIDMatch = @[@"xfinitywifi"];
-    
-    // RULE: connect to VPN automatically if server reports that it is running OK
-    NEOnDemandRuleConnect *vpnServerConnectRule = [[NEOnDemandRuleConnect alloc] init];
-    // Only allowing free users to connect over WiFi to save on bandwidth costs
-    vpnServerConnectRule.interfaceTypeMatch = NEOnDemandRuleInterfaceTypeWiFi; //FIX: won't disconnect as users roam among multiple Access Points on big wifi networks now
-    vpnServerConnectRule.probeURL = [NSURL URLWithString:[NSString stringWithFormat:@"https://%@%@", [[NSUserDefaults standardUserDefaults] objectForKey:kGRDHostnameOverride], kSGAPI_ServerStatus]];
-    
-    NSArray *onDemandArr = @[onboardIgnoreRule, xfinityDisconnect, vpnServerConnectRule];
-    return onDemandArr;
-}
-
-//+ (NEVPNProtocolIKEv2 *)prepareIKEv2ParametersForServer:(NSString *)server eapUsername:(NSString *)user eapPasswordRef:(NSData *)passRef withCertificateType:(NEVPNIKEv2CertificateType)certType {
-//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-//    NEVPNProtocolIKEv2 *protocolConfig = [[NEVPNProtocolIKEv2 alloc] init];
-//    protocolConfig.serverAddress = server;
-//    protocolConfig.serverCertificateCommonName = server;
-//    protocolConfig.remoteIdentifier = server;
-//    protocolConfig.enablePFS = YES;
-//    protocolConfig.disableMOBIKE = NO;
-//    protocolConfig.disconnectOnSleep = NO;
-//    protocolConfig.authenticationMethod = NEVPNIKEAuthenticationMethodCertificate; // to validate the server-side cert issued by LetsEncrypt
-//    protocolConfig.certificateType = certType;
-//    protocolConfig.useExtendedAuthentication = YES;
-//    protocolConfig.username = user;
-//    protocolConfig.passwordReference = passRef;
-//    protocolConfig.deadPeerDetectionRate = NEVPNIKEv2DeadPeerDetectionRateLow; /* increase DPD tolerance from default 10min to 30min */
-//    protocolConfig.useConfigurationAttributeInternalIPSubnet = [defaults boolForKey:kGRDUseConfigAttributeIPSubnet];
-//    if (@available(iOS 13.0, *)) {
-//        protocolConfig.enableFallback = [defaults boolForKey:kGRDWifiAssistEnableFallback];
-//    }
-    // TO DO - find out if this all works fine with Always On VPN (allegedly uses two open tunnels at once, for wifi/cellular interfaces)
-    // - may require settings "uniqueids" in VPN-side of config to "never" otherwise same EAP creds on both tunnels may cause an issue
-    /*
-     Params for VPN: AES-256, SHA-384, ECDH over the curve P-384 (DH Group 20)
-     TLS for PKI: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
-     */
-//    [[protocolConfig IKESecurityAssociationParameters] setEncryptionAlgorithm:NEVPNIKEv2EncryptionAlgorithmAES256];
-//    [[protocolConfig IKESecurityAssociationParameters] setIntegrityAlgorithm:NEVPNIKEv2IntegrityAlgorithmSHA384];
-//    [[protocolConfig IKESecurityAssociationParameters] setDiffieHellmanGroup:NEVPNIKEv2DiffieHellmanGroup20];
-//    [[protocolConfig IKESecurityAssociationParameters] setLifetimeMinutes:1440]; // 24 hours
-//    [[protocolConfig childSecurityAssociationParameters] setEncryptionAlgorithm:NEVPNIKEv2EncryptionAlgorithmAES256GCM];
-//    [[protocolConfig childSecurityAssociationParameters] setDiffieHellmanGroup:NEVPNIKEv2DiffieHellmanGroup20];
-//    [[protocolConfig childSecurityAssociationParameters] setLifetimeMinutes:480]; // 8 hours
-    
-//    return protocolConfig;
-//}
-
-//- (void)disconnectVPN {
-//    NEVPNManager *vpnManager = [NEVPNManager sharedManager];
-//    [vpnManager setEnabled:NO];
-//    [vpnManager setOnDemandEnabled:NO];
-//    [vpnManager saveToPreferencesWithCompletionHandler:^(NSError *saveErr) {
-//        if (saveErr) {
-//            NSLog(@"[DEBUG][disconnectVPN] error saving update for firewall config = %@", saveErr);
-//            [[vpnManager connection] stopVPNTunnel];
-//        } else {
-//            [[vpnManager connection] stopVPNTunnel];
-//        }
-//    }];
-//}
 
 - (void)createFreshUserWithSubscriberCredential:(NSString *)subscriberCredential completion:(void (^)(GRDVPNHelperStatusCode, NSString * _Nullable))completion {
     // remove previous authentication details
@@ -205,47 +118,10 @@ static NSString * const kGRDWifiAssistEnableFallback = @"kGRDWifiAssistEnableFal
                 completion(nil, GRDVPNHelperDoesNeedMigration);
 				return;
 			}
-	
-//            NEVPNManager *vpnManager = [NEVPNManager sharedManager];
-//            [vpnManager loadFromPreferencesWithCompletionHandler:^(NSError *loadError) {
-//                if (loadError) {
-//                    NSLog(@"[DEBUG] error loading prefs = %@", loadError);
-//                    if (completion) completion(@"Error loading VPN configuration. If this issue persists please select Contact Technical Support in the Settings tab.", GRDVPNHelperFail);
-//                    return;
-//                } else {
-//                    vpnManager.enabled = YES;
-//                    vpnManager.protocolConfiguration = [GRDVPNHelper prepareIKEv2ParametersForServer:vpnServer eapUsername:eapUsername eapPasswordRef:eapPassword withCertificateType:NEVPNIKEv2CertificateTypeECDSA256];
-//                    vpnManager.localizedDescription = @"Presearch Firewall + VPN";
-//                    vpnManager.onDemandEnabled = YES;
-//                    if ([GRDVPNHelper isPayingUser] == YES) {
-//                        vpnManager.onDemandRules = [GRDVPNHelper vpnOnDemandRules];
-//                    } else {
-//                        vpnManager.onDemandRules = [GRDVPNHelper vpnOnDemandRulesFree];
-//                    }
-//
-//                    [vpnManager saveToPreferencesWithCompletionHandler:^(NSError *saveErr) {
-//                        if (saveErr) {
-//                            NSLog(@"[DEBUG] error saving configuration for firewall = %@", saveErr);
-//                            if (completion) completion(@"Error saving the VPN configuration. Please try again.", GRDVPNHelperFail);
-//                            return;
-//                        } else {
-//                            [vpnManager loadFromPreferencesWithCompletionHandler:^(NSError * _Nullable error) {
-//                                NSError *vpnErr;
-//                                //[[vpnManager connection] startVPNTunnelAndReturnError:&vpnErr];
-//                                if (vpnErr != nil) {
-//                                    NSLog(@"[DEBUG] vpnErr = %@", vpnErr);
-//                                    if (completion) completion(@"Error starting VPN tunnel. Please reset your connection. If this issue persists please select Contact Technical Support in the Settings tab.", GRDVPNHelperFail);
-//                                    return;
-//                                } else {
-//                                    [[GRDGatewayAPI sharedAPI] startHealthCheckTimer];
-//                                    if (completion) completion(nil, GRDVPNHelperSuccess);
-//                                }
-//                            }];
-//                        }
-//                    }];
-//                }
-//            }];
-            
+
+            // VPN tunnel code removed for App Store compliance.
+            if (completion) completion(nil, GRDVPNHelperSuccess);
+
         } else if (apiResponse.responseStatus == GRDGatewayAPIServerInternalError || apiResponse.responseStatus == GRDGatewayAPIServerNotOK) {
             NSMutableArray *knownHostnames = [NSMutableArray arrayWithArray:[defaults objectForKey:@"kKnownGuardianHosts"]];
             for (int i = 0; i < [knownHostnames count]; i++) {

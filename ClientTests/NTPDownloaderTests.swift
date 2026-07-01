@@ -29,23 +29,13 @@ class NTPDownloaderTests: XCTestCase {
   }
 
   func testURLSponsoredPath() throws {
-    let publicChannels: [AppBuildChannel] = [.release, .beta]
-    let privateChannels: [AppBuildChannel] = [.debug, .dev, .enterprise]
+    let channels: [AppBuildChannel] = [.release, .beta, .debug, .dev, .enterprise]
     let locales: [Locale] = [.init(identifier: "en_US"), .init(identifier: "pl_PL")]
 
     locales.forEach { locale in
-      publicChannels.forEach {
+      channels.forEach {
         let type = NTPDownloader.ResourceType.sponsor.resourceBaseURL(for: $0, locale: locale)
-        XCTAssertEqual(type, URL(string: "https://mobile-data.s3.presearch.io/\(locale.regionCode!)/ios"))
-
-        let invalidLocaleType = NTPDownloader.ResourceType.sponsor
-          .resourceBaseURL(for: $0, locale: .init(identifier: "bad locale region code"))
-        XCTAssertNil(invalidLocaleType)
-      }
-
-      privateChannels.forEach {
-        let type = NTPDownloader.ResourceType.sponsor.resourceBaseURL(for: $0, locale: locale)
-        XCTAssertEqual(type, URL(string: "https://mobile-data-dev.s3.brave.software/\(locale.regionCode!)/ios"))
+        XCTAssertNil(type)
 
         let invalidLocaleType = NTPDownloader.ResourceType.sponsor
           .resourceBaseURL(for: $0, locale: .init(identifier: "bad locale region code"))
@@ -55,21 +45,15 @@ class NTPDownloaderTests: XCTestCase {
   }
 
   func testURLSuperReferrerPath() throws {
-    let publicChannels: [AppBuildChannel] = [.release, .beta]
-    let privateChannels: [AppBuildChannel] = [.debug, .dev, .enterprise]
+    let channels: [AppBuildChannel] = [.release, .beta, .debug, .dev, .enterprise]
     let locales: [Locale] = [.init(identifier: "en_US"), .init(identifier: "pl_PL")]
     let codes = ["abc", "XXX"]
 
     codes.forEach { code in
       locales.forEach { locale in
-        publicChannels.forEach {
+        channels.forEach {
           let type = NTPDownloader.ResourceType.superReferral(code: code).resourceBaseURL(for: $0, locale: locale)
-          XCTAssertEqual(type, URL(string: "https://mobile-data.s3.presearch.io/superreferrer/\(code)"))
-        }
-
-        privateChannels.forEach {
-          let type = NTPDownloader.ResourceType.superReferral(code: code).resourceBaseURL(for: $0, locale: locale)
-          XCTAssertEqual(type, URL(string: "https://mobile-data-dev.s3.brave.software/superreferrer/\(code)"))
+          XCTAssertNil(type)
         }
       }
     }

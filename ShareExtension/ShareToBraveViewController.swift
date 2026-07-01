@@ -70,13 +70,17 @@ class ShareToBraveViewController: SLComposeServiceViewController {
       return []
     }
 
-    provider.loadItem(of: provider.isUrl ? kUTTypeURL : kUTTypeText) { item, error in
-      guard let item = item, let schemeUrl = Scheme(item: item)?.schemeUrl else {
-        self.cancel()
-        return
-      }
+    provider.loadItem(of: provider.isUrl ? kUTTypeURL : kUTTypeText) { [weak self] item, error in
+      let schemeUrl = item.flatMap { Scheme(item: $0)?.schemeUrl }
 
-      self.handleUrl(schemeUrl)
+      DispatchQueue.main.async {
+        guard let self = self, let schemeUrl = schemeUrl else {
+          self?.cancel()
+          return
+        }
+
+        self.handleUrl(schemeUrl)
+      }
     }
 
     return []

@@ -8,7 +8,8 @@ extension Bundle {
   public static let shared: Bundle = Bundle(identifier: "com.Presearch.Shared")!
   public static let data: Bundle = Bundle(identifier: "com.Presearch.Data")!
   public static let braveShared: Bundle = Bundle(identifier: "com.Presearch.BraveShared")!
-  public static let braveWallet: Bundle = Bundle(identifier: "com.Presearch.BraveWallet")!
+  public static let braveWallet: Bundle = Bundle(identifier: "com.Presearch.BraveWallet")
+    ?? Bundle(identifier: "com.presearch.BraveWallet")!
   public static let storage: Bundle = Bundle(identifier: "com.Presearch.Storage")!
 
   public func getPlistString(for key: String) -> String? {

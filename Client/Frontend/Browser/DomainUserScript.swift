@@ -13,6 +13,7 @@ private let log = Logger.browserLogger
 enum DomainUserScript: CaseIterable {
   case youtubeAdBlock
   case archive
+  case presearchNSFWHide
 
   /// Initialize this script with a URL
   init?(for url: URL) {
@@ -39,6 +40,8 @@ enum DomainUserScript: CaseIterable {
       return .AdblockAndTp
     case .archive:
       return nil
+    case .presearchNSFWHide:
+      return nil
     }
   }
 
@@ -49,6 +52,8 @@ enum DomainUserScript: CaseIterable {
       return Set(arrayLiteral: "youtube.com")
     case .archive:
       return Set(arrayLiteral: "archive.is", "archive.today", "archive.vn", "archive.fo")
+    case .presearchNSFWHide:
+      return Set(arrayLiteral: "presearch.com", "presearch.io", "presearch.org")
     }
   }
 }

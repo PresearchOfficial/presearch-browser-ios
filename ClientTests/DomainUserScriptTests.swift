@@ -8,49 +8,27 @@ import XCTest
 
 class DomainUserScriptTests: XCTestCase {
 
-  func testBraveSearchAPIAvailability() throws {
+  func testPresearchNSFWHideAvailability() throws {
     let goodURLs = [
-      URL(string: "https://search.brave.com"),
-      URL(string: "https://search-dev.brave.com"),
-      URL(string: "https://search.brave.com/custom/path"),
-      URL(string: "https://search-dev.brave.com/custom/path"),
+      URL(string: "https://presearch.com"),
+      URL(string: "https://presearch.io"),
+      URL(string: "https://presearch.org"),
+      URL(string: "https://subdomain.presearch.com/custom/path"),
     ].compactMap { $0 }
 
     goodURLs.forEach {
-      XCTAssertEqual(DomainUserScript(for: $0), .braveSearchHelper)
+      XCTAssertEqual(DomainUserScript(for: $0), .presearchNSFWHide)
     }
 
     let badURLs = [
-      URL(string: "https://talk.brave.com"),
       URL(string: "https://search.brave.software.com"),
       URL(string: "https://community.brave.com"),
-      URL(string: "https://subdomain.search.brave.com"),
       URL(string: "https://brave.com"),
+      URL(string: "https://presearch.example.com"),
     ].compactMap { $0 }
 
     badURLs.forEach {
-      XCTAssertNotEqual(DomainUserScript(for: $0), .braveSearchHelper)
-    }
-  }
-
-  func testBraveTalkAPIAvailability() throws {
-    let goodURLs = [
-      URL(string: "https://presearch.io"),
-    ].compactMap { $0 }
-
-    goodURLs.forEach {
-      XCTAssertEqual(DomainUserScript(for: $0), .braveTalkHelper)
-    }
-
-    let badURLs = [
-      URL(string: "https://presearch.com"),
-      URL(string: "https://community.presearch.com"),
-      URL(string: "https://subdomain.presearch.com"),
-      URL(string: "https://presearch.io"),
-    ].compactMap { $0 }
-
-    badURLs.forEach {
-      XCTAssertNotEqual(DomainUserScript(for: $0), .braveTalkHelper)
+      XCTAssertNotEqual(DomainUserScript(for: $0), .presearchNSFWHide)
     }
   }
 

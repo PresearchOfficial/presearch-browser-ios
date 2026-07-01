@@ -27,6 +27,8 @@ enum UserScriptType: Hashable {
                 return .youtubeAdBlock
             case .archive:
                 return .archive
+            case .presearchNSFWHide:
+                return .presearchNSFWHide
             }
         case .nacl:
             return .nacl

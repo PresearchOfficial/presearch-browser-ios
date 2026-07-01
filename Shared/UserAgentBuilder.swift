@@ -37,7 +37,8 @@ public struct UserAgentBuilder {
       AppleWebKit/\(webkitVersion) (KHTML, like Gecko) \
       Version/\(safariVersion) \
       Mobile/\(kernelVersion) \
-      Safari/\(safariBuildNumber)
+      Safari/\(safariBuildNumber) \
+      Pre\u{0020}
       """
   }
 

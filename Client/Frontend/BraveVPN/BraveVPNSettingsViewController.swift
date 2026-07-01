@@ -164,12 +164,35 @@ class BraveVPNSettingsViewController: TableViewController {
         }, accessory: .disclosureIndicator, cellClass: ButtonCell.self)
     ])
 
+    let accountSection = Section(
+      header: .title(Strings.settingsAdvanceAccountSectionName),
+      rows: [
+        Row(
+          text: Strings.deleteAccount,
+          selection: { [unowned self] in
+            let alert = UIAlertController(
+              title: Strings.deleteAccountAlertTitle,
+              message: Strings.deleteAccountAlertMessage,
+              preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: Strings.deleteAccountAlertCancel, style: .cancel))
+            alert.addAction(UIAlertAction(title: Strings.deleteAccountAlertConfirm, style: .destructive) { _ in
+              BraveVPN.clearCredentials()
+              if let url = URL(string: "https://forms.gle/fdvHmmQELz8jk2Bg9") {
+                UIApplication.shared.open(url)
+              }
+            })
+            self.present(alert, animated: true)
+          },
+          cellClass: DestructiveButtonCell.self)
+      ])
+
     dataSource.sections = [
 //      vpnStatusSection,
       subscriptionSection,
       serverSection,
       techSupportSection,
       termsSection,
+      accountSection,
     ]
   }
 

@@ -67,6 +67,17 @@ class MultilineButtonCell: ButtonCell {
   }
 }
 
+class DestructiveButtonCell: ButtonCell {
+  override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    super.init(style: style, reuseIdentifier: reuseIdentifier)
+    textLabel?.textColor = .systemRed
+  }
+
+  required init?(coder aDecoder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+  }
+}
+
 class CenteredButtonCell: ButtonCell, TableViewReusable {
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: reuseIdentifier)

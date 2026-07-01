@@ -10,9 +10,9 @@ import BraveShared
 
 class SearchEnginesTests: XCTestCase {
 
-  private let DefaultSearchEngineName = "Google"
+  private let DefaultSearchEngineName = "Presearch"
   // BRAVE TODO: This list is not accurate because Presearch uses many more engines
-  private let ExpectedEngineNames = ["Qwant", "Bing", "DuckDuckGo", "Google", "StartPage"]
+  private let ExpectedEngineNames = ["Presearch", "Qwant", "Bing", "DuckDuckGo", "Google", "StartPage"]
 
   override func setUp() {
     super.setUp()
@@ -188,11 +188,13 @@ class SearchEnginesTests: XCTestCase {
   func testGetOrderedEngines() {
     // setup an existing search engine in the profile
     let profile = MockProfile()
-    profile.prefs.setObject(["Google"], forKey: "search.orderedEngineNames")
+    profile.prefs.setObject([DefaultSearchEngineName], forKey: "search.orderedEngineNames")
     let engines = SearchEngines(files: profile.files, locale: Locale(identifier: "pl_PL"))
     XCTAssert(engines.orderedEngines.count > 1, "There should be more than one search engine")
-    // default engine should be on second place if a priority engine is present.
-    XCTAssertEqual(engines.orderedEngines[0].shortName, "Google", "Google should be the first search engine")
+    XCTAssertEqual(
+      engines.orderedEngines[0].shortName,
+      DefaultSearchEngineName,
+      "\(DefaultSearchEngineName) should be the first search engine")
   }
 
   func testSearchEngineParamsNewUser() {

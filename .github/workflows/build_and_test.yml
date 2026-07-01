@@ -11,23 +11,25 @@ jobs:
   test:
     if: ${{ github.event_name == 'push' || (github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'CI/skip')) }}
     name: Run tests
-    runs-on: macOS-12
+    runs-on: macos-14
     env:
         # The XCode version to use. If you want to update it please refer to this document:
         # https://docs.github.com/en/actions/reference/specifications-for-github-hosted-runners#supported-software
         # and set proper version.
-        XCODE_VERSION: "13.3.1"
+        XCODE_VERSION: "15.4"
 
     steps:
       - name: Select XCode
         # Use XCODE_VERSION env variable to set the XCode version you want.
         run: sudo xcode-select --switch /Applications/Xcode_${{ env.XCODE_VERSION }}.app
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Update node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: '11.x'
+          node-version: '16.x'
+      - name: Install SwiftLint
+        run: brew install swiftlint
       - name: Run bootstrap script
         run: ./bootstrap.sh --ci
       - name: Run tests

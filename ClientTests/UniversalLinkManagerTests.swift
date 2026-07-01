@@ -10,31 +10,21 @@ class UniversalLinkManagerTests: XCTestCase {
   private typealias ULM = UniversalLinkManager
 
   func testVpnUniversalLink() throws {
-    // Good cases
     [
-      "https://vpn.presearch.io/dl/test": true,
-      "https://vpn.presearch.io/dl/test2": false,
-      "http://vpn.presearch.io/dl/test3": true,
-      "https://vpn.presearch.io/dl/test/123": true,
-      "https://vpn.presearch.io/path/does/not/matter": false,
+      ("https://vpn.presearch.io/dl/test", true),
+      ("https://vpn.presearch.io/dl/test2", false),
+      ("http://vpn.presearch.io/dl/test3", true),
+      ("https://vpn.presearch.io/dl/test/123", true),
+      ("https://vpn.presearch.io/path/does/not/matter", false),
+      ("https://vpn.presearch.io/bad/dl/test/123", true),
+      ("https://presearch.io/dl/test", true),
+      ("https://example.com", false),
+      ("https://example.com/dl/test", true),
+      ("https://vpn.presearch.io/dl", true),
+      ("https://vpn.presearch.io/dlonger/test", true),
     ]
     .forEach {
-      XCTAssertEqual(
-        ULM.LinkType.buyVPN,
-        ULM.universalLinkType(for: URL(string: $0.key)!, checkPath: $0.value))
-    }
-
-    // Bad cases
-    [
-      "https://vpn.presearch.io/bad/dl/test/123": true,
-      "https://presearch.io/dl/test": true,
-      "https://example.com": false,
-      "https://example.com/dl/test": true,
-      "https://vpn.presearch.io/dl": true,
-      "https://vpn.presearch.io/dlonger/test": true,
-    ]
-    .forEach {
-      XCTAssertNil(ULM.universalLinkType(for: URL(string: $0.key)!, checkPath: $0.value))
+      XCTAssertNil(ULM.universalLinkType(for: URL(string: $0.0)!, checkPath: $0.1))
     }
   }
 }

@@ -216,7 +216,8 @@ class DAUTests: XCTestCase {
 
     // There is no easy way to mock a different calendar in unit tests, just checking if
     // year we get looks 'correct' should be good enough.
-    XCTAssert(year > 2018 && year < 2025)
+    let currentYear = Calendar(identifier: .gregorian).component(.year, from: Date())
+    XCTAssert(year > 2018 && year <= currentYear)
   }
 
   func testNonDefaultWoiExplicitDate() {

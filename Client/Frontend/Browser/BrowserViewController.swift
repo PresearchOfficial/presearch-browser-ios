@@ -20,7 +20,6 @@ import CoreData
 import StoreKit
 import SafariServices
 import BraveUI
-import NetworkExtension
 import FeedKit
 import SwiftUI
 import class Combine.AnyCancellable
@@ -648,10 +647,6 @@ class BrowserViewController: UIViewController, BrowserViewControllerDelegate {
     }
   }
 
-//  @objc func vpnConfigChanged() {
-//    // Load latest changes to the vpn.
-//    NEVPNManager.shared().loadFromPreferences { _ in }
-//  }
 
   @objc func appDidBecomeActiveNotification() {
     // Re-show any components that might have been hidden because they were being displayed

@@ -4,7 +4,6 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 #import "GRDGatewayAPI.h"
-#import <NetworkExtension/NetworkExtension.h>
 #import "VPNConstants.h"
 #import "NSLogDisabler.h"
 
@@ -20,10 +19,6 @@
     });
     return sharedAPI;
 }
-
-//- (BOOL)isVPNConnected {
-//    return ([[[NEVPNManager sharedManager] connection] status] == NEVPNStatusConnected);
-//}
 
 - (void)stopHealthCheckTimer {
     if (self.healthCheckTimer != nil) {
